@@ -1,4 +1,4 @@
-Peter Cotton's replacement home page. 
+Because I keep losing things. 
 
 ## Book length
 
