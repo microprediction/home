@@ -12,7 +12,7 @@ More at [scholar/petercotton](https://scholar.google.com/citations?user=V5wB8lEA
  - Contraction of an Adapted Funtional Calculus [pdf](https://github.com/microprediction/home/blob/main/papers/Contraction_of_an_Adapted_Functional_Cal.pdf)
  - Self-Organizing Supply Chains for Microprediction: Present and Future uses of the ROAR Protocol [pdf](https://github.com/microprediction/home/blob/main/papers/self_organizing_supply_chains.pdf)
  - Stop Shy of the First Down [Sports Analytics](https://www.worldscientific.com/doi/abs/10.1142/9789811250217_0011) [pdf](https://github.com/microprediction/home/blob/main/papers/Stop_Shy_of_the_First_Down.pdf)
- - Derivatives in Financial Markets with Stochastic Volatility [amazon](https://www.amazon.com/Derivatives-Financial-Markets-Stochastic-Volatility/dp/0521791634) Ch on bonds. 
+ - Derivatives in Financial Markets with Stochastic Volatility [amazon](https://www.amazon.com/Derivatives-Financial-Markets-Stochastic-Volatility/dp/0521791634). 
 
 ## Working papers
 
