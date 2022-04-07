@@ -15,6 +15,7 @@ More at [scholar/petercotton](https://scholar.google.com/citations?user=V5wB8lEA
 
 ## Working papers
 
+- Schur Complementary Portfolios [pdf](https://github.com/microprediction/home/blob/main/workingpapers/schur_portfolios.pdf)
 - Trading Illiquid Goods: Market Making as a Sequence of Sealed-Bid Auctions, with Analytic Results [pdf](https://github.com/microprediction/home/blob/main/workingpapers/trading_illiquid_goods.pdf)
 - A Scalable Algorithm for Subset Selection and Rank Probabilities in Contests and Latent Variable Choice Models [pdf](https://github.com/microprediction/home/blob/main/workingpapers/Group_Selection_Probabilities_and_Rankings.pdf)
 - Addressing the Herd Immunity Paradox Using Symmetry, Convexity Adjustments and Bond Prices [pdf](https://github.com/microprediction/home/blob/main/workingpapers/Herd_Immunity_Convexity_Adjustments.pdf)
@@ -33,21 +34,15 @@ More at [github/microprediction](https://github.com/microprediction)
  - [microprediction](https://github.com/microprediction/microprediction/tree/master/microprediction) client and [server](https://github.com/microprediction/rediz) for [microprediction.org](https://www.microprediction.org/browse_streams.html) explained at [microprediction.com](https://www.microprediction.com/)
 
 
-## Patents
-
- - System and Method for Providing Data Science as a Service [justia](https://patents.justia.com/patent/20190066133)
- - System and Method for Secure Causality Discovery [justia](https://patents.justia.com/patent/20200336302)
- - System and Method for Analyzing Financial Models with Probabilistic Networks [pdf](https://github.com/microprediction/home/blob/main/patents/probabilistic_networks.pdf)
- - Fixed Income Securities Market Data Display [pdf](https://patents.google.com/patent/US20120317053A1/en)
- - Rapid Simulation of Correlated Defaults and the Valuation of Basket Default Swaps [google](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=V5wB8lEAAAAJ&citation_for_view=V5wB8lEAAAAJ:qjMakFHDy7sC)
- - System and Method for Pricing Default Insurance [pdf](https://github.com/microprediction/home/blob/main/patents/default_insurance.pdf)
- - Liquidity Based Metric and Index for Low Liquidity Securities [pdf](https://github.com/microprediction/home/blob/main/patents/liquidity_based_metrics.pdf)
- - Intelligent simulation analysis methods and system [justia](https://patents.justia.com/patent/20040236667)
-
 ## Presentations
+That I can find. 
 
+ - Who Ya Gonna Call? A Solution to the Horse Race Problem with Application to Over-The-Counter Markets [pdf](https://github.com/microprediction/home/blob/main/presentations/who_ya_gonna_call.pdf)
+ - Trading Illiquid Goods [pdf](https://github.com/microprediction/home/blob/main/presentations/trading_illiquid.pdf) 
  - Filtering Bond and Credit Default Swap Markets [pdf](https://github.com/microprediction/home/blob/main/presentations/benchmark.pdf) 
-
+ - The Traveling Algorithm Problem: A Modicum of Mathematics for Microscopic Middlemen [pdf](https://github.com/microprediction/home/blob/main/presentations/traveling_algorithm.pdf) 
+ - Barbell Bond Portfolios. What Do They Accidentally Optimize? [pdf](https://github.com/microprediction/home/blob/main/presentations/barbell_bond.pdf)
+ - On the Relationship Between Golf and Trading [pdf](https://github.com/microprediction/home/blob/main/presentations/pga_and_trading.pdf)
 
 ## Blog articles
 More at [microprediction.com/blog](https://www.microprediction.com/blog), [financialmathematics.com](http://www.financialmathematics.com/), [medium@microprediction](https://medium.com/@microprediction)
@@ -84,6 +79,17 @@ More at [microprediction.com/blog](https://www.microprediction.com/blog), [finan
  - When a Bar-Bell Bond Portfolio Optimizes Modified Excess Return [blog](http://finmathblog.blogspot.com/2012/12/a-barbell-zero-coupon-bond-portfolio.html) 
 
 
+
+## Patents
+
+ - System and Method for Providing Data Science as a Service [justia](https://patents.justia.com/patent/20190066133)
+ - System and Method for Secure Causality Discovery [justia](https://patents.justia.com/patent/20200336302)
+ - System and Method for Analyzing Financial Models with Probabilistic Networks [pdf](https://github.com/microprediction/home/blob/main/patents/probabilistic_networks.pdf)
+ - Fixed Income Securities Market Data Display [pdf](https://patents.google.com/patent/US20120317053A1/en)
+ - Rapid Simulation of Correlated Defaults and the Valuation of Basket Default Swaps [google](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=V5wB8lEAAAAJ&citation_for_view=V5wB8lEAAAAJ:qjMakFHDy7sC)
+ - System and Method for Pricing Default Insurance [pdf](https://github.com/microprediction/home/blob/main/patents/default_insurance.pdf)
+ - Liquidity Based Metric and Index for Low Liquidity Securities [pdf](https://github.com/microprediction/home/blob/main/patents/liquidity_based_metrics.pdf)
+ - Intelligent simulation analysis methods and system [justia](https://patents.justia.com/patent/20040236667)
 
 
 
