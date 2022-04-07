@@ -29,10 +29,10 @@ Peter Cotton's replacement home page.
 More at [github/microprediction](https://github.com/microprediction). About 500,000 downloads / yr. 
 
  - [timemachines](https://github.com/microprediction/timemachines) Continuously evaluated, functional, incremental, time-series forecasting.
- - [precise](https://github.com/microprediction/precise) Online covariance and portfolios
- - [humpday](https://github.com/microprediction/humpday) Elo ratings for global black-box derivative-free optimizers
- - [winning](https://github.com/microprediction/winning) Fast, scalable inference of relative ability from winning probabilities
- - [muid](https://github.com/microprediction/muid) Memorable unique identifiers explained at [muid.org[(https://www.muid.org/)
+ - [precise](https://github.com/microprediction/precise) Online covariance and portfolios.
+ - [humpday](https://github.com/microprediction/humpday) Elo ratings for global black-box derivative-free optimizers.
+ - [winning](https://github.com/microprediction/winning) Fast, scalable inference of relative ability from winning probabilities.
+ - [muid](https://github.com/microprediction/muid) Memorable unique identifiers explained at [muid.org](https://www.muid.org/).
  - Microprediction [client](https://github.com/microprediction/microprediction/tree/master/microprediction) and [server](https://github.com/microprediction/rediz).
 
 ## Other repositories and sites
