@@ -6,7 +6,6 @@ Peter Cotton's replacement home page.
  - An Analytic Approach to Ornstein-Uhlenbeck Processes with Fluctuating Parameters and Applications in the Modeling of Fixed Income Securities (PhD thesis) [pdf](https://github.com/microprediction/home/blob/main/papers/an_analytic_approach_to_ornstein.pdf)
 
 ## Papers & chapters
-More at [scholar/petercotton](https://scholar.google.com/citations?user=V5wB8lEAAAAJ&hl=en)
 
  - Inferring Relative Ability From Winning Probability in Multi-Entrant Contests [pdf](https://github.com/microprediction/home/blob/main/papers/Horse_Race_Problem.pdf) [journal](https://epubs.siam.org/doi/10.1137/19M1276261) 
  - Stochastic Volatility Corrections for Interest Rate Models [pdf](http://math.stanford.edu/~papanico/pubftp/cfps.pdf)
