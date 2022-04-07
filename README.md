@@ -30,8 +30,14 @@ More at [github/microprediction](https://github.com/microprediction)
 
 ## Patents
 
+ - System and Method for Providing Data Science as a Service [justia](https://patents.justia.com/patent/20190066133)
+ - System and Method for Secure Causality Discovery [justia](https://patents.justia.com/patent/20200336302)
+ - System and Method for Analyzing Financial Models with Probabilistic Networks [pdf](https://github.com/microprediction/home/blob/main/patents/probabilistic_networks.pdf)
  - Fixed Income Securities Market Data Display [pdf](https://patents.google.com/patent/US20120317053A1/en)
- 
+ - Rapid Simulation of Correlated Defaults and the Valuation of Basket Default Swaps [google](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=V5wB8lEAAAAJ&citation_for_view=V5wB8lEAAAAJ:qjMakFHDy7sC)
+ - System and Method for Pricing Default Insurance [pdf](https://github.com/microprediction/home/blob/main/patents/default_insurance.pdf)
+ - Liquidity Based Metric and Index for Low Liquidity Securities [pdf](https://github.com/microprediction/home/blob/main/patents/liquidity_based_metrics.pdf)
+ - Intelligent simulation analysis methods and system [justia](https://patents.justia.com/patent/20040236667)
 
 ## Presentations
 
