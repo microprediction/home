@@ -15,8 +15,13 @@ More at [scholar/petercotton](https://scholar.google.com/citations?user=V5wB8lEA
 
 ## Working papers
 
-
-
+- Trading Illiquid Goods: Market Making as a Sequence of Sealed-Bid Auctions, with Analytic Results [pdf](https://github.com/microprediction/home/blob/main/workingpapers/trading_illiquid_goods.pdf)
+- A Scalable Algorithm for Subset Selection and Rank Probabilities in Contests and Latent Variable Choice Models [pdf](https://github.com/microprediction/home/blob/main/workingpapers/Group_Selection_Probabilities_and_Rankings.pdf)
+- Addressing the Herd Immunity Paradox Using Symmetry, Convexity Adjustments and Bond Prices [pdf](https://github.com/microprediction/home/blob/main/workingpapers/Herd_Immunity_Convexity_Adjustments.pdf)
+- Go Forth! Simple Detection of Incomplete Meta-Learning by Algorithms Performing Limited Exploration on a Rugged Landscape [pdf](https://github.com/microprediction/home/blob/main/workingpapers/go_forth.pdf)
+- Luce's Choice Axiom Isn't the Only Choice! Combinatorial Contest and Rank Probabilities Using the Python Winning Package [pdf](https://github.com/microprediction/home/blob/main/workingpapers/luce_choice_isnt_the_only_choice.pdf)
+- Repeat Contacts and the Spread of Disease [pdf](https://github.com/microprediction/home/blob/main/workingpapers/repeat_contacts_and_the_spread.pdf)
+- A Platform for Assessing and Combining Autonomous Short-Horizon Distributions Predictions [pdf](https://github.com/microprediction/home/blob/main/workingpapers/a_platform_for_assessing_and_combining.pdf)
 
 ## Python packages
 More at [github/microprediction](https://github.com/microprediction)
