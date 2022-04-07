@@ -1,13 +1,23 @@
 
+## Book 
+
+ - Microprediction. Building an Open AI Network. 
 
 ## Papers
 
 
 ## Python packages
+More at [github/microprediction](https://github.com/microprediction)
 
+ - [timemachines](https://github.com/microprediction/timemachines) Continuously evaluated, functional, incremental, time-series forecasting.
+ - [precise](https://github.com/microprediction/precise) Online covariance and portfolios
+ - [humpday](https://github.com/microprediction/humpday) Elo ratings for global black-box derivative-free optimizers
+ - [winning](https://github.com/microprediction/winning) Fast, scalable inference of relative ability from winning probabilities
+ - [microprediction](https://github.com/microprediction/microprediction/tree/master/microprediction) client and [server](https://github.com/microprediction/rediz) for [microprediction.org](https://www.microprediction.org/browse_streams.html) explained at [microprediction.com](https://www.microprediction.com/)
 
 ## Working papers
 
+ 
 
 ## Presentations
 
