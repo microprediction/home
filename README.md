@@ -1,7 +1,7 @@
 
 ## Book
 
- - Microprediction. Building an Open AI Network. MIT Press 2022. [publisher page](https://mitpress.mit.edu/books/microprediction)
+ - Microprediction. Building an Open AI Network. [pdf](https://github.com/microprediction/home/blob/main/books/Microprediction_MIT_Press_Chapter_One.pdf) MIT Press 2022. [MIT page](https://mitpress.mit.edu/books/microprediction)
 
 
 ## Papers & chapters
