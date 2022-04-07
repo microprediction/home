@@ -26,7 +26,7 @@ Peter Cotton's replacement home page.
 - A Platform for Assessing and Combining Autonomous Short-Horizon Distributions Predictions [pdf](https://github.com/microprediction/home/blob/main/workingpapers/a_platform_for_assessing_and_combining.pdf)
 
 ## Python packages
-More at [github/microprediction](https://github.com/microprediction)
+More at [github/microprediction](https://github.com/microprediction). About 500,000 downloads / yr. 
 
  - [timemachines](https://github.com/microprediction/timemachines) Continuously evaluated, functional, incremental, time-series forecasting.
  - [precise](https://github.com/microprediction/precise) Online covariance and portfolios
