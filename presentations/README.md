@@ -5,6 +5,8 @@
 
 ## Papers
 
+ - Inferring Relative Ability From Winning Probability in Multi-Entrant Contests [pdf](https://github.com/microprediction/home/blob/main/papers/Horse_Race_Problem.pdf) [journal](https://epubs.siam.org/doi/10.1137/19M1276261) [bibtex](BibTex)
+ - 
 
 ## Python packages
 More at [github/microprediction](https://github.com/microprediction)
