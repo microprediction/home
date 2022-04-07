@@ -67,7 +67,7 @@ More at [microprediction.com/blog](https://www.microprediction.com/blog), [finan
  - Sensitivities of a Kalman Filter estimate with respect to all past observations [blog](http://finmathblog.blogspot.com/2014/05/sensitivities-of-kalman-filter-with.html)
  - An Empirical Article That Wasn't Immediately Stale [blog](https://medium.com/geekculture/an-empirical-article-that-wasnt-immediately-stale-720abfb4678f)
  - Comparing Python Global Optimization Packages [blog](https://www.microprediction.com/blog/optimize)
- - HumpDay: A Package to Help You Choose a Python Globl Optimizer [blog](https://www.microprediction.com/blog/humpday)
+ - HumpDay: A Package to Help You Choose a Python Global Optimizer [blog](https://www.microprediction.com/blog/humpday)
  - Popular Python Time Series Packages [blog](https://www.microprediction.com/blog/popular-timeseries-packages)
  - Are Monads Really Monads? Maybe(Some(R)) [blog](https://www.microprediction.com/blog/monads)
  - Reward is Enough for Collective Artificial Intelligence [blog](https://www.microprediction.com/blog/reward)
