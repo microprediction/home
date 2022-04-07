@@ -1,8 +1,8 @@
 
-## Book
+## Book length
 
  - Microprediction. Building an Open AI Network. [pdf](https://github.com/microprediction/home/blob/main/books/Microprediction_MIT_Press_Chapter_One.pdf) MIT Press 2022. [MIT page](https://mitpress.mit.edu/books/microprediction)
-
+ - An Analytic Approach to Ornstein-Uhlenbeck Processes with Fluctuating Parameters and Applications in the Modeling of Fixed Income Securities (PhD thesis) [pdf](https://github.com/microprediction/home/blob/main/papers/an_analytic_approach_to_ornstein.pdf)
 
 ## Papers & chapters
 More at [scholar/petercotton](https://scholar.google.com/citations?user=V5wB8lEAAAAJ&hl=en)
@@ -13,7 +13,6 @@ More at [scholar/petercotton](https://scholar.google.com/citations?user=V5wB8lEA
  - Self-Organizing Supply Chains for Microprediction: Present and Future uses of the ROAR Protocol [pdf](https://github.com/microprediction/home/blob/main/papers/self_organizing_supply_chains.pdf)
  - Stop Shy of the First Down [Sports Analytics](https://www.worldscientific.com/doi/abs/10.1142/9789811250217_0011) [pdf](https://github.com/microprediction/home/blob/main/papers/Stop_Shy_of_the_First_Down.pdf)
  - Derivatives in Financial Markets with Stochastic Volatility [amazon](https://www.amazon.com/Derivatives-Financial-Markets-Stochastic-Volatility/dp/0521791634) Ch on bonds. 
- - An Analytic Approach to Ornstein-Uhlenbeck Processes with Fluctuating Parameters and Applications in the Modeling of Fixed Income Securities [pdf](https://github.com/microprediction/home/blob/main/papers/an_analytic_approach_to_ornstein.pdf)
 
 ## Working papers
 
