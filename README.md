@@ -32,8 +32,13 @@ More at [github/microprediction](https://github.com/microprediction)
  - [precise](https://github.com/microprediction/precise) Online covariance and portfolios
  - [humpday](https://github.com/microprediction/humpday) Elo ratings for global black-box derivative-free optimizers
  - [winning](https://github.com/microprediction/winning) Fast, scalable inference of relative ability from winning probabilities
+ - [muid](https://github.com/microprediction/muid) Memorable unique identifiers explained at [muid.org[(https://www.muid.org/)
  - [client](https://github.com/microprediction/microprediction/tree/master/microprediction) and [server](https://github.com/microprediction/rediz) for [microprediction.org](https://www.microprediction.org/browse_streams.html) explained at [microprediction.com](https://www.microprediction.com/)
 
+## Other repositories
+
+ - Time Series Elo Ratings [site](https://microprediction.github.io/timeseries-elo-ratings/html_leaderboards/univariate-k_003.html)
+ - Optimizer Elo Ratings [site](https://microprediction.github.io/optimizer-elo-ratings/html_leaderboards/overall.html)
 
 ## Presentations
 That I can find. 
