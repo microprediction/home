@@ -33,15 +33,19 @@ More at [github/microprediction](https://github.com/microprediction)
  - [humpday](https://github.com/microprediction/humpday) Elo ratings for global black-box derivative-free optimizers
  - [winning](https://github.com/microprediction/winning) Fast, scalable inference of relative ability from winning probabilities
  - [muid](https://github.com/microprediction/muid) Memorable unique identifiers explained at [muid.org[(https://www.muid.org/)
- - [client](https://github.com/microprediction/microprediction/tree/master/microprediction) and [server](https://github.com/microprediction/rediz) for [microprediction.org](https://www.microprediction.org/browse_streams.html) explained at [microprediction.com](https://www.microprediction.com/)
+ - [client](https://github.com/microprediction/microprediction/tree/master/microprediction) and [server](https://github.com/microprediction/rediz) for 
 
-## Other repositories
+## Other repositories and sites
 
  - Time Series Elo Ratings [site](https://microprediction.github.io/timeseries-elo-ratings/html_leaderboards/univariate-k_003.html)
  - Optimizer Elo Ratings [site](https://microprediction.github.io/optimizer-elo-ratings/html_leaderboards/overall.html)
+ - Free microprediction API at [microprediction.org](https://www.microprediction.org/browse_streams.html) explained at [microprediction.com](https://www.microprediction.com/)
+ - [embarrassingly](https://github.com/microprediction/embarrassingly) - A speculative approach to robust optimization.
+ - [pandemic](https://github.com/microprediction/pandemic) - Ornstein-Uhlenbeck epidemic simulation
+ - [firstdown](https://github.com/microprediction/firstdown) - The repo that aspires to ruin the great game of football. 
+ - [copula plots](https://github.com/microprediction/microactors-plots/tree/main/gallery) and [causality plots](https://github.com/microprediction/microactors-causality/tree/main/gallery) driven by microprediction.org
 
 ## Presentations
-That I can find. 
 
  - Who Ya Gonna Call? A Solution to the Horse Race Problem with Application to Over-The-Counter Markets [pdf](https://github.com/microprediction/home/blob/main/presentations/who_ya_gonna_call.pdf)
  - Trading Illiquid Goods [pdf](https://github.com/microprediction/home/blob/main/presentations/trading_illiquid.pdf) 
@@ -83,8 +87,6 @@ More at [microprediction.com/blog](https://www.microprediction.com/blog), [finan
  - Quasi-random sampling subject to linear and moment constraints [blog](http://finmathblog.blogspot.com/2013/09/quasi-random-sampling-subject-to-linear.html)
  - Valuing CSOs Under Exchangeable Recovery Using Only Matrix Calculations [blog](http://finmathblog.blogspot.com/2013/07/valuing-csos-under-exchangeable.html)
  - When a Bar-Bell Bond Portfolio Optimizes Modified Excess Return [blog](http://finmathblog.blogspot.com/2012/12/a-barbell-zero-coupon-bond-portfolio.html) 
-
-
 
 ## Patents
 
