@@ -33,7 +33,7 @@ More at [github/microprediction](https://github.com/microprediction)
  - [humpday](https://github.com/microprediction/humpday) Elo ratings for global black-box derivative-free optimizers
  - [winning](https://github.com/microprediction/winning) Fast, scalable inference of relative ability from winning probabilities
  - [muid](https://github.com/microprediction/muid) Memorable unique identifiers explained at [muid.org[(https://www.muid.org/)
- - [client](https://github.com/microprediction/microprediction/tree/master/microprediction) and [server](https://github.com/microprediction/rediz) for 
+ - Microprediction [client](https://github.com/microprediction/microprediction/tree/master/microprediction) and [server](https://github.com/microprediction/rediz).
 
 ## Other repositories and sites
 
