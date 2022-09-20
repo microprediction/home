@@ -16,7 +16,7 @@ Because I keep losing things.
 
 ## Working papers
 
-- Schur Complementary Portfolios [pdf](https://github.com/microprediction/home/blob/main/workingpapers/schur_portfolios.pdf)
+- Schur Complementary Portfolios [pdf](https://github.com/microprediction/home/blob/main/papers/Schur_Complementary_Portfolios.pdf)
 - Trading Illiquid Goods: Market Making as a Sequence of Sealed-Bid Auctions, with Analytic Results [pdf](https://github.com/microprediction/home/blob/main/workingpapers/trading_illiquid_goods.pdf)
 - A Scalable Algorithm for Subset Selection and Rank Probabilities in Contests and Latent Variable Choice Models [pdf](https://github.com/microprediction/home/blob/main/workingpapers/Group_Selection_Probabilities_and_Rankings.pdf)
 - Addressing the Herd Immunity Paradox Using Symmetry, Convexity Adjustments and Bond Prices [pdf](https://github.com/microprediction/home/blob/main/workingpapers/Herd_Immunity_Convexity_Adjustments.pdf)
