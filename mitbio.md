@@ -7,5 +7,7 @@ He maintained his sanity during the pandemic with zwift, bullet chess, and amate
 Peter's repo notes the following:
 
 Best way I can help you: Free short-horizon prediction https://microprediction.github.io/microprediction/publish.html 
+
 Best way you can help me: Buy the book https://mitpress.mit.edu/9780262047326/microprediction/ or run a script forever https://microprediction.github.io/microprediction/setup 
+
 Interests:  https://github.com/microprediction/home 
