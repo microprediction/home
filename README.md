@@ -100,4 +100,17 @@ More at [microprediction.com/blog](https://www.microprediction.com/blog), [finan
  - Intelligent simulation analysis methods and system [justia](https://patents.justia.com/patent/20040236667)
 
 
+## Unsollicited Opinions
+(Popular posts and discussion)
+
+- [No time-series paper can every be called SOTA again](https://www.linkedin.com/posts/petercotton_timeseries-forecasting-timeseriesanalysis-activity-6987561356862353408-iy2Z?utm_source=share&utm_medium=member_desktop)
+- [Your in-house data science team is great but...](https://www.linkedin.com/posts/petercotton_publishing-a-stream-activity-6983754698189111296-Fjrd?utm_source=share&utm_medium=member_desktop)
+- [It's crunch time for data science](https://www.linkedin.com/posts/petercotton_microprediction-activity-6982705291049992192-NzLa?utm_source=share&utm_medium=member_desktop)
+- [Is Claude Shannon the true creator of the Kelly criterion?](https://www.linkedin.com/posts/petercotton_repeated-kelly-betting-and-dividend-policy-activity-6961427244472770560-YlfO?utm_source=share&utm_medium=member_desktop)
+- [What is Kullback-Liebler divergence, really?](https://www.linkedin.com/posts/petercotton_the-lottery-paradox-activity-6945384755643179008-HIhn?utm_source=share&utm_medium=member_desktop)
+- [On Bobby Fischer and Temporal Differences](https://www.linkedin.com/posts/petercotton_reinforcementlearning-artificialintelligence-activity-6971313620752154624-I6AR?utm_source=share&utm_medium=member_desktop)
+- [On Dunning-Kruger and Towards Data Science](https://www.linkedin.com/posts/petercotton_datascience-statistics-activity-6826128954504683522-bXPy?utm_source=share&utm_medium=member_desktop)
+
+
+
 
