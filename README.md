@@ -111,6 +111,9 @@ More at [microprediction.com/blog](https://www.microprediction.com/blog), [finan
 - [On Bobby Fischer and Temporal Differences](https://www.linkedin.com/posts/petercotton_reinforcementlearning-artificialintelligence-activity-6971313620752154624-I6AR?utm_source=share&utm_medium=member_desktop)
 - [On Dunning-Kruger and Towards Data Science](https://www.linkedin.com/posts/petercotton_datascience-statistics-activity-6826128954504683522-bXPy?utm_source=share&utm_medium=member_desktop)
 
+## Recorded presentations 
+(Very incomplete sorry, just started tracking)
 
+- A Quick Introduciton to a Working Microprediction Oracle [Montreal Python Meetup](https://www.youtube.com/watch?v=yHuD9rbkkg8). Starts at 1:20:00 in. 
 
 
