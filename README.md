@@ -100,8 +100,8 @@ More at [microprediction.com/blog](https://www.microprediction.com/blog), [finan
  - Intelligent simulation analysis methods and system [justia](https://patents.justia.com/patent/20040236667)
 
 
-## Unsollicited Opinions
-(Popular posts and discussion)
+## Haggle
+Join a discussion
 
 - [No time-series paper can every be called SOTA again](https://www.linkedin.com/posts/petercotton_timeseries-forecasting-timeseriesanalysis-activity-6987561356862353408-iy2Z?utm_source=share&utm_medium=member_desktop)
 - [Your in-house data science team is great but...](https://www.linkedin.com/posts/petercotton_publishing-a-stream-activity-6983754698189111296-Fjrd?utm_source=share&utm_medium=member_desktop)
