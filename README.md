@@ -75,6 +75,7 @@ More at [microprediction.com/blog](https://www.microprediction.com/blog), [finan
  - Some special cases of the Lambert W function [blog](http://finmathblog.blogspot.com/2014/10/some-special-cases-of-lambert-w-function.html)
  - Sensitivities of a Kalman Filter estimate with respect to all past observations [blog](http://finmathblog.blogspot.com/2014/05/sensitivities-of-kalman-filter-with.html)
  - An Empirical Article That Wasn't Immediately Stale [blog](https://medium.com/geekculture/an-empirical-article-that-wasnt-immediately-stale-720abfb4678f)
+ - The Only Univariate Prediction Function You'll Ever Need [blog](https://medium.com/geekculture/the-only-prediction-function-youll-ever-need-fe2ae42eaff0)
  - Comparing Python Global Optimization Packages [blog](https://www.microprediction.com/blog/optimize)
  - HumpDay: A Package to Help You Choose a Python Global Optimizer [blog](https://www.microprediction.com/blog/humpday)
  - Popular Python Time Series Packages [blog](https://www.microprediction.com/blog/popular-timeseries-packages)
