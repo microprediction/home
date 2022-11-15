@@ -104,6 +104,7 @@ More at [microprediction.com/blog](https://www.microprediction.com/blog), [finan
 ## Haggle with me
 Join a discussion
 
+- [Machine learning metrics have a financial interpretation](https://www.linkedin.com/posts/petercotton_machinelearning-statistics-artificialintelligence-activity-6997744082080907264-a1bj?utm_source=share&utm_medium=member_desktop)
 - [How do you extend decision making beyond one mind, algorithm or software system?](https://www.linkedin.com/posts/petercotton_machinelearning-reinforcementlearning-datascience-activity-6992560556863803392-FOM6?utm_source=share&utm_medium=member_desktop)
 - [Markets are better than modes for short horizon prediction](https://www.linkedin.com/posts/petercotton_tldr-activity-6983896509490610176-JTJB?utm_source=share&utm_medium=member_desktop)
 - [Will data science by Hayek'd by nano-noodling nymphs?](https://www.linkedin.com/posts/petercotton_microprediction-building-an-open-ai-network-activity-6991140331832365056-rDRV?utm_source=share&utm_medium=member_desktop)
