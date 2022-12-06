@@ -124,4 +124,7 @@ Join a discussion
 
 - A Quick Introduciton to a Working Microprediction Oracle [Montreal Python Meetup](https://www.youtube.com/watch?v=yHuD9rbkkg8). Starts at 1:20:00 in. 
 
+## Satire
+
+- [Can ChatGPT create scholarly-sounding, grandoise prose?](https://www.linkedin.com/posts/petercotton_chatgpt-chatgpt-chatgpt-activity-7005343236386914304-XcWC?utm_source=share&utm_medium=member_desktop)
 
