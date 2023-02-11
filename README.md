@@ -104,6 +104,7 @@ More at [microprediction.com/blog](https://www.microprediction.com/blog), [finan
 ## Haggle with me
 Join a discussion
 
+- [Quant finance beats machine learning](https://www.linkedin.com/posts/petercotton_the-options-market-beat-94-of-participants-activity-7026002070818160640-blic?utm_source=share&utm_medium=member_desktop) in the M6.
 - [Reinforcement learning needs specialization](https://www.linkedin.com/posts/petercotton_artificialintelligence-reinforcementlearning-activity-6999130962693398528-u5HP?utm_source=share&utm_medium=member_desktop)
 - [It is trivial to improve conformal prediction](https://www.linkedin.com/posts/petercotton_conformalprediction-machinelearning-timeseries-activity-6998409676245630976-dG3t?utm_source=share&utm_medium=member_desktop)
 - [Machine learning metrics have a financial interpretation](https://www.linkedin.com/posts/petercotton_machinelearning-statistics-artificialintelligence-activity-6997744082080907264-a1bj?utm_source=share&utm_medium=member_desktop)
