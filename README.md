@@ -127,10 +127,11 @@ Just some provocations.
 - [On Bobby Fischer and Temporal Differences](https://www.linkedin.com/posts/petercotton_reinforcementlearning-artificialintelligence-activity-6971313620752154624-I6AR?utm_source=share&utm_medium=member_desktop)
 - [On Dunning-Kruger and Towards Data Science](https://www.linkedin.com/posts/petercotton_datascience-statistics-activity-6826128954504683522-bXPy?utm_source=share&utm_medium=member_desktop)
 
-## Recorded presentations 
+## Audio and video 
 (Very incomplete sorry, just started tracking)
 
 - Lokad [interview](https://www.linkedin.com/feed/update/urn:li:activity:7041725649153060864?utm_source=share&utm_medium=member_desktop) on M6, markets v. models. 
+- Chapter 1 of Microprediction: Building an Open AI Network [here](https://github.com/microprediction/building_an_open_ai_network/tree/main/docs/assets/audio).
 - A Quick Introduciton to a Working Microprediction Oracle [Montreal Python Meetup](https://www.youtube.com/watch?v=yHuD9rbkkg8). Starts at 1:20:00 in. 
 
 ## Satire
