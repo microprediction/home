@@ -57,6 +57,8 @@ More at [github/microprediction](https://github.com/microprediction). About 500,
 ## Blog articles
 More at [microprediction.com/blog](https://www.microprediction.com/blog), [financialmathematics.com](http://www.financialmathematics.com/), [medium@microprediction](https://medium.com/@microprediction)
 
+
+ - The Options Market Beat 94% of Participants in the M6 Competition [blog](https://medium.com/geekculture/the-options-market-beat-94-of-participants-in-the-m6-financial-forecasting-contest-fa4f47f57d33)
  - A New Family of Diffeomorphisms from the Simple to the Cube  - With Application to Global Optimization [blog](https://medium.com/geekculture/a-new-family-of-diffeomorphisms-from-the-simplex-to-the-cube-with-application-to-global-6d358714f429)
  - ChatGPT's Moneyball Moment and the Future of Empirical Research [blog](https://medium.com/geekculture/somebody-didnt-understand-your-argument-persuade-chatgpt-d21e3b9a9536)
  - The Global Financial Crisis Should Have Been Caught by the Compiler [blog](https://medium.com/geekculture/the-global-financial-crisis-should-have-been-caught-by-the-compiler-an-insiders-perspective-9229967e7f45)
@@ -92,7 +94,6 @@ More at [microprediction.com/blog](https://www.microprediction.com/blog), [finan
  - Valuing CSOs Under Exchangeable Recovery Using Only Matrix Calculations [blog](http://finmathblog.blogspot.com/2013/07/valuing-csos-under-exchangeable.html)
  - When a Bar-Bell Bond Portfolio Optimizes Modified Excess Return [blog](http://finmathblog.blogspot.com/2012/12/a-barbell-zero-coupon-bond-portfolio.html) 
  - So You Recommended a Python Time-Series Package, Now What? [blog](https://medium.com/geekculture/so-you-recommended-a-python-time-series-package-now-what-94e7e3821ad5) 
- - The Options Market Beat 94% of Participants in the M6 Competition [blog](https://medium.com/geekculture/the-options-market-beat-94-of-participants-in-the-m6-financial-forecasting-contest-fa4f47f57d33)
 
 ## Patents
 
