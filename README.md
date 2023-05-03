@@ -2,7 +2,7 @@ Because I keep losing things.
 
 ## Book length
 
- - Microprediction. Building an Open AI Network. [MIT Press](https://mitpress.mit.edu/books/microprediction) page. Available in the usual places. Reviews, audio etc [here](https://microprediction.github.io/building_an_open_ai_network/).  
+ - Microprediction. Building an Open AI Network. [MIT Press](https://mitpress.mit.edu/books/microprediction) page. Available in the usual places like [Amazon](https://www.amazon.com/Microprediction-Building-Open-AI-Network-ebook/dp/B09RPDZH46). Reviews, audio etc [here](https://microprediction.github.io/building_an_open_ai_network/).  
  - An Analytic Approach to Ornstein-Uhlenbeck Processes with Fluctuating Parameters and Applications in the Modeling of Fixed Income Securities (PhD thesis) [pdf](https://github.com/microprediction/home/blob/main/papers/an_analytic_approach_to_ornstein.pdf)
 
 ## Papers & chapters
