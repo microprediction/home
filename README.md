@@ -40,6 +40,7 @@ More at [github/microprediction](https://github.com/microprediction). About 500,
  - Time Series Elo Ratings [site](https://microprediction.github.io/timeseries-elo-ratings/html_leaderboards/univariate-k_003.html)
  - Optimizer Elo Ratings [site](https://microprediction.github.io/optimizer-elo-ratings/html_leaderboards/overall.html)
  - Free microprediction API at [microprediction.org](https://www.microprediction.org/browse_streams.html) explained at [microprediction.com](https://www.microprediction.com/)
+ - [gptprobe](https://github.com/microprediction/gptprobe) - Self-referential uses of LLMs for data extraction. 
  - [embarrassingly](https://github.com/microprediction/embarrassingly) - A speculative approach to robust optimization.
  - [pandemic](https://github.com/microprediction/pandemic) - Ornstein-Uhlenbeck epidemic simulation
  - [firstdown](https://github.com/microprediction/firstdown) - The repo that aspires to ruin the great game of football. 
