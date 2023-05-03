@@ -138,6 +138,7 @@ Just some provocations.
 
 ## Satire
 
+- [Husband prompt engineering](https://www.linkedin.com/posts/petercotton_llmsarenotworsethantheinternet-llms-pepe-activity-7059551809811480578-GwND?utm_source=share&utm_medium=member_desktop)
 - [Humanity's Stay Puft Marshmallow Man moment](https://www.linkedin.com/posts/petercotton_so-you-recommended-a-python-time-series-activity-7051302379018670081-ZCfR?utm_source=share&utm_medium=member_desktop)
 - [Can ChatGPT create scholarly-sounding, grandoise prose?](https://www.linkedin.com/posts/petercotton_chatgpt-chatgpt-chatgpt-activity-7005343236386914304-XcWC?utm_source=share&utm_medium=member_desktop)
 - [AI leaders unite](https://www.linkedin.com/posts/petercotton_copy-on-write-cow-activity-7047926473860505601-IgWL?utm_source=share&utm_medium=member_desktop)
