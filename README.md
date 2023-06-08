@@ -132,6 +132,7 @@ Just some provocations.
 ## Audio and video 
 (Very incomplete sorry, just started tracking)
 
+- Let's talk AI interview [podcast](https://podcast.ausha.co/let-s-talk-ai/28-portfolio-theory-data-science-and-entrepreneurship-with-peter-cotton) or [YouTube](https://www.youtube.com/watch?v=hUWA2X0lZXU)
 - Lokad [interview](https://www.linkedin.com/feed/update/urn:li:activity:7041725649153060864?utm_source=share&utm_medium=member_desktop) on M6, markets v. models. 
 - Chapter 1 of Microprediction: Building an Open AI Network [here](https://github.com/microprediction/building_an_open_ai_network/tree/main/docs/assets/audio).
 - A Quick Introduciton to a Working Microprediction Oracle [Montreal Python Meetup](https://www.youtube.com/watch?v=yHuD9rbkkg8). Starts at 1:20:00 in. 
