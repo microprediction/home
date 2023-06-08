@@ -61,6 +61,7 @@ More at [microprediction.com/blog](https://www.microprediction.com/blog), [finan
 
  - The Options Market Beat 94% of Participants in the M6 Competition [blog](https://medium.com/geekculture/the-options-market-beat-94-of-participants-in-the-m6-financial-forecasting-contest-fa4f47f57d33)
  - A New Family of Diffeomorphisms from the Simple to the Cube  - With Application to Global Optimization [blog](https://medium.com/geekculture/a-new-family-of-diffeomorphisms-from-the-simplex-to-the-cube-with-application-to-global-6d358714f429)
+ - Remind me Again Why Large Language Models Can't Think [blog](https://medium.com/the-modern-scientist/remind-me-again-why-large-language-models-cant-think-acab12da63de)
  - ChatGPT's Moneyball Moment and the Future of Empirical Research [blog](https://medium.com/geekculture/somebody-didnt-understand-your-argument-persuade-chatgpt-d21e3b9a9536)
  - The Global Financial Crisis Should Have Been Caught by the Compiler [blog](https://medium.com/geekculture/the-global-financial-crisis-should-have-been-caught-by-the-compiler-an-insiders-perspective-9229967e7f45)
  - Modeling the Term Structure of a Pandemic with Negative Interest Rates [blog](https://www.microprediction.com/blog/modeling-the-term-structure-of-a-pandemic-with-negative-interest-rates)
