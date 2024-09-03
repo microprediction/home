@@ -130,12 +130,12 @@ Just some provocations.
 - [On Bobby Fischer and Temporal Differences](https://www.linkedin.com/posts/petercotton_reinforcementlearning-artificialintelligence-activity-6971313620752154624-I6AR?utm_source=share&utm_medium=member_desktop)
 - [On Dunning-Kruger and Towards Data Science](https://www.linkedin.com/posts/petercotton_datascience-statistics-activity-6826128954504683522-bXPy?utm_source=share&utm_medium=member_desktop)
 
-## Nunoposts
-One day I'll turn this into a book on how not to be seduced by Nassim Taleb. 
+## Responses to Nuno :)
 
+ 
 - [Mathematics](https://www.linkedin.com/feed/update/urn:li:activity:7220699027934195712?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7220699027934195712%2C7221928488943955968%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287221928488943955968%2Curn%3Ali%3Aactivity%3A7220699027934195712%29)
 - [Quantifying uncertainty](https://www.linkedin.com/feed/update/urn:li:activity:7234801972082536448/)
-- [Optimization](https://www.linkedin.com/feed/update/urn:li:activity:7236613900283129856/?commentUrn=urn%3Ali%3Acomment%3A(activity%3A7236613900283129856%2C7236644335272792065)&dashCommentUrn=urn%3Ali%3Afsd_comment%3A(7236644335272792065%2Curn%3Ali%3Aactivity%3A7236613900283129856)
+- [Unnwitting optimization](https://www.linkedin.com/feed/update/urn:li:activity:7236613900283129856?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7236613900283129856%2C7236643709105106947%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287236643709105106947%2Curn%3Ali%3Aactivity%3A7236613900283129856%29)
 
 
 ## Audio and video 
