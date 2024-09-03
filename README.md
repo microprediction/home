@@ -131,7 +131,7 @@ Just some provocations.
 - [On Dunning-Kruger and Towards Data Science](https://www.linkedin.com/posts/petercotton_datascience-statistics-activity-6826128954504683522-bXPy?utm_source=share&utm_medium=member_desktop)
 
 ## Responses to Nuno :)
-
+Mini-Taleb never ceases to amuse me. 
  
 - [Mathematics](https://www.linkedin.com/feed/update/urn:li:activity:7220699027934195712?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7220699027934195712%2C7221928488943955968%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287221928488943955968%2Curn%3Ali%3Aactivity%3A7220699027934195712%29)
 - [Quantifying uncertainty](https://www.linkedin.com/feed/update/urn:li:activity:7234801972082536448/)
