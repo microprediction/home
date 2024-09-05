@@ -154,3 +154,8 @@ Mini-Taleb never ceases to amuse me.
 - [AI leaders unite](https://www.linkedin.com/posts/petercotton_copy-on-write-cow-activity-7047926473860505601-IgWL?utm_source=share&utm_medium=member_desktop)
 - [Prompt Engineering Post Engineering](https://www.linkedin.com/posts/petercotton_github-micropredictionchattychattybangbang-activity-7052636337685815297-qNX7?utm_source=share&utm_medium=member_desktop) certificate.
 
+
+## And since you read this far
+An extremely short list of stuff I think is just f!@#$ great
+
+- [Colliding blocks computing Pi](https://www.youtube.com/watch?v=jsYwFizhncE)
