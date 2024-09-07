@@ -129,6 +129,7 @@ Just some provocations.
 - [What is Kullback-Liebler divergence, really?](https://www.linkedin.com/posts/petercotton_the-lottery-paradox-activity-6945384755643179008-HIhn?utm_source=share&utm_medium=member_desktop)
 - [On Bobby Fischer and Temporal Differences](https://www.linkedin.com/posts/petercotton_reinforcementlearning-artificialintelligence-activity-6971313620752154624-I6AR?utm_source=share&utm_medium=member_desktop)
 - [On Dunning-Kruger and Towards Data Science](https://www.linkedin.com/posts/petercotton_datascience-statistics-activity-6826128954504683522-bXPy?utm_source=share&utm_medium=member_desktop)
+- [Stop saying machines cannot opion on causality](https://www.linkedin.com/posts/petercotton_adia-lab-causal-discovery-challenge-trailer-activity-7238230582466412547-YYFr?utm_source=share&utm_medium=member_desktop)
 
 ## Responses to Nuno :)
 Mini-Taleb never ceases to amuse me. 
