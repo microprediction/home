@@ -112,6 +112,9 @@ More at [microprediction.com/blog](https://www.microprediction.com/blog), [finan
 ## Haggle with me
 Just some provocations. 
 
+
+- [Hey Seriation](https://www.linkedin.com/posts/petercotton_montepredictioncolabexamplesheyseriationsectorsipynb-activity-7240150697336340480-_1w7?utm_source=share&utm_medium=member_desktop)
+- [Yes o-1 is useful!](https://www.linkedin.com/posts/petercotton_investment-copulas-math-activity-7241454045939302400-119T?utm_source=share&utm_medium=member_desktop)
 - [Code packaging](https://www.linkedin.com/posts/petercotton_softwaredevelopment-softwareengineering-pypi-activity-7049059701912678400-COm6?utm_source=share&utm_medium=member_desktop) is a stale concept. 
 - [ChatGPT and trade friction](https://www.linkedin.com/posts/petercotton_chatgpt-timeseries-chatgpt-activity-7006301835460263937-lm5G?utm_source=share&utm_medium=member_desktop)
 - [Quant finance beats machine learning](https://www.linkedin.com/posts/petercotton_the-options-market-beat-94-of-participants-activity-7026002070818160640-blic?utm_source=share&utm_medium=member_desktop) in the M6.
