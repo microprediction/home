@@ -112,7 +112,7 @@ More at [microprediction.com/blog](https://www.microprediction.com/blog), [finan
 ## Haggle with me
 Just some provocations. 
 
-
+- [LLMs and arithmetic](https://www.linkedin.com/feed/update/urn:li:activity:7243540643971534848?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7243540643971534848%2C7243616056487940097%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287243616056487940097%2Curn%3Ali%3Aactivity%3A7243540643971534848%29)
 - [Hey Seriation](https://www.linkedin.com/posts/petercotton_montepredictioncolabexamplesheyseriationsectorsipynb-activity-7240150697336340480-_1w7?utm_source=share&utm_medium=member_desktop)
 - [Yes o-1 is useful!](https://www.linkedin.com/posts/petercotton_investment-copulas-math-activity-7241454045939302400-119T?utm_source=share&utm_medium=member_desktop)
 - [Code packaging](https://www.linkedin.com/posts/petercotton_softwaredevelopment-softwareengineering-pypi-activity-7049059701912678400-COm6?utm_source=share&utm_medium=member_desktop) is a stale concept. 
