@@ -135,6 +135,7 @@ Just some provocations.
 - [Stop saying machines cannot opion on causality](https://www.linkedin.com/posts/petercotton_adia-lab-causal-discovery-challenge-trailer-activity-7238230582466412547-YYFr?utm_source=share&utm_medium=member_desktop)
 - [LLM progress won't slow down just yet](https://www.linkedin.com/posts/petercotton_ai-artificialintelligence-chess-activity-7245059944809381889-xiOy?utm_source=share&utm_medium=member_desktop)
 - [What have those academics ever done for us?](https://www.linkedin.com/posts/antongolub_len-sassaman-is-not-satoshi-nakamoto-there-activity-7248647843899424769-jWBs?utm_source=share&utm_medium=member_desktop)
+- [Code generation for trading](https://www.linkedin.com/posts/petercotton_ai-algotrading-llms-activity-7249773052576563201-ILDm?utm_source=share&utm_medium=member_desktop)
 
 ## Responses to Nuno :)
 Mini-Taleb never ceases to amuse me. 
