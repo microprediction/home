@@ -137,13 +137,6 @@ More at [microprediction.com/blog](https://www.microprediction.com/blog), [finan
 - [What have those academics ever done for us?](https://www.linkedin.com/posts/antongolub_len-sassaman-is-not-satoshi-nakamoto-there-activity-7248647843899424769-jWBs?utm_source=share&utm_medium=member_desktop)
 - [Code generation for trading](https://www.linkedin.com/posts/petercotton_ai-algotrading-llms-activity-7249773052576563201-ILDm?utm_source=share&utm_medium=member_desktop)
 
-## Responses to Nuno :)
-Mini-Taleb never ceases to amuse me. 
- 
-- [Mathematics](https://www.linkedin.com/feed/update/urn:li:activity:7220699027934195712?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7220699027934195712%2C7221928488943955968%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287221928488943955968%2Curn%3Ali%3Aactivity%3A7220699027934195712%29)
-- [Quantifying uncertainty](https://www.linkedin.com/feed/update/urn:li:activity:7234801972082536448/)
-- [Unnwitting optimization](https://www.linkedin.com/feed/update/urn:li:activity:7236613900283129856?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7236613900283129856%2C7236643709105106947%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287236643709105106947%2Curn%3Ali%3Aactivity%3A7236613900283129856%29)
-
 
 ## Audio and video 
 (Very incomplete sorry, just started tracking)
