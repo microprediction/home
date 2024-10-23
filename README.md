@@ -109,34 +109,48 @@ More at [microprediction.com/blog](https://www.microprediction.com/blog), [finan
  - Intelligent simulation analysis methods and system [justia](https://patents.justia.com/patent/20040236667)
 
 
-## Miscellaneous posts
+## Miscellaneous short musings
 
+Statistics, control, applied mathematics 
+- [What is Kullback-Liebler divergence, really?](https://www.linkedin.com/posts/petercotton_the-lottery-paradox-activity-6945384755643179008-HIhn?utm_source=share&utm_medium=member_desktop)
 - [Luce's Choice Axiom](https://www.linkedin.com/posts/petercotton_statistics-activity-7254675132726624256-Uemp?utm_source=share&utm_medium=member_desktop)
-- [LLMs and arithmetic](https://www.linkedin.com/feed/update/urn:li:activity:7243540643971534848?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7243540643971534848%2C7243616056487940097%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287243616056487940097%2Curn%3Ali%3Aactivity%3A7243540643971534848%29)
+- [Machine learning metrics have a financial interpretation](https://www.linkedin.com/posts/petercotton_machinelearning-statistics-artificialintelligence-activity-6997744082080907264-a1bj?utm_source=share&utm_medium=member_desktop)
+- [Your "towards data scientists" are making unstable predictions](https://www.linkedin.com/posts/petercotton_forecasting-timeseries-timeseriesanalysis-activity-6988875513771520001-Wpqp?utm_source=share&utm_medium=member_desktop)
+- [Is Claude Shannon the true creator of the Kelly criterion?](https://www.linkedin.com/posts/petercotton_repeated-kelly-betting-and-dividend-policy-activity-6961427244472770560-YlfO?utm_source=share&utm_medium=member_desktop)
+- [On Bobby Fischer and Temporal Differences](https://www.linkedin.com/posts/petercotton_reinforcementlearning-artificialintelligence-activity-6971313620752154624-I6AR?utm_source=share&utm_medium=member_desktop)
+
+LLMs
+- [Machines can be scientists](https://www.linkedin.com/posts/petercotton_ai-causality-statistics-activity-7254858365456064515-02E0?utm_source=share&utm_medium=member_desktop)
 - [Hey Seriation](https://www.linkedin.com/posts/petercotton_montepredictioncolabexamplesheyseriationsectorsipynb-activity-7240150697336340480-_1w7?utm_source=share&utm_medium=member_desktop)
 - [Yes o-1 is useful!](https://www.linkedin.com/posts/petercotton_investment-copulas-math-activity-7241454045939302400-119T?utm_source=share&utm_medium=member_desktop)
+- [Stop saying machines cannot opion on causality](https://www.linkedin.com/posts/petercotton_adia-lab-causal-discovery-challenge-trailer-activity-7238230582466412547-YYFr?utm_source=share&utm_medium=member_desktop)
+- [LLM progress won't slow down just yet](https://www.linkedin.com/posts/petercotton_ai-artificialintelligence-chess-activity-7245059944809381889-xiOy?utm_source=share&utm_medium=member_desktop)
+- [Code generation for trading](https://www.linkedin.com/posts/petercotton_ai-algotrading-llms-activity-7249773052576563201-ILDm?utm_source=share&utm_medium=member_desktop)
+
+
+Decentralized AI, markets, collective intelligence
+- [Markets are better than modes for short horizon prediction](https://www.linkedin.com/posts/petercotton_tldr-activity-6983896509490610176-JTJB?utm_source=share&utm_medium=member_desktop)
+- [Quant finance beats machine learning](https://www.linkedin.com/posts/petercotton_the-options-market-beat-94-of-participants-activity-7026002070818160640-blic?utm_source=share&utm_medium=member_desktop) in the M6.
 - [Code packaging](https://www.linkedin.com/posts/petercotton_softwaredevelopment-softwareengineering-pypi-activity-7049059701912678400-COm6?utm_source=share&utm_medium=member_desktop) is a stale concept. 
 - [ChatGPT and trade friction](https://www.linkedin.com/posts/petercotton_chatgpt-timeseries-chatgpt-activity-7006301835460263937-lm5G?utm_source=share&utm_medium=member_desktop)
-- [Quant finance beats machine learning](https://www.linkedin.com/posts/petercotton_the-options-market-beat-94-of-participants-activity-7026002070818160640-blic?utm_source=share&utm_medium=member_desktop) in the M6.
 - [Reinforcement learning needs specialization](https://www.linkedin.com/posts/petercotton_artificialintelligence-reinforcementlearning-activity-6999130962693398528-u5HP?utm_source=share&utm_medium=member_desktop)
 - [It is trivial to improve conformal prediction](https://www.linkedin.com/posts/petercotton_conformalprediction-machinelearning-timeseries-activity-6998409676245630976-dG3t?utm_source=share&utm_medium=member_desktop)
-- [Machine learning metrics have a financial interpretation](https://www.linkedin.com/posts/petercotton_machinelearning-statistics-artificialintelligence-activity-6997744082080907264-a1bj?utm_source=share&utm_medium=member_desktop)
 - [How do you extend decision making beyond one mind, algorithm or software system?](https://www.linkedin.com/posts/petercotton_machinelearning-reinforcementlearning-datascience-activity-6992560556863803392-FOM6?utm_source=share&utm_medium=member_desktop)
-- [Markets are better than modes for short horizon prediction](https://www.linkedin.com/posts/petercotton_tldr-activity-6983896509490610176-JTJB?utm_source=share&utm_medium=member_desktop)
 - [Will data science by Hayek'd by nano-noodling nymphs?](https://www.linkedin.com/posts/petercotton_microprediction-building-an-open-ai-network-activity-6991140331832365056-rDRV?utm_source=share&utm_medium=member_desktop)
-- [Your "towards data scientists" are making unstable predictions](https://www.linkedin.com/posts/petercotton_forecasting-timeseries-timeseriesanalysis-activity-6988875513771520001-Wpqp?utm_source=share&utm_medium=member_desktop)
 - [No time-series paper can every be called SOTA again](https://www.linkedin.com/posts/petercotton_timeseries-forecasting-timeseriesanalysis-activity-6987561356862353408-iy2Z?utm_source=share&utm_medium=member_desktop)
 - [Your in-house data science team is great but...](https://www.linkedin.com/posts/petercotton_publishing-a-stream-activity-6983754698189111296-Fjrd?utm_source=share&utm_medium=member_desktop)
 - [It's crunch time for data science](https://www.linkedin.com/posts/petercotton_microprediction-activity-6982705291049992192-NzLa?utm_source=share&utm_medium=member_desktop)
-- [Is Claude Shannon the true creator of the Kelly criterion?](https://www.linkedin.com/posts/petercotton_repeated-kelly-betting-and-dividend-policy-activity-6961427244472770560-YlfO?utm_source=share&utm_medium=member_desktop)
-- [What is Kullback-Liebler divergence, really?](https://www.linkedin.com/posts/petercotton_the-lottery-paradox-activity-6945384755643179008-HIhn?utm_source=share&utm_medium=member_desktop)
-- [On Bobby Fischer and Temporal Differences](https://www.linkedin.com/posts/petercotton_reinforcementlearning-artificialintelligence-activity-6971313620752154624-I6AR?utm_source=share&utm_medium=member_desktop)
-- [On Dunning-Kruger and Towards Data Science](https://www.linkedin.com/posts/petercotton_datascience-statistics-activity-6826128954504683522-bXPy?utm_source=share&utm_medium=member_desktop)
-- [Stop saying machines cannot opion on causality](https://www.linkedin.com/posts/petercotton_adia-lab-causal-discovery-challenge-trailer-activity-7238230582466412547-YYFr?utm_source=share&utm_medium=member_desktop)
-- [LLM progress won't slow down just yet](https://www.linkedin.com/posts/petercotton_ai-artificialintelligence-chess-activity-7245059944809381889-xiOy?utm_source=share&utm_medium=member_desktop)
-- [What have those academics ever done for us?](https://www.linkedin.com/posts/antongolub_len-sassaman-is-not-satoshi-nakamoto-there-activity-7248647843899424769-jWBs?utm_source=share&utm_medium=member_desktop)
-- [Code generation for trading](https://www.linkedin.com/posts/petercotton_ai-algotrading-llms-activity-7249773052576563201-ILDm?utm_source=share&utm_medium=member_desktop)
 
+
+Satire & miscellaneous
+- [What have those academics ever done for us?](https://www.linkedin.com/posts/antongolub_len-sassaman-is-not-satoshi-nakamoto-there-activity-7248647843899424769-jWBs?utm_source=share&utm_medium=member_desktop)
+- [Husband prompt engineering](https://www.linkedin.com/posts/petercotton_llmsarenotworsethantheinternet-llms-pepe-activity-7059551809811480578-GwND?utm_source=share&utm_medium=member_desktop)
+- [Humanity's Stay Puft Marshmallow Man moment](https://www.linkedin.com/posts/petercotton_so-you-recommended-a-python-time-series-activity-7051302379018670081-ZCfR?utm_source=share&utm_medium=member_desktop)
+- [Can ChatGPT create scholarly-sounding, grandoise prose?](https://www.linkedin.com/posts/petercotton_chatgpt-chatgpt-chatgpt-activity-7005343236386914304-XcWC?utm_source=share&utm_medium=member_desktop)
+- [AI leaders unite](https://www.linkedin.com/posts/petercotton_copy-on-write-cow-activity-7047926473860505601-IgWL?utm_source=share&utm_medium=member_desktop)
+- [Prompt Engineering Post Engineering](https://www.linkedin.com/posts/petercotton_github-micropredictionchattychattybangbang-activity-7052636337685815297-qNX7?utm_source=share&utm_medium=member_desktop) certificate.
+- [LLMs and arithmetic](https://www.linkedin.com/feed/update/urn:li:activity:7243540643971534848?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7243540643971534848%2C7243616056487940097%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287243616056487940097%2Curn%3Ali%3Aactivity%3A7243540643971534848%29)
+- [On Dunning-Kruger and Towards Data Science](https://www.linkedin.com/posts/petercotton_datascience-statistics-activity-6826128954504683522-bXPy?utm_source=share&utm_medium=member_desktop)
 
 ## Audio and video 
 (Very incomplete sorry, just started tracking)
@@ -146,13 +160,6 @@ More at [microprediction.com/blog](https://www.microprediction.com/blog), [finan
 - Chapter 1 of Microprediction: Building an Open AI Network [here](https://github.com/microprediction/building_an_open_ai_network/tree/main/docs/assets/audio).
 - A Quick Introduciton to a Working Microprediction Oracle [Montreal Python Meetup](https://www.youtube.com/watch?v=yHuD9rbkkg8). Starts at 1:20:00 in. 
 
-## Satire
-
-- [Husband prompt engineering](https://www.linkedin.com/posts/petercotton_llmsarenotworsethantheinternet-llms-pepe-activity-7059551809811480578-GwND?utm_source=share&utm_medium=member_desktop)
-- [Humanity's Stay Puft Marshmallow Man moment](https://www.linkedin.com/posts/petercotton_so-you-recommended-a-python-time-series-activity-7051302379018670081-ZCfR?utm_source=share&utm_medium=member_desktop)
-- [Can ChatGPT create scholarly-sounding, grandoise prose?](https://www.linkedin.com/posts/petercotton_chatgpt-chatgpt-chatgpt-activity-7005343236386914304-XcWC?utm_source=share&utm_medium=member_desktop)
-- [AI leaders unite](https://www.linkedin.com/posts/petercotton_copy-on-write-cow-activity-7047926473860505601-IgWL?utm_source=share&utm_medium=member_desktop)
-- [Prompt Engineering Post Engineering](https://www.linkedin.com/posts/petercotton_github-micropredictionchattychattybangbang-activity-7052636337685815297-qNX7?utm_source=share&utm_medium=member_desktop) certificate.
 
 
 ## And since you read this far
