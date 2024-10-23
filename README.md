@@ -111,7 +111,7 @@ More at [microprediction.com/blog](https://www.microprediction.com/blog), [finan
 
 ## Miscellaneous posts
 
--[Luce Choice Axiom](https://www.linkedin.com/posts/petercotton_statistics-activity-7254675132726624256-Uemp?utm_source=share&utm_medium=member_desktop)
+- [Luce's Choice Axiom](https://www.linkedin.com/posts/petercotton_statistics-activity-7254675132726624256-Uemp?utm_source=share&utm_medium=member_desktop)
 - [LLMs and arithmetic](https://www.linkedin.com/feed/update/urn:li:activity:7243540643971534848?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7243540643971534848%2C7243616056487940097%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287243616056487940097%2Curn%3Ali%3Aactivity%3A7243540643971534848%29)
 - [Hey Seriation](https://www.linkedin.com/posts/petercotton_montepredictioncolabexamplesheyseriationsectorsipynb-activity-7240150697336340480-_1w7?utm_source=share&utm_medium=member_desktop)
 - [Yes o-1 is useful!](https://www.linkedin.com/posts/petercotton_investment-copulas-math-activity-7241454045939302400-119T?utm_source=share&utm_medium=member_desktop)
