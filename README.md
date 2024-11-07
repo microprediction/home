@@ -155,6 +155,7 @@ Satire & miscellaneous
 ## Audio and video 
 (Very incomplete sorry, just started tracking)
 
+- Interview with Khrystyna Klimash on AI and microprediction [here](https://www.linkedin.com/posts/linkup-studio_mastering-data-product-development-insights-activity-7260074307551141888-G6zP?utm_source=share&utm_medium=member_desktop) or [YouTube](https://www.youtube.com/watch?v=S0oYPrYyKKE)
 - Let's talk AI interview [podcast](https://podcast.ausha.co/let-s-talk-ai/28-portfolio-theory-data-science-and-entrepreneurship-with-peter-cotton) or [YouTube](https://www.youtube.com/watch?v=hUWA2X0lZXU) about my data science experiences. 
 - Lokad [interview](https://www.linkedin.com/feed/update/urn:li:activity:7041725649153060864?utm_source=share&utm_medium=member_desktop) on M6, markets v. models. 
 - Chapter 1 of Microprediction: Building an Open AI Network [here](https://github.com/microprediction/building_an_open_ai_network/tree/main/docs/assets/audio).
