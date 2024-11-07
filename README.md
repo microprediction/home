@@ -56,7 +56,7 @@ More at [github/microprediction](https://github.com/microprediction). About 500,
  - On the Relationship Between Golf and Trading [pdf](https://github.com/microprediction/home/blob/main/presentations/pga_and_trading.pdf)
 
 ## Blog articles
-More at [microprediction.com/blog](https://www.microprediction.com/blog), [financialmathematics.com](http://www.financialmathematics.com/), [medium@microprediction](https://medium.com/@microprediction)
+More at [financialmathematics.com](http://www.financialmathematics.com/), [medium@microprediction](https://medium.com/@microprediction)
 
 
  - The Options Market Beat 94% of Participants in the M6 Competition [blog](https://medium.com/geekculture/the-options-market-beat-94-of-participants-in-the-m6-financial-forecasting-contest-fa4f47f57d33)
