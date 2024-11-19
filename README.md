@@ -23,6 +23,7 @@ Some of my work
 - Go Forth! Simple Detection of Incomplete Meta-Learning by Algorithms Performing Limited Exploration on a Rugged Landscape [pdf](https://github.com/microprediction/home/blob/main/workingpapers/go_forth.pdf)
 - Luce's Choice Axiom Isn't the Only Choice! Combinatorial Contest and Rank Probabilities Using the Python Winning Package [pdf](https://github.com/microprediction/home/blob/main/workingpapers/luce_choice_isnt_the_only_choice.pdf)
 - Repeat Contacts and the Spread of Disease [pdf](https://github.com/microprediction/home/blob/main/workingpapers/repeat_contacts_and_the_spread.pdf)
+- The Indispensible Markets Hypothesis [pdf](https://github.com/microprediction/home/blob/main/workingpapers/indispensible_markets_hypothesis.pdf)
 - A Platform for Assessing and Combining Autonomous Short-Horizon Distributions Predictions [pdf](https://github.com/microprediction/home/blob/main/workingpapers/a_platform_for_assessing_and_combining.pdf)
 
 ## Python packages
