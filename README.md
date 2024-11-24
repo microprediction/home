@@ -113,8 +113,6 @@ More at [financialmathematics.com](http://www.financialmathematics.com/), [mediu
 
 ## Miscellaneous short musings
 
-Machine psychometrics
-- [Is choice a horse race?](https://www.linkedin.com/posts/petercotton_machine-psychologyexploring-a-paradox-activity-7266298424570875907-ffdz?utm_source=share&utm_medium=member_desktop)
 
 Statistics, control, applied mathematics 
 - [What is Kullback-Liebler divergence, really?](https://www.linkedin.com/posts/petercotton_the-lottery-paradox-activity-6945384755643179008-HIhn?utm_source=share&utm_medium=member_desktop)
@@ -125,6 +123,8 @@ Statistics, control, applied mathematics
 - [On Bobby Fischer and Temporal Differences](https://www.linkedin.com/posts/petercotton_reinforcementlearning-artificialintelligence-activity-6971313620752154624-I6AR?utm_source=share&utm_medium=member_desktop)
 
 LLMs
+
+- [Is machine choice a horse race, or an urn?](https://www.linkedin.com/posts/petercotton_machine-psychologyexploring-a-paradox-activity-7266298424570875907-ffdz?utm_source=share&utm_medium=member_desktop)
 - [Machines can be scientists](https://www.linkedin.com/posts/petercotton_ai-causality-statistics-activity-7254858365456064515-02E0?utm_source=share&utm_medium=member_desktop)
 - [Hey Seriation](https://www.linkedin.com/posts/petercotton_montepredictioncolabexamplesheyseriationsectorsipynb-activity-7240150697336340480-_1w7?utm_source=share&utm_medium=member_desktop)
 - [Yes o-1 is useful!](https://www.linkedin.com/posts/petercotton_investment-copulas-math-activity-7241454045939302400-119T?utm_source=share&utm_medium=member_desktop)
