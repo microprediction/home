@@ -113,7 +113,7 @@ More at [financialmathematics.com](http://www.financialmathematics.com/), [mediu
 
 ## Miscellaneous short musings
 
-Economics, psychology
+Machine psychometrics
 - [Is choice a horse race?](https://www.linkedin.com/posts/petercotton_machine-psychologyexploring-a-paradox-activity-7266298424570875907-ffdz?utm_source=share&utm_medium=member_desktop)
 
 Statistics, control, applied mathematics 
