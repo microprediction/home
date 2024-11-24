@@ -113,6 +113,9 @@ More at [financialmathematics.com](http://www.financialmathematics.com/), [mediu
 
 ## Miscellaneous short musings
 
+Economics, psychology
+- [Is choice a horse race?](https://www.linkedin.com/posts/petercotton_machine-psychologyexploring-a-paradox-activity-7266298424570875907-ffdz?utm_source=share&utm_medium=member_desktop)
+
 Statistics, control, applied mathematics 
 - [What is Kullback-Liebler divergence, really?](https://www.linkedin.com/posts/petercotton_the-lottery-paradox-activity-6945384755643179008-HIhn?utm_source=share&utm_medium=member_desktop)
 - [Luce's Choice Axiom](https://www.linkedin.com/posts/petercotton_statistics-activity-7254675132726624256-Uemp?utm_source=share&utm_medium=member_desktop)
