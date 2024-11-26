@@ -18,6 +18,7 @@ Some of my work
 
 - Schur Complementary Portfolios [arxiv](https://arxiv.org/abs/2411.05807),  [pdf](https://github.com/microprediction/home/blob/main/workingpapers/Hierarchical_Minimum_Variance_Portfolios.pdf) and [blog](https://medium.com/geekculture/schur-complementary-portfolios-fix-hierarchical-risk-parity-28b0efa1f35f) article. 
 - A Paradox in Machine Preference [pdf](https://github.com/microprediction/home/blob/main/workingpapers/A_Machine_Preference_Paradox.pdf)
+- On the Relationship Between Accuracy and Profitability in Over-the-Counter Market Making [pdf](https://github.com/microprediction/home/blob/main/workingpapers/On_the_relationship_between_accuracy_and_profitability_in_OTC_trading.pdf)
 - Trading Illiquid Goods: Market Making as a Sequence of Sealed-Bid Auctions, with Analytic Results [pdf](https://github.com/microprediction/home/blob/main/workingpapers/trading_illiquid_goods.pdf)
 - A Scalable Algorithm for Subset Selection and Rank Probabilities in Contests and Latent Variable Choice Models [pdf](https://github.com/microprediction/home/blob/main/workingpapers/Group_Selection_Probabilities_and_Rankings.pdf)
 - Addressing the Herd Immunity Paradox Using Symmetry, Convexity Adjustments and Bond Prices [pdf](https://github.com/microprediction/home/blob/main/workingpapers/Herd_Immunity_Convexity_Adjustments.pdf)
