@@ -16,7 +16,7 @@ Some of my work
 
 ## Working papers
 
-- Schur Complementary Portfolios [arxiv](https://arxiv.org/abs/2411.05807),  [pdf](https://github.com/microprediction/home/blob/main/workingpapers/Hierarchical_Minimum_Variance_Portfolios.pdf) and [blog](https://medium.com/geekculture/schur-complementary-portfolios-fix-hierarchical-risk-parity-28b0efa1f35f) article. 
+- Schur Complementary Portfolios [arxiv](https://arxiv.org/abs/2411.05807),  [pdf](https://github.com/microprediction/home/blob/main/workingpapers/Hierarchical_Minimum_Variance_Portfolios.pdf), [blog](https://medium.com/geekculture/schur-complementary-portfolios-fix-hierarchical-risk-parity-28b0efa1f35f) article and [talk](https://github.com/microprediction/precise/blob/main/academic/Schur_Complementary_Portfolios_CQF_Slides_Updated.pdf). 
 - A Paradox in Machine Preference [pdf](https://github.com/microprediction/home/blob/main/workingpapers/A_Machine_Preference_Paradox.pdf)
 - On the Relationship Between Accuracy and Profitability in Over-the-Counter Market Making [pdf](https://github.com/microprediction/home/blob/main/workingpapers/On_the_relationship_between_accuracy_and_profitability_in_OTC_trading.pdf)
 - Trading Illiquid Goods: Market Making as a Sequence of Sealed-Bid Auctions, with Analytic Results [pdf](https://github.com/microprediction/home/blob/main/workingpapers/trading_illiquid_goods.pdf)
@@ -51,6 +51,7 @@ More at [github/microprediction](https://github.com/microprediction). About 500,
 
 ## Presentations
 
+ - Schur Complementary Portfolios [slides](https://github.com/microprediction/precise/blob/main/academic/Schur_Complementary_Portfolios_CQF_Slides_Updated.pdf)
  - Who Ya Gonna Call? A Solution to the Horse Race Problem with Application to Over-The-Counter Markets [pdf](https://github.com/microprediction/home/blob/main/presentations/who_ya_gonna_call.pdf)
  - Trading Illiquid Goods [pdf](https://github.com/microprediction/home/blob/main/presentations/trading_illiquid.pdf) 
  - Filtering Bond and Credit Default Swap Markets [pdf](https://github.com/microprediction/home/blob/main/presentations/benchmark.pdf) 
