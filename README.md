@@ -50,6 +50,7 @@ More at [github/microprediction](https://github.com/microprediction). About 500,
  - [copula plots](https://github.com/microprediction/microactors-plots/tree/main/gallery) and [causality plots](https://github.com/microprediction/microactors-causality/tree/main/gallery) driven by microprediction.org
 
 ## Presentations
+Starting to collect these
 
  - Schur Complementary Portfolios [slides](https://github.com/microprediction/precise/blob/main/academic/Schur_Complementary_Portfolios_CQF_Slides_Updated.pdf)
  - Who Ya Gonna Call? A Solution to the Horse Race Problem with Application to Over-The-Counter Markets [pdf](https://github.com/microprediction/home/blob/main/presentations/who_ya_gonna_call.pdf)
@@ -58,6 +59,7 @@ More at [github/microprediction](https://github.com/microprediction). About 500,
  - The Traveling Algorithm Problem: A Modicum of Mathematics for Microscopic Middlemen [pdf](https://github.com/microprediction/home/blob/main/presentations/traveling_algorithm.pdf) 
  - Barbell Bond Portfolios. What Do They Accidentally Optimize? [pdf](https://github.com/microprediction/home/blob/main/presentations/barbell_bond.pdf)
  - On the Relationship Between Golf and Trading [pdf](https://github.com/microprediction/home/blob/main/presentations/pga_and_trading.pdf)
+ - Data Mind of the Year Acceptance Talk [pdf](https://github.com/microprediction/home/blob/main/presentations/Data_mind_of_the_year_acceptance_talk.pdf)
 
 ## Blog articles
 More at [financialmathematics.com](http://www.financialmathematics.com/), [medium@microprediction](https://medium.com/@microprediction)
