@@ -138,6 +138,7 @@ LLMs
 
 
 Decentralized AI, markets, collective intelligence
+- [Humans in the way](https://www.linkedin.com/posts/petercotton_midone-timeseries-machinelearning-activity-7270826483445592064-H-Aj?utm_source=share&utm_medium=member_desktop)
 - [Markets are better than modes for short horizon prediction](https://www.linkedin.com/posts/petercotton_tldr-activity-6983896509490610176-JTJB?utm_source=share&utm_medium=member_desktop)
 - [Quant finance beats machine learning](https://www.linkedin.com/posts/petercotton_the-options-market-beat-94-of-participants-activity-7026002070818160640-blic?utm_source=share&utm_medium=member_desktop) in the M6.
 - [One billion crowd-sourced risk scenarios](https://www.linkedin.com/posts/petercotton_a-new-generative-ai-competition-in-eleven-activity-7264064709371351040-acKO?utm_source=share&utm_medium=member_desktop)
