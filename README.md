@@ -125,6 +125,7 @@ Statistics, control, applied mathematics
 - [Your "towards data scientists" are making unstable predictions](https://www.linkedin.com/posts/petercotton_forecasting-timeseries-timeseriesanalysis-activity-6988875513771520001-Wpqp?utm_source=share&utm_medium=member_desktop)
 - [Is Claude Shannon the true creator of the Kelly criterion?](https://www.linkedin.com/posts/petercotton_repeated-kelly-betting-and-dividend-policy-activity-6961427244472770560-YlfO?utm_source=share&utm_medium=member_desktop)
 - [On Bobby Fischer and Temporal Differences](https://www.linkedin.com/posts/petercotton_reinforcementlearning-artificialintelligence-activity-6971313620752154624-I6AR?utm_source=share&utm_medium=member_desktop)
+- [A time-series project suggestion](https://www.linkedin.com/posts/petercotton_timeseries-portfolios-ensembles-activity-7280960637365542912-H1hI?utm_source=share&utm_medium=member_desktop) 
 
 LLMs
 
