@@ -154,7 +154,7 @@ Decentralized AI, markets, collective intelligence
 - [No time-series paper can every be called SOTA again](https://www.linkedin.com/posts/petercotton_timeseries-forecasting-timeseriesanalysis-activity-6987561356862353408-iy2Z?utm_source=share&utm_medium=member_desktop)
 - [Your in-house data science team is great but...](https://www.linkedin.com/posts/petercotton_publishing-a-stream-activity-6983754698189111296-Fjrd?utm_source=share&utm_medium=member_desktop)
 - [It's crunch time for data science](https://www.linkedin.com/posts/petercotton_microprediction-activity-6982705291049992192-NzLa?utm_source=share&utm_medium=member_desktop)
-
+- [Regulators kill prediction accuracy](https://www.linkedin.com/posts/petercotton_the-options-market-beat-94-of-participants-activity-7088205176431337474-Q37-?utm_source=share&utm_medium=member_desktop)
 
 Satire & miscellaneous
 - [What have those academics ever done for us?](https://www.linkedin.com/posts/antongolub_len-sassaman-is-not-satoshi-nakamoto-there-activity-7248647843899424769-jWBs?utm_source=share&utm_medium=member_desktop)
