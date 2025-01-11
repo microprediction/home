@@ -169,6 +169,8 @@ Satire & miscellaneous
 ## Audio and video 
 (Very incomplete sorry, just started tracking)
 
+- Panel discussion [
+Beryl Elites](https://www.youtube.com/watch?v=KH7VPy9j7EU) conference 2024.
 - Interview with Khrystyna Klimash on AI and microprediction [here](https://www.linkedin.com/posts/linkup-studio_mastering-data-product-development-insights-activity-7260074307551141888-G6zP?utm_source=share&utm_medium=member_desktop) or [YouTube](https://www.youtube.com/watch?v=S0oYPrYyKKE)
 - Let's talk AI interview [podcast](https://podcast.ausha.co/let-s-talk-ai/28-portfolio-theory-data-science-and-entrepreneurship-with-peter-cotton) or [YouTube](https://www.youtube.com/watch?v=hUWA2X0lZXU) about my data science experiences. 
 - Lokad [interview](https://www.linkedin.com/feed/update/urn:li:activity:7041725649153060864?utm_source=share&utm_medium=member_desktop) on M6, markets v. models. 
