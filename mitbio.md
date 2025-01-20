@@ -1,13 +1,7 @@
-Peter currently leads data science for Intech Investments where he works on the theory and practice of portfolio construction. 
-Peter is also the creator and maintainer of various things “microprediction” (packages, book and live probability exchange). 
-Previously he founded Benchmark Solutions, an enterprise data company sold to Bloomberg. He pioneered control theory application to OTC trading, 
-privacy-preserving Machine Learning, and other things for J.P. Morgan. He began his career by inventing closed-form CDO pricing for Morgan Stanley. 
-He maintained his sanity during the pandemic with zwift, bullet chess, and amateur epidemiology.
 
-Peter's repo notes the following:
 
-Best way I can help you: Free short-horizon prediction https://microprediction.github.io/microprediction/publish.html 
+Dr Peter Cotton is a quantitative finance practitioner, entrepreneur and thought leader. His book Microprediction: Building and Open AI Network fortells the rise of decentralized artificial intelligence. His theoretical contributions to financial theory include the mathematical unification of the two sides of portfolio theory: hierarchical and optimization-based methodss. He has led data science efforts at buy side firms with more than ten billion AUM on two occasions. He pioneered the application of control theory to over-the-counter trading at JP Morgan and led CDO pricing for Morgan Stanley. He has co-founded two companies: Benchmark Solutions, acquired by Bloomberg and later Crunch Labs, where he serves as Chief Scientific Officer. His contributions to open source include Python packages for timeseries, optimization and portfolio construction. 
 
-Best way you can help me: Buy the book https://mitpress.mit.edu/9780262047326/microprediction/ or run a script forever https://microprediction.github.io/microprediction/setup 
 
-Interests:  https://github.com/microprediction/home 
+
+
