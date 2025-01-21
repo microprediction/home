@@ -1,4 +1,4 @@
-Some of my work 
+Some attempt to organize the scattered work of a practitioner.  [bio](https://github.com/microprediction/home/blob/main/mitbio.md) 
 
 ## Book length
 
