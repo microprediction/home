@@ -119,6 +119,7 @@ More at [financialmathematics.com](http://www.financialmathematics.com/), [mediu
 
 
 Statistics, control, applied mathematics 
+- [A trick to optimize large firms](https://www.linkedin.com/posts/petercotton_schur-complementary-allocation-a-unification-activity-7291885186642788355-oD4P?utm_source=share&utm_medium=member_desktop)
 - [What is Kullback-Liebler divergence, really?](https://www.linkedin.com/posts/petercotton_the-lottery-paradox-activity-6945384755643179008-HIhn?utm_source=share&utm_medium=member_desktop)
 - [Luce's Choice Axiom](https://www.linkedin.com/posts/petercotton_statistics-activity-7254675132726624256-Uemp?utm_source=share&utm_medium=member_desktop)
 - [Machine learning metrics have a financial interpretation](https://www.linkedin.com/posts/petercotton_machinelearning-statistics-artificialintelligence-activity-6997744082080907264-a1bj?utm_source=share&utm_medium=member_desktop)
