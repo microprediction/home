@@ -52,7 +52,7 @@ More at [github/microprediction](https://github.com/microprediction). About 500,
 ## Presentations
 Starting to collect these
 
- - Schur Complementary Portfolios [slides](https://github.com/microprediction/precise/blob/main/academic/Schur_Complementary_Portfolios_CQF_Slides_Updated.pdf)
+ - Schur Complementary Portfolios  [Frontiers in finance talk](https://github.com/microprediction/home/blob/main/presentations/Schur_Complementary_Portfolios_2025__slides.pdf)  [CQF](https://github.com/microprediction/precise/blob/main/academic/Schur_Complementary_Portfolios_CQF_Slides_Updated.pdf)
  - Who Ya Gonna Call? A Solution to the Horse Race Problem with Application to Over-The-Counter Markets [pdf](https://github.com/microprediction/home/blob/main/presentations/who_ya_gonna_call.pdf)
  - Trading Illiquid Goods [pdf](https://github.com/microprediction/home/blob/main/presentations/trading_illiquid.pdf) 
  - Filtering Bond and Credit Default Swap Markets [pdf](https://github.com/microprediction/home/blob/main/presentations/benchmark.pdf) 
