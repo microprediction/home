@@ -119,6 +119,7 @@ More at [financialmathematics.com](http://www.financialmathematics.com/), [mediu
 
 
 Statistics, control, applied mathematics 
+- [Winning entry](https://www.linkedin.com/posts/petercotton_machinelearning-graphneuralnetworks-causality-activity-7266980563264180224-GuCz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo) in the ADIA Lab Causal Discovery contest
 - [Herding](https://www.linkedin.com/posts/petercotton_statistics-machinelearning-finance-activity-7293334524770271234--uGI?utm_source=share&utm_medium=member_desktop)
 - [A trick to optimize large firms](https://www.linkedin.com/posts/petercotton_schur-complementary-allocation-a-unification-activity-7291885186642788355-oD4P?utm_source=share&utm_medium=member_desktop)
 - [What is Kullback-Liebler divergence, really?](https://www.linkedin.com/posts/petercotton_the-lottery-paradox-activity-6945384755643179008-HIhn?utm_source=share&utm_medium=member_desktop)
