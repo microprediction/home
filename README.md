@@ -172,6 +172,7 @@ Satire & miscellaneous
 ## Audio and video 
 (Very incomplete sorry, just started tracking)
 
+- Hierarchical Minimum Variance Portfolios [YouTube](https://www.youtube.com/watch?v=wobNV-8AhIE) and the relationship to Hierarchical Risk Parity. 
 - Panel discussion [
 Beryl Elites](https://www.youtube.com/watch?v=KH7VPy9j7EU) conference 2024.
 - Interview with Khrystyna Klimash on AI and microprediction [here](https://www.linkedin.com/posts/linkup-studio_mastering-data-product-development-insights-activity-7260074307551141888-G6zP?utm_source=share&utm_medium=member_desktop) or [YouTube](https://www.youtube.com/watch?v=S0oYPrYyKKE)
