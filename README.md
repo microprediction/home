@@ -72,7 +72,6 @@ More at [financialmathematics.com](http://www.financialmathematics.com/), [mediu
  - The Global Financial Crisis Should Have Been Caught by the Compiler [blog](https://medium.com/geekculture/the-global-financial-crisis-should-have-been-caught-by-the-compiler-an-insiders-perspective-9229967e7f45)
  - Modeling the Term Structure of a Pandemic with Negative Interest Rates [blog](https://www.microprediction.com/blog/modeling-the-term-structure-of-a-pandemic-with-negative-interest-rates)
  - How to Win Football Games by Avoiding First Downs [blog](https://www.microprediction.com/blog/nine)
- - Why Liberals Should be Terrified Right Now. How a Trump Bump Can Sneak Past the Prediction Models [blog](https://www.microprediction.com/blog/election)
  - A Coherent Exacta Model for the Kentucky Derby [blog](https://www.microprediction.com/blog/derby)
  - A game played on an Ornstein-Uhlenbeck bridge [blog](http://finmathblog.blogspot.com/2014/01/a-game-played-on-ornstein-uhlenbeck.html)
  - A Fundamental Theorem for Epidemiology [blog](https://www.microprediction.com/blog/a-fundamental-theorem-for-epidemiology)
