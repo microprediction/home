@@ -181,6 +181,10 @@ Beryl Elites](https://www.youtube.com/watch?v=KH7VPy9j7EU) conference 2024.
 - A Quick Introduciton to a Working Microprediction Oracle [Montreal Python Meetup](https://www.youtube.com/watch?v=yHuD9rbkkg8). Starts at 1:20:00 in. 
 
 
+## Custom GPTs
+New category :)
+
+ - [Microprediction - The Book](https://chatgpt.com/g/g-68a5be41f36081918babe673c975b453-microprediction)
 
 ## And since you read this far
 An extremely short list of stuff I think is just f!@#$ great
