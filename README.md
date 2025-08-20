@@ -192,6 +192,7 @@ Beryl Elites](https://www.youtube.com/watch?v=KH7VPy9j7EU) conference 2024.
 New category :)
 
  - [Microprediction - The Book](https://chatgpt.com/g/g-68a5be41f36081918babe673c975b453-microprediction)
+ - [Virtual Peter Cotton](https://chatgpt.com/g/g-68a5df4e12508191a0eaaf8535519552-virtual-peter-cotton) (Equally inaccurate but more responsive than me)
 
 ## And since you read this far
 An extremely short list of stuff I think is just f!@#$ great
