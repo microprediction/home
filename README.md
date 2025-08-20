@@ -2,7 +2,7 @@ Some attempt to organize the scattered work of a practitioner.  [bio](https://gi
 
 ## Book length
 
- - Microprediction. Building an Open AI Network. [MIT Press](https://mitpress.mit.edu/books/microprediction) page. Available in the usual places like [Amazon](https://www.amazon.com/Microprediction-Building-Open-AI-Network-ebook/dp/B09RPDZH46). Reviews, audio etc [here](https://microprediction.github.io/building_an_open_ai_network/).  
+ - Microprediction. Building an Open AI Network. [MIT Press](https://mitpress.mit.edu/books/microprediction) page. Available in the usual places like [Amazon](https://www.amazon.com/Microprediction-Building-Open-AI-Network-ebook/dp/B09RPDZH46). Reviews, audio etc [here](https://microprediction.github.io/building_an_open_ai_network/). See also the  [custom microprediction gpt](https://chatgpt.com/g/g-68a5be41f36081918babe673c975b453-microprediction-the-book). 
  - An Analytic Approach to Ornstein-Uhlenbeck Processes with Fluctuating Parameters and Applications in the Modeling of Fixed Income Securities (PhD thesis) [pdf](https://github.com/microprediction/home/blob/main/papers/an_analytic_approach_to_ornstein.pdf)
 
 ## Papers & chapters
