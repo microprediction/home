@@ -1,7 +1,7 @@
 ## Peter's Home Page
 Some attempt to organize the scattered work of a practitioner.  [bio](https://github.com/microprediction/home/blob/main/mitbio.md) 
 
-<img src="https://github.com/microprediction/home/blob/main/docs/assets/images/peter_cycling.jpeg" width="500">
+<img src="https://github.com/microprediction/home/blob/main/docs/assets/images/peter_cycling.jpeg" width="650">
 
 There's a virtual Peter Cotton in the form of a custom gpt [here](https://chatgpt.com/g/g-68a5df4e12508191a0eaaf8535519552-virtual-peter-cotton) who can help redirect. 
 
