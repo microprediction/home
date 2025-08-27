@@ -54,7 +54,6 @@ More at [github/microprediction](https://github.com/microprediction). About 500,
  - [embarrassingly](https://github.com/microprediction/embarrassingly) - A speculative approach to robust optimization.
  - [pandemic](https://github.com/microprediction/pandemic) - Ornstein-Uhlenbeck epidemic simulation
  - [firstdown](https://github.com/microprediction/firstdown) - The repo that aspires to ruin the great game of football. 
- - [copula plots](https://github.com/microprediction/microactors-plots/tree/main/gallery) and [causality plots](https://github.com/microprediction/microactors-causality/tree/main/gallery) driven by microprediction.org
 
 ## Presentations
 Starting to collect these
