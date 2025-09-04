@@ -24,7 +24,6 @@ There's a virtual Peter Cotton in the form of a custom gpt [here](https://chatgp
 ## Working papers
 
 - Schur Complementary Portfolios [arxiv](https://arxiv.org/abs/2411.05807),  [pdf](https://github.com/microprediction/home/blob/main/workingpapers/Hierarchical_Minimum_Variance_Portfolios.pdf), [blog](https://medium.com/geekculture/schur-complementary-portfolios-fix-hierarchical-risk-parity-28b0efa1f35f) article and [talk](https://github.com/microprediction/precise/blob/main/academic/Schur_Complementary_Portfolios_CQF_Slides_Updated.pdf). 
-- A Paradox in Machine Preference [pdf](https://github.com/microprediction/home/blob/main/workingpapers/A_Machine_Preference_Paradox.pdf)
 - On the Relationship Between Accuracy and Profitability in Over-the-Counter Market Making [pdf](https://github.com/microprediction/home/blob/main/workingpapers/On_the_relationship_between_accuracy_and_profitability_in_OTC_trading.pdf)
 - Trading Illiquid Goods: Market Making as a Sequence of Sealed-Bid Auctions, with Analytic Results [pdf](https://github.com/microprediction/home/blob/main/workingpapers/trading_illiquid_goods.pdf)
 - A Scalable Algorithm for Subset Selection and Rank Probabilities in Contests and Latent Variable Choice Models [pdf](https://github.com/microprediction/home/blob/main/workingpapers/Group_Selection_Probabilities_and_Rankings.pdf)
@@ -34,6 +33,13 @@ There's a virtual Peter Cotton in the form of a custom gpt [here](https://chatgp
 - Repeat Contacts and the Spread of Disease [pdf](https://github.com/microprediction/home/blob/main/workingpapers/repeat_contacts_and_the_spread.pdf)
 - How Should Forecasts be Engineered: The Indispensible Markets Hypothesis [pdf](https://github.com/microprediction/home/blob/main/workingpapers/The_Indispensible_Markets_Hypothesis.pdf)
 - A Platform for Assessing and Combining Autonomous Short-Horizon Distributions Predictions [pdf](https://github.com/microprediction/home/blob/main/workingpapers/a_platform_for_assessing_and_combining.pdf)
+
+## Pre-working papers
+Some research ideas ...
+
+- Correlation Inflation [pdf](https://github.com/microprediction/home/blob/main/workingpapers/CorrelationInflation.pdf) for portfolio construction. 
+- A Paradox in Machine Preference [pdf](https://github.com/microprediction/home/blob/main/workingpapers/A_Machine_Preference_Paradox.pdf)
+
 
 ## Python packages
 More at [github/microprediction](https://github.com/microprediction). About 500,000 downloads / yr. 
