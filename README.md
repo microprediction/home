@@ -197,6 +197,7 @@ Beryl Elites](https://www.youtube.com/watch?v=KH7VPy9j7EU) conference 2024.
 ## Custom GPTs
 New category :)
 
+ - [Robust Portfolio Theory](https://chatgpt.com/g/g-68bc49db00748191b65846ac348d0ca2-robust-portfolio-theory)
  - [Microprediction - The Book](https://chatgpt.com/g/g-68a5be41f36081918babe673c975b453-microprediction)
  - [Virtual Peter Cotton](https://chatgpt.com/g/g-68a5df4e12508191a0eaaf8535519552-virtual-peter-cotton) (Equally inaccurate but more responsive than me)
 
