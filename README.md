@@ -155,6 +155,7 @@ LLMs
 
 
 Decentralized AI, markets, collective intelligence
+- [Prediction markets work too well](https://www.linkedin.com/posts/petercotton_some-people-wonder-if-prediction-markets-activity-7378616755444932608-nvoN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo)
 - [Predictions for 2025](https://www.linkedin.com/posts/petercotton_mathematics-ai-machinelearning-activity-7281447072782848001-Hs7u?utm_source=share&utm_medium=member_desktop)
 - [Practical definition of martingale](https://www.linkedin.com/posts/petercotton_statistics-midone-marketmaking-activity-7275161438162227200-3XmP?utm_source=share&utm_medium=member_desktop)
 - [Humans in the way](https://www.linkedin.com/posts/petercotton_midone-timeseries-machinelearning-activity-7270826483445592064-H-Aj?utm_source=share&utm_medium=member_desktop)
