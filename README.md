@@ -130,6 +130,7 @@ More at [financialmathematics.com](http://www.financialmathematics.com/), [mediu
 
 
 Statistics, control, applied mathematics 
+- [Schumpeterian Economics and Thurstone Models](https://www.linkedin.com/posts/petercotton_economics-statistics-activity-7383479911660822528-WY8C?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo)
 - [Winning entry](https://www.linkedin.com/posts/petercotton_machinelearning-graphneuralnetworks-causality-activity-7266980563264180224-GuCz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo) in the ADIA Lab Causal Discovery contest
 - [Football Value Function](https://www.linkedin.com/posts/petercotton_machinelearning-optimalcontrol-sportsanalytics-activity-7369130175105548288-Kgw9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo) for player ratings. 
 - [Herding](https://www.linkedin.com/posts/petercotton_statistics-machinelearning-finance-activity-7293334524770271234--uGI?utm_source=share&utm_medium=member_desktop)
