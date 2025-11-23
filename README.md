@@ -175,6 +175,7 @@ Decentralized AI, markets, collective intelligence
 - [Regulators kill prediction accuracy](https://www.linkedin.com/posts/petercotton_the-options-market-beat-94-of-participants-activity-7088205176431337474-Q37-?utm_source=share&utm_medium=member_desktop)
 
 Satire & miscellaneous
+- [We're all centaurs now](https://www.linkedin.com/posts/petercotton_a-weekend-musing-would-garry-kasparov-62-activity-7398196015540903936-J2KZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo)
 - [What have those academics ever done for us?](https://www.linkedin.com/posts/antongolub_len-sassaman-is-not-satoshi-nakamoto-there-activity-7248647843899424769-jWBs?utm_source=share&utm_medium=member_desktop)
 - [Husband prompt engineering](https://www.linkedin.com/posts/petercotton_llmsarenotworsethantheinternet-llms-pepe-activity-7059551809811480578-GwND?utm_source=share&utm_medium=member_desktop)
 - [Humanity's Stay Puft Marshmallow Man moment](https://www.linkedin.com/posts/petercotton_so-you-recommended-a-python-time-series-activity-7051302379018670081-ZCfR?utm_source=share&utm_medium=member_desktop)
