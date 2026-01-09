@@ -2,6 +2,6 @@ Dr. Peter Cotton is a quantitative finance practitioner, entrepreneur, and activ
 
 His theoretical work in finance includes the mathematical unification of hierarchical and optimization-based approaches to portfolio construction—bridging two traditionally separate branches of portfolio theory. On the practical side, he has led data science teams at buy-side firms managing over $10 billion in AUM (on two separate occasions) and held senior roles at major sell-side institutions.Peter pioneered the application of control theory to over-the-counter trading while at JPMorgan and later led CDO pricing efforts at Morgan Stanley. 
 
-He is a serial entrepreneur, having co-founded several companies—including Benchmark Solutions, whose technology was integrated into Bloomberg.A dedicated open-source developer, he has created widely-used Python packages for time-series analysis, optimization, and portfolio construction, collectively amassing over one million downloads. He holds a doctorate in mathematics from Stanford University.
+He is a serial entrepreneur, having co-founded several companies—including Benchmark Solutions, whose technology was integrated into Bloomberg. A dedicated open-source developer, he has created widely-used Python packages for time-series analysis, optimization, and portfolio construction, collectively amassing over one million downloads. He holds a doctorate in mathematics from Stanford University.
 
 
