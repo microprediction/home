@@ -144,6 +144,7 @@ Statistics, control, applied mathematics
 
 LLMs
 
+- [I'm certain the machines are going to get us](https://www.linkedin.com/posts/petercotton_microprediction-activity-7426963721618653184-RAo2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo)
 - [Is machine choice a horse race, or an urn?](https://www.linkedin.com/posts/petercotton_machine-psychologyexploring-a-paradox-activity-7266298424570875907-ffdz?utm_source=share&utm_medium=member_desktop)
 - [Machines can be scientists](https://www.linkedin.com/posts/petercotton_ai-causality-statistics-activity-7254858365456064515-02E0?utm_source=share&utm_medium=member_desktop)
 - [Hey Seriation](https://www.linkedin.com/posts/petercotton_montepredictioncolabexamplesheyseriationsectorsipynb-activity-7240150697336340480-_1w7?utm_source=share&utm_medium=member_desktop)
