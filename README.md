@@ -207,4 +207,4 @@ New category :)
 ## And since you read this far
 An extremely short list of stuff I think is just f!@#$ great
 
-- [Colliding blocks computing Pi](https://www.youtube.com/watch?v=jsYwFizhncE)
+- [Colliding blocks computing Pi](https://www.youtube.com/watch?v=jsYwFizhncE) and on the same topic [conservative matrix fields unify pi formulas](https://www.linkedin.com/posts/petercotton_piday-mathematics-activity-7438765309337079808-EBBn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo)
