@@ -128,7 +128,8 @@ More at [financialmathematics.com](http://www.financialmathematics.com/), [mediu
 ## Miscellaneous short musings
 
 
-Statistics, control, applied mathematics 
+Statistics, control, optim, applied mathematics
+- [On the bridge between optim and top-down allocation](https://www.linkedin.com/posts/petercotton_beyond-de-prado-and-cotton-hierarchical-share-7463418520056549376-694Z?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo)
 - [Gradient equilibrium](https://www.linkedin.com/posts/petercotton_onlinelearning-machinelearning-prediction-activity-7286049183768182784-mfFc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo)
 - [Schumpeterian Economics and Thurstone Models](https://www.linkedin.com/posts/petercotton_economics-statistics-activity-7383479911660822528-WY8C?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo)
 - [Winning entry](https://www.linkedin.com/posts/petercotton_machinelearning-graphneuralnetworks-causality-activity-7266980563264180224-GuCz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo) in the ADIA Lab Causal Discovery contest
@@ -146,7 +147,7 @@ Statistics, control, applied mathematics
 
 LLMs
 
--[On learning from words](https://www.linkedin.com/posts/petercotton_machinelearning-games-causality-activity-7440246381136494592-XEBl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo)
+- [On learning from words](https://www.linkedin.com/posts/petercotton_machinelearning-games-causality-activity-7440246381136494592-XEBl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo)
 - [I'm certain the machines are going to get us](https://www.linkedin.com/posts/petercotton_microprediction-activity-7426963721618653184-RAo2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo)
 - [Is machine choice a horse race, or an urn?](https://www.linkedin.com/posts/petercotton_machine-psychologyexploring-a-paradox-activity-7266298424570875907-ffdz?utm_source=share&utm_medium=member_desktop)
 - [Machines can be scientists](https://www.linkedin.com/posts/petercotton_ai-causality-statistics-activity-7254858365456064515-02E0?utm_source=share&utm_medium=member_desktop)
