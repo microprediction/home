@@ -147,6 +147,7 @@ Statistics, control, optim, applied mathematics
 
 LLMs
 
+- [The price of pooh-pooh'ing](https://www.linkedin.com/posts/petercotton_citadel-ceo-ken-griffin-was-a-prominent-ai-share-7462197088257462272-2rcE/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo)
 - [On learning from words](https://www.linkedin.com/posts/petercotton_machinelearning-games-causality-activity-7440246381136494592-XEBl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo)
 - [I'm certain the machines are going to get us](https://www.linkedin.com/posts/petercotton_microprediction-activity-7426963721618653184-RAo2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo)
 - [Is machine choice a horse race, or an urn?](https://www.linkedin.com/posts/petercotton_machine-psychologyexploring-a-paradox-activity-7266298424570875907-ffdz?utm_source=share&utm_medium=member_desktop)
