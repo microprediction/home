@@ -179,14 +179,12 @@ Decentralized AI, markets, collective intelligence
 - [Regulators kill prediction accuracy](https://www.linkedin.com/posts/petercotton_the-options-market-beat-94-of-participants-activity-7088205176431337474-Q37-?utm_source=share&utm_medium=member_desktop)
 
 Satire & miscellaneous
-- [We're all centaurs now](https://www.linkedin.com/posts/petercotton_a-weekend-musing-would-garry-kasparov-62-activity-7398196015540903936-J2KZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo) (and the [answer](https://github.com/microprediction/home/raw/main/docs/assets/audio/Kasparov%20Carlsen%20Centaur%20Chess%20Who%20Wins.mp3) to Kasparov v Carlsen)
-- [What have those academics ever done for us?](https://www.linkedin.com/posts/antongolub_len-sassaman-is-not-satoshi-nakamoto-there-activity-7248647843899424769-jWBs?utm_source=share&utm_medium=member_desktop)
-- [Husband prompt engineering](https://www.linkedin.com/posts/petercotton_llmsarenotworsethantheinternet-llms-pepe-activity-7059551809811480578-GwND?utm_source=share&utm_medium=member_desktop)
 - [Humanity's Stay Puft Marshmallow Man moment](https://www.linkedin.com/posts/petercotton_so-you-recommended-a-python-time-series-activity-7051302379018670081-ZCfR?utm_source=share&utm_medium=member_desktop)
+- [We're all centaurs now](https://www.linkedin.com/posts/petercotton_a-weekend-musing-would-garry-kasparov-62-activity-7398196015540903936-J2KZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo) (and the [answer](https://github.com/microprediction/home/raw/main/docs/assets/audio/Kasparov%20Carlsen%20Centaur%20Chess%20Who%20Wins.mp3) to Kasparov v Carlsen)
+- [Husband prompt engineering](https://www.linkedin.com/posts/petercotton_llmsarenotworsethantheinternet-llms-pepe-activity-7059551809811480578-GwND?utm_source=share&utm_medium=member_desktop)
 - [Can ChatGPT create scholarly-sounding, grandoise prose?](https://www.linkedin.com/posts/petercotton_chatgpt-chatgpt-chatgpt-activity-7005343236386914304-XcWC?utm_source=share&utm_medium=member_desktop)
 - [AI leaders unite](https://www.linkedin.com/posts/petercotton_copy-on-write-cow-activity-7047926473860505601-IgWL?utm_source=share&utm_medium=member_desktop)
 - [Prompt Engineering Post Engineering](https://www.linkedin.com/posts/petercotton_github-micropredictionchattychattybangbang-activity-7052636337685815297-qNX7?utm_source=share&utm_medium=member_desktop) certificate.
-- [LLMs and arithmetic](https://www.linkedin.com/feed/update/urn:li:activity:7243540643971534848?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7243540643971534848%2C7243616056487940097%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287243616056487940097%2Curn%3Ali%3Aactivity%3A7243540643971534848%29)
 - [On Dunning-Kruger and Towards Data Science](https://www.linkedin.com/posts/petercotton_datascience-statistics-activity-6826128954504683522-bXPy?utm_source=share&utm_medium=member_desktop)
 
 ## Audio and video 
