@@ -1,5 +1,5 @@
-## Peter's Home Page
-Some attempt to organize the scattered work of a practitioner.  [bio](https://github.com/microprediction/home/blob/main/mitbio.md) 
+## Peter's Home Page (see also [repos](https://github.com/microprediction))
+Some attempt to organize the scattered writings of a practitioner.  [bio](https://github.com/microprediction/home/blob/main/mitbio.md) 
 
 <img src="https://github.com/microprediction/home/blob/main/docs/assets/images/peter_cycling.jpeg" width="650">
 
