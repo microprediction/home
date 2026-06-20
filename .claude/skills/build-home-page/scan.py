@@ -20,7 +20,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 # Subdomains to scan. Add to this list as new package sites appear.
-TARGETS = ["schur", "humpday", "precise", "mechanics", "skaters"]
+TARGETS = ["schur", "humpday", "precise", "mechanics", "skaters", "conformalprediction"]
 
 # Folders within each repo worth scanning for drafts.
 DRAFT_DIRS = ["papers", "docs", "academic", "paper"]

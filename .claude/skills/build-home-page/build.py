@@ -135,7 +135,7 @@ def build(root: Path) -> None:
         blocks.append(("software", "Software", f'  <ul class="pubs">\n{rows}\n  </ul>'))
 
     if data.get("talks"):
-        blocks.append(("talks", "Talks", pub_list(data["talks"], abstracts)))
+        blocks.append(("talks", "Selected Talks", pub_list(data["talks"], abstracts)))
 
     if data.get("patents"):
         blocks.append(("patents", "Patents", pub_list(data["patents"], abstracts)))

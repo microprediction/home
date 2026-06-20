@@ -130,6 +130,68 @@
       ]
     },
     {
+      "title": "Conformal prediction",
+      "package": "conformalprediction",
+      "papers": [
+        {
+          "title": "Marginally Useful: Formalizing the Information Gap in Conformal Prediction",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://github.com/microprediction/conformalprediction/blob/main/papers/marginally-useful/marginally-useful.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://conformalprediction.net"
+            }
+          ]
+        },
+        {
+          "title": "A Feynman–Wigner-Style Diagnostic for the Efficacy of Conformal Prediction via Signed de Finetti Representations",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://github.com/microprediction/conformalprediction/blob/main/papers/definetti-feynman/signed-definetti-and-conformal.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://conformalprediction.net"
+            }
+          ]
+        },
+        {
+          "title": "Betting Against a Conformal Predictor: A Parimutuel Account of the Information Gap",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://github.com/microprediction/conformalprediction/blob/main/papers/parimutuel/conformal-parimutuel.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://conformalprediction.net"
+            }
+          ]
+        },
+        {
+          "title": "The Width of the Conformal Fan: Dependence and the Variance of Realized Coverage",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://github.com/microprediction/conformalprediction/blob/main/papers/fan/conformal-fan.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://conformalprediction.net"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Contests, ranking & choice models",
       "package": "winning",
       "papers": [
@@ -395,14 +457,18 @@
       "docs": "https://skaters.microprediction.org",
       "code": "https://github.com/microprediction/skaters",
       "desc": "Fast univariate time series models that run in Pyodide."
-    },
-    {
-      "name": "muid",
-      "code": "https://github.com/microprediction/muid",
-      "desc": "Memorable unique identifiers."
     }
   ],
   "talks": [
+    {
+      "title": "The Future of AI: From Mathematics' Revenge to the Rise of Prompt Markets",
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/watch?v=vtBgw8j7HYA"
+        }
+      ]
+    },
     {
       "title": "Schur Complementary Portfolios",
       "links": [
