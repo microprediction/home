@@ -384,10 +384,11 @@
       "desc": "Taking the pain out of choosing a Python global optimizer."
     },
     {
-      "name": "winning",
+      "name": "thurstone",
       "docs": "https://thurstone.microprediction.org",
       "code": "https://github.com/microprediction/winning",
-      "desc": "Fast ability inference from contest winning probabilities."
+      "desc": "Fast ability inference from contest winning probabilities.",
+      "code_label": "winning"
     },
     {
       "name": "skaters",

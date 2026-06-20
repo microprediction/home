@@ -99,7 +99,7 @@ def pub_li(p: dict, abstracts: dict) -> str:
 def soft_li(s: dict) -> str:
     home = s.get("docs") or s.get("code")
     name = f'<a class="nm" href="{esc(home)}">{esc(s["name"])}</a>'
-    code = (f' <span class="sep">·</span> <a href="{esc(s["code"])}">code</a>'
+    code = (f' <span class="sep">·</span> <a href="{esc(s["code"])}">{esc(s.get("code_label", "code"))}</a>'
             if s.get("docs") and s.get("code") else "")
     return f'    <li class="soft">{name} — {esc(s["desc"])}{code}</li>'
 
