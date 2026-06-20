@@ -242,7 +242,6 @@
     }
   ],
   "software": [
-    { "name": "timemachines", "url": "https://github.com/microprediction/timemachines", "desc": "Continuously evaluated, functional, incremental time-series forecasting." },
     { "name": "precise", "url": "https://github.com/microprediction/precise", "desc": "Online covariance and portfolios." },
     { "name": "humpday", "url": "https://github.com/microprediction/humpday", "desc": "Elo ratings for global black-box derivative-free optimizers." },
     { "name": "winning", "url": "https://github.com/microprediction/winning", "desc": "Fast, scalable inference of relative ability from winning probabilities." },
