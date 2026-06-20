@@ -571,13 +571,42 @@
           "url": "https://www.youtube.com/watch?v=13IgveD2IN4"
         }
       ]
-    },
+    }
+  ],
+  "interviews": [
     {
       "title": "The Future of AI: From Mathematics' Revenge to the Rise of Prompt Markets",
       "links": [
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/watch?v=vtBgw8j7HYA"
+        }
+      ]
+    },
+    {
+      "title": "Mastering Data Product Development: Insights from Peter Cotton",
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/watch?v=S0oYPrYyKKE"
+        }
+      ]
+    },
+    {
+      "title": "Portfolio Theory, Data Science and Entrepreneurship (Let's Talk AI, #28)",
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/watch?v=hUWA2X0lZXU"
+        }
+      ]
+    },
+    {
+      "title": "Supply Chain Lessons from Financial Markets (Ep 139)",
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/watch?v=MF9gU5eqbRQ"
         }
       ]
     }

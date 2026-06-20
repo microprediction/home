@@ -140,6 +140,9 @@ def build(root: Path) -> None:
     if data.get("videos"):
         blocks.append(("videos", "Videos", pub_list(data["videos"], abstracts)))
 
+    if data.get("interviews"):
+        blocks.append(("interviews", "Interviews", pub_list(data["interviews"], abstracts)))
+
     if data.get("patents"):
         blocks.append(("patents", "Patents", pub_list(data["patents"], abstracts)))
 
