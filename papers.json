@@ -461,15 +461,6 @@
   ],
   "talks": [
     {
-      "title": "The Future of AI: From Mathematics' Revenge to the Rise of Prompt Markets",
-      "links": [
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/watch?v=vtBgw8j7HYA"
-        }
-      ]
-    },
-    {
       "title": "Schur Complementary Portfolios",
       "links": [
         {
@@ -569,6 +560,26 @@
     {
       "label": "Medium",
       "url": "https://medium.com/@microprediction"
+    }
+  ],
+  "videos": [
+    {
+      "title": "MLA@CSAIL Lecture Series: Constructing an Open Prediction Network, Powered by a Lottery Paradox",
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/watch?v=13IgveD2IN4"
+        }
+      ]
+    },
+    {
+      "title": "The Future of AI: From Mathematics' Revenge to the Rise of Prompt Markets",
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/watch?v=vtBgw8j7HYA"
+        }
+      ]
     }
   ]
 }
