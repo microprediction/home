@@ -6,10 +6,22 @@
     "intro": "",
     "photo": "assets/images/peter_cycling.jpeg",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/microprediction" },
-      { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=V5wB8lEAAAAJ" },
-      { "label": "Bio", "url": "https://github.com/microprediction/home/blob/main/mitbio.md" },
-      { "label": "Virtual Peter (GPT)", "url": "https://chatgpt.com/g/g-68a5df4e12508191a0eaaf8535519552-virtual-peter-cotton" }
+      {
+        "label": "GitHub",
+        "url": "https://github.com/microprediction"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=V5wB8lEAAAAJ"
+      },
+      {
+        "label": "Bio",
+        "url": "https://github.com/microprediction/home/blob/main/mitbio.md"
+      },
+      {
+        "label": "Virtual Peter (GPT)",
+        "url": "https://chatgpt.com/g/g-68a5df4e12508191a0eaaf8535519552-virtual-peter-cotton"
+      }
     ]
   },
   "book_length": [
@@ -17,59 +29,32 @@
       "title": "Microprediction: Building an Open AI Network",
       "venue": "MIT Press, 2022",
       "links": [
-        { "label": "MIT Press", "url": "https://mitpress.mit.edu/books/microprediction" },
-        { "label": "Amazon", "url": "https://www.amazon.com/Microprediction-Building-Open-AI-Network-ebook/dp/B09RPDZH46" },
-        { "label": "site", "url": "https://microprediction.github.io/building_an_open_ai_network/" }
-      ]
-    },
-    {
-      "title": "Derivatives in Financial Markets with Stochastic Volatility",
-      "venue": "Cambridge University Press, 2000",
-      "links": [
-        { "label": "publisher", "url": "https://www.amazon.com/Derivatives-Financial-Markets-Stochastic-Volatility/dp/0521791634" }
+        {
+          "label": "MIT Press",
+          "url": "https://mitpress.mit.edu/books/microprediction"
+        },
+        {
+          "label": "Amazon",
+          "url": "https://www.amazon.com/Microprediction-Building-Open-AI-Network-ebook/dp/B09RPDZH46"
+        },
+        {
+          "label": "site",
+          "url": "https://microprediction.github.io/building_an_open_ai_network/"
+        }
       ]
     },
     {
       "title": "An Analytic Approach to Ornstein-Uhlenbeck Processes with Fluctuating Parameters and Applications in the Modeling of Fixed Income Securities",
       "venue": "PhD thesis",
       "links": [
-        { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/papers/an_analytic_approach_to_ornstein.pdf" }
+        {
+          "label": "pdf",
+          "url": "https://github.com/microprediction/home/blob/main/papers/an_analytic_approach_to_ornstein.pdf"
+        }
       ]
     }
   ],
   "themes": [
-    {
-      "title": "Contests, ranking & choice models",
-      "package": "winning",
-      "papers": [
-        {
-          "title": "Inferring Relative Ability From Winning Probability in Multi-Entrant Contests",
-          "venue": "SIAM Journal on Financial Mathematics, 2021",
-          "links": [
-            { "label": "journal", "url": "https://epubs.siam.org/doi/10.1137/19M1276261" },
-            { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/papers/Horse_Race_Problem.pdf" }
-          ]
-        },
-        {
-          "title": "A Scalable Algorithm for Subset Selection and Rank Probabilities in Contests and Latent Variable Choice Models",
-          "links": [
-            { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/workingpapers/Group_Selection_Probabilities_and_Rankings.pdf" }
-          ]
-        },
-        {
-          "title": "Luce's Choice Axiom Isn't the Only Choice! Combinatorial Contest and Rank Probabilities Using the Python Winning Package",
-          "links": [
-            { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/workingpapers/luce_choice_isnt_the_only_choice.pdf" }
-          ]
-        },
-        {
-          "title": "A Paradox in Machine Preference",
-          "links": [
-            { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/workingpapers/A_Machine_Preference_Paradox.pdf" }
-          ]
-        }
-      ]
-    },
     {
       "title": "Portfolio construction & covariance",
       "package": "precise",
@@ -78,19 +63,40 @@
           "title": "Schur Complementary Portfolios",
           "venue": "preprint, 2024",
           "links": [
-            { "label": "arXiv", "url": "https://arxiv.org/abs/2411.05807" },
-            { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/workingpapers/Hierarchical_Minimum_Variance_Portfolios.pdf" },
-            { "label": "blog", "url": "https://medium.com/geekculture/schur-complementary-portfolios-fix-hierarchical-risk-parity-28b0efa1f35f" },
-            { "label": "talk", "url": "https://github.com/microprediction/precise/blob/main/papers/Schur_Complementary_Portfolios_CQF_Slides_Updated.pdf" },
-            { "label": "site", "url": "https://schur.microprediction.org" }
+            {
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/2411.05807"
+            },
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/workingpapers/Hierarchical_Minimum_Variance_Portfolios.pdf"
+            },
+            {
+              "label": "blog",
+              "url": "https://medium.com/geekculture/schur-complementary-portfolios-fix-hierarchical-risk-parity-28b0efa1f35f"
+            },
+            {
+              "label": "talk",
+              "url": "https://github.com/microprediction/precise/blob/main/papers/Schur_Complementary_Portfolios_CQF_Slides_Updated.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://schur.microprediction.org"
+            }
           ]
         },
         {
           "title": "Schur Pseudo-Likelihood",
           "draft_new": true,
           "links": [
-            { "label": "latest draft", "url": "https://github.com/microprediction/precise/blob/main/papers/schur_likelihood_paper.pdf" },
-            { "label": "site", "url": "https://schur.microprediction.org" }
+            {
+              "label": "latest draft",
+              "url": "https://github.com/microprediction/precise/blob/main/papers/schur_likelihood_paper.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://schur.microprediction.org"
+            }
           ]
         },
         {
@@ -98,15 +104,74 @@
           "venue": "preprint, 2026",
           "draft_new": true,
           "links": [
-            { "label": "arXiv", "url": "https://arxiv.org/abs/2606.14798" },
-            { "label": "latest draft", "url": "https://github.com/microprediction/precise/blob/main/papers/two_sides_of_schur_damping.pdf" },
-            { "label": "site", "url": "https://schur.microprediction.org" }
+            {
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/2606.14798"
+            },
+            {
+              "label": "latest draft",
+              "url": "https://github.com/microprediction/precise/blob/main/papers/two_sides_of_schur_damping.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://schur.microprediction.org"
+            }
           ]
         },
         {
           "title": "Correlation Inflation",
           "links": [
-            { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/workingpapers/CorrelationInflation.pdf" }
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/workingpapers/CorrelationInflation.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Contests, ranking & choice models",
+      "package": "winning",
+      "papers": [
+        {
+          "title": "Inferring Relative Ability From Winning Probability in Multi-Entrant Contests",
+          "venue": "SIAM Journal on Financial Mathematics, 2021",
+          "links": [
+            {
+              "label": "journal",
+              "url": "https://epubs.siam.org/doi/10.1137/19M1276261"
+            },
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/papers/Horse_Race_Problem.pdf"
+            }
+          ]
+        },
+        {
+          "title": "A Scalable Algorithm for Subset Selection and Rank Probabilities in Contests and Latent Variable Choice Models",
+          "links": [
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/workingpapers/Group_Selection_Probabilities_and_Rankings.pdf"
+            }
+          ]
+        },
+        {
+          "title": "Luce's Choice Axiom Isn't the Only Choice! Combinatorial Contest and Rank Probabilities Using the Python Winning Package",
+          "links": [
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/workingpapers/luce_choice_isnt_the_only_choice.pdf"
+            }
+          ]
+        },
+        {
+          "title": "A Paradox in Machine Preference",
+          "links": [
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/workingpapers/A_Machine_Preference_Paradox.pdf"
+            }
           ]
         }
       ]
@@ -119,28 +184,46 @@
           "title": "Self-Organizing Supply Chains for Microprediction: Present and Future Uses of the ROAR Protocol",
           "venue": "preprint, 2019",
           "links": [
-            { "label": "arXiv", "url": "https://arxiv.org/abs/1907.07514" },
-            { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/papers/self_organizing_supply_chains.pdf" }
+            {
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/1907.07514"
+            },
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/papers/self_organizing_supply_chains.pdf"
+            }
           ]
         },
         {
           "title": "A Platform for Assessing and Combining Autonomous Short-Horizon Distributional Predictions",
           "links": [
-            { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/workingpapers/a_platform_for_assessing_and_combining.pdf" }
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/workingpapers/a_platform_for_assessing_and_combining.pdf"
+            }
           ]
         },
         {
           "title": "How Should Forecasts be Engineered: The Indispensible Markets Hypothesis",
           "links": [
-            { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/workingpapers/The_Indispensible_Markets_Hypothesis.pdf" }
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/workingpapers/The_Indispensible_Markets_Hypothesis.pdf"
+            }
           ]
         },
         {
           "title": "skaters: Model First, Conform Last — A Composition-Based Automatic Online Distributional Forecaster",
           "draft_new": true,
           "links": [
-            { "label": "latest draft", "url": "https://github.com/microprediction/skaters/blob/main/papers/skaters-jss.pdf" },
-            { "label": "site", "url": "https://skaters.microprediction.org" }
+            {
+              "label": "latest draft",
+              "url": "https://github.com/microprediction/skaters/blob/main/papers/skaters-jss.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://skaters.microprediction.org"
+            }
           ]
         }
       ]
@@ -152,7 +235,10 @@
         {
           "title": "Go Forth! Simple Detection of Incomplete Meta-Learning by Algorithms Performing Limited Exploration on a Rugged Landscape",
           "links": [
-            { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/workingpapers/go_forth.pdf" }
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/workingpapers/go_forth.pdf"
+            }
           ]
         },
         {
@@ -160,7 +246,10 @@
           "draft_in_progress": true,
           "abstract_source": "https://github.com/microprediction/humpday/blob/main/papers/humpday-jss-thurstone.tex",
           "links": [
-            { "label": "site", "url": "https://humpday.microprediction.org" }
+            {
+              "label": "site",
+              "url": "https://humpday.microprediction.org"
+            }
           ]
         }
       ]
@@ -171,13 +260,19 @@
         {
           "title": "On the Relationship Between Accuracy and Profitability in Over-the-Counter Market Making",
           "links": [
-            { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/workingpapers/On_the_relationship_between_accuracy_and_profitability_in_OTC_trading.pdf" }
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/workingpapers/On_the_relationship_between_accuracy_and_profitability_in_OTC_trading.pdf"
+            }
           ]
         },
         {
           "title": "Trading Illiquid Goods: Market Making as a Sequence of Sealed-Bid Auctions, with Analytic Results",
           "links": [
-            { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/workingpapers/trading_illiquid_goods.pdf" }
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/workingpapers/trading_illiquid_goods.pdf"
+            }
           ]
         }
       ]
@@ -189,7 +284,20 @@
           "title": "Stochastic Volatility Corrections for Interest Rate Models",
           "venue": "2004",
           "links": [
-            { "label": "pdf", "url": "http://math.stanford.edu/~papanico/pubftp/cfps.pdf" }
+            {
+              "label": "pdf",
+              "url": "http://math.stanford.edu/~papanico/pubftp/cfps.pdf"
+            }
+          ]
+        },
+        {
+          "title": "Derivatives in Financial Markets with Stochastic Volatility",
+          "venue": "chapter, Cambridge University Press, 2000",
+          "links": [
+            {
+              "label": "publisher",
+              "url": "https://www.amazon.com/Derivatives-Financial-Markets-Stochastic-Volatility/dp/0521791634"
+            }
           ]
         }
       ]
@@ -201,16 +309,28 @@
           "title": "Addressing the Herd Immunity Paradox Using Symmetry, Convexity Adjustments and Bond Prices",
           "venue": "preprint, 2020",
           "links": [
-            { "label": "arXiv", "url": "https://arxiv.org/abs/2006.07341" },
-            { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/workingpapers/Herd_Immunity_Convexity_Adjustments.pdf" }
+            {
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/2006.07341"
+            },
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/workingpapers/Herd_Immunity_Convexity_Adjustments.pdf"
+            }
           ]
         },
         {
           "title": "Repeat Contacts and the Spread of Disease: An Agent Model with Compartmental Solution",
           "venue": "preprint, 2020",
           "links": [
-            { "label": "arXiv", "url": "https://arxiv.org/abs/2005.10311" },
-            { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/workingpapers/repeat_contacts_and_the_spread.pdf" }
+            {
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/2005.10311"
+            },
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/workingpapers/repeat_contacts_and_the_spread.pdf"
+            }
           ]
         }
       ]
@@ -223,8 +343,14 @@
           "title": "Stop Shy of the First Down",
           "venue": "in Sports Analytics, World Scientific, 2021",
           "links": [
-            { "label": "chapter", "url": "https://www.worldscientific.com/doi/abs/10.1142/9789811250217_0011" },
-            { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/papers/Stop_Shy_of_the_First_Down.pdf" }
+            {
+              "label": "chapter",
+              "url": "https://www.worldscientific.com/doi/abs/10.1142/9789811250217_0011"
+            },
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/papers/Stop_Shy_of_the_First_Down.pdf"
+            }
           ]
         }
       ]
@@ -235,36 +361,156 @@
         {
           "title": "Contraction of an Adapted Functional Calculus",
           "links": [
-            { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/papers/Contraction_of_an_Adapted_Functional_Cal.pdf" }
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/papers/Contraction_of_an_Adapted_Functional_Cal.pdf"
+            }
           ]
         }
       ]
     }
   ],
   "software": [
-    { "name": "precise", "docs": "https://precise.microprediction.org", "code": "https://github.com/microprediction/precise", "desc": "Online (incremental) covariance and correlation estimation — the online complement to sklearn.covariance." },
-    { "name": "humpday", "docs": "https://humpday.microprediction.org", "code": "https://github.com/microprediction/humpday", "desc": "Taking the pain out of choosing a Python global optimizer." },
-    { "name": "winning", "docs": "https://thurstone.microprediction.org", "code": "https://github.com/microprediction/winning", "desc": "Fast ability inference from contest winning probabilities." },
-    { "name": "skaters", "docs": "https://skaters.microprediction.org", "code": "https://github.com/microprediction/skaters", "desc": "Fast univariate time series models that run in Pyodide." },
-    { "name": "muid", "code": "https://github.com/microprediction/muid", "desc": "Memorable unique identifiers." }
+    {
+      "name": "precise",
+      "docs": "https://precise.microprediction.org",
+      "code": "https://github.com/microprediction/precise",
+      "desc": "Online (incremental) covariance and correlation estimation — the online complement to sklearn.covariance."
+    },
+    {
+      "name": "humpday",
+      "docs": "https://humpday.microprediction.org",
+      "code": "https://github.com/microprediction/humpday",
+      "desc": "Taking the pain out of choosing a Python global optimizer."
+    },
+    {
+      "name": "winning",
+      "docs": "https://thurstone.microprediction.org",
+      "code": "https://github.com/microprediction/winning",
+      "desc": "Fast ability inference from contest winning probabilities."
+    },
+    {
+      "name": "skaters",
+      "docs": "https://skaters.microprediction.org",
+      "code": "https://github.com/microprediction/skaters",
+      "desc": "Fast univariate time series models that run in Pyodide."
+    },
+    {
+      "name": "muid",
+      "code": "https://github.com/microprediction/muid",
+      "desc": "Memorable unique identifiers."
+    }
   ],
   "talks": [
-    { "title": "Schur Complementary Portfolios", "links": [ { "label": "Frontiers in Finance", "url": "https://github.com/microprediction/home/blob/main/presentations/Schur_Complementary_Portfolios_2025__slides.pdf" }, { "label": "CQF", "url": "https://github.com/microprediction/precise/blob/main/papers/Schur_Complementary_Portfolios_CQF_Slides_Updated.pdf" } ] },
-    { "title": "Who Ya Gonna Call? A Solution to the Horse Race Problem with Application to OTC Markets", "links": [ { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/presentations/who_ya_gonna_call.pdf" } ] },
-    { "title": "Trading Illiquid Goods", "links": [ { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/presentations/trading_illiquid.pdf" } ] },
-    { "title": "Filtering Bond and Credit Default Swap Markets", "links": [ { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/presentations/benchmark.pdf" } ] },
-    { "title": "Barbell Bond Portfolios: What Do They Accidentally Optimize?", "links": [ { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/presentations/barbell_bond.pdf" } ] }
+    {
+      "title": "Schur Complementary Portfolios",
+      "links": [
+        {
+          "label": "Frontiers in Finance",
+          "url": "https://github.com/microprediction/home/blob/main/presentations/Schur_Complementary_Portfolios_2025__slides.pdf"
+        },
+        {
+          "label": "CQF",
+          "url": "https://github.com/microprediction/precise/blob/main/papers/Schur_Complementary_Portfolios_CQF_Slides_Updated.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Who Ya Gonna Call? A Solution to the Horse Race Problem with Application to OTC Markets",
+      "links": [
+        {
+          "label": "pdf",
+          "url": "https://github.com/microprediction/home/blob/main/presentations/who_ya_gonna_call.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Trading Illiquid Goods",
+      "links": [
+        {
+          "label": "pdf",
+          "url": "https://github.com/microprediction/home/blob/main/presentations/trading_illiquid.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Filtering Bond and Credit Default Swap Markets",
+      "links": [
+        {
+          "label": "pdf",
+          "url": "https://github.com/microprediction/home/blob/main/presentations/benchmark.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Barbell Bond Portfolios: What Do They Accidentally Optimize?",
+      "links": [
+        {
+          "label": "pdf",
+          "url": "https://github.com/microprediction/home/blob/main/presentations/barbell_bond.pdf"
+        }
+      ]
+    }
   ],
   "patents": [
-    { "title": "System and Method for Providing Data Science as a Service", "links": [ { "label": "justia", "url": "https://patents.justia.com/patent/20190066133" } ] },
-    { "title": "System and Method for Secure Causality Discovery", "links": [ { "label": "justia", "url": "https://patents.justia.com/patent/20200336302" } ] },
-    { "title": "System and Method for Analyzing Financial Models with Probabilistic Networks", "links": [ { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/patents/probabilistic_networks.pdf" } ] },
-    { "title": "System and Method for Pricing Default Insurance", "links": [ { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/patents/default_insurance.pdf" } ] },
-    { "title": "Liquidity Based Metric and Index for Low Liquidity Securities", "links": [ { "label": "pdf", "url": "https://github.com/microprediction/home/blob/main/patents/liquidity_based_metrics.pdf" } ] }
+    {
+      "title": "System and Method for Providing Data Science as a Service",
+      "links": [
+        {
+          "label": "justia",
+          "url": "https://patents.justia.com/patent/20190066133"
+        }
+      ]
+    },
+    {
+      "title": "System and Method for Secure Causality Discovery",
+      "links": [
+        {
+          "label": "justia",
+          "url": "https://patents.justia.com/patent/20200336302"
+        }
+      ]
+    },
+    {
+      "title": "System and Method for Analyzing Financial Models with Probabilistic Networks",
+      "links": [
+        {
+          "label": "pdf",
+          "url": "https://github.com/microprediction/home/blob/main/patents/probabilistic_networks.pdf"
+        }
+      ]
+    },
+    {
+      "title": "System and Method for Pricing Default Insurance",
+      "links": [
+        {
+          "label": "pdf",
+          "url": "https://github.com/microprediction/home/blob/main/patents/default_insurance.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Liquidity Based Metric and Index for Low Liquidity Securities",
+      "links": [
+        {
+          "label": "pdf",
+          "url": "https://github.com/microprediction/home/blob/main/patents/liquidity_based_metrics.pdf"
+        }
+      ]
+    }
   ],
   "more": [
-    { "label": "Blog articles & musings (full list)", "url": "https://github.com/microprediction/home#blog-articles" },
-    { "label": "financialmathematics.com", "url": "http://www.financialmathematics.com/" },
-    { "label": "Medium", "url": "https://medium.com/@microprediction" }
+    {
+      "label": "Blog articles & musings (full list)",
+      "url": "https://github.com/microprediction/home#blog-articles"
+    },
+    {
+      "label": "financialmathematics.com",
+      "url": "http://www.financialmathematics.com/"
+    },
+    {
+      "label": "Medium",
+      "url": "https://medium.com/@microprediction"
+    }
   ]
 }

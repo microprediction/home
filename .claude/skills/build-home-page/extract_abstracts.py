@@ -9,9 +9,11 @@ so CI never needs pdftotext or the sibling repos.
 Run locally after adding/updating papers:  python3 extract_abstracts.py
 """
 from __future__ import annotations
+import html
 import json
 import re
 import subprocess
+import urllib.request
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -90,7 +92,9 @@ def from_pdf(p: Path) -> str | None:
                              capture_output=True, text=True, timeout=30).stdout
     except (OSError, subprocess.SubprocessError):
         return None
-    intro = r"(?:\n\s*(?:1\.?\s+)?Introduction\b|\nKeywords\b|\nJEL\b)"
+    txt = re.sub(r"^[ \t]*\d+[ \t]*$", "", txt, flags=re.M)   # strip line-number gutters
+    intro = (r"(?:\n[ \t]*(?:\d+\.?\s+)?(?:Introduction|Motivation|Main\s+result|"
+             r"Overview|Background|Preliminaries)\b|\nKey[ ]?words\b|\nJEL\b)")
     # Case 1: an explicit "Abstract" heading.
     m = re.search(r"\bAbstract\b[.:]?\s*(.+?)" + intro, txt, re.S)
     # Case 2: no heading — the abstract is the block just before "Introduction",
@@ -111,32 +115,55 @@ def from_pdf(p: Path) -> str | None:
     return body if len(body) > 80 else None
 
 
-def source_for(p: dict) -> Path | None:
-    tex, pdf = None, None
+def arxiv_id(p: dict) -> str | None:
     for ln in p.get("links", []):
-        loc = local_path(ln["url"])
-        if not loc:
-            continue
-        if loc.suffix == ".tex" and tex is None:
-            tex = loc
-        elif loc.suffix == ".pdf" and pdf is None:
-            pdf = loc
-    return tex or pdf  # prefer tex, but also use a tex sibling of a pdf below
+        m = re.search(r"arxiv\.org/abs/([0-9.]+)", ln["url"])
+        if m:
+            return m.group(1)
+    return None
+
+
+def from_arxiv(aid: str) -> str | None:
+    try:
+        url = f"https://export.arxiv.org/api/query?id_list={aid}"
+        with urllib.request.urlopen(url, timeout=20) as r:
+            x = r.read().decode("utf-8", "ignore")
+    except Exception:
+        return None
+    m = re.search(r"<summary>(.*?)</summary>", x, re.S)
+    return _tidy(html.unescape(m.group(1))) if m else None
 
 
 def extract(p: dict) -> str | None:
-    src = source_for(p)
-    if src is None:
-        return None
-    if src.suffix == ".tex":
-        return from_tex(src)
-    # pdf: prefer a sibling .tex if present (cleaner), else pdftotext
-    sib = src.with_suffix(".tex")
-    if sib.exists():
-        a = from_tex(sib)
-        if a:
+    # 1. an explicit local source (e.g. a TeX with no public PDF)
+    if p.get("abstract_source"):
+        loc = local_path(p["abstract_source"])
+        if loc:
+            a = from_tex(loc) if loc.suffix == ".tex" else from_pdf(loc)
+            if a:
+                return a
+    # collect local tex / pdf from the entry's links
+    tex = pdf = None
+    for ln in p.get("links", []):
+        loc = local_path(ln["url"])
+        if loc and loc.suffix == ".tex" and tex is None:
+            tex = loc
+        elif loc and loc.suffix == ".pdf" and pdf is None:
+            pdf = loc
+    # 2. local TeX (cleanest)
+    if tex and (a := from_tex(tex)):
+        return a
+    # 3. arXiv (canonical, reliable) when the paper has an id
+    aid = arxiv_id(p)
+    if aid and (a := from_arxiv(aid)):
+        return a
+    # 4. local PDF (prefer a sibling .tex), via pdftotext
+    if pdf:
+        sib = pdf.with_suffix(".tex")
+        if sib.exists() and (a := from_tex(sib)):
             return a
-    return from_pdf(src)
+        return from_pdf(pdf)
+    return None
 
 
 def main() -> None:
