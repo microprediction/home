@@ -96,6 +96,14 @@ def pub_li(p: dict, abstracts: dict) -> str:
     )
 
 
+def soft_li(s: dict) -> str:
+    home = s.get("docs") or s.get("code")
+    name = f'<a class="nm" href="{esc(home)}">{esc(s["name"])}</a>'
+    code = (f' <span class="sep">·</span> <a href="{esc(s["code"])}">code</a>'
+            if s.get("docs") and s.get("code") else "")
+    return f'    <li class="soft">{name} — {esc(s["desc"])}{code}</li>'
+
+
 def pub_list(papers: list, abstracts: dict) -> str:
     return ('  <ul class="pubs">\n'
             + "\n".join(pub_li(p, abstracts) for p in papers)
@@ -123,9 +131,7 @@ def build(root: Path) -> None:
                        pub_list(th["papers"], abstracts)))
 
     if data.get("software"):
-        rows = "\n".join(
-            f'    <li class="soft"><a class="nm" href="{esc(s["url"])}">{esc(s["name"])}</a> '
-            f'— {esc(s["desc"])}</li>' for s in data["software"])
+        rows = "\n".join(soft_li(s) for s in data["software"])
         blocks.append(("software", "Software", f'  <ul class="pubs">\n{rows}\n  </ul>'))
 
     if data.get("talks"):

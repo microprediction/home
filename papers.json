@@ -242,11 +242,11 @@
     }
   ],
   "software": [
-    { "name": "precise", "url": "https://github.com/microprediction/precise", "desc": "Online covariance and portfolios." },
-    { "name": "humpday", "url": "https://github.com/microprediction/humpday", "desc": "Elo ratings for global black-box derivative-free optimizers." },
-    { "name": "winning", "url": "https://github.com/microprediction/winning", "desc": "Fast, scalable inference of relative ability from winning probabilities." },
-    { "name": "skaters", "url": "https://github.com/microprediction/skaters", "desc": "Composition-based online distributional forecasting." },
-    { "name": "muid", "url": "https://github.com/microprediction/muid", "desc": "Memorable unique identifiers." }
+    { "name": "precise", "docs": "https://precise.microprediction.org", "code": "https://github.com/microprediction/precise", "desc": "Online (incremental) covariance and correlation estimation — the online complement to sklearn.covariance." },
+    { "name": "humpday", "docs": "https://humpday.microprediction.org", "code": "https://github.com/microprediction/humpday", "desc": "Taking the pain out of choosing a Python global optimizer." },
+    { "name": "winning", "docs": "https://thurstone.microprediction.org", "code": "https://github.com/microprediction/winning", "desc": "Fast ability inference from contest winning probabilities." },
+    { "name": "skaters", "docs": "https://skaters.microprediction.org", "code": "https://github.com/microprediction/skaters", "desc": "Fast univariate time series models that run in Pyodide." },
+    { "name": "muid", "code": "https://github.com/microprediction/muid", "desc": "Memorable unique identifiers." }
   ],
   "talks": [
     { "title": "Schur Complementary Portfolios", "links": [ { "label": "Frontiers in Finance", "url": "https://github.com/microprediction/home/blob/main/presentations/Schur_Complementary_Portfolios_2025__slides.pdf" }, { "label": "CQF", "url": "https://github.com/microprediction/precise/blob/main/papers/Schur_Complementary_Portfolios_CQF_Slides_Updated.pdf" } ] },
