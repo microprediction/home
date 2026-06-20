@@ -1,67 +1,53 @@
 ---
 name: build-home-page
-description: Rebuild the home.microprediction.org GitHub Pages site (Peter Cotton's papers index) from papers.json. Use when asked to update the home page / papers list, add or refresh a working paper, pull in newer drafts or arXiv links from the package repos (schur / humpday / precise / mechanics / skaters .microprediction.org), or regenerate docs/index.html. Run from the microprediction/home repo.
+description: Rebuild the home.microprediction.org GitHub Pages site (Peter Cotton's publications page) from papers.json. Use when asked to update the home page / publications list, add or refresh a paper, pull in newer drafts or arXiv links from the package repos (schur / humpday / precise / mechanics / skaters .microprediction.org), or regenerate docs/index.html. Run from the microprediction/home repo.
 ---
 
 # Build home.microprediction.org
 
-A small data-driven static-site generator for Peter Cotton's papers page.
-`papers.json` (repo root) is the single source of truth; `scan.py` discovers
-what's new in the sibling package repos; `build.py` renders the site into
-`docs/`. The site distinguishes the **canonical** version of each paper (arXiv /
-journal) from the **latest draft**, which usually lives in a package repo and
-moves faster.
+An academic publications page generated from data. Organized by **research theme**
+(related work sits together); within each theme, published work / preprints come
+first, then the most recent working drafts. Restrained academic styling — serif,
+low bold, abstracts in collapsed `<details>`.
 
 ## Files
 
 | File | Role |
 |------|------|
-| `../../../papers.json` (repo root) | Source of truth: site meta, sections, one entry per paper. **Edit this.** |
-| `scan.py` | Read-only. Scans `../{schur,humpday,precise,mechanics,skaters}` for draft PDFs/TeX (with mod dates) and arXiv ids. Writes `scan_report.json`. |
-| `build.py` | Renders `papers.json` → `docs/index.html`, `docs/academic.css`, `docs/CNAME`. |
-| `academic_base.css` | Shared base stylesheet (kept in sync with the package sites); `build.py` prepends it. |
+| `papers.json` (repo root) | **Source of truth.** `site`, `book_length[]`, `themes[]` (each with `papers[]`), `software[]`, `talks[]`, `patents[]`, `more[]`. **Edit this.** |
+| `abstracts.json` (repo root) | Generated cache of **real** abstracts keyed by title. Committed so CI needn't extract. |
+| `scan.py` | Read-only. Scans `../{schur,humpday,precise,mechanics,skaters}` for draft PDFs/TeX + arXiv ids. |
+| `extract_abstracts.py` | Local only (needs pdftotext + sibling repos). Pulls real abstracts → `abstracts.json`. |
+| `build.py` | Renders `papers.json` + `abstracts.json` → `docs/index.html`, `docs/academic.css`, `docs/CNAME`. Pure stdlib; runs in CI. |
+
+## Paper entry
+
+```json
+{ "title": "...", "venue": "SIAM J. Financial Math., 2021",
+  "draft_new": true, "abstract_source": "https://github.com/.../x.tex",
+  "links": [ {"label":"arXiv","url":"..."}, {"label":"latest draft","url":"..."} ] }
+```
+- `venue` present ⇒ published (rendered italic). List the canonical link (`arXiv`/`journal`) **first**.
+- `latest draft` label is highlighted; use a **PDF** url, never a raw `.tex`.
+- `draft_in_progress: true` shows a muted "draft in progress" note (no link).
+- `abstract_source` = a local file to extract the abstract from when it isn't one of the entry's links (e.g. a TeX with no public PDF).
 
 ## Procedure
 
-1. **Scan for what's new** — `python3 scan.py`. Read the summary (and
-   `scan_report.json`). Look for: draft files with a newer `modified` date than
-   what `papers.json` links, new draft titles, and arXiv ids that belong to
-   Peter's own papers (most ids in `.bib` files are *references* — don't add
-   those).
-
-2. **Reconcile into `papers.json`.** For each paper entry:
-   - `draft` = URL of the most recent draft. When it lives in a package repo,
-     use the GitHub blob URL the scan prints (`.../blob/main/papers/X.pdf`).
-   - Set `"draft_new": true` when that draft is newer than the arXiv/journal
-     version — it renders as a highlighted **latest draft** badge.
-   - Keep `arxiv` (bare id, e.g. `2411.05807`) and `journal` (full URL) on the
-     canonical version.
-   - Optional fields: `blog`, `talk`, `site`, `package`, `abstract`, `year`,
-     `tags`. Omit anything that doesn't apply.
-   - `section` must be one of the ids in the `sections` array
-     (`working` / `papers` / `book` / `preworking`). Add a section there first
-     if you need a new one.
-   - Don't invent arXiv↔draft pairings you're unsure of — leave a paper with just
-     a `draft` link rather than guess.
-
-3. **Build** — `python3 build.py`. It overwrites `docs/index.html`,
-   `docs/academic.css`, `docs/CNAME` (= `home.microprediction.org`).
-
-4. **Show the result** and let Peter review. The DNS for
-   `home.microprediction.org` already points at `microprediction.github.io`;
-   GitHub Pages must be set to serve from the `docs/` folder on `main`.
-   **Do not commit or push unless asked** — Peter handles publishing.
-
-## Adding a new package subdomain
-
-Add its name to `TARGETS` in `scan.py`. The scan reads each repo's
-`docs/CNAME` for the live URL automatically.
+1. **Find what's new / verify arXiv ids** — `python3 scan.py`. To confirm an
+   arXiv id belongs to Peter (vs. someone citing him), check the author:
+   `curl -s "https://export.arxiv.org/api/query?search_query=au:%22Peter+Cotton%22&max_results=40"`.
+2. **Edit `papers.json`** — add/move papers into the right theme, published-first;
+   add arXiv/journal/draft links. Don't invent abstracts or arXiv pairings.
+3. **Abstracts** — `python3 extract_abstracts.py` (local). It writes only abstracts
+   it can extract verbatim; papers without a clean source get none (that's fine —
+   never fabricate). To add a missing one, paste the real text into `abstracts.json`.
+4. **Build** — `python3 build.py`. Then `open docs/index.html` to review.
+5. **Publish** — commit `papers.json`, `abstracts.json` and the skill. The Pages
+   workflow runs `build.py` and deploys `docs/`. DNS already points
+   `home.microprediction.org` → `microprediction.github.io`.
 
 ## Notes
 
-- Pure standard-library Python 3; no dependencies.
-- PDFs at the repo root (`workingpapers/`, `papers/`) are **not** served by
-  Pages (which only serves `docs/`), so link them via `github.com/.../blob/...`
-  URLs, as the seed entries do.
-- To restyle, edit `EXTRA_CSS` in `build.py` (page-specific) or
-  `academic_base.css` (shared look with the package sites).
+- `docs/index.html`, `docs/academic.css`, `docs/CNAME` are generated and gitignored.
+- Restyle: edit `CSS` in `build.py`.

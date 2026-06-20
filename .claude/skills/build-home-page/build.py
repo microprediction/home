@@ -1,187 +1,196 @@
 #!/usr/bin/env python3
-"""Generate home.microprediction.org from papers.json.
+"""Generate home.microprediction.org from papers.json + abstracts.json.
 
-Writes docs/index.html, docs/academic.css and docs/CNAME. GitHub Pages serves
-the docs/ folder, so PDFs that live at the repo root (workingpapers/, papers/)
-are linked via github.com blob URLs rather than relative paths.
-
-Run:  python3 build.py
+Writes docs/index.html, docs/academic.css, docs/CNAME. Pure stdlib so it runs in
+CI (which only has the home repo, no pdftotext) — abstracts come from the
+committed abstracts.json, produced locally by extract_abstracts.py.
 """
 from __future__ import annotations
 import html
 import json
-from datetime import date
 from pathlib import Path
 
 CNAME = "home.microprediction.org"
 
-# Link kinds rendered for each paper, in order. label -> css modifier.
-LINK_KINDS = [
-    ("arxiv", "arXiv", "arxiv"),
-    ("draft", "draft", "draft"),       # may be re-labelled "latest draft" if draft_new
-    ("journal", "journal", "journal"),
-    ("blog", "blog", "blog"),
-    ("talk", "talk", "talk"),
-    ("site", "site", "site"),
-]
-
-EXTRA_CSS = """
-/* --- paper list (home page) --- */
-.section-blurb { color: var(--muted); margin: 0 0 14px; font-size: 0.96rem; }
-ul.papers { list-style: none; padding: 0; margin: 0; }
-ul.papers > li { padding: 14px 0; border-bottom: 1px solid var(--border); }
-ul.papers > li:last-child { border-bottom: none; }
-.ptitle { font-weight: 600; }
-.pmeta { color: var(--muted); font-size: 0.85rem; margin-left: 8px; }
-.abstract { color: var(--muted); font-size: 0.95rem; margin: 4px 0 8px; }
-.links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
-.lnk { font-size: 0.82rem; padding: 2px 9px; border-radius: 4px; border: 1px solid var(--border); background: #fff; }
-.lnk:hover { text-decoration: none; border-color: var(--accent); }
-.lnk.draft { border-color: #d9d4ff; }
-.lnk.draft.latest { background: var(--accent); color: #fff; border-color: var(--accent); font-weight: 600; }
-.lnk.arxiv { background: #fbf0ea; border-color: #f0d9c8; color: var(--warn); }
-.pkg { font-size: 0.82rem; color: var(--muted); margin-left: 4px; }
-.hero { display: flex; gap: 28px; align-items: flex-start; flex-wrap: wrap; margin-bottom: 8px; }
-.hero img { width: 360px; max-width: 100%; border-radius: 8px; }
-.hero .blurb { flex: 1; min-width: 280px; }
-.toplinks { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 4px; }
+CSS = """
+:root{
+  --ink:#1b1b1b; --muted:#666; --rule:#e3e1da; --link:#33527a; --link-h:#1d3358;
+  --new:#6b4e16; --bg:#fcfcfa;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
+  font-family:Charter,Georgia,Cambria,"Times New Roman",serif;
+  font-size:18px;line-height:1.55;-webkit-font-smoothing:antialiased}
+main{max-width:760px;margin:0 auto;padding:56px 24px 96px}
+a{color:var(--link);text-decoration:none}
+a:hover{color:var(--link-h);text-decoration:underline}
+header.top{display:flex;gap:26px;align-items:flex-start;margin-bottom:8px}
+header.top .ht{flex:1}
+header.top img{width:132px;border-radius:4px;filter:grayscale(15%)}
+h1{font-size:1.95rem;font-weight:600;margin:0 0 6px;letter-spacing:-.01em}
+.tagline{color:var(--muted);font-style:italic;margin:0 0 10px}
+.toplinks{font-size:.92rem;color:var(--muted)}
+.toplinks a{margin-right:2px}
+.toplinks .sep{color:var(--rule);margin:0 7px}
+nav.contents{font-size:.86rem;color:var(--muted);margin:22px 0 8px;line-height:1.9}
+nav.contents a{color:var(--muted)}
+nav.contents a:hover{color:var(--link)}
+nav.contents .sep{color:var(--rule);margin:0 6px}
+h2{font-size:1.12rem;font-weight:600;margin:2.4em 0 .2em;padding-bottom:5px;
+  border-bottom:1px solid var(--rule)}
+h2 .pkg{font-weight:400;font-size:.8rem;color:var(--muted)}
+ul.pubs{list-style:none;margin:0;padding:0}
+ul.pubs>li{padding:13px 0;border-bottom:1px solid #efede6}
+ul.pubs>li:last-child{border-bottom:none}
+.t{font-size:1rem}
+.venue{font-style:italic;color:var(--muted)}
+.ln{font-size:.85rem;margin-top:3px;color:var(--muted)}
+.ln a{margin:0}
+.ln .sep{color:var(--rule);margin:0 6px}
+.ln a.new{color:var(--new)}
+.ln .wip{font-style:italic;color:var(--muted)}
+details{margin-top:5px}
+details summary{font-size:.82rem;color:var(--muted);cursor:pointer;list-style:none;
+  display:inline-block}
+details summary::-webkit-details-marker{display:none}
+details summary::before{content:"▸ ";color:var(--rule)}
+details[open] summary::before{content:"▾ "}
+details p{font-size:.92rem;color:#3a3a3a;margin:.5em 0 .2em;
+  padding-left:14px;border-left:2px solid var(--rule)}
+.soft{font-size:.95rem}
+.soft .nm{color:var(--ink)}
+footer{max-width:760px;margin:0 auto;padding:18px 24px 40px;font-size:.82rem;
+  color:var(--muted)}
+footer a{color:var(--muted)}
 """
 
 
-def esc(s: str) -> str:
+def esc(s) -> str:
     return html.escape(str(s), quote=True)
 
 
-def render_links(p: dict) -> str:
-    out = []
-    for key, label, mod in LINK_KINDS:
-        url = p.get("arxiv") and key == "arxiv" and f"https://arxiv.org/abs/{p['arxiv']}" or p.get(key)
-        if not url:
-            continue
-        cls = f"lnk {mod}"
-        text = label
-        if key == "draft" and p.get("draft_new"):
-            cls += " latest"
-            text = "latest draft"
-        out.append(f'<a class="{cls}" href="{esc(url)}">{esc(text)}</a>')
-    return "".join(out)
+def slug(s: str) -> str:
+    return "".join(c if c.isalnum() else "-" for c in s.lower()).strip("-")
 
 
-def render_paper(p: dict) -> str:
-    meta = []
-    if p.get("authors"):
-        meta.append(esc(p["authors"]))
-    if p.get("year"):
-        meta.append(esc(p["year"]))
-    meta_html = f'<span class="pmeta">{" · ".join(meta)}</span>' if meta else ""
-    pkg = ""
-    if p.get("package"):
-        pkg = (f' <span class="pkg">· '
-               f'<a href="https://github.com/microprediction/{esc(p["package"])}">'
-               f'{esc(p["package"])}</a></span>')
-    abstract = f'<p class="abstract">{esc(p["abstract"])}</p>' if p.get("abstract") else ""
+def links_row(p: dict) -> str:
+    parts = []
+    for ln in p.get("links", []):
+        cls = ' class="new"' if ln["label"] == "latest draft" else ""
+        parts.append(f'<a{cls} href="{esc(ln["url"])}">{esc(ln["label"])}</a>')
+    if p.get("draft_in_progress"):
+        parts.append('<span class="wip">draft in progress</span>')
+    return '<span class="sep">·</span>'.join(parts)
+
+
+def pub_li(p: dict, abstracts: dict) -> str:
+    venue = f'<span class="venue"> — {esc(p["venue"])}.</span>' if p.get("venue") else ""
+    ab = abstracts.get(p["title"])
+    det = (f'\n      <details><summary>abstract</summary><p>{esc(ab)}</p></details>'
+           if ab else "")
     return (
         '    <li>\n'
-        f'      <span class="ptitle">{esc(p["title"])}</span>{meta_html}{pkg}\n'
-        f'      {abstract}\n'
-        f'      <div class="links">{render_links(p)}</div>\n'
+        f'      <div class="t">{esc(p["title"])}{venue}</div>\n'
+        f'      <div class="ln">{links_row(p)}</div>{det}\n'
         '    </li>'
     )
 
 
-def render_section(sec: dict, papers: list[dict]) -> str:
-    items = [p for p in papers if p.get("section") == sec["id"]]
-    if not items:
-        return ""
-    items.sort(key=lambda p: p.get("year", 0), reverse=True)
-    blurb = f'<p class="section-blurb">{esc(sec["blurb"])}</p>' if sec.get("blurb") else ""
-    body = "\n".join(render_paper(p) for p in items)
-    return (
-        f'  <h2 id="{esc(sec["id"])}">{esc(sec["title"])}</h2>\n'
-        f'  {blurb}\n'
-        f'  <ul class="papers">\n{body}\n  </ul>'
-    )
+def pub_list(papers: list, abstracts: dict) -> str:
+    return ('  <ul class="pubs">\n'
+            + "\n".join(pub_li(p, abstracts) for p in papers)
+            + "\n  </ul>")
 
 
-def build(repo_root: Path) -> None:
-    data = json.loads((repo_root / "papers.json").read_text())
+def build(root: Path) -> None:
+    data = json.loads((root / "papers.json").read_text())
+    ab_path = root / "abstracts.json"
+    abstracts = json.loads(ab_path.read_text()) if ab_path.exists() else {}
     site = data["site"]
-    papers = data["papers"]
-    docs = repo_root / "docs"
+    docs = root / "docs"
     docs.mkdir(exist_ok=True)
 
-    nav = "".join(
-        f'<a href="#{esc(s["id"])}">{esc(s["title"])}</a>'
-        for s in data["sections"] if any(p.get("section") == s["id"] for p in papers)
-    )
-    toplinks = "".join(
-        f'<a class="btn secondary" href="{esc(l["url"])}">{esc(l["label"])}</a>'
-        for l in site.get("links", [])
-    )
-    photo = (f'<img src="{esc(site["photo"])}" alt="Peter Cotton" />'
-             if site.get("photo") else "")
-    sections_html = "\n".join(
-        s for s in (render_section(sec, papers) for sec in data["sections"]) if s
-    )
-    built = date.today().isoformat()
+    blocks = []          # (anchor, heading_html, body_html)
 
+    if data.get("book_length"):
+        blocks.append(("book-length", "Book Length", pub_list(data["book_length"], abstracts)))
+
+    for th in data.get("themes", []):
+        pkg = (f' <span class="pkg">· '
+               f'<a href="https://github.com/microprediction/{esc(th["package"])}">'
+               f'{esc(th["package"])}</a></span>') if th.get("package") else ""
+        blocks.append((slug(th["title"]), esc(th["title"]) + pkg,
+                       pub_list(th["papers"], abstracts)))
+
+    if data.get("software"):
+        rows = "\n".join(
+            f'    <li class="soft"><a class="nm" href="{esc(s["url"])}">{esc(s["name"])}</a> '
+            f'— {esc(s["desc"])}</li>' for s in data["software"])
+        blocks.append(("software", "Software", f'  <ul class="pubs">\n{rows}\n  </ul>'))
+
+    if data.get("talks"):
+        blocks.append(("talks", "Talks", pub_list(data["talks"], abstracts)))
+
+    if data.get("patents"):
+        blocks.append(("patents", "Patents", pub_list(data["patents"], abstracts)))
+
+    # header
+    photo = (f'<img src="{esc(site["photo"])}" alt="">'
+             if site.get("photo") else "")
+    toplinks = '<span class="sep">·</span>'.join(
+        f'<a href="{esc(l["url"])}">{esc(l["label"])}</a>' for l in site.get("links", []))
+    tagline = f'<p class="tagline">{esc(site["tagline"])}</p>' if site.get("tagline") else ""
+    nav = '<span class="sep">·</span>'.join(
+        f'<a href="#{a}">{h.split("<")[0].strip()}</a>' for a, h, _ in blocks)
+
+    body = "\n".join(
+        f'  <h2 id="{a}">{h}</h2>\n{b}' for a, h, b in blocks)
+
+    more = ""
+    if data.get("more"):
+        ml = " · ".join(f'<a href="{esc(m["url"])}">{esc(m["label"])}</a>'
+                        for m in data["more"])
+        more = f"\n  <footer>{ml}</footer>"
+
+    pagetitle = esc(site.get("name", "Home"))
     page = f"""<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>{esc(site["title"])} — papers</title>
-  <meta name="description" content="{esc(site["tagline"])}" />
+  <title>{pagetitle}</title>
   <link rel="stylesheet" href="./academic.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="nav-inner">
-      <a class="brand" href="/">{esc(site["title"])}</a>
-      <nav>{nav}<a href="https://github.com/microprediction">GitHub</a></nav>
-    </div>
-  </header>
-
   <main>
-    <h1>{esc(site["title"])}</h1>
-    <p class="subtitle">{esc(site["tagline"])}</p>
-    <div class="hero">
-      {photo}
-      <div class="blurb">
-        <p class="lead">{esc(site["intro"])}</p>
+    <header class="top">
+      <div class="ht">
+        <h1>{pagetitle}</h1>
+        {tagline}
         <div class="toplinks">{toplinks}</div>
       </div>
-    </div>
+      {photo}
+    </header>
+    <nav class="contents">{nav}</nav>
 
-{sections_html}
-  </main>
-
-  <footer>
-    Generated from <code>papers.json</code> on {built} ·
-    <a href="https://github.com/microprediction/home">source</a>
-  </footer>
+{body}
+  </main>{more}
 </body>
 </html>
 """
-
-    # academic.css = shared base + page-specific extras.
-    base_css = (repo_root / ".claude" / "skills" / "build-home-page" / "academic_base.css")
-    css = base_css.read_text() if base_css.exists() else ""
-    (docs / "academic.css").write_text(css + EXTRA_CSS)
+    (docs / "academic.css").write_text(CSS.lstrip())
     (docs / "index.html").write_text(page)
     (docs / "CNAME").write_text(CNAME + "\n")
-
-    print(f"Wrote {docs/'index.html'} ({len(papers)} papers, {sections_html.count('<h2')} sections)")
-    print(f"Wrote {docs/'academic.css'}")
-    print(f"Wrote {docs/'CNAME'} -> {CNAME}")
+    n = sum(len(b.get("papers", b.get("book_length", []))) for b in [])  # noqa
+    print(f"Wrote {docs/'index.html'} — {len(blocks)} sections, {len(abstracts)} abstracts")
 
 
-def find_repo_root(start: Path) -> Path:
+def find_root(start: Path) -> Path:
     for d in [start, *start.parents]:
         if (d / "papers.json").exists():
             return d
-    raise SystemExit("Could not locate papers.json above " + str(start))
+    raise SystemExit("papers.json not found")
 
 
 if __name__ == "__main__":
-    build(find_repo_root(Path(__file__).resolve().parent))
+    build(find_root(Path(__file__).resolve().parent))
