@@ -165,12 +165,29 @@ def build(root: Path) -> None:
         more = f"\n  <footer>{ml}</footer>"
 
     pagetitle = esc(site.get("name", "Home"))
+    desc = esc(site.get("description", ""))
+    url = site.get("url", "")
+    img = f'{url.rstrip("/")}/{site["photo"]}' if url and site.get("photo") else ""
+    og = ""
+    if desc or img:
+        og = f"""
+  <meta name="description" content="{desc}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{pagetitle}" />
+  <meta property="og:description" content="{desc}" />
+  <meta property="og:url" content="{esc(url)}" />
+  <meta property="og:image" content="{esc(img)}" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{pagetitle}" />
+  <meta name="twitter:description" content="{desc}" />
+  <meta name="twitter:image" content="{esc(img)}" />"""
     page = f"""<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>{pagetitle}</title>
+  <title>{pagetitle}</title>{og}
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="./academic.css" />
 </head>
 <body>
