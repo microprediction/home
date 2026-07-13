@@ -138,6 +138,13 @@ Time series (skaters / laplace, 2026)
 - [TabFM, pre-registered](https://www.linkedin.com/posts/petercotton_timeseries-forecasting-share-7482414482783154176-HdbB/)
 
 Statistics, control, optim, applied mathematics
+- [Alloy, a new black-box optimizer](https://www.linkedin.com/posts/petercotton_optimization-python-javascript-share-7479930160113139712-8SPS/)
+- [Should you add noise to the truth in prediction contests?](https://www.linkedin.com/posts/petercotton_statistics-mathematics-predictionmarkets-share-7478851583141875712-9zbv/)
+- [Does the beautiful game have too many corners? Diffeomorphisms for constrained optimization](https://www.linkedin.com/posts/petercotton_optimization-mathematics-portfoliotheory-activity-7472495139823697920-kMln)
+- [precise: online covariance behind one partial_fit contract](https://www.linkedin.com/posts/petercotton_statistics-timeseries-datascience-activity-7471966438862442496-X3xb)
+- [There truly is no free lunch in optimization](https://www.linkedin.com/posts/petercotton_optimization-activity-7469362993999454208-SP7_)
+- [A perfect break courtesy of differential evolution](https://www.linkedin.com/posts/petercotton_optimization-activity-7467003349117210624-VoWJ)
+- [If the World Cup used the Swiss system, the best team would win 30% more often](https://www.linkedin.com/posts/petercotton_statistics-football-share-7480067294694514688-lxqJ/)
 - [On the bridge between optim and top-down allocation](https://www.linkedin.com/posts/petercotton_beyond-de-prado-and-cotton-hierarchical-share-7463418520056549376-694Z?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo)
 - [Gradient equilibrium](https://www.linkedin.com/posts/petercotton_onlinelearning-machinelearning-prediction-activity-7286049183768182784-mfFc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo)
 - [Schumpeterian Economics and Thurstone Models](https://www.linkedin.com/posts/petercotton_economics-statistics-activity-7383479911660822528-WY8C?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo)
