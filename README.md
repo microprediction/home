@@ -8,10 +8,6 @@ There's a virtual Peter Cotton in the form of a custom gpt [here](https://chatgp
 
 
 
-## Posts
-
-Recent announcement posts are parked in [posts.md](posts.md).
-
 ## Book length
 
  - Microprediction. Building an Open AI Network. [MIT Press](https://mitpress.mit.edu/books/microprediction) page. Available in the usual places like [Amazon](https://www.amazon.com/Microprediction-Building-Open-AI-Network-ebook/dp/B09RPDZH46). Reviews, audio etc [here](https://microprediction.github.io/building_an_open_ai_network/). See also the  [custom microprediction gpt](https://chatgpt.com/g/g-68a5be41f36081918babe673c975b453-microprediction-the-book). 
@@ -131,6 +127,15 @@ More at [financialmathematics.com](http://www.financialmathematics.com/), [mediu
 
 ## Miscellaneous short musings
 
+
+Time series (skaters / laplace, 2026)
+- [Laplace, a new benchmark for distributional univariate prediction](https://www.linkedin.com/posts/petercotton_timeseries-statistics-forecasting-share-7477155964589105152-Wonh/)
+- [Multi-scale release on economic data](https://www.linkedin.com/posts/petercotton_economics-forecasting-timeseries-share-7479209644825964544-brsj/)
+- [Laplace on npm](https://www.linkedin.com/posts/petercotton_timeseries-javascript-python-share-7479685684576903168-PsEc/)
+- [Anomaly detection without z-scores](https://www.linkedin.com/posts/petercotton_anomalydetection-timeseries-statistics-share-7480259111348035584-36Zk/)
+- [The laplace sandwich: every time-series model just got better](https://www.linkedin.com/posts/petercotton_statistics-timeseries-anomalydetection-share-7480442043224195072-RkEk/)
+- [The likelihood race vs AutoARIMA](https://www.linkedin.com/posts/petercotton_timeseries-forecasting-share-7482257099830431744-65g-/)
+- [TabFM, pre-registered](https://www.linkedin.com/posts/petercotton_timeseries-forecasting-share-7482414482783154176-HdbB/)
 
 Statistics, control, optim, applied mathematics
 - [On the bridge between optim and top-down allocation](https://www.linkedin.com/posts/petercotton_beyond-de-prado-and-cotton-hierarchical-share-7463418520056549376-694Z?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADG4ccBwZe8-bPaT745XJ5TgO3D-0a4TYo)
