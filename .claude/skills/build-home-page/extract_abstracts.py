@@ -157,6 +157,27 @@ def from_pdf(p: Path) -> str | None:
     return body if len(body) > 80 else None
 
 
+def from_md(p: Path) -> str | None:
+    """A markdown note's '## Abstract' section, up to the next heading."""
+    m = re.search(r"^#+\s*Abstract\s*$(.*?)(?=^#|\Z)", p.read_text(errors="ignore"),
+                  re.S | re.M)
+    if not m:
+        return None
+    body = re.sub(r"[*_`]", "", m.group(1))
+    body = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", body)      # links -> text
+    body = _tidy(body).lstrip("- ").strip()
+    return body if len(body) > 80 else None
+
+
+def sibling_md(p: Path) -> Path | None:
+    """docs/papers/x.pdf -> papers/x.md, the source these sites render from."""
+    for d in p.parents:
+        cand = d / "papers" / (p.stem + ".md")
+        if cand.exists():
+            return cand
+    return None
+
+
 def arxiv_id(p: dict) -> str | None:
     for ln in p.get("links", []):
         m = re.search(r"arxiv\.org/abs/([0-9.]+)", ln["url"])
@@ -199,10 +220,13 @@ def extract(p: dict) -> str | None:
     aid = arxiv_id(p)
     if aid and (a := from_arxiv(aid)):
         return a
-    # 4. local PDF (prefer a sibling .tex), via pdftotext
+    # 4. local PDF (prefer a sibling .tex or .md source), via pdftotext
     if pdf:
         sib = pdf.with_suffix(".tex")
         if sib.exists() and (a := from_tex(sib)):
+            return a
+        md = sibling_md(pdf)
+        if md and (a := from_md(md)):
             return a
         return from_pdf(pdf)
     return None

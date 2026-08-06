@@ -17,6 +17,10 @@
         "url": "https://scholar.google.com/citations?user=V5wB8lEAAAAJ"
       },
       {
+        "label": "Software",
+        "url": "https://repos.microprediction.org"
+      },
+      {
         "label": "Bio",
         "url": "https://github.com/microprediction/home/blob/main/mitbio.md"
       },
@@ -188,8 +192,12 @@
         },
         {
           "title": "Winning Probabilities as Credit: Fast, Redundancy-Aware Attribution",
-          "draft_in_progress": true,
+          "draft_new": true,
           "links": [
+            {
+              "label": "latest draft",
+              "url": "https://allocation.microprediction.org/papers/thurstone-credit/"
+            },
             {
               "label": "source",
               "url": "https://github.com/microprediction/allocation/tree/main/papers/thurstone-credit"
@@ -198,8 +206,12 @@
         },
         {
           "title": "When Does Portfolio Construction Work? A Map across the Number of Assets and the Cost of Trading",
-          "draft_in_progress": true,
+          "draft_new": true,
           "links": [
+            {
+              "label": "latest draft",
+              "url": "https://allocation.microprediction.org/papers/online-portfolio-regimes/"
+            },
             {
               "label": "source",
               "url": "https://github.com/microprediction/allocation/tree/main/papers/online-portfolio-regimes"
@@ -509,17 +521,6 @@
               "url": "https://github.com/microprediction/home/blob/main/workingpapers/go_forth.pdf"
             }
           ]
-        },
-        {
-          "title": "HumpDay: Multi-Dimensional Thurstone Calibration for Context-Specific Optimizer Selection",
-          "draft_in_progress": true,
-          "abstract_source": "https://github.com/microprediction/humpday/blob/main/papers/humpday-jss-thurstone.tex",
-          "links": [
-            {
-              "label": "site",
-              "url": "https://humpday.microprediction.org"
-            }
-          ]
         }
       ]
     },
@@ -552,30 +553,62 @@
           ]
         },
         {
-          "title": "The Nearest-the-Pin Parimutuel: A Continuous, Projection-Scored Pool for Distributional Forecasts",
-          "draft_in_progress": true,
+          "title": "Scoring Point-Cloud Distributional Submissions: Nearest-the-Pin Parimutuels, the KDE Seam, and Mollified Scoring",
+          "draft_new": true,
           "links": [
             {
-              "label": "draft",
-              "url": "https://github.com/microprediction/mechanisms/blob/main/papers/nearest-the-pin-parimutuel.md"
+              "label": "latest draft",
+              "url": "https://mechanisms.microprediction.org/papers/scoring-point-cloud-distributional-submissions.pdf"
             },
             {
-              "label": "site",
-              "url": "https://mechanisms.microprediction.org/papers.html"
+              "label": "html",
+              "url": "https://mechanisms.microprediction.org/papers/scoring-point-cloud-distributional-submissions.html"
+            },
+            {
+              "label": "demo",
+              "url": "https://mechanisms.microprediction.org/mechanisms/point-cloud-scoring.html#demo"
             }
           ]
         },
         {
-          "title": "Composition and the Algebra of Mechanisms",
-          "draft_in_progress": true,
+          "title": "An Algebra of Prediction-Rewarding Mechanisms: Scoring Rules, Market Makers, and Pools as Composable Transducers",
+          "draft_new": true,
           "links": [
             {
-              "label": "note",
-              "url": "https://github.com/microprediction/mechanisms/blob/main/research/composition-and-the-algebra-of-mechanisms.md"
+              "label": "latest draft",
+              "url": "https://mechanisms.microprediction.org/papers/composition-and-the-algebra-of-mechanisms.pdf"
             },
             {
-              "label": "site",
-              "url": "https://mechanisms.microprediction.org/papers.html"
+              "label": "html",
+              "url": "https://mechanisms.microprediction.org/papers/composition-and-the-algebra-of-mechanisms.html"
+            }
+          ]
+        },
+        {
+          "title": "Multi-Stage Solicitation of Probability Distributions",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://mechanisms.microprediction.org/papers/multi-stage-solicitation.pdf"
+            },
+            {
+              "label": "html",
+              "url": "https://mechanisms.microprediction.org/papers/multi-stage-solicitation.html"
+            }
+          ]
+        },
+        {
+          "title": "Likelihood versus CRPS: A New Perspective",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://mechanisms.microprediction.org/papers/likelihood-versus-crps.pdf"
+            },
+            {
+              "label": "html",
+              "url": "https://mechanisms.microprediction.org/papers/likelihood-versus-crps.html"
             }
           ]
         }
