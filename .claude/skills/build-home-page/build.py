@@ -136,7 +136,10 @@ def build(root: Path) -> None:
 
     if data.get("software"):
         rows = "\n".join(soft_li(s) for s in data["software"])
-        blocks.append(("software", "Software", f'  <ul class="pubs">\n{rows}\n  </ul>'))
+        ss = data.get("software_site")
+        head = "Software" + (f' <span class="pkg">· <a href="{esc(ss["url"])}">'
+                             f'{esc(ss["label"])}</a></span>' if ss else "")
+        blocks.append(("software", head, f'  <ul class="pubs">\n{rows}\n  </ul>'))
 
     if data.get("talks"):
         blocks.append(("talks", "Selected Talks", pub_list(data["talks"], abstracts)))

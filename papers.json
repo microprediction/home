@@ -751,13 +751,12 @@
       "docs": "https://mechanisms.microprediction.org",
       "code": "https://github.com/microprediction/mechanisms",
       "desc": "Markets, scoring rules and everything in between."
-    },
-    {
-      "name": "the whole stack",
-      "docs": "https://repos.microprediction.org",
-      "desc": "One map of the packages and how they fit together."
     }
   ],
+  "software_site": {
+    "label": "repos.microprediction.org",
+    "url": "https://repos.microprediction.org"
+  },
   "talks": [
     {
       "title": "Schur Complementary Portfolios",
