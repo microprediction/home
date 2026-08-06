@@ -124,9 +124,13 @@ def build(root: Path) -> None:
         blocks.append(("book-length", "Book Length", pub_list(data["book_length"], abstracts)))
 
     for th in data.get("themes", []):
-        pkg = (f' <span class="pkg">· '
-               f'<a href="https://github.com/microprediction/{esc(th["package"])}">'
-               f'{esc(th["package"])}</a></span>') if th.get("package") else ""
+        bits = []
+        if th.get("package"):
+            bits.append(f'<a href="https://github.com/microprediction/{esc(th["package"])}">'
+                        f'{esc(th["package"])}</a>')
+        for s in th.get("sites", []):
+            bits.append(f'<a href="{esc(s["url"])}">{esc(s["label"])}</a>')
+        pkg = (' <span class="pkg">· ' + ' · '.join(bits) + '</span>') if bits else ""
         blocks.append((slug(th["title"]), esc(th["title"]) + pkg,
                        pub_list(th["papers"], abstracts)))
 

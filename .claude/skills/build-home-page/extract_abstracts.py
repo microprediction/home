@@ -30,14 +30,56 @@ ROOT = repo_root()
 GH = ROOT.parent  # folder holding the sibling repos
 
 
-def local_path(url: str) -> Path | None:
-    m = re.match(r"https://github\.com/microprediction/([^/]+)/blob/main/(.+)$", url)
-    if not m:
+# Published sites map onto a directory of a sibling repo, so a link to the live
+# PDF still resolves to a local file we can read.
+SITE_ROOTS = {
+    "conformalprediction.net": ("conformalprediction", ""),
+    "schur.microprediction.org": ("schur", "docs"),
+    "humpday.microprediction.org": ("humpday", "docs"),
+    "skaters.microprediction.org": ("skaters", "docs"),
+    "mechanisms.microprediction.org": ("mechanisms", "docs"),
+    "allocation.microprediction.org": ("allocation", "docs"),
+    "winning.microprediction.org": ("winning", "docs"),
+    "precise.microprediction.org": ("precise", "docs"),
+}
+
+
+# Local checkouts that don't sit at ../<repo>.
+REPO_ALIAS = {"precise": "precise-lab/precise-repo"}
+
+
+def _in_repo(repo: str, rel: str) -> Path:
+    if repo == "home":
+        return ROOT / rel
+    return GH / REPO_ALIAS.get(repo, repo) / rel
+
+
+def _first_source(d: Path) -> Path | None:
+    """Given a paper directory, pick its TeX (preferred) or PDF."""
+    if not d.is_dir():
         return None
-    repo, rel = m.groups()
-    base = ROOT if repo == "home" else GH / repo
-    p = base / rel
-    return p if p.exists() else None
+    for pat in ("*.tex", "*.pdf"):
+        hits = sorted(p for p in d.glob(pat) if not p.name.startswith(("fig", "_")))
+        if hits:
+            return hits[0]
+    return None
+
+
+def local_path(url: str) -> Path | None:
+    m = re.match(r"https://github\.com/microprediction/([^/]+)/(?:blob|tree)/main/(.+?)/?$", url)
+    if m:
+        p = _in_repo(*m.groups())
+        if p.is_dir():
+            return _first_source(p)
+        return p if p.exists() else None
+    m = re.match(r"https://([^/]+)/(.*?)/?$", url)
+    if m and m.group(1) in SITE_ROOTS:
+        repo, sub = SITE_ROOTS[m.group(1)]
+        p = _in_repo(repo, f"{sub}/{m.group(2)}".strip("/"))
+        if p.is_dir():
+            return _first_source(p)
+        return p if p.exists() else None
+    return None
 
 
 def clean_tex(s: str) -> str:

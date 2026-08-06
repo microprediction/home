@@ -60,6 +60,12 @@
     {
       "title": "Portfolio construction & covariance",
       "package": "precise",
+      "sites": [
+        {
+          "label": "schur.microprediction.org/papers",
+          "url": "https://schur.microprediction.org/papers.html"
+        }
+      ],
       "papers": [
         {
           "title": "Schur Complementary Portfolios",
@@ -88,20 +94,6 @@
           ]
         },
         {
-          "title": "Schur Pseudo-Likelihood",
-          "draft_new": true,
-          "links": [
-            {
-              "label": "latest draft",
-              "url": "https://github.com/microprediction/precise/blob/main/papers/schur_likelihood_paper.pdf"
-            },
-            {
-              "label": "site",
-              "url": "https://schur.microprediction.org"
-            }
-          ]
-        },
-        {
           "title": "Two Sides of Schur Damping: High-Dimensional Pseudo-Likelihoods and Portfolio Allocation",
           "venue": "preprint, 2026",
           "draft_new": true,
@@ -121,6 +113,45 @@
           ]
         },
         {
+          "title": "Betwixt Minimum Variance and Hierarchical Risk Parity: Analytical Results for the Schur Bridge",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://schur.microprediction.org/neither-end-of-the-bridge.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://schur.microprediction.org/papers.html"
+            }
+          ]
+        },
+        {
+          "title": "Schur Pseudo-Likelihood",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://github.com/microprediction/precise/blob/main/papers/schur_likelihood_paper.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://schur.microprediction.org"
+            }
+          ]
+        },
+        {
+          "title": "Schur-Regularized Vecchia: Structured Covariance Estimation at Scale",
+          "draft_in_progress": true,
+          "abstract_source": "https://github.com/microprediction/precise/blob/main/papers/structured_covariance_at_scale.tex",
+          "links": [
+            {
+              "label": "site",
+              "url": "https://precise.microprediction.org"
+            }
+          ]
+        },
+        {
           "title": "Correlation Inflation",
           "links": [
             {
@@ -132,8 +163,60 @@
       ]
     },
     {
+      "title": "Allocation & attribution from winning probabilities",
+      "package": "allocation",
+      "sites": [
+        {
+          "label": "allocation.microprediction.org/papers",
+          "url": "https://allocation.microprediction.org/papers/"
+        }
+      ],
+      "papers": [
+        {
+          "title": "Thurstone Portfolio Polishing: Tail-Sensitive Black-Litterman and Beyond",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://allocation.microprediction.org/papers/thurstone-portfolios/"
+            },
+            {
+              "label": "source",
+              "url": "https://github.com/microprediction/allocation/tree/main/papers/thurstone-portfolios"
+            }
+          ]
+        },
+        {
+          "title": "Winning Probabilities as Credit: Fast, Redundancy-Aware Attribution",
+          "draft_in_progress": true,
+          "links": [
+            {
+              "label": "source",
+              "url": "https://github.com/microprediction/allocation/tree/main/papers/thurstone-credit"
+            }
+          ]
+        },
+        {
+          "title": "When Does Portfolio Construction Work? A Map across the Number of Assets and the Cost of Trading",
+          "draft_in_progress": true,
+          "links": [
+            {
+              "label": "source",
+              "url": "https://github.com/microprediction/allocation/tree/main/papers/online-portfolio-regimes"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Conformal prediction",
       "package": "conformalprediction",
+      "sites": [
+        {
+          "label": "conformalprediction.net/papers",
+          "url": "https://conformalprediction.net/papers/"
+        }
+      ],
       "papers": [
         {
           "title": "Marginally Useful: Formalizing the Information Gap in Conformal Prediction",
@@ -141,7 +224,11 @@
           "links": [
             {
               "label": "latest draft",
-              "url": "https://github.com/microprediction/conformalprediction/blob/main/papers/marginally-useful/marginally-useful.pdf"
+              "url": "https://conformalprediction.net/papers/marginally-useful/marginally-useful.pdf"
+            },
+            {
+              "label": "demo",
+              "url": "https://conformalprediction.net/demos/14-four-readings.html"
             },
             {
               "label": "site",
@@ -155,7 +242,7 @@
           "links": [
             {
               "label": "latest draft",
-              "url": "https://github.com/microprediction/conformalprediction/blob/main/papers/definetti-feynman/signed-definetti-and-conformal.pdf"
+              "url": "https://conformalprediction.net/papers/definetti-feynman/signed-definetti-and-conformal.pdf"
             },
             {
               "label": "site",
@@ -169,7 +256,7 @@
           "links": [
             {
               "label": "latest draft",
-              "url": "https://github.com/microprediction/conformalprediction/blob/main/papers/parimutuel/conformal-parimutuel.pdf"
+              "url": "https://conformalprediction.net/papers/parimutuel/conformal-parimutuel.pdf"
             },
             {
               "label": "site",
@@ -183,7 +270,43 @@
           "links": [
             {
               "label": "latest draft",
-              "url": "https://github.com/microprediction/conformalprediction/blob/main/papers/fan/conformal-fan.pdf"
+              "url": "https://conformalprediction.net/papers/fan/conformal-fan.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://conformalprediction.net"
+            }
+          ]
+        },
+        {
+          "title": "The Two Prices of Dependence: a Vanishing Coverage Tax and a Fixed Sharpness Rent",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://conformalprediction.net/papers/two-prices/two-prices.pdf"
+            },
+            {
+              "label": "demo",
+              "url": "https://conformalprediction.net/demos/20-coverage-vs-price.html"
+            },
+            {
+              "label": "site",
+              "url": "https://conformalprediction.net"
+            }
+          ]
+        },
+        {
+          "title": "A Contragredient View of Conformal Placement and Steinitz Balancing",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://conformalprediction.net/papers/steinitz/conformal-steinitz.pdf"
+            },
+            {
+              "label": "demo",
+              "url": "https://conformalprediction.net/demos/23-steinitz-balancing.html"
             },
             {
               "label": "site",
@@ -196,6 +319,16 @@
     {
       "title": "Contests, ranking & choice models",
       "package": "winning",
+      "sites": [
+        {
+          "label": "winning.microprediction.org",
+          "url": "https://winning.microprediction.org"
+        },
+        {
+          "label": "thurstone.microprediction.org",
+          "url": "https://thurstone.microprediction.org"
+        }
+      ],
       "papers": [
         {
           "title": "Inferring Relative Ability From Winning Probability in Multi-Entrant Contests",
@@ -237,12 +370,32 @@
               "url": "https://github.com/microprediction/home/blob/main/workingpapers/A_Machine_Preference_Paradox.pdf"
             }
           ]
+        },
+        {
+          "title": "Rating Formula 1: a Case for Non-Gaussian Noise in Rating Systems",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://winning.microprediction.org/assets/pdf/rating_formula_1.pdf"
+            },
+            {
+              "label": "source",
+              "url": "https://github.com/microprediction/winning/tree/main/papers/f1_ratings"
+            }
+          ]
         }
       ]
     },
     {
       "title": "Distributional prediction & microprediction",
       "package": "skaters",
+      "sites": [
+        {
+          "label": "skaters.microprediction.org/papers",
+          "url": "https://skaters.microprediction.org/papers.html"
+        }
+      ],
       "papers": [
         {
           "title": "Self-Organizing Supply Chains for Microprediction: Present and Future Uses of the ROAR Protocol",
@@ -277,7 +430,7 @@
           ]
         },
         {
-          "title": "skaters: Model First, Conform Last — A Composition-Based Automatic Online Distributional Forecaster",
+          "title": "Transforms All the Way Down: Automatic Online Distributional Forecasting by Conjugation",
           "draft_new": true,
           "links": [
             {
@@ -286,7 +439,7 @@
             },
             {
               "label": "site",
-              "url": "https://skaters.microprediction.org"
+              "url": "https://skaters.microprediction.org/papers.html"
             }
           ]
         }
@@ -295,7 +448,59 @@
     {
       "title": "Global optimization",
       "package": "humpday",
+      "sites": [
+        {
+          "label": "humpday.microprediction.org/papers",
+          "url": "https://humpday.microprediction.org/papers.html"
+        }
+      ],
       "papers": [
+        {
+          "title": "HumpDay: Derivative-Free Optimizers in Pure Python and JavaScript, with a Contamination-Resistant Real-World Benchmark",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://humpday.microprediction.org/papers/humpday-jss.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://humpday.microprediction.org"
+            }
+          ]
+        },
+        {
+          "title": "Neither Synthetic Benchmarks nor Common-Sense Reasoning Predicts Real-World Derivative-Free Optimizer Performance",
+          "draft_new": true,
+          "abstract_source": "https://github.com/microprediction/humpday/blob/main/papers/dfo_recommender/benchmark_validity.tex",
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://humpday.microprediction.org/papers/benchmark_validity.pdf"
+            }
+          ]
+        },
+        {
+          "title": "Discovering a Derivative-Free Optimizer by Evolution Against a Memorisation-Proof Real-World Benchmark",
+          "draft_new": true,
+          "abstract_source": "https://github.com/microprediction/humpday/blob/main/papers/dfo_recommender/evolved_optimizer.tex",
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://humpday.microprediction.org/papers/evolved_optimizer.pdf"
+            }
+          ]
+        },
+        {
+          "title": "The Inspiration Simplex: Using Derivative-Free Optimization in Concept Space to Create New Derivative-Free Optimizers",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://humpday.microprediction.org/papers/inspiration_simplex.pdf"
+            }
+          ]
+        },
         {
           "title": "Go Forth! Simple Detection of Incomplete Meta-Learning by Algorithms Performing Limited Exploration on a Rugged Landscape",
           "links": [
@@ -313,6 +518,64 @@
             {
               "label": "site",
               "url": "https://humpday.microprediction.org"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Market mechanisms & scoring rules",
+      "package": "mechanisms",
+      "sites": [
+        {
+          "label": "mechanisms.microprediction.org/papers",
+          "url": "https://mechanisms.microprediction.org/papers.html"
+        }
+      ],
+      "papers": [
+        {
+          "title": "Schur Damping for Perpetual Demand Lending Pools",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://mechanisms.microprediction.org/assets/pdf/perpetual-demand-lending-pools.pdf"
+            },
+            {
+              "label": "note",
+              "url": "https://github.com/microprediction/mechanisms/blob/main/research/perpetual-demand-lending-pools.md"
+            },
+            {
+              "label": "site",
+              "url": "https://schur.microprediction.org/damping-in-pdlps.html"
+            }
+          ]
+        },
+        {
+          "title": "The Nearest-the-Pin Parimutuel: A Continuous, Projection-Scored Pool for Distributional Forecasts",
+          "draft_in_progress": true,
+          "links": [
+            {
+              "label": "draft",
+              "url": "https://github.com/microprediction/mechanisms/blob/main/papers/nearest-the-pin-parimutuel.md"
+            },
+            {
+              "label": "site",
+              "url": "https://mechanisms.microprediction.org/papers.html"
+            }
+          ]
+        },
+        {
+          "title": "Composition and the Algebra of Mechanisms",
+          "draft_in_progress": true,
+          "links": [
+            {
+              "label": "note",
+              "url": "https://github.com/microprediction/mechanisms/blob/main/research/composition-and-the-algebra-of-mechanisms.md"
+            },
+            {
+              "label": "site",
+              "url": "https://mechanisms.microprediction.org/papers.html"
             }
           ]
         }
@@ -402,6 +665,12 @@
     {
       "title": "Sports analytics",
       "package": "firstdown",
+      "sites": [
+        {
+          "label": "firstdown.microprediction.org",
+          "url": "https://firstdown.microprediction.org"
+        }
+      ],
       "papers": [
         {
           "title": "Stop Shy of the First Down",
@@ -445,7 +714,13 @@
       "name": "humpday",
       "docs": "https://humpday.microprediction.org",
       "code": "https://github.com/microprediction/humpday",
-      "desc": "Taking the pain out of choosing a Python global optimizer."
+      "desc": "Derivative-free optimization in pure Python and JavaScript, including an ask/tell interface that takes one observation at a time."
+    },
+    {
+      "name": "allocation",
+      "docs": "https://allocation.microprediction.org",
+      "code": "https://github.com/microprediction/allocation",
+      "desc": "Streaming online portfolio construction, built on precise and thurstone."
     },
     {
       "name": "thurstone",
@@ -459,6 +734,28 @@
       "docs": "https://skaters.microprediction.org",
       "code": "https://github.com/microprediction/skaters",
       "desc": "Fast univariate time series models that run in Pyodide."
+    },
+    {
+      "name": "prophet-laplace",
+      "code": "https://github.com/microprediction/prophet-laplace",
+      "desc": "Prophet in a laplace sandwich: same API, calibrated densities, via skaters."
+    },
+    {
+      "name": "timemachines",
+      "docs": "https://timemachines.microprediction.org",
+      "code": "https://github.com/microprediction/timemachines",
+      "desc": "Streaming anomaly detection with calibrated p-values, on skaters."
+    },
+    {
+      "name": "mechanisms",
+      "docs": "https://mechanisms.microprediction.org",
+      "code": "https://github.com/microprediction/mechanisms",
+      "desc": "Markets, scoring rules and everything in between."
+    },
+    {
+      "name": "the whole stack",
+      "docs": "https://repos.microprediction.org",
+      "desc": "One map of the packages and how they fit together."
     }
   ],
   "talks": [
@@ -554,6 +851,10 @@
     {
       "label": "Blog articles & musings (full list)",
       "url": "https://github.com/microprediction/home#blog-articles"
+    },
+    {
+      "label": "repos.microprediction.org",
+      "url": "https://repos.microprediction.org"
     },
     {
       "label": "financialmathematics.com",
