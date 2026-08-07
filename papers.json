@@ -249,6 +249,24 @@
           ]
         },
         {
+          "title": "An Empirical Study of the Conformal Information Gap",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://conformalprediction.net/papers/frontier/frontier.pdf"
+            },
+            {
+              "label": "SSRN",
+              "url": "https://papers.ssrn.com/abstract=7220538"
+            },
+            {
+              "label": "site",
+              "url": "https://conformalprediction.net"
+            }
+          ]
+        },
+        {
           "title": "A Feynman–Wigner-Style Diagnostic for the Efficacy of Conformal Prediction via Signed de Finetti Representations",
           "draft_new": true,
           "links": [
