@@ -1,6 +1,6 @@
 ---
 name: build-home-page
-description: Rebuild the home.microprediction.org GitHub Pages site (Peter Cotton's publications page) from papers.json. Use when asked to update the home page / publications list, add or refresh a paper, pull in newer drafts or arXiv links from the package repos (schur / humpday / precise / mechanics / skaters .microprediction.org), or regenerate docs/index.html. Run from the microprediction/home repo.
+description: Rebuild the home.microprediction.org GitHub Pages site (Peter Cotton's publications page) from papers.json. Use when asked to update the home page / publications list, add or refresh a paper, pull in newer drafts or arXiv links from the package repos (schur / humpday / precise / mechanics / skaters / inventory .microprediction.org), or regenerate docs/index.html. Run from the microprediction/home repo.
 ---
 
 # Build home.microprediction.org
@@ -16,7 +16,7 @@ low bold, abstracts in collapsed `<details>`.
 |------|------|
 | `papers.json` (repo root) | **Source of truth.** `site`, `book_length[]`, `themes[]` (each with `papers[]`), `software[]`, `talks[]`, `patents[]`, `more[]`. **Edit this.** |
 | `abstracts.json` (repo root) | Generated cache of **real** abstracts keyed by title. Committed so CI needn't extract. |
-| `scan.py` | Read-only. Scans `../{schur,humpday,precise,mechanics,skaters}` for draft PDFs/TeX + arXiv ids. |
+| `scan.py` | Read-only. Scans `../{schur,humpday,precise,mechanics,skaters,inventory}` for draft PDFs/TeX + arXiv ids. |
 | `extract_abstracts.py` | Local only (needs pdftotext + sibling repos). Pulls real abstracts → `abstracts.json`. |
 | `build.py` | Renders `papers.json` + `abstracts.json` → `docs/index.html`, `docs/academic.css`, `docs/CNAME`. Pure stdlib; runs in CI. |
 

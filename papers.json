@@ -634,7 +634,30 @@
     },
     {
       "title": "Market making & trading",
+      "sites": [
+        {
+          "label": "inventory.microprediction.org/papers",
+          "url": "https://inventory.microprediction.org/papers.html"
+        }
+      ],
       "papers": [
+        {
+          "title": "On a Simple Relationship Between Order Imbalance, Skew and Width in Over-The-Counter Trading",
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://inventory.microprediction.org/skew_width_imbalance.pdf"
+            },
+            {
+              "label": "source",
+              "url": "https://github.com/microprediction/inventory/blob/main/papers/skew_width_imbalance/skew_width_imbalance.tex"
+            },
+            {
+              "label": "site",
+              "url": "https://inventory.microprediction.org/papers.html"
+            }
+          ]
+        },
         {
           "title": "On the Relationship Between Accuracy and Profitability in Over-the-Counter Market Making",
           "links": [
