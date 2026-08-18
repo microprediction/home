@@ -21,22 +21,26 @@ CSS = """
 html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
   font-family:Charter,Georgia,Cambria,"Times New Roman",serif;
   font-size:18px;line-height:1.55;-webkit-font-smoothing:antialiased}
-main{max-width:760px;margin:0 auto;padding:56px 24px 96px}
+main{max-width:1060px;margin:0 auto;padding:56px 24px 96px}
+.cols{column-count:2;column-gap:48px}
+.cols .theme{break-inside:avoid;-webkit-column-break-inside:avoid;page-break-inside:avoid;margin-bottom:1.4em}
+@media(max-width:820px){main{max-width:760px}.cols{column-count:1}}
 a{color:var(--link);text-decoration:none}
 a:hover{color:var(--link-h);text-decoration:underline}
-header.top{display:flex;gap:26px;align-items:flex-start;margin-bottom:8px}
-header.top .ht{flex:1}
-header.top img{width:132px;border-radius:4px;filter:grayscale(15%)}
+header.top{display:flex;gap:30px;align-items:flex-start;margin-bottom:8px}
+header.top .ht{flex:1;min-width:0}
+header.top img{width:172px;border-radius:5px;filter:grayscale(12%)}
 h1{font-size:1.95rem;font-weight:600;margin:0 0 6px;letter-spacing:-.01em}
 .tagline{color:var(--muted);font-style:italic;margin:0 0 10px}
 .toplinks{font-size:.92rem;color:var(--muted)}
 .toplinks a{margin-right:2px}
 .toplinks .sep{color:var(--rule);margin:0 7px}
 nav.contents{font-size:.86rem;color:var(--muted);margin:22px 0 8px;line-height:1.9}
+.cols{margin-top:44px}
 nav.contents a{color:var(--muted)}
 nav.contents a:hover{color:var(--link)}
 nav.contents .sep{color:var(--rule);margin:0 6px}
-h2{font-size:1.12rem;font-weight:600;margin:2.4em 0 .2em;padding-bottom:5px;
+h2{font-size:1.12rem;font-weight:600;margin:.2em 0 .2em;padding-bottom:5px;
   border-bottom:1px solid var(--rule)}
 h2 .pkg{font-weight:400;font-size:.8rem;color:var(--muted)}
 ul.pubs{list-style:none;margin:0;padding:0}
@@ -62,6 +66,20 @@ details p{font-size:.92rem;color:#3a3a3a;margin:.5em 0 .2em;
 footer{max-width:760px;margin:0 auto;padding:18px 24px 40px;font-size:.82rem;
   color:var(--muted)}
 footer a{color:var(--muted)}
+.toggle{display:inline-block;font-size:.82rem;color:var(--muted);cursor:pointer;margin:2px 0 4px}
+.toggle input{margin-right:6px;vertical-align:middle}
+li.working{display:none}
+body.show-working li.working{display:list-item}
+.theme[data-essays="1"]{display:none}
+details.best{margin:10px 0 4px;font-size:.92rem;border:1px solid var(--new);border-radius:6px;
+  padding:7px 14px;background:#fbf7ef}
+details.best>summary{font-weight:600;color:var(--new);cursor:pointer;list-style:none}
+details.best>summary::-webkit-details-marker{display:none}
+details.best>summary::before{content:"\\25B8  "}
+details.best[open]>summary::before{content:"\\25BE  "}
+details.best>summary::after{content:"  (click to expand)";font-weight:400;font-size:.8rem;color:var(--muted)}
+details.best[open]>summary::after{content:""}
+details.best p{margin:.5em 0 .1em;color:#3a3a3a}
 """
 
 
@@ -83,13 +101,24 @@ def links_row(p: dict) -> str:
     return '<span class="sep">·</span>'.join(parts)
 
 
-def pub_li(p: dict, abstracts: dict) -> str:
+POSTED = {"arXiv", "SSRN", "journal", "chapter", "publisher", "MIT Press", "DOI"}
+
+
+def is_working(p: dict) -> bool:
+    """Working paper = draft only: no venue and no arXiv/SSRN/journal-style link."""
+    if p.get("venue"):
+        return False
+    return not any(ln.get("label") in POSTED for ln in p.get("links", []))
+
+
+def pub_li(p: dict, abstracts: dict, classify: bool = False) -> str:
     venue = f'<span class="venue"> — {esc(p["venue"])}.</span>' if p.get("venue") else ""
     ab = abstracts.get(p["title"])
     det = (f'\n      <details><summary>abstract</summary><p>{esc(ab)}</p></details>'
            if ab else "")
+    cls = ' class="working"' if (classify and is_working(p)) else ""
     return (
-        '    <li>\n'
+        f'    <li{cls}>\n'
         f'      <div class="t">{esc(p["title"])}{venue}</div>\n'
         f'      <div class="ln">{links_row(p)}</div>{det}\n'
         '    </li>'
@@ -104,9 +133,9 @@ def soft_li(s: dict) -> str:
     return f'    <li class="soft">{name} — {esc(s["desc"])}{code}</li>'
 
 
-def pub_list(papers: list, abstracts: dict) -> str:
+def pub_list(papers: list, abstracts: dict, classify: bool = False) -> str:
     return ('  <ul class="pubs">\n'
-            + "\n".join(pub_li(p, abstracts) for p in papers)
+            + "\n".join(pub_li(p, abstracts, classify) for p in papers)
             + "\n  </ul>")
 
 
@@ -132,7 +161,7 @@ def build(root: Path) -> None:
             bits.append(f'<a href="{esc(s["url"])}">{esc(s["label"])}</a>')
         pkg = (' <span class="pkg">· ' + ' · '.join(bits) + '</span>') if bits else ""
         blocks.append((slug(th["title"]), esc(th["title"]) + pkg,
-                       pub_list(th["papers"], abstracts)))
+                       pub_list(th["papers"], abstracts, classify=True)))
 
     if data.get("software"):
         rows = "\n".join(soft_li(s) for s in data["software"])
@@ -162,8 +191,12 @@ def build(root: Path) -> None:
     nav = '<span class="sep">·</span>'.join(
         f'<a href="#{a}">{h.split("<")[0].strip()}</a>' for a, h, _ in blocks)
 
-    body = "\n".join(
-        f'  <h2 id="{a}">{h}</h2>\n{b}' for a, h, b in blocks)
+    def sec(a, h, b):
+        de = ' data-essays="1"' if a == "essays" else ''
+        return f'    <section class="theme"{de}><h2 id="{a}">{h}</h2>\n{b}\n    </section>'
+    body = ('  <div class="cols">\n'
+            + "\n".join(sec(a, h, b) for a, h, b in blocks)
+            + '\n  </div>')
 
     more = ""
     if data.get("more"):
@@ -188,6 +221,31 @@ def build(root: Path) -> None:
   <meta name="twitter:title" content="{pagetitle}" />
   <meta name="twitter:description" content="{desc}" />
   <meta name="twitter:image" content="{esc(img)}" />"""
+    toggle_js = (
+        '  <script>\n'
+        '(function(){\n'
+        '  var cw=document.getElementById("showwork");\n'
+        '  var ce=document.getElementById("showessays");\n'
+        '  if(!cw&&!ce) return;\n'
+        '  function apply(){\n'
+        '    document.body.classList.toggle("show-working", cw&&cw.checked);\n'
+        '    document.querySelectorAll(".theme").forEach(function(s){\n'
+        '      if(s.getAttribute("data-essays")==="1"){\n'
+        '        s.style.display=(ce&&ce.checked)?"block":"none"; return;}\n'
+        '      var vis=[].some.call(s.querySelectorAll("li"),function(li){\n'
+        '        return !li.classList.contains("working")||(cw&&cw.checked);});\n'
+        '      s.style.display=vis?"":"none";\n'
+        '    });\n'
+        '  }\n'
+        '  if(cw) cw.addEventListener("change",apply);\n'
+        '  if(ce) ce.addEventListener("change",apply);\n'
+        '  apply();\n'
+        '})();\n'
+        '  </script>'
+    )
+    hl = data.get("highlight")
+    highlight_html = (f'    <details class="best"><summary>{esc(hl["summary"])}</summary>'
+                      f'<p>{hl["body"]}</p></details>\n') if hl else ""
     page = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -204,13 +262,16 @@ def build(root: Path) -> None:
         <h1>{pagetitle}</h1>
         {tagline}
         <div class="toplinks">{toplinks}</div>
+        <nav class="contents">{nav}</nav>
       </div>
       {photo}
     </header>
-    <nav class="contents">{nav}</nav>
-
+    <label class="toggle"><input type="checkbox" id="showwork"> show working papers</label>
+    <label class="toggle"><input type="checkbox" id="showessays"> include essays</label>
+{highlight_html}
 {body}
   </main>{more}
+{toggle_js}
 </body>
 </html>
 """

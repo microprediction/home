@@ -62,12 +62,94 @@
   ],
   "themes": [
     {
+      "title": "Numerical statistics (Probit, logit, ...)",
+      "papers": [
+        {
+          "title": "Scalable Share Calibration for Factor Multinomial Probit Models",
+          "links": [
+            {
+              "label": "SSRN",
+              "url": "https://papers.ssrn.com/abstract=7307363"
+            }
+          ]
+        }
+      ],
+      "package": "winning",
+      "sites": [
+        {
+          "label": "winning.microprediction.org",
+          "url": "https://winning.microprediction.org"
+        }
+      ]
+    },
+    {
+      "title": "Time series",
+      "papers": [
+        {
+          "title": "A Platform for Assessing and Combining Autonomous Short-Horizon Distributional Predictions",
+          "links": [
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/workingpapers/a_platform_for_assessing_and_combining.pdf"
+            }
+          ]
+        },
+        {
+          "title": "Transforms All the Way Down: Automatic Online Distributional Forecasting by Conjugation",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://github.com/microprediction/skaters/blob/main/papers/skaters-jss.pdf"
+            },
+            {
+              "label": "SSRN",
+              "url": "https://papers.ssrn.com/abstract=7220478"
+            },
+            {
+              "label": "site",
+              "url": "https://skaters.microprediction.org/papers.html"
+            }
+          ]
+        },
+        {
+          "title": "Conformal Prediction as a Transform within a Grammar for Probabilistic Forecasting",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://conformalprediction.net/papers/grammar/grammar.pdf"
+            },
+            {
+              "label": "SSRN",
+              "url": "https://papers.ssrn.com/abstract=7244778"
+            },
+            {
+              "label": "site",
+              "url": "https://conformalprediction.net"
+            }
+          ]
+        }
+      ],
+      "package": "skaters",
+      "sites": [
+        {
+          "label": "skaters.microprediction.org/papers",
+          "url": "https://skaters.microprediction.org/papers.html"
+        }
+      ]
+    },
+    {
       "title": "Portfolio construction & covariance",
       "package": "precise",
       "sites": [
         {
           "label": "schur.microprediction.org/papers",
           "url": "https://schur.microprediction.org/papers.html"
+        },
+        {
+          "label": "allocation.microprediction.org/papers",
+          "url": "https://allocation.microprediction.org/papers/"
         }
       ],
       "papers": [
@@ -163,19 +245,7 @@
               "url": "https://github.com/microprediction/home/blob/main/workingpapers/CorrelationInflation.pdf"
             }
           ]
-        }
-      ]
-    },
-    {
-      "title": "Allocation & attribution from winning probabilities",
-      "package": "allocation",
-      "sites": [
-        {
-          "label": "allocation.microprediction.org/papers",
-          "url": "https://allocation.microprediction.org/papers/"
-        }
-      ],
-      "papers": [
+        },
         {
           "title": "Thurstone Portfolio Polishing: Tail-Sensitive Black-Litterman and Beyond",
           "draft_new": true,
@@ -189,165 +259,54 @@
               "url": "https://github.com/microprediction/allocation/tree/main/papers/thurstone-portfolios"
             }
           ]
-        },
-        {
-          "title": "Winning Probabilities as Credit: Fast, Redundancy-Aware Attribution",
-          "draft_new": true,
-          "links": [
-            {
-              "label": "latest draft",
-              "url": "https://allocation.microprediction.org/papers/thurstone-credit/"
-            },
-            {
-              "label": "source",
-              "url": "https://github.com/microprediction/allocation/tree/main/papers/thurstone-credit"
-            }
-          ]
-        },
-        {
-          "title": "When Does Portfolio Construction Work? A Map across the Number of Assets and the Cost of Trading",
-          "draft_new": true,
-          "links": [
-            {
-              "label": "latest draft",
-              "url": "https://allocation.microprediction.org/papers/online-portfolio-regimes/"
-            },
-            {
-              "label": "source",
-              "url": "https://github.com/microprediction/allocation/tree/main/papers/online-portfolio-regimes"
-            }
-          ]
         }
       ]
     },
     {
-      "title": "Conformal prediction",
-      "package": "conformalprediction",
-      "sites": [
-        {
-          "label": "conformalprediction.net/papers",
-          "url": "https://conformalprediction.net/papers/"
-        }
-      ],
+      "title": "Market making & trading",
       "papers": [
         {
-          "title": "Marginally Useful: Formalizing the Information Gap in Conformal Prediction",
-          "draft_new": true,
+          "title": "On a Simple Relationship Between Order Imbalance, Skew and Width in Over-the-Counter Trading",
           "links": [
             {
-              "label": "latest draft",
-              "url": "https://conformalprediction.net/papers/marginally-useful/marginally-useful.pdf"
-            },
-            {
-              "label": "demo",
-              "url": "https://conformalprediction.net/demos/14-four-readings.html"
-            },
-            {
-              "label": "site",
-              "url": "https://conformalprediction.net"
-            }
-          ]
-        },
-        {
-          "title": "An Empirical Study of the Conformal Information Gap",
-          "draft_new": true,
-          "links": [
-            {
-              "label": "latest draft",
-              "url": "https://conformalprediction.net/papers/frontier/frontier.pdf"
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/2608.07690"
             },
             {
               "label": "SSRN",
-              "url": "https://papers.ssrn.com/abstract=7220538"
-            },
-            {
-              "label": "site",
-              "url": "https://conformalprediction.net"
+              "url": "https://papers.ssrn.com/abstract=7248284"
             }
           ]
         },
         {
-          "title": "A Feynman–Wigner-Style Diagnostic for the Efficacy of Conformal Prediction via Signed de Finetti Representations",
-          "draft_new": true,
+          "title": "On the Relationship Between Accuracy and Profitability in Over-the-Counter Market Making",
           "links": [
             {
-              "label": "latest draft",
-              "url": "https://conformalprediction.net/papers/definetti-feynman/signed-definetti-and-conformal.pdf"
-            },
-            {
-              "label": "site",
-              "url": "https://conformalprediction.net"
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/workingpapers/On_the_relationship_between_accuracy_and_profitability_in_OTC_trading.pdf"
             }
           ]
         },
         {
-          "title": "Betting Against a Conformal Predictor: A Parimutuel Account of the Information Gap",
-          "draft_new": true,
+          "title": "Trading Illiquid Goods: Market Making as a Sequence of Sealed-Bid Auctions, with Analytic Results",
           "links": [
             {
-              "label": "latest draft",
-              "url": "https://conformalprediction.net/papers/parimutuel/conformal-parimutuel.pdf"
-            },
-            {
-              "label": "site",
-              "url": "https://conformalprediction.net"
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/workingpapers/trading_illiquid_goods.pdf"
             }
           ]
-        },
+        }
+      ],
+      "package": "inventory",
+      "sites": [
         {
-          "title": "The Width of the Conformal Fan: Dependence and the Variance of Realized Coverage",
-          "draft_new": true,
-          "links": [
-            {
-              "label": "latest draft",
-              "url": "https://conformalprediction.net/papers/fan/conformal-fan.pdf"
-            },
-            {
-              "label": "site",
-              "url": "https://conformalprediction.net"
-            }
-          ]
-        },
-        {
-          "title": "The Two Prices of Dependence: a Vanishing Coverage Tax and a Fixed Sharpness Rent",
-          "draft_new": true,
-          "links": [
-            {
-              "label": "latest draft",
-              "url": "https://conformalprediction.net/papers/two-prices/two-prices.pdf"
-            },
-            {
-              "label": "demo",
-              "url": "https://conformalprediction.net/demos/20-coverage-vs-price.html"
-            },
-            {
-              "label": "site",
-              "url": "https://conformalprediction.net"
-            }
-          ]
-        },
-        {
-          "title": "A Contragredient View of Conformal Placement and Steinitz Balancing",
-          "draft_new": true,
-          "links": [
-            {
-              "label": "latest draft",
-              "url": "https://conformalprediction.net/papers/steinitz/conformal-steinitz.pdf"
-            },
-            {
-              "label": "demo",
-              "url": "https://conformalprediction.net/demos/23-steinitz-balancing.html"
-            },
-            {
-              "label": "site",
-              "url": "https://conformalprediction.net"
-            }
-          ]
+          "label": "inventory.microprediction.org/papers",
+          "url": "https://inventory.microprediction.org/papers.html"
         }
       ]
     },
     {
-      "title": "Contests, ranking & choice models",
+      "title": "Contests, Rankings",
       "package": "winning",
       "sites": [
         {
@@ -414,62 +373,18 @@
               "url": "https://github.com/microprediction/winning/tree/main/papers/f1_ratings"
             }
           ]
-        }
-      ]
-    },
-    {
-      "title": "Distributional prediction & microprediction",
-      "package": "skaters",
-      "sites": [
-        {
-          "label": "skaters.microprediction.org/papers",
-          "url": "https://skaters.microprediction.org/papers.html"
-        }
-      ],
-      "papers": [
-        {
-          "title": "Self-Organizing Supply Chains for Microprediction: Present and Future Uses of the ROAR Protocol",
-          "venue": "preprint, 2019",
-          "links": [
-            {
-              "label": "arXiv",
-              "url": "https://arxiv.org/abs/1907.07514"
-            },
-            {
-              "label": "pdf",
-              "url": "https://github.com/microprediction/home/blob/main/papers/self_organizing_supply_chains.pdf"
-            }
-          ]
         },
         {
-          "title": "A Platform for Assessing and Combining Autonomous Short-Horizon Distributional Predictions",
-          "links": [
-            {
-              "label": "pdf",
-              "url": "https://github.com/microprediction/home/blob/main/workingpapers/a_platform_for_assessing_and_combining.pdf"
-            }
-          ]
-        },
-        {
-          "title": "How Should Forecasts be Engineered: The Indispensible Markets Hypothesis",
-          "links": [
-            {
-              "label": "pdf",
-              "url": "https://github.com/microprediction/home/blob/main/workingpapers/The_Indispensible_Markets_Hypothesis.pdf"
-            }
-          ]
-        },
-        {
-          "title": "Transforms All the Way Down: Automatic Online Distributional Forecasting by Conjugation",
+          "title": "Winning Probabilities as Credit: Fast, Redundancy-Aware Attribution",
           "draft_new": true,
           "links": [
             {
               "label": "latest draft",
-              "url": "https://github.com/microprediction/skaters/blob/main/papers/skaters-jss.pdf"
+              "url": "https://allocation.microprediction.org/papers/thurstone-credit/"
             },
             {
-              "label": "site",
-              "url": "https://skaters.microprediction.org/papers.html"
+              "label": "source",
+              "url": "https://github.com/microprediction/allocation/tree/main/papers/thurstone-credit"
             }
           ]
         }
@@ -579,6 +494,10 @@
               "url": "https://mechanisms.microprediction.org/papers/scoring-point-cloud-distributional-submissions.pdf"
             },
             {
+              "label": "SSRN",
+              "url": "https://papers.ssrn.com/abstract=7054518"
+            },
+            {
               "label": "html",
               "url": "https://mechanisms.microprediction.org/papers/scoring-point-cloud-distributional-submissions.html"
             },
@@ -629,50 +548,179 @@
               "url": "https://mechanisms.microprediction.org/papers/likelihood-versus-crps.html"
             }
           ]
+        },
+        {
+          "title": "Self-Organizing Supply Chains for Microprediction: Present and Future Uses of the ROAR Protocol",
+          "venue": "preprint, 2019",
+          "links": [
+            {
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/1907.07514"
+            },
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/papers/self_organizing_supply_chains.pdf"
+            }
+          ]
         }
       ]
     },
     {
-      "title": "Market making & trading",
+      "title": "Economics",
+      "papers": [
+        {
+          "title": "Division of Labor and the Survival Value of PnL per Token",
+          "links": [
+            {
+              "label": "SSRN (long form)",
+              "url": "https://papers.ssrn.com/abstract=7294818"
+            },
+            {
+              "label": "SSRN (short form)",
+              "url": "https://papers.ssrn.com/abstract=7299424"
+            }
+          ]
+        },
+        {
+          "title": "How Should Forecasts be Engineered: The Indispensible Markets Hypothesis",
+          "links": [
+            {
+              "label": "pdf",
+              "url": "https://github.com/microprediction/home/blob/main/workingpapers/The_Indispensible_Markets_Hypothesis.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Conformal prediction",
+      "package": "conformalprediction",
       "sites": [
         {
-          "label": "inventory.microprediction.org/papers",
-          "url": "https://inventory.microprediction.org/papers.html"
+          "label": "conformalprediction.net/papers",
+          "url": "https://conformalprediction.net/papers/"
         }
       ],
       "papers": [
         {
-          "title": "On a Simple Relationship Between Order Imbalance, Skew and Width in Over-The-Counter Trading",
+          "title": "Marginally Useful: Formalizing the Information Gap in Conformal Prediction",
+          "draft_new": true,
           "links": [
             {
-              "label": "latest draft",
-              "url": "https://inventory.microprediction.org/skew_width_imbalance.pdf"
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/2608.07479"
             },
             {
-              "label": "source",
-              "url": "https://github.com/microprediction/inventory/blob/main/papers/skew_width_imbalance/skew_width_imbalance.tex"
+              "label": "latest draft",
+              "url": "https://conformalprediction.net/papers/marginally-useful/marginally-useful.pdf"
+            },
+            {
+              "label": "demo",
+              "url": "https://conformalprediction.net/demos/14-four-readings.html"
             },
             {
               "label": "site",
-              "url": "https://inventory.microprediction.org/papers.html"
+              "url": "https://conformalprediction.net"
             }
           ]
         },
         {
-          "title": "On the Relationship Between Accuracy and Profitability in Over-the-Counter Market Making",
+          "title": "A Feynman–Wigner-Style Diagnostic for the Efficacy of Conformal Prediction via Signed de Finetti Representations",
+          "draft_new": true,
           "links": [
             {
-              "label": "pdf",
-              "url": "https://github.com/microprediction/home/blob/main/workingpapers/On_the_relationship_between_accuracy_and_profitability_in_OTC_trading.pdf"
+              "label": "latest draft",
+              "url": "https://conformalprediction.net/papers/definetti-feynman/signed-definetti-and-conformal.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://conformalprediction.net"
             }
           ]
         },
         {
-          "title": "Trading Illiquid Goods: Market Making as a Sequence of Sealed-Bid Auctions, with Analytic Results",
+          "title": "Betting Against a Conformal Predictor: A Parimutuel Account of the Information Gap",
+          "draft_new": true,
           "links": [
             {
-              "label": "pdf",
-              "url": "https://github.com/microprediction/home/blob/main/workingpapers/trading_illiquid_goods.pdf"
+              "label": "latest draft",
+              "url": "https://conformalprediction.net/papers/parimutuel/conformal-parimutuel.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://conformalprediction.net"
+            }
+          ]
+        },
+        {
+          "title": "The Width of the Conformal Fan: Dependence and the Variance of Realized Coverage",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://conformalprediction.net/papers/fan/conformal-fan.pdf"
+            },
+            {
+              "label": "SSRN",
+              "url": "https://papers.ssrn.com/abstract=6979679"
+            },
+            {
+              "label": "site",
+              "url": "https://conformalprediction.net"
+            }
+          ]
+        },
+        {
+          "title": "The Two Prices of Dependence: a Vanishing Coverage Tax and a Fixed Sharpness Rent",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://conformalprediction.net/papers/two-prices/two-prices.pdf"
+            },
+            {
+              "label": "demo",
+              "url": "https://conformalprediction.net/demos/20-coverage-vs-price.html"
+            },
+            {
+              "label": "site",
+              "url": "https://conformalprediction.net"
+            }
+          ]
+        },
+        {
+          "title": "A Contragredient View of Conformal Placement and Steinitz Balancing",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://conformalprediction.net/papers/steinitz/conformal-steinitz.pdf"
+            },
+            {
+              "label": "demo",
+              "url": "https://conformalprediction.net/demos/23-steinitz-balancing.html"
+            },
+            {
+              "label": "site",
+              "url": "https://conformalprediction.net"
+            }
+          ]
+        },
+        {
+          "title": "An Empirical Study of the Conformal Information Gap",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://conformalprediction.net/papers/frontier/frontier.pdf"
+            },
+            {
+              "label": "SSRN",
+              "url": "https://papers.ssrn.com/abstract=7220538"
+            },
+            {
+              "label": "site",
+              "url": "https://conformalprediction.net"
             }
           ]
         }
@@ -771,6 +819,71 @@
             {
               "label": "pdf",
               "url": "https://github.com/microprediction/home/blob/main/papers/Contraction_of_an_Adapted_Functional_Cal.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Essays",
+      "papers": [
+        {
+          "title": "Remind Me Again Why Large Language Models Can’t Think",
+          "venue": "Medium, 2023",
+          "links": [
+            {
+              "label": "Medium",
+              "url": "https://microprediction.medium.com/remind-me-again-why-large-language-models-cant-think-acab12da63de"
+            }
+          ]
+        },
+        {
+          "title": "Is Facebook’s “Prophet” the Time-Series Messiah, or Just a Very Naughty Boy?",
+          "venue": "Medium, 2021",
+          "links": [
+            {
+              "label": "Medium",
+              "url": "https://microprediction.medium.com/is-facebooks-prophet-the-time-series-messiah-or-just-a-very-naughty-boy-8b71b136bc8c"
+            }
+          ]
+        },
+        {
+          "title": "The Analog Kalman Filter",
+          "venue": "Medium, 2023",
+          "links": [
+            {
+              "label": "Medium",
+              "url": "https://medium.com/geekculture/the-analog-kalman-filter-e1f5bbba2f7f"
+            }
+          ]
+        },
+        {
+          "title": "So, You Recommended a Python Time-Series Package … Now What?",
+          "venue": "Medium",
+          "links": [
+            {
+              "label": "Medium",
+              "url": "https://microprediction.medium.com/so-you-recommended-a-python-time-series-package-now-what-94e7e3821ad5"
+            }
+          ]
+        },
+        {
+          "title": "A Gentle Introduction to Stochastic Portfolio Theory (and its Inverse)",
+          "venue": "Medium",
+          "links": [
+            {
+              "label": "Medium",
+              "url": "https://microprediction.medium.com/a-gentle-introduction-to-stochastic-portfolio-theory-and-its-inverse-241d3bc72917"
+            }
+          ]
+        },
+        {
+          "title": "The Options Market Beat 97.6% of Participants in the M6 Financial Forecasting Contest",
+          "venue": "Medium, 2023",
+          "links": [
+            {
+              "label": "Medium",
+              "url": "https://medium.com/geekculture/the-options-market-beat-94-of-participants-in-the-m6-financial-forecasting-contest-fa4f47f57d33"
             }
           ]
         }
@@ -986,5 +1099,9 @@
         }
       ]
     }
-  ]
+  ],
+  "highlight": {
+    "summary": "My best stuff",
+    "body": "A &gt;100x performance upgrade when n&gt;1000 for factor additive random-utility discrete-choice models (including multinomial factor probit), in <a href=\"https://papers.ssrn.com/abstract=7307363\">this paper</a>. This brings the world’s core engine for probability to large-n problems in astrophysics, machine learning, biology, chemistry and elsewhere.</p><p>Second place: the unification of the two sides of portfolio theory, in <a href=\"https://github.com/microprediction/home/blob/main/workingpapers/Hierarchical_Minimum_Variance_Portfolios.pdf\">this paper</a>.</p><p>Third place: the engineering of the world’s most reliable autonomous online univariate distributional forecaster, in <a href=\"https://papers.ssrn.com/abstract=7220478\">this paper</a>."
+  }
 }
