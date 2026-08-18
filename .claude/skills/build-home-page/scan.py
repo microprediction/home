@@ -2,7 +2,7 @@
 """Scan the sibling microprediction package repos for paper drafts and arXiv links.
 
 These repos publish the subdomains schur / humpday / precise / mechanics /
-skaters .microprediction.org and hold the *latest* drafts (in their papers/ and
+skaters / inventory .microprediction.org and hold the *latest* drafts (in their papers/ and
 docs/ folders), which usually move faster than the arXiv/published copies linked
 from home.microprediction.org.
 
@@ -20,7 +20,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 # Subdomains to scan. Add to this list as new package sites appear.
-TARGETS = ["schur", "humpday", "precise", "mechanics", "skaters", "conformalprediction"]
+TARGETS = ["schur", "humpday", "precise", "mechanics", "skaters", "conformalprediction",
+           "inventory"]
 
 # Folders within each repo worth scanning for drafts.
 DRAFT_DIRS = ["papers", "docs", "academic", "paper"]

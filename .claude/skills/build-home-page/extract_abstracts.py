@@ -41,6 +41,7 @@ SITE_ROOTS = {
     "allocation.microprediction.org": ("allocation", "docs"),
     "winning.microprediction.org": ("winning", "docs"),
     "precise.microprediction.org": ("precise", "docs"),
+    "inventory.microprediction.org": ("inventory", "docs"),
 }
 
 
