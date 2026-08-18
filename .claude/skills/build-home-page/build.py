@@ -27,9 +27,9 @@ main{max-width:1060px;margin:0 auto;padding:56px 24px 96px}
 @media(max-width:820px){main{max-width:760px}.cols{column-count:1}}
 a{color:var(--link);text-decoration:none}
 a:hover{color:var(--link-h);text-decoration:underline}
-header.top{display:flex;gap:30px;align-items:flex-start;margin-bottom:8px}
-header.top .ht{flex:1;min-width:0}
-header.top img{width:172px;border-radius:5px;filter:grayscale(12%)}
+header.top{margin-bottom:8px}
+header.top::after{content:"";display:table;clear:both}
+header.top img{float:right;width:340px;margin:2px 0 14px 34px;border-radius:6px;filter:grayscale(12%)}
 h1{font-size:1.95rem;font-weight:600;margin:0 0 6px;letter-spacing:-.01em}
 .tagline{color:var(--muted);font-style:italic;margin:0 0 10px}
 .toplinks{font-size:.92rem;color:var(--muted)}
@@ -192,7 +192,7 @@ def build(root: Path) -> None:
         f'<a href="#{a}">{h.split("<")[0].strip()}</a>' for a, h, _ in blocks)
 
     def sec(a, h, b):
-        de = ' data-essays="1"' if a == "essays" else ''
+        de = ' data-essays="1"' if "essay" in a else ''
         return f'    <section class="theme"{de}><h2 id="{a}">{h}</h2>\n{b}\n    </section>'
     body = ('  <div class="cols">\n'
             + "\n".join(sec(a, h, b) for a, h, b in blocks)
@@ -258,13 +258,13 @@ def build(root: Path) -> None:
 <body>
   <main>
     <header class="top">
+      {photo}
       <div class="ht">
         <h1>{pagetitle}</h1>
         {tagline}
         <div class="toplinks">{toplinks}</div>
         <nav class="contents">{nav}</nav>
       </div>
-      {photo}
     </header>
     <label class="toggle"><input type="checkbox" id="showwork"> show working papers</label>
     <label class="toggle"><input type="checkbox" id="showessays"> include essays</label>
