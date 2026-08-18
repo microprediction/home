@@ -27,9 +27,9 @@ main{max-width:1060px;margin:0 auto;padding:56px 24px 96px}
 @media(max-width:820px){main{max-width:760px}.cols{column-count:1}}
 a{color:var(--link);text-decoration:none}
 a:hover{color:var(--link-h);text-decoration:underline}
-header.top{display:flex;gap:26px;align-items:flex-start;margin-bottom:8px}
-header.top .ht{flex:1}
-header.top img{width:132px;border-radius:4px;filter:grayscale(15%)}
+header.top{display:flex;gap:30px;align-items:flex-start;margin-bottom:8px}
+header.top .ht{flex:1;min-width:0}
+header.top img{width:172px;border-radius:5px;filter:grayscale(12%)}
 h1{font-size:1.95rem;font-weight:600;margin:0 0 6px;letter-spacing:-.01em}
 .tagline{color:var(--muted);font-style:italic;margin:0 0 10px}
 .toplinks{font-size:.92rem;color:var(--muted)}
@@ -262,10 +262,10 @@ def build(root: Path) -> None:
         <h1>{pagetitle}</h1>
         {tagline}
         <div class="toplinks">{toplinks}</div>
+        <nav class="contents">{nav}</nav>
       </div>
       {photo}
     </header>
-    <nav class="contents">{nav}</nav>
     <label class="toggle"><input type="checkbox" id="showwork"> show working papers</label>
     <label class="toggle"><input type="checkbox" id="showessays"> include essays</label>
 {highlight_html}
