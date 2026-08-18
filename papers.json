@@ -825,7 +825,7 @@
       ]
     },
     {
-      "title": "Essays",
+      "title": "Selected Essays",
       "papers": [
         {
           "title": "Remind Me Again Why Large Language Models Can’t Think",
@@ -886,6 +886,12 @@
               "url": "https://medium.com/geekculture/the-options-market-beat-94-of-participants-in-the-m6-financial-forecasting-contest-fa4f47f57d33"
             }
           ]
+        }
+      ],
+      "sites": [
+        {
+          "label": "microprediction.medium.com",
+          "url": "https://microprediction.medium.com"
         }
       ]
     }
