@@ -91,20 +91,6 @@
           "venue": "preprint, 2026"
         },
         {
-          "title": "Exact Posterior Probability of Optimality for Factor-Gaussian Beliefs",
-          "draft_new": true,
-          "links": [
-            {
-              "label": "latest draft",
-              "url": "https://winning.microprediction.org/assets/pdf/exact_pom_factor_gaussian.pdf"
-            },
-            {
-              "label": "site",
-              "url": "https://winning.microprediction.org"
-            }
-          ]
-        },
-        {
           "title": "Softmax Masking Is a Choice Model: The Evidence for Linear versus Gaussian Renormalization of Probability Vectors",
           "draft_new": true,
           "links": [
@@ -682,15 +668,28 @@
       ]
     },
     {
-      "title": "Optimal stopping & contest design",
-      "package": "brownianbandit",
+      "title": "Bandits",
       "sites": [
         {
-          "label": "brownianbandit.microprediction.org/papers",
-          "url": "https://brownianbandit.microprediction.org/papers.html"
+          "label": "brownianbandit.microprediction.org",
+          "url": "https://brownianbandit.microprediction.org"
         }
       ],
       "papers": [
+        {
+          "title": "Exact Posterior Probability of Optimality for Factor-Gaussian Beliefs",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://winning.microprediction.org/assets/pdf/exact_pom_factor_gaussian.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://winning.microprediction.org"
+            }
+          ]
+        },
         {
           "title": "Wavefront Pruning in Budgeted Brownian Races",
           "draft_new": true,
@@ -704,7 +703,19 @@
               "url": "https://brownianbandit.microprediction.org/papers.html"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "title": "Optimal stopping & contest design",
+      "package": "brownianbandit",
+      "sites": [
+        {
+          "label": "brownianbandit.microprediction.org/papers",
+          "url": "https://brownianbandit.microprediction.org/papers.html"
+        }
+      ],
+      "papers": [
         {
           "title": "Posterior-Predictive Pass-at-k",
           "draft_new": true,
