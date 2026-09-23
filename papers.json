@@ -1047,9 +1047,13 @@
       "title": "Fixed income & stochastic volatility",
       "papers": [
         {
-          "title": "Stochastic Volatility Corrections for Interest Rate Models",
-          "venue": "2004",
+          "title": "Stochastic Volatility Corrections for Interest Rate Derivatives",
+          "venue": "with J.-P. Fouque, G. Papanicolaou and R. Sircar, Mathematical Finance 14, 173–200, 2004",
           "links": [
+            {
+              "label": "journal",
+              "url": "https://doi.org/10.1111/j.0960-1627.2004.00188.x"
+            },
             {
               "label": "pdf",
               "url": "http://math.stanford.edu/~papanico/pubftp/cfps.pdf"
