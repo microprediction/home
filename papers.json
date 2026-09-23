@@ -1128,22 +1128,17 @@
       ]
     },
     {
-      "title": "Mathematical analysis",
+      "title": "Lie theory",
       "papers": [
         {
           "title": "Contraction of an Adapted Functional Calculus",
           "links": [
             {
               "label": "pdf",
-              "url": "https://github.com/microprediction/home/blob/main/papers/Contraction_of_an_Adapted_Functional_Cal.pdf"
+              "url": "https://raw.githubusercontent.com/microprediction/home/main/papers/Contraction_of_an_Adapted_Functional_Cal.pdf"
             }
-          ]
-        }
-      ],
-      "sites": [
-        {
-          "label": "pure.microprediction.org",
-          "url": "https://pure.microprediction.org"
+          ],
+          "venue": "with A. H. Dooley, Journal of Lie Theory 7(2), 147–164, 1997"
         }
       ]
     },
