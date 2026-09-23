@@ -682,7 +682,7 @@
       ]
     },
     {
-      "title": "Budgeted races & research prizes",
+      "title": "Optimal stopping & contest design",
       "package": "brownianbandit",
       "sites": [
         {
