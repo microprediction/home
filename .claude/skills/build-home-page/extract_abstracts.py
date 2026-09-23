@@ -42,11 +42,14 @@ SITE_ROOTS = {
     "winning.microprediction.org": ("winning", "docs"),
     "precise.microprediction.org": ("precise", "docs"),
     "inventory.microprediction.org": ("inventory", "docs"),
+    "kinetics.microprediction.org": ("kinetics", "docs"),
+    "brownianbandit.microprediction.org": ("brownianbandit", "docs"),
+    "economics.microprediction.org": ("economics", "docs"),
 }
 
 
 # Local checkouts that don't sit at ../<repo>.
-REPO_ALIAS = {"precise": "precise-lab/precise-repo"}
+REPO_ALIAS: dict[str, str] = {}
 
 
 def _in_repo(repo: str, rel: str) -> Path:

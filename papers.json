@@ -51,11 +51,15 @@
     },
     {
       "title": "An Analytic Approach to Ornstein-Uhlenbeck Processes with Fluctuating Parameters and Applications in the Modeling of Fixed Income Securities",
-      "venue": "PhD thesis",
+      "venue": "PhD thesis, Stanford University, 2001",
       "links": [
         {
           "label": "pdf",
-          "url": "https://github.com/microprediction/home/blob/main/papers/an_analytic_approach_to_ornstein.pdf"
+          "url": "https://raw.githubusercontent.com/microprediction/home/main/papers/Cotton_2001_PhD_Thesis_An_Analytic_Approach_to_Ornstein-Uhlenbeck_Processes_with_Fluctuating_Parameters.pdf"
+        },
+        {
+          "label": "ProQuest",
+          "url": "https://www.proquest.com/openview/77a94e16467c20c2e86103967640f3dd/1?pq-origsite=gscholar&cbl=18750&diss=y"
         }
       ]
     }
@@ -65,11 +69,56 @@
       "title": "Numerical statistics (Probit, logit, ...)",
       "papers": [
         {
-          "title": "Scalable Share Calibration for Factor Multinomial Probit Models",
+          "title": "Scalable Inversion of Contests with Correlated Performances, Including Softmax and Multinomial Probit",
           "links": [
+            {
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/2609.01133"
+            },
             {
               "label": "SSRN",
               "url": "https://papers.ssrn.com/abstract=7307363"
+            },
+            {
+              "label": "latest draft",
+              "url": "https://winning.microprediction.org/assets/pdf/scalable_contest_inversion.pdf"
+            },
+            {
+              "label": "earlier draft",
+              "url": "https://winning.microprediction.org/assets/pdf/factor_probit_share_calibration.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://winning.microprediction.org"
+            }
+          ],
+          "venue": "preprint, 2026"
+        },
+        {
+          "title": "Softmax Masking Is a Choice Model: The Evidence for Linear versus Gaussian Renormalization of Probability Vectors",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://winning.microprediction.org/assets/pdf/softmax_masking_choice_model.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://winning.microprediction.org"
+            }
+          ]
+        },
+        {
+          "title": "Computation of Collision Local Times: A Connection Between New Scalable Probit Methodology and Atlas Models",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://winning.microprediction.org/assets/pdf/collision_local_times_note.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://winning.microprediction.org"
             }
           ]
         }
@@ -158,12 +207,16 @@
       ],
       "papers": [
         {
-          "title": "Schur Complementary Portfolios",
+          "title": "Schur Complementary Allocation: A Unification of Hierarchical Risk Parity and Minimum Variance Portfolios",
           "venue": "preprint, 2024",
           "links": [
             {
               "label": "arXiv",
               "url": "https://arxiv.org/abs/2411.05807"
+            },
+            {
+              "label": "latest draft",
+              "url": "https://schur.microprediction.org/schur-complementary-allocation.pdf"
             },
             {
               "label": "pdf",
@@ -203,7 +256,30 @@
           ]
         },
         {
-          "title": "Betwixt Minimum Variance and Hierarchical Risk Parity: Analytical Results for the Schur Bridge",
+          "title": "Nested Clustered Optimization Is One End of a Schur Bridge, and the Interior Is Sometimes Provably Better",
+          "venue": "preprint, 2026",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/2609.21271"
+            },
+            {
+              "label": "SSRN",
+              "url": "https://papers.ssrn.com/abstract=7480738"
+            },
+            {
+              "label": "latest draft",
+              "url": "https://schur.microprediction.org/schur-nco-bridge.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://schur.microprediction.org/papers.html"
+            }
+          ]
+        },
+        {
+          "title": "When the Out-of-Sample-Optimal Schur Portfolio Lies Between HRP and Minimum Variance",
           "draft_new": true,
           "links": [
             {
@@ -217,16 +293,72 @@
           ]
         },
         {
-          "title": "Schur Pseudo-Likelihood",
+          "title": "Hierarchical Equal Risk Contribution Is a Corner of a Schur Square, and Two Dials Lead to Minimum Variance",
           "draft_new": true,
           "links": [
             {
               "label": "latest draft",
-              "url": "https://github.com/microprediction/precise/blob/main/papers/schur_likelihood_paper.pdf"
+              "url": "https://schur.microprediction.org/schur-herc-square.pdf"
             },
             {
               "label": "site",
-              "url": "https://schur.microprediction.org"
+              "url": "https://schur.microprediction.org/papers.html"
+            }
+          ]
+        },
+        {
+          "title": "The Thurstone Tilt Is a Schur Bridge, and Both of Its Ends Are Races",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://schur.microprediction.org/tilt-is-a-bridge.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://schur.microprediction.org/papers.html"
+            }
+          ]
+        },
+        {
+          "title": "The Far End of a Schur Bridge Does Not Care How Its Clusters Are Priced, and the Interior Does",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://schur.microprediction.org/pricing-a-cluster.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://schur.microprediction.org/papers.html"
+            }
+          ]
+        },
+        {
+          "title": "Covariance Localization Is Schur Damping, and Its Optimal Strength Is a Sampling-Error Correction",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://schur.microprediction.org/localization-is-schur-damping.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://schur.microprediction.org/papers.html"
+            }
+          ]
+        },
+        {
+          "title": "Schur Covariance Evaluation: A Principled Pseudo-Likelihood in High Dimensions",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://precise.microprediction.org/papers/schur-likelihood/schur_likelihood_paper.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://precise.microprediction.org/papers/"
             }
           ]
         },
@@ -263,6 +395,34 @@
               "url": "https://github.com/microprediction/allocation/tree/main/papers/thurstone-portfolios"
             }
           ]
+        },
+        {
+          "title": "When Does Portfolio Construction Work? A Map across the Number of Assets and the Cost of Trading",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://allocation.microprediction.org/papers/online-portfolio-regimes/paper.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://allocation.microprediction.org/papers/"
+            }
+          ]
+        },
+        {
+          "title": "Spectral Calibration Without a Split: Learning Covariance Eigenvalue Corrections One Observation at a Time",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://precise.microprediction.org/papers/online-spectral-calibration/online_spectral_calibration.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://precise.microprediction.org/papers/"
+            }
+          ]
         }
       ]
     },
@@ -279,6 +439,20 @@
             {
               "label": "SSRN",
               "url": "https://papers.ssrn.com/abstract=7248284"
+            }
+          ]
+        },
+        {
+          "title": "Exponential Rigidity and a Log-Value Normal Form for Imbalanced Market Making",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://inventory.microprediction.org/exponential_normal_form.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://inventory.microprediction.org/papers.html"
             }
           ]
         },
@@ -395,6 +569,34 @@
               "url": "https://github.com/microprediction/allocation/tree/main/papers/thurstone-credit"
             }
           ]
+        },
+        {
+          "title": "An Asymptotic Correction to Luce's Choice Axiom for Competing Correlated Cox Processes",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://kinetics.microprediction.org/softmax-fast-mixing.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://kinetics.microprediction.org/papers.html"
+            }
+          ]
+        },
+        {
+          "title": "The Runner-Up Principle for Counterfactual Races",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://kinetics.microprediction.org/runner-up-principle.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://kinetics.microprediction.org/papers.html"
+            }
+          ]
         }
       ]
     },
@@ -466,6 +668,79 @@
               "url": "https://github.com/microprediction/home/blob/main/workingpapers/go_forth.pdf"
             }
           ]
+        }
+      ]
+    },
+    {
+      "title": "Bandits and Stopping",
+      "package": "brownianbandit",
+      "sites": [
+        {
+          "label": "brownianbandit.microprediction.org/papers",
+          "url": "https://brownianbandit.microprediction.org/papers.html"
+        }
+      ],
+      "papers": [
+        {
+          "title": "Exact Posterior Probability of Optimality for Factor-Gaussian Beliefs",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://winning.microprediction.org/assets/pdf/exact_pom_factor_gaussian.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://winning.microprediction.org"
+            }
+          ]
+        },
+        {
+          "title": "Wavefront Pruning in Budgeted Brownian Races",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://brownianbandit.microprediction.org/wavefront_pruning_draft.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://brownianbandit.microprediction.org/papers.html"
+            }
+          ]
+        },
+        {
+          "title": "Posterior-Predictive Pass-at-k",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://brownianbandit.microprediction.org/passk_posterior.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://brownianbandit.microprediction.org/papers.html"
+            }
+          ]
+        },
+        {
+          "title": "Clay Shooting: Equilibrium Effort Solving Outstanding Problems",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "read",
+              "url": "https://brownianbandit.microprediction.org/clay_shooting.html"
+            },
+            {
+              "label": "site",
+              "url": "https://brownianbandit.microprediction.org/papers.html"
+            }
+          ]
+        },
+        {
+          "title": "Research Prizes with Uncertain Compute Costs",
+          "draft_in_progress": true,
+          "links": []
         }
       ]
     },
@@ -558,6 +833,34 @@
             {
               "label": "html",
               "url": "https://mechanisms.microprediction.org/papers/likelihood-versus-crps.html"
+            }
+          ]
+        },
+        {
+          "title": "Non-Convex Market Makers: Coherence without Convexity, Friction, and Parallel Composition",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://mechanisms.microprediction.org/papers/non-convex-market-makers.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://mechanisms.microprediction.org/papers.html"
+            }
+          ]
+        },
+        {
+          "title": "Clamped Markets: How Prediction Mechanisms Compose, and What Familiar Methods Are When the Competition Is Switched Off",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://mechanisms.microprediction.org/papers/clamped-markets.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://mechanisms.microprediction.org/papers.html"
             }
           ]
         },
@@ -748,9 +1051,13 @@
       "title": "Fixed income & stochastic volatility",
       "papers": [
         {
-          "title": "Stochastic Volatility Corrections for Interest Rate Models",
-          "venue": "2004",
+          "title": "Stochastic Volatility Corrections for Interest Rate Derivatives",
+          "venue": "with J.-P. Fouque, G. Papanicolaou and R. Sircar, Mathematical Finance 14, 173–200, 2004",
           "links": [
+            {
+              "label": "journal",
+              "url": "https://doi.org/10.1111/j.0960-1627.2004.00188.x"
+            },
             {
               "label": "pdf",
               "url": "http://math.stanford.edu/~papanico/pubftp/cfps.pdf"
@@ -766,6 +1073,12 @@
               "url": "https://www.amazon.com/Derivatives-Financial-Markets-Stochastic-Volatility/dp/0521791634"
             }
           ]
+        }
+      ],
+      "sites": [
+        {
+          "label": "homogenization.microprediction.org",
+          "url": "https://homogenization.microprediction.org"
         }
       ]
     },
@@ -829,22 +1142,17 @@
       ]
     },
     {
-      "title": "Mathematical analysis",
+      "title": "Lie theory",
       "papers": [
         {
           "title": "Contraction of an Adapted Functional Calculus",
           "links": [
             {
               "label": "pdf",
-              "url": "https://github.com/microprediction/home/blob/main/papers/Contraction_of_an_Adapted_Functional_Cal.pdf"
+              "url": "https://raw.githubusercontent.com/microprediction/home/main/papers/Contraction_of_an_Adapted_Functional_Cal.pdf"
             }
-          ]
-        }
-      ],
-      "sites": [
-        {
-          "label": "pure.microprediction.org",
-          "url": "https://pure.microprediction.org"
+          ],
+          "venue": "with A. H. Dooley, Journal of Lie Theory 7(2), 147–164, 1997"
         }
       ]
     },
@@ -930,6 +1238,18 @@
   ],
   "software": [
     {
+      "name": "skaters",
+      "docs": "https://skaters.microprediction.org",
+      "code": "https://github.com/microprediction/skaters",
+      "desc": "Fast univariate time series models that run in Pyodide."
+    },
+    {
+      "name": "winning",
+      "docs": "https://winning.microprediction.org",
+      "code": "https://github.com/microprediction/winning",
+      "desc": "Correlated races at scale: a generalization of factor multinomial probit to millions of variables, with R, Julia and Rust ports."
+    },
+    {
       "name": "precise",
       "docs": "https://precise.microprediction.org",
       "code": "https://github.com/microprediction/precise",
@@ -940,42 +1260,6 @@
       "docs": "https://humpday.microprediction.org",
       "code": "https://github.com/microprediction/humpday",
       "desc": "Derivative-free optimization in pure Python and JavaScript, including an ask/tell interface that takes one observation at a time."
-    },
-    {
-      "name": "allocation",
-      "docs": "https://allocation.microprediction.org",
-      "code": "https://github.com/microprediction/allocation",
-      "desc": "Streaming online portfolio construction, built on precise and thurstone."
-    },
-    {
-      "name": "thurstone",
-      "docs": "https://thurstone.microprediction.org",
-      "code": "https://github.com/microprediction/winning",
-      "desc": "Fast ability inference from contest winning probabilities.",
-      "code_label": "winning"
-    },
-    {
-      "name": "skaters",
-      "docs": "https://skaters.microprediction.org",
-      "code": "https://github.com/microprediction/skaters",
-      "desc": "Fast univariate time series models that run in Pyodide."
-    },
-    {
-      "name": "prophet-laplace",
-      "code": "https://github.com/microprediction/prophet-laplace",
-      "desc": "Prophet in a laplace sandwich: same API, calibrated densities, via skaters."
-    },
-    {
-      "name": "timemachines",
-      "docs": "https://timemachines.microprediction.org",
-      "code": "https://github.com/microprediction/timemachines",
-      "desc": "Streaming anomaly detection with calibrated p-values, on skaters."
-    },
-    {
-      "name": "mechanisms",
-      "docs": "https://mechanisms.microprediction.org",
-      "code": "https://github.com/microprediction/mechanisms",
-      "desc": "Markets, scoring rules and everything in between."
     }
   ],
   "software_site": {
