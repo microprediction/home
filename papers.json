@@ -9,16 +9,16 @@
     "photo": "assets/images/peter_cycling.jpeg",
     "links": [
       {
+        "label": "Software",
+        "url": "https://repos.microprediction.org"
+      },
+      {
         "label": "GitHub",
         "url": "https://github.com/microprediction"
       },
       {
         "label": "Google Scholar",
         "url": "https://scholar.google.com/citations?user=V5wB8lEAAAAJ"
-      },
-      {
-        "label": "Software",
-        "url": "https://repos.microprediction.org"
       },
       {
         "label": "Bio",
@@ -150,6 +150,10 @@
         {
           "label": "allocation.microprediction.org/papers",
           "url": "https://allocation.microprediction.org/papers/"
+        },
+        {
+          "label": "randomcov.microprediction.org",
+          "url": "https://randomcov.microprediction.org"
         }
       ],
       "papers": [
@@ -316,6 +320,10 @@
         {
           "label": "thurstone.microprediction.org",
           "url": "https://thurstone.microprediction.org"
+        },
+        {
+          "label": "kinetics.microprediction.org",
+          "url": "https://kinetics.microprediction.org"
         }
       ],
       "papers": [
@@ -397,6 +405,10 @@
         {
           "label": "humpday.microprediction.org/papers",
           "url": "https://humpday.microprediction.org/papers.html"
+        },
+        {
+          "label": "brownianbandit.microprediction.org",
+          "url": "https://brownianbandit.microprediction.org"
         }
       ],
       "papers": [
@@ -589,6 +601,12 @@
               "url": "https://github.com/microprediction/home/blob/main/workingpapers/The_Indispensible_Markets_Hypothesis.pdf"
             }
           ]
+        }
+      ],
+      "sites": [
+        {
+          "label": "economics.microprediction.org/papers",
+          "url": "https://economics.microprediction.org/papers.html"
         }
       ]
     },
@@ -822,6 +840,12 @@
             }
           ]
         }
+      ],
+      "sites": [
+        {
+          "label": "pure.microprediction.org",
+          "url": "https://pure.microprediction.org"
+        }
       ]
     },
     {
@@ -892,6 +916,14 @@
         {
           "label": "microprediction.medium.com",
           "url": "https://microprediction.medium.com"
+        },
+        {
+          "label": "latentreasoning.net",
+          "url": "https://latentreasoning.net"
+        },
+        {
+          "label": "dumbphilosophy.com",
+          "url": "https://dumbphilosophy.com"
         }
       ]
     }
@@ -1108,6 +1140,6 @@
   ],
   "highlight": {
     "summary": "My best stuff",
-    "body": "A &gt;100x performance upgrade when n&gt;1000 for factor additive random-utility discrete-choice models (including multinomial factor probit), in <a href=\"https://papers.ssrn.com/abstract=7307363\">this paper</a>. This brings the world’s core engine for probability to large-n problems in astrophysics, machine learning, biology, chemistry and elsewhere.</p><p>Second place: the unification of the two sides of portfolio theory, in <a href=\"https://github.com/microprediction/home/blob/main/workingpapers/Hierarchical_Minimum_Variance_Portfolios.pdf\">this paper</a>.</p><p>Third place: the engineering of the world’s most reliable autonomous online univariate distributional forecaster, in <a href=\"https://papers.ssrn.com/abstract=7220478\">this paper</a>."
+    "body": "Scaling econometrics to millions of variables in <a href=\"https://papers.ssrn.com/abstract=7307363\">this paper</a>.</p><p>Second place: the unification of the two sides of portfolio theory, in <a href=\"https://github.com/microprediction/home/blob/main/workingpapers/Hierarchical_Minimum_Variance_Portfolios.pdf\">this paper</a>.</p><p>Third place: the engineering of the world’s most reliable autonomous online univariate distributional forecaster, in <a href=\"https://papers.ssrn.com/abstract=7220478\">this paper</a>."
   }
 }
