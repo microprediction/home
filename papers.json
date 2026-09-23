@@ -668,11 +668,12 @@
       ]
     },
     {
-      "title": "Bandits",
+      "title": "Bandits and Stopping",
+      "package": "brownianbandit",
       "sites": [
         {
-          "label": "brownianbandit.microprediction.org",
-          "url": "https://brownianbandit.microprediction.org"
+          "label": "brownianbandit.microprediction.org/papers",
+          "url": "https://brownianbandit.microprediction.org/papers.html"
         }
       ],
       "papers": [
@@ -703,19 +704,7 @@
               "url": "https://brownianbandit.microprediction.org/papers.html"
             }
           ]
-        }
-      ]
-    },
-    {
-      "title": "Optimal stopping & contest design",
-      "package": "brownianbandit",
-      "sites": [
-        {
-          "label": "brownianbandit.microprediction.org/papers",
-          "url": "https://brownianbandit.microprediction.org/papers.html"
-        }
-      ],
-      "papers": [
+        },
         {
           "title": "Posterior-Predictive Pass-at-k",
           "draft_new": true,
