@@ -51,10 +51,14 @@
     },
     {
       "title": "An Analytic Approach to Ornstein-Uhlenbeck Processes with Fluctuating Parameters and Applications in the Modeling of Fixed Income Securities",
-      "venue": "PhD thesis",
+      "venue": "PhD thesis, Stanford University, 2001",
       "links": [
         {
-          "label": "pdf",
+          "label": "ProQuest",
+          "url": "https://www.proquest.com/openview/77a94e16467c20c2e86103967640f3dd/1?pq-origsite=gscholar&cbl=18750&diss=y"
+        },
+        {
+          "label": "preview (first 24 pages)",
           "url": "https://github.com/microprediction/home/blob/main/papers/an_analytic_approach_to_ornstein.pdf"
         }
       ]
