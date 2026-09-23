@@ -9,16 +9,16 @@
     "photo": "assets/images/peter_cycling.jpeg",
     "links": [
       {
+        "label": "Software",
+        "url": "https://repos.microprediction.org"
+      },
+      {
         "label": "GitHub",
         "url": "https://github.com/microprediction"
       },
       {
         "label": "Google Scholar",
         "url": "https://scholar.google.com/citations?user=V5wB8lEAAAAJ"
-      },
-      {
-        "label": "Software",
-        "url": "https://repos.microprediction.org"
       },
       {
         "label": "Bio",
