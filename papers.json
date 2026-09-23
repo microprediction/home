@@ -1140,6 +1140,6 @@
   ],
   "highlight": {
     "summary": "My best stuff",
-    "body": "A &gt;100x performance upgrade when n&gt;1000 for factor additive random-utility discrete-choice models (including multinomial factor probit), in <a href=\"https://papers.ssrn.com/abstract=7307363\">this paper</a>. This brings the world’s core engine for probability to large-n problems in astrophysics, machine learning, biology, chemistry and elsewhere.</p><p>Second place: the unification of the two sides of portfolio theory, in <a href=\"https://github.com/microprediction/home/blob/main/workingpapers/Hierarchical_Minimum_Variance_Portfolios.pdf\">this paper</a>.</p><p>Third place: the engineering of the world’s most reliable autonomous online univariate distributional forecaster, in <a href=\"https://papers.ssrn.com/abstract=7220478\">this paper</a>."
+    "body": "Scaling econometrics to millions of variables in <a href=\"https://papers.ssrn.com/abstract=7307363\">this paper</a>.</p><p>Second place: the unification of the two sides of portfolio theory, in <a href=\"https://github.com/microprediction/home/blob/main/workingpapers/Hierarchical_Minimum_Variance_Portfolios.pdf\">this paper</a>.</p><p>Third place: the engineering of the world’s most reliable autonomous online univariate distributional forecaster, in <a href=\"https://papers.ssrn.com/abstract=7220478\">this paper</a>."
   }
 }
