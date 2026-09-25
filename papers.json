@@ -66,7 +66,7 @@
   ],
   "themes": [
     {
-      "title": "Numerical statistics (Probit, logit, ...)",
+      "title": "Econometric algorithms (Probit, ...)",
       "papers": [
         {
           "title": "Scalable Inversion of Contests with Correlated Performances, Including Softmax and Multinomial Probit",
