@@ -1051,6 +1051,24 @@
       "title": "Fixed income & stochastic volatility",
       "papers": [
         {
+          "title": "Security and Derivative Pricing with Fast Regime Switches",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://raw.githubusercontent.com/microprediction/home/main/workingpapers/Security_and_Derivative_Pricing_with_Fast_Regime_Switches.pdf"
+            },
+            {
+              "label": "code",
+              "url": "https://github.com/microprediction/regimelib"
+            },
+            {
+              "label": "site",
+              "url": "https://regimeswitching.org"
+            }
+          ]
+        },
+        {
           "title": "Stochastic Volatility Corrections for Interest Rate Derivatives",
           "venue": "with J.-P. Fouque, G. Papanicolaou and R. Sircar, Mathematical Finance 14, 173–200, 2004",
           "links": [
