@@ -178,6 +178,34 @@
               "url": "https://conformalprediction.net"
             }
           ]
+        },
+        {
+          "title": "A Stronger Univariate Benchmark for Foundational Time-Series Model Evaluation",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://raw.githubusercontent.com/microprediction/skaters/main/papers/stronger-benchmark/stronger-benchmark.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://skaters.microprediction.org"
+            }
+          ]
+        },
+        {
+          "title": "Dyadic Regression",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://raw.githubusercontent.com/microprediction/skaters/main/papers/dyadic-regression/dyadic-regression.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://skaters.microprediction.org"
+            }
+          ]
         }
       ],
       "package": "skaters",
@@ -473,6 +501,16 @@
               "url": "https://github.com/microprediction/home/blob/main/workingpapers/trading_illiquid_goods.pdf"
             }
           ]
+        },
+        {
+          "title": "Finite-Horizon Market Making with Imbalanced Flow: An Exact Symmetrization and Its Term Structure",
+          "draft_in_progress": true,
+          "links": [
+            {
+              "label": "site",
+              "url": "https://inventory.microprediction.org"
+            }
+          ]
         }
       ],
       "package": "inventory",
@@ -534,8 +572,12 @@
           ]
         },
         {
-          "title": "A Paradox in Machine Preference",
+          "title": "Choice-Set Restriction in Machines and People: Independence of Irrelevant Alternatives Fails in Both, and Far More Sharply in Machines",
           "links": [
+            {
+              "label": "latest draft",
+              "url": "https://raw.githubusercontent.com/microprediction/winning/main/papers/machine_preference/paper.pdf"
+            },
             {
               "label": "pdf",
               "url": "https://github.com/microprediction/home/blob/main/workingpapers/A_Machine_Preference_Paradox.pdf"
@@ -595,6 +637,34 @@
             {
               "label": "site",
               "url": "https://kinetics.microprediction.org/papers.html"
+            }
+          ]
+        },
+        {
+          "title": "Beating a Deployed Rating System: Partial Pooling Against Per-Category Glicko-2 on Lichess",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://raw.githubusercontent.com/microprediction/winning/main/papers/chess_ratings/paper.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://winning.microprediction.org"
+            }
+          ]
+        },
+        {
+          "title": "Win Nodes for Bayes Nets: Exact Order-Statistic Queries on Gaussian Graphical Models",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://raw.githubusercontent.com/microprediction/winning/main/papers/win_nodes/paper.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://winning.microprediction.org"
             }
           ]
         }
@@ -668,6 +738,20 @@
               "url": "https://github.com/microprediction/home/blob/main/workingpapers/go_forth.pdf"
             }
           ]
+        },
+        {
+          "title": "Adaptive Planar Search: A Terminal-Placement Acquisition for Derivative-Free Optimization",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://raw.githubusercontent.com/microprediction/humpday/main/papers/planar_search/planar_search.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://humpday.microprediction.org"
+            }
+          ]
         }
       ]
     },
@@ -710,7 +794,7 @@
           ]
         },
         {
-          "title": "Posterior-Predictive Pass-at-k",
+          "title": "A Posterior Predictive for Pass@k: Established Empirical Bayes, Measured on Released Rollouts",
           "draft_new": true,
           "links": [
             {
@@ -924,8 +1008,7 @@
       ],
       "papers": [
         {
-          "title": "Marginally Useful: Formalizing the Information Gap in Conformal Prediction",
-          "draft_new": true,
+          "title": "Marginally Useful: An Information-Gap Identity in Conformal Prediction",
           "links": [
             {
               "label": "arXiv",
@@ -943,7 +1026,8 @@
               "label": "site",
               "url": "https://conformalprediction.net"
             }
-          ]
+          ],
+          "venue": "preprint, 2026"
         },
         {
           "title": "A Feynman–Wigner-Style Diagnostic for the Efficacy of Conformal Prediction via Signed de Finetti Representations",
@@ -1042,6 +1126,45 @@
             {
               "label": "site",
               "url": "https://conformalprediction.net"
+            }
+          ]
+        },
+        {
+          "title": "Marginally Useful: Conformal Prediction Is Early Stopping at an Information Price",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://conformalprediction.net/papers/stopping/stopping.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://conformalprediction.net/papers/"
+            }
+          ]
+        },
+        {
+          "title": "Conformal Correlation Counterexamples",
+          "draft_in_progress": true,
+          "links": [
+            {
+              "label": "SSRN",
+              "url": "https://papers.ssrn.com/abstract=7456178"
+            },
+            {
+              "label": "site",
+              "url": "https://conformalprediction.net/papers/"
+            }
+          ],
+          "venue": "preprint, 2026"
+        },
+        {
+          "title": "Locally Honest Coverage Forces Nonparametric Inflation: a Sharpness Lower Bound for Prediction Sets",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://raw.githubusercontent.com/microprediction/conformalprediction/main/papers/honest-sharpness/honest-sharpness.pdf"
             }
           ]
         }
