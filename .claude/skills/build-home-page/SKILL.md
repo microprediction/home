@@ -46,6 +46,36 @@ low bold, abstracts in collapsed `<details>`.
   copy is TeX, compile it and publish the PDF to the package site's `docs/` first.
 - `abstract_source` = a local file to extract the abstract from when it isn't one of the entry's links (e.g. a TeX with no public PDF).
 
+## ULTRA reading list
+
+The optional top-level `ultra` object adds a separate collapsed editorial
+foldout beside `highlight` (Peter's "My best stuff"). Keep the assessment in
+`papers.json`, separate from the verbatim abstracts:
+
+```json
+{
+  "ultra": {
+    "summary": "what ULTRA thinks",
+    "reviewed": "2026-10-31",
+    "description": "The selection criteria and why the list stops here.",
+    "entries": [
+      { "title": "Exact title from a visible theme paper",
+        "why": "Why this contribution matters.",
+        "caveat": "Its scope and evidence limits.",
+        "heritage": "Optional brief account of the earlier work it builds on." }
+    ]
+  }
+}
+```
+
+Entry order sets rank. All narrative fields are plain text, escaped on output.
+Optional `heritage` must be a nonempty string and renders after the scope note.
+The generator resolves paper links from the catalogue (journal, arXiv, SSRN,
+DOI, then latest draft or PDF); do not duplicate URLs in the reading list.
+Unknown, ambiguous, duplicate or hidden selections fail the build so a renamed
+or hidden paper cannot silently leave a stale recommendation. Omitting `ultra`
+omits the foldout.
+
 ## Procedure
 
 0. **Posting status** — `python3 status.py` (or `--offline`). Read `STATUS.md`: "local newer" rows are drafts that have moved since they were posted and may need a revision upload; "unknown SSRN date" rows need a line in `posted.json`; "unresolved local" rows have a draft link the script cannot map to a sibling repo.
