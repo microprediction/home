@@ -106,7 +106,8 @@
               "label": "site",
               "url": "https://winning.microprediction.org"
             }
-          ]
+          ],
+          "date": "2026-08"
         },
         {
           "title": "Computation of Collision Local Times: A Connection Between New Scalable Probit Methodology and Atlas Models",
@@ -120,7 +121,8 @@
               "label": "site",
               "url": "https://winning.microprediction.org"
             }
-          ]
+          ],
+          "date": "2026-09"
         }
       ],
       "package": "winning",
@@ -141,7 +143,8 @@
               "label": "pdf",
               "url": "https://github.com/microprediction/home/blob/main/workingpapers/a_platform_for_assessing_and_combining.pdf"
             }
-          ]
+          ],
+          "date": "2022"
         },
         {
           "title": "Transforms All the Way Down: Automatic Online Distributional Forecasting by Conjugation",
@@ -159,7 +162,8 @@
               "label": "site",
               "url": "https://skaters.microprediction.org/papers.html"
             }
-          ]
+          ],
+          "date": "2026-09"
         },
         {
           "title": "Conformal Prediction as a Transform within a Grammar for Probabilistic Forecasting",
@@ -177,12 +181,17 @@
               "label": "site",
               "url": "https://conformalprediction.net"
             }
-          ]
+          ],
+          "date": "2026-08"
         },
         {
           "title": "A Stronger Univariate Benchmark for Foundational Time-Series Model Evaluation",
           "draft_new": true,
           "links": [
+            {
+              "label": "SSRN",
+              "url": "https://papers.ssrn.com/abstract=7583618"
+            },
             {
               "label": "latest draft",
               "url": "https://raw.githubusercontent.com/microprediction/skaters/main/papers/stronger-benchmark/stronger-benchmark.pdf"
@@ -191,7 +200,8 @@
               "label": "site",
               "url": "https://skaters.microprediction.org"
             }
-          ]
+          ],
+          "date": "2026-10"
         },
         {
           "title": "Dyadic Regression",
@@ -205,7 +215,8 @@
               "label": "site",
               "url": "https://skaters.microprediction.org"
             }
-          ]
+          ],
+          "date": "2026-10"
         }
       ],
       "package": "skaters",
@@ -318,7 +329,8 @@
               "label": "site",
               "url": "https://schur.microprediction.org/papers.html"
             }
-          ]
+          ],
+          "date": "2026-09"
         },
         {
           "title": "Hierarchical Equal Risk Contribution Is a Corner of a Schur Square, and Two Dials Lead to Minimum Variance",
@@ -332,7 +344,8 @@
               "label": "site",
               "url": "https://schur.microprediction.org/papers.html"
             }
-          ]
+          ],
+          "date": "2026-09"
         },
         {
           "title": "The Thurstone Tilt Is a Schur Bridge, and Both of Its Ends Are Races",
@@ -346,7 +359,8 @@
               "label": "site",
               "url": "https://schur.microprediction.org/papers.html"
             }
-          ]
+          ],
+          "date": "2026-09"
         },
         {
           "title": "The Far End of a Schur Bridge Does Not Care How Its Clusters Are Priced, and the Interior Does",
@@ -360,7 +374,8 @@
               "label": "site",
               "url": "https://schur.microprediction.org/papers.html"
             }
-          ]
+          ],
+          "date": "2026-09"
         },
         {
           "title": "Covariance Localization Is Schur Damping, and Its Optimal Strength Is a Sampling-Error Correction",
@@ -374,7 +389,8 @@
               "label": "site",
               "url": "https://schur.microprediction.org/papers.html"
             }
-          ]
+          ],
+          "date": "2026-09"
         },
         {
           "title": "Schur Covariance Evaluation: A Principled Pseudo-Likelihood in High Dimensions",
@@ -388,7 +404,8 @@
               "label": "site",
               "url": "https://precise.microprediction.org/papers/"
             }
-          ]
+          ],
+          "date": "2026-09"
         },
         {
           "title": "Schur-Regularized Vecchia: Structured Covariance Estimation at Scale",
@@ -399,7 +416,8 @@
               "label": "site",
               "url": "https://precise.microprediction.org"
             }
-          ]
+          ],
+          "date": "2026-08"
         },
         {
           "title": "Correlation Inflation",
@@ -408,7 +426,8 @@
               "label": "pdf",
               "url": "https://github.com/microprediction/home/blob/main/workingpapers/CorrelationInflation.pdf"
             }
-          ]
+          ],
+          "date": "2025-09"
         },
         {
           "title": "Thurstone Portfolio Polishing: Tail-Sensitive Black-Litterman and Beyond",
@@ -422,7 +441,8 @@
               "label": "source",
               "url": "https://github.com/microprediction/allocation/tree/main/papers/thurstone-portfolios"
             }
-          ]
+          ],
+          "date": "2026-09"
         },
         {
           "title": "When Does Portfolio Construction Work? A Map across the Number of Assets and the Cost of Trading",
@@ -436,7 +456,9 @@
               "label": "site",
               "url": "https://allocation.microprediction.org/papers/"
             }
-          ]
+          ],
+          "hidden": true,
+          "date": "2026-09"
         },
         {
           "title": "Spectral Calibration Without a Split: Learning Covariance Eigenvalue Corrections One Observation at a Time",
@@ -450,7 +472,8 @@
               "label": "site",
               "url": "https://precise.microprediction.org/papers/"
             }
-          ]
+          ],
+          "date": "2026-09"
         }
       ]
     },
@@ -468,7 +491,8 @@
               "label": "SSRN",
               "url": "https://papers.ssrn.com/abstract=7248284"
             }
-          ]
+          ],
+          "date": "2026-08"
         },
         {
           "title": "Exponential Rigidity and a Log-Value Normal Form for Imbalanced Market Making",
@@ -482,7 +506,8 @@
               "label": "site",
               "url": "https://inventory.microprediction.org/papers.html"
             }
-          ]
+          ],
+          "date": "2026-08"
         },
         {
           "title": "On the Relationship Between Accuracy and Profitability in Over-the-Counter Market Making",
@@ -491,7 +516,8 @@
               "label": "pdf",
               "url": "https://github.com/microprediction/home/blob/main/workingpapers/On_the_relationship_between_accuracy_and_profitability_in_OTC_trading.pdf"
             }
-          ]
+          ],
+          "date": "2024-11"
         },
         {
           "title": "Trading Illiquid Goods: Market Making as a Sequence of Sealed-Bid Auctions, with Analytic Results",
@@ -500,7 +526,8 @@
               "label": "pdf",
               "url": "https://github.com/microprediction/home/blob/main/workingpapers/trading_illiquid_goods.pdf"
             }
-          ]
+          ],
+          "date": "2022-04"
         },
         {
           "title": "Finite-Horizon Market Making with Imbalanced Flow: An Exact Symmetrization and Its Term Structure",
@@ -510,7 +537,8 @@
               "label": "site",
               "url": "https://inventory.microprediction.org"
             }
-          ]
+          ],
+          "date": "2026-08"
         }
       ],
       "package": "inventory",
@@ -560,7 +588,8 @@
               "label": "pdf",
               "url": "https://github.com/microprediction/home/blob/main/workingpapers/Group_Selection_Probabilities_and_Rankings.pdf"
             }
-          ]
+          ],
+          "date": "2022"
         },
         {
           "title": "Luce's Choice Axiom Isn't the Only Choice! Combinatorial Contest and Rank Probabilities Using the Python Winning Package",
@@ -569,7 +598,8 @@
               "label": "pdf",
               "url": "https://github.com/microprediction/home/blob/main/workingpapers/luce_choice_isnt_the_only_choice.pdf"
             }
-          ]
+          ],
+          "date": "2021"
         },
         {
           "title": "Choice-Set Restriction in Machines and People: Independence of Irrelevant Alternatives Fails in Both, and Far More Sharply in Machines",
@@ -582,7 +612,8 @@
               "label": "pdf",
               "url": "https://github.com/microprediction/home/blob/main/workingpapers/A_Machine_Preference_Paradox.pdf"
             }
-          ]
+          ],
+          "date": "2024-07"
         },
         {
           "title": "Rating Formula 1: a Case for Non-Gaussian Noise in Rating Systems",
@@ -596,7 +627,8 @@
               "label": "source",
               "url": "https://github.com/microprediction/winning/tree/main/papers/f1_ratings"
             }
-          ]
+          ],
+          "date": "2026-07"
         },
         {
           "title": "Winning Probabilities as Credit: Fast, Redundancy-Aware Attribution",
@@ -610,7 +642,8 @@
               "label": "source",
               "url": "https://github.com/microprediction/allocation/tree/main/papers/thurstone-credit"
             }
-          ]
+          ],
+          "date": "2026-09"
         },
         {
           "title": "An Asymptotic Correction to Luce's Choice Axiom for Competing Correlated Cox Processes",
@@ -624,7 +657,8 @@
               "label": "site",
               "url": "https://kinetics.microprediction.org/papers.html"
             }
-          ]
+          ],
+          "date": "2026-08"
         },
         {
           "title": "The Runner-Up Principle for Counterfactual Races",
@@ -638,7 +672,8 @@
               "label": "site",
               "url": "https://kinetics.microprediction.org/papers.html"
             }
-          ]
+          ],
+          "date": "2026-08"
         },
         {
           "title": "Beating a Deployed Rating System: Partial Pooling Against Per-Category Glicko-2 on Lichess",
@@ -652,7 +687,8 @@
               "label": "site",
               "url": "https://winning.microprediction.org"
             }
-          ]
+          ],
+          "date": "2026-09"
         },
         {
           "title": "Win Nodes for Bayes Nets: Exact Order-Statistic Queries on Gaussian Graphical Models",
@@ -666,7 +702,8 @@
               "label": "site",
               "url": "https://winning.microprediction.org"
             }
-          ]
+          ],
+          "date": "2026-10"
         }
       ]
     },
@@ -696,7 +733,8 @@
               "label": "site",
               "url": "https://humpday.microprediction.org"
             }
-          ]
+          ],
+          "date": "2026-07"
         },
         {
           "title": "Neither Synthetic Benchmarks nor Common-Sense Reasoning Predicts Real-World Derivative-Free Optimizer Performance",
@@ -707,7 +745,8 @@
               "label": "latest draft",
               "url": "https://humpday.microprediction.org/papers/benchmark_validity.pdf"
             }
-          ]
+          ],
+          "date": "2026-06"
         },
         {
           "title": "Discovering a Derivative-Free Optimizer by Evolution Against a Memorisation-Proof Real-World Benchmark",
@@ -718,7 +757,8 @@
               "label": "latest draft",
               "url": "https://humpday.microprediction.org/papers/evolved_optimizer.pdf"
             }
-          ]
+          ],
+          "date": "2026-06"
         },
         {
           "title": "The Inspiration Simplex: Using Derivative-Free Optimization in Concept Space to Create New Derivative-Free Optimizers",
@@ -728,7 +768,8 @@
               "label": "latest draft",
               "url": "https://humpday.microprediction.org/papers/inspiration_simplex.pdf"
             }
-          ]
+          ],
+          "date": "2026-07"
         },
         {
           "title": "Go Forth! Simple Detection of Incomplete Meta-Learning by Algorithms Performing Limited Exploration on a Rugged Landscape",
@@ -737,7 +778,8 @@
               "label": "pdf",
               "url": "https://github.com/microprediction/home/blob/main/workingpapers/go_forth.pdf"
             }
-          ]
+          ],
+          "date": "2022"
         },
         {
           "title": "Adaptive Planar Search: A Terminal-Placement Acquisition for Derivative-Free Optimization",
@@ -751,7 +793,8 @@
               "label": "site",
               "url": "https://humpday.microprediction.org"
             }
-          ]
+          ],
+          "date": "2026-09"
         }
       ]
     },
@@ -777,7 +820,8 @@
               "label": "site",
               "url": "https://winning.microprediction.org"
             }
-          ]
+          ],
+          "date": "2026-09"
         },
         {
           "title": "Wavefront Pruning in Budgeted Brownian Races",
@@ -791,7 +835,8 @@
               "label": "site",
               "url": "https://brownianbandit.microprediction.org/papers.html"
             }
-          ]
+          ],
+          "date": "2026-09"
         },
         {
           "title": "A Posterior Predictive for Pass@k: Established Empirical Bayes, Measured on Released Rollouts",
@@ -805,12 +850,17 @@
               "label": "site",
               "url": "https://brownianbandit.microprediction.org/papers.html"
             }
-          ]
+          ],
+          "date": "2026-09"
         },
         {
           "title": "Clay Shooting: Equilibrium Effort Solving Outstanding Problems",
           "draft_new": true,
           "links": [
+            {
+              "label": "latest draft",
+              "url": "https://brownianbandit.microprediction.org/clay_shooting.pdf"
+            },
             {
               "label": "read",
               "url": "https://brownianbandit.microprediction.org/clay_shooting.html"
@@ -819,12 +869,8 @@
               "label": "site",
               "url": "https://brownianbandit.microprediction.org/papers.html"
             }
-          ]
-        },
-        {
-          "title": "Research Prizes with Uncertain Compute Costs",
-          "draft_in_progress": true,
-          "links": []
+          ],
+          "date": "2026-10"
         }
       ]
     },
@@ -854,7 +900,8 @@
               "label": "site",
               "url": "https://schur.microprediction.org/damping-in-pdlps.html"
             }
-          ]
+          ],
+          "date": "2025-05"
         },
         {
           "title": "Scoring Point-Cloud Distributional Submissions: Nearest-the-Pin Parimutuels, the KDE Seam, and Mollified Scoring",
@@ -876,7 +923,8 @@
               "label": "demo",
               "url": "https://mechanisms.microprediction.org/mechanisms/point-cloud-scoring.html#demo"
             }
-          ]
+          ],
+          "date": "2026-07"
         },
         {
           "title": "An Algebra of Prediction-Rewarding Mechanisms: Scoring Rules, Market Makers, and Pools as Composable Transducers",
@@ -890,7 +938,8 @@
               "label": "html",
               "url": "https://mechanisms.microprediction.org/papers/composition-and-the-algebra-of-mechanisms.html"
             }
-          ]
+          ],
+          "date": "2026-08"
         },
         {
           "title": "Multi-Stage Solicitation of Probability Distributions",
@@ -904,7 +953,8 @@
               "label": "html",
               "url": "https://mechanisms.microprediction.org/papers/multi-stage-solicitation.html"
             }
-          ]
+          ],
+          "date": "2026-08"
         },
         {
           "title": "Likelihood versus CRPS: A New Perspective",
@@ -918,7 +968,8 @@
               "label": "html",
               "url": "https://mechanisms.microprediction.org/papers/likelihood-versus-crps.html"
             }
-          ]
+          ],
+          "date": "2026-08"
         },
         {
           "title": "Non-Convex Market Makers: Coherence without Convexity, Friction, and Parallel Composition",
@@ -932,7 +983,8 @@
               "label": "site",
               "url": "https://mechanisms.microprediction.org/papers.html"
             }
-          ]
+          ],
+          "date": "2026-08"
         },
         {
           "title": "Clamped Markets: How Prediction Mechanisms Compose, and What Familiar Methods Are When the Competition Is Switched Off",
@@ -946,7 +998,8 @@
               "label": "site",
               "url": "https://mechanisms.microprediction.org/papers.html"
             }
-          ]
+          ],
+          "date": "2026-08"
         },
         {
           "title": "Self-Organizing Supply Chains for Microprediction: Present and Future Uses of the ROAR Protocol",
@@ -978,7 +1031,8 @@
               "label": "SSRN (short form)",
               "url": "https://papers.ssrn.com/abstract=7299424"
             }
-          ]
+          ],
+          "date": "2026-08"
         },
         {
           "title": "How Should Forecasts be Engineered: The Indispensible Markets Hypothesis",
@@ -987,7 +1041,8 @@
               "label": "pdf",
               "url": "https://github.com/microprediction/home/blob/main/workingpapers/The_Indispensible_Markets_Hypothesis.pdf"
             }
-          ]
+          ],
+          "date": "2024-11"
         }
       ],
       "sites": [
@@ -1041,7 +1096,8 @@
               "label": "site",
               "url": "https://conformalprediction.net"
             }
-          ]
+          ],
+          "date": "2026-06"
         },
         {
           "title": "Betting Against a Conformal Predictor: A Parimutuel Account of the Information Gap",
@@ -1055,7 +1111,8 @@
               "label": "site",
               "url": "https://conformalprediction.net"
             }
-          ]
+          ],
+          "date": "2026-09"
         },
         {
           "title": "The Width of the Conformal Fan: Dependence and the Variance of Realized Coverage",
@@ -1073,7 +1130,8 @@
               "label": "site",
               "url": "https://conformalprediction.net"
             }
-          ]
+          ],
+          "date": "2026-06"
         },
         {
           "title": "The Two Prices of Dependence: a Vanishing Coverage Tax and a Fixed Sharpness Rent",
@@ -1091,7 +1149,8 @@
               "label": "site",
               "url": "https://conformalprediction.net"
             }
-          ]
+          ],
+          "date": "2026-07"
         },
         {
           "title": "A Contragredient View of Conformal Placement and Steinitz Balancing",
@@ -1109,7 +1168,8 @@
               "label": "site",
               "url": "https://conformalprediction.net"
             }
-          ]
+          ],
+          "date": "2026-07"
         },
         {
           "title": "An Empirical Study of the Conformal Information Gap",
@@ -1127,7 +1187,8 @@
               "label": "site",
               "url": "https://conformalprediction.net"
             }
-          ]
+          ],
+          "date": "2026-08"
         },
         {
           "title": "Marginally Useful: Conformal Prediction Is Early Stopping at an Information Price",
@@ -1141,7 +1202,8 @@
               "label": "site",
               "url": "https://conformalprediction.net/papers/"
             }
-          ]
+          ],
+          "date": "2026-06"
         },
         {
           "title": "Conformal Correlation Counterexamples",
@@ -1166,7 +1228,8 @@
               "label": "latest draft",
               "url": "https://raw.githubusercontent.com/microprediction/conformalprediction/main/papers/honest-sharpness/honest-sharpness.pdf"
             }
-          ]
+          ],
+          "date": "2026-08"
         }
       ]
     },
@@ -1189,7 +1252,8 @@
               "label": "site",
               "url": "https://regimeswitching.org"
             }
-          ]
+          ],
+          "date": "2026-09"
         },
         {
           "title": "Stochastic Volatility Corrections for Interest Rate Derivatives",
@@ -1332,7 +1396,7 @@
         },
         {
           "title": "So, You Recommended a Python Time-Series Package … Now What?",
-          "venue": "Medium",
+          "venue": "Medium, 2023",
           "links": [
             {
               "label": "Medium",
@@ -1342,7 +1406,7 @@
         },
         {
           "title": "A Gentle Introduction to Stochastic Portfolio Theory (and its Inverse)",
-          "venue": "Medium",
+          "venue": "Medium, 2023",
           "links": [
             {
               "label": "Medium",

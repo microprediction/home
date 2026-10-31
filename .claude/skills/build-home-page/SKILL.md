@@ -27,9 +27,16 @@ low bold, abstracts in collapsed `<details>`.
   "draft_new": true, "abstract_source": "https://github.com/.../x.tex",
   "links": [ {"label":"arXiv","url":"..."}, {"label":"latest draft","url":"..."} ] }
 ```
-- `venue` present ⇒ published (rendered italic). List the canonical link (`arXiv`/`journal`) **first**.
+- `venue` present ⇒ published (rendered italic); put the year in it.
+- `date` (`"2026-09"` or `"2022"`) is required on every working paper and is rendered
+  at the start of the links row. Take it from the draft's title page, else git history. List the canonical link (`arXiv`/`journal`) **first**.
 - `latest draft` label is highlighted; use a **PDF** url, never a raw `.tex`.
 - `draft_in_progress: true` shows a muted "draft in progress" note (no link).
+- `hidden: true` keeps the entry in `papers.json` but leaves it off the page
+  (Peter's call: premature or trivial drafts). Never delete an entry to hide it;
+  set the flag so the census stays complete. A theme with nothing visible is skipped.
+- Every working paper needs a **PDF** link (`latest draft` or `pdf`). If the only
+  copy is TeX, compile it and publish the PDF to the package site's `docs/` first.
 - `abstract_source` = a local file to extract the abstract from when it isn't one of the entry's links (e.g. a TeX with no public PDF).
 
 ## Procedure

@@ -53,6 +53,7 @@ ul.pubs>li:last-child{border-bottom:none}
 .ln .sep{color:var(--rule);margin:0 6px}
 .ln a.new{color:var(--new)}
 .ln .wip{font-style:italic;color:var(--muted)}
+.ln .date{color:var(--muted);font-variant-numeric:tabular-nums}
 details{margin-top:5px}
 details summary{font-size:.82rem;color:var(--muted);cursor:pointer;list-style:none;
   display:inline-block}
@@ -91,8 +92,24 @@ def slug(s: str) -> str:
     return "".join(c if c.isalnum() else "-" for c in s.lower()).strip("-")
 
 
+MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+
+def fmt_date(d: str) -> str:
+    """'2026-09' -> 'Sep 2026'; '2022' -> '2022'."""
+    d = str(d)
+    if len(d) >= 7 and d[4] == "-":
+        try:
+            return f"{MONTHS[int(d[5:7]) - 1]} {d[:4]}"
+        except (ValueError, IndexError):
+            return d[:4]
+    return d[:4]
+
+
 def links_row(p: dict) -> str:
     parts = []
+    if p.get("date") and not p.get("venue"):
+        parts.append(f'<span class="date">{esc(fmt_date(p["date"]))}</span>')
     for ln in p.get("links", []):
         cls = ' class="new"' if ln["label"] == "latest draft" else ""
         parts.append(f'<a{cls} href="{esc(ln["url"])}">{esc(ln["label"])}</a>')
@@ -133,9 +150,14 @@ def soft_li(s: dict) -> str:
     return f'    <li class="soft">{name} — {esc(s["desc"])}{code}</li>'
 
 
+def visible(papers: list) -> list:
+    """Drop entries marked ``"hidden": true`` (kept in papers.json, not rendered)."""
+    return [p for p in papers if not p.get("hidden")]
+
+
 def pub_list(papers: list, abstracts: dict, classify: bool = False) -> str:
     return ('  <ul class="pubs">\n'
-            + "\n".join(pub_li(p, abstracts, classify) for p in papers)
+            + "\n".join(pub_li(p, abstracts, classify) for p in visible(papers))
             + "\n  </ul>")
 
 
@@ -152,7 +174,11 @@ def build(root: Path) -> None:
     if data.get("book_length"):
         blocks.append(("book-length", "Book Length", pub_list(data["book_length"], abstracts)))
 
+    hidden_n = 0
     for th in data.get("themes", []):
+        hidden_n += len(th["papers"]) - len(visible(th["papers"]))
+        if not visible(th["papers"]):
+            continue
         bits = []
         if th.get("package"):
             bits.append(f'<a href="https://github.com/microprediction/{esc(th["package"])}">'
@@ -278,8 +304,8 @@ def build(root: Path) -> None:
     (docs / "academic.css").write_text(CSS.lstrip())
     (docs / "index.html").write_text(page)
     (docs / "CNAME").write_text(CNAME + "\n")
-    n = sum(len(b.get("papers", b.get("book_length", []))) for b in [])  # noqa
-    print(f"Wrote {docs/'index.html'} — {len(blocks)} sections, {len(abstracts)} abstracts")
+    print(f"Wrote {docs/'index.html'} — {len(blocks)} sections, {len(abstracts)} abstracts, "
+          f"{hidden_n} hidden papers")
 
 
 def find_root(start: Path) -> Path:
