@@ -1,5 +1,5 @@
 {
-  "_comment": "Hand-kept register of SSRN postings (SSRN is behind Cloudflare and cannot be scraped). Key = SSRN abstract id. posted = Date Created, revised = Last Updated, both from the SSRN author dashboard (last copied 2026-10-31). status.py compares revised (else posted) with the local draft's last commit.",
+  "_comment": "Hand-kept register of SSRN postings (SSRN is behind Cloudflare and cannot be scraped). Key = SSRN abstract id. posted = Date Created, revised = Last Updated, both from the SSRN author dashboard (last copied 2026-10-31). status.py compares revised (else posted) with the local draft's last commit. arxiv_pending = submissions made but not yet announced (no id yet), keyed by the submit/ number; remove the line once the paper has an arXiv id and add that id to the paper's links in papers.json.",
   "ssrn": {
     "7583618": {
       "posted": "2026-10-08",
@@ -64,6 +64,18 @@
       "posted": "2026-06-22",
       "revised": "2026-07-29",
       "title": "The Width of the Conformal Fan: Dependence and the Variance of Realized Coverage"
+    }
+  },
+  "arxiv_pending": {
+    "7956927": {
+      "title": "Non-Convex Market Makers: Coherence without Convexity, Friction, and Parallel Composition",
+      "status": "submitted",
+      "noted": "2026-10-31"
+    },
+    "8307895": {
+      "title": "Security and Derivative Pricing with Fast Regime Switches",
+      "status": "submitted",
+      "noted": "2026-10-31"
     }
   }
 }

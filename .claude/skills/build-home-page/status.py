@@ -189,6 +189,10 @@ def main() -> int:
                 status = "in sync"
             if any(not (s.get("posted") or s.get("revised")) for s in ssrn) and status not in ("published", "unknown SSRN date"):
                 status += ", SSRN date unknown"
+            pend = [k for k, v in posted.get("arxiv_pending", {}).items()
+                    if v.get("title", "").lower()[:40] == p["title"].lower()[:40]]
+            if pend:
+                status += f", arXiv submitted (submit/{pend[0]})"
             if local and local.get("dirty"):
                 status += ", uncommitted"
             rows.append({
