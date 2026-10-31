@@ -997,6 +997,26 @@
           "date": "2026-10"
         },
         {
+          "title": "Research Prizes with Uncertain Compute Costs: From Entry Games to Brownian Stopping Races",
+          "note": true,
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://brownianbandit.microprediction.org/research_prizes.pdf"
+            },
+            {
+              "label": "tex",
+              "url": "https://github.com/microprediction/brownianbandit/blob/main/papers/research-races/paper.tex"
+            },
+            {
+              "label": "site",
+              "url": "https://brownianbandit.microprediction.org/papers.html"
+            }
+          ],
+          "date": "2026-09"
+        },
+        {
           "title": "All-Action Propensities for Correlated Gaussian Thompson Sampling",
           "_note": "Working manuscript, empirical results pending (title page, August 2026).",
           "links": [

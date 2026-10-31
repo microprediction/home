@@ -58,6 +58,7 @@ Generated 2026-10-31 by `.claude/skills/build-home-page/status.py`. SSRN dates c
 | Bandits and Stopping | Wavefront Pruning in Budgeted Brownian Races | 2026-09-03 | - | - | not posted |
 | Bandits and Stopping | A Posterior Predictive for Pass@k: Established Empirical Bayes, Measured on Released Rollouts | 2026-09-02 | - | - | not posted |
 | Bandits and Stopping | Clay Shooting: Equilibrium Effort Solving Outstanding Problems | 2026-10-31 | - | - | not posted |
+| Bandits and Stopping | Research Prizes with Uncertain Compute Costs: From Entry Games to Brownian Stopping Races | missing | - | - | not posted |
 | Bandits and Stopping | All-Action Propensities for Correlated Gaussian Thompson Sampling | 2026-08-16 | - | - | not posted |
 | Market mechanisms | Schur Damping for Perpetual Demand Lending Pools | 2026-06-18 | - | - | not posted |
 | Market mechanisms | Scoring Point-Cloud Distributional Submissions: The Nearest-the-Pin Parimutuel, Jittered Outcomes, and the Heat Ladder | 2026-10-31 | [7054518](https://papers.ssrn.com/abstract=7054518) 2026-07-24 | - | changed since posting: 9 commits since posting, +58/-47 lines |
@@ -147,5 +148,5 @@ Commits touching the draft or its source after the latest SSRN or arXiv date, ne
 
 - changed since posting: 5
 - in sync: 4
-- not posted: 64
+- not posted: 65
 - published: 20

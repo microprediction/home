@@ -1243,6 +1243,26 @@
  },
  {
   "theme": "Bandits and Stopping",
+  "title": "Research Prizes with Uncertain Compute Costs: From Entry Games to Brownian Stopping Races",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/research_prizes.pdf"
+   ],
+   "date": null,
+   "dirty": false,
+   "missing": true
+  },
+  "draft": "https://brownianbandit.microprediction.org/research_prizes.pdf",
+  "status": "not posted",
+  "changes": null
+ },
+ {
+  "theme": "Bandits and Stopping",
   "title": "All-Action Propensities for Correlated Gaussian Thompson Sampling",
   "hidden": false,
   "venue": null,
