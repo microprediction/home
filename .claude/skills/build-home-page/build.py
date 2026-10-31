@@ -222,8 +222,8 @@ def ultra_foldout(data: dict) -> str:
         rows.append(
             '      <li>\n'
             f'        <a href="{esc(link["url"])}">{esc(title)}</a>\n'
-            f'        <p>{esc(entry["why"])}</p>\n'
-            f'        <p class="ultra-caveat">Scope: {esc(entry["caveat"])}</p>\n'
+            f'        <p>{esc(entry["why"])} '
+            f'<span class="ultra-caveat">{esc(entry["caveat"])}</span></p>\n'
             + heritage_html
             + '      </li>'
         )

@@ -69,6 +69,8 @@ foldout beside `highlight` (Peter's "My best stuff"). Keep the assessment in
 ```
 
 Entry order sets rank. All narrative fields are plain text, escaped on output.
+Keep `why` to a short editorial verdict (one or two sentences). `caveat` renders
+inline after it; keep `heritage` to a brief attribution rather than a history.
 Optional `heritage` must be a nonempty string and renders after the scope note.
 The generator resolves paper links from the catalogue (journal, arXiv, SSRN,
 DOI, then latest draft or PDF); do not duplicate URLs in the reading list.
