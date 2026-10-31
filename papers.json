@@ -333,7 +333,8 @@
               "url": "https://allocation.microprediction.org/papers/"
             }
           ],
-          "date": "2026-09"
+          "date": "2026-09",
+          "hidden": true
         },
         {
           "title": "Schur Complementary Allocation: A Unification of Hierarchical Risk Parity and Minimum Variance Portfolios",
