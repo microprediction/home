@@ -1244,7 +1244,7 @@
  {
   "theme": "Bandits and Stopping",
   "title": "All-Action Propensities for Correlated Gaussian Thompson Sampling",
-  "hidden": true,
+  "hidden": false,
   "venue": null,
   "date": "2026-08",
   "ssrn": [],

@@ -71,6 +71,11 @@ footer a{color:var(--muted)}
 .toggle input{margin-right:6px;vertical-align:middle}
 li.working{display:none}
 body.show-working li.working{display:list-item}
+li.technote{display:none}
+body.show-notes li.technote{display:list-item}
+.tag{display:inline-block;font-size:.7rem;font-weight:400;color:var(--muted);
+  border:1px solid var(--rule);border-radius:3px;padding:0 5px;margin-left:8px;vertical-align:middle;
+  letter-spacing:.02em}
 .theme[data-essays="1"]{display:none}
 details.best{margin:10px 0 4px;font-size:.92rem;border:1px solid var(--new);border-radius:6px;
   padding:7px 14px;background:#fbf7ef}
@@ -133,10 +138,16 @@ def pub_li(p: dict, abstracts: dict, classify: bool = False) -> str:
     ab = abstracts.get(p["title"])
     det = (f'\n      <details><summary>abstract</summary><p>{esc(ab)}</p></details>'
            if ab else "")
-    cls = ' class="working"' if (classify and is_working(p)) else ""
+    classes = []
+    if classify and is_working(p):
+        classes.append("working")
+    if p.get("note"):
+        classes.append("technote")
+    cls = f' class="{" ".join(classes)}"' if classes else ""
+    tag = ' <span class="tag">technical note</span>' if p.get("note") else ""
     return (
         f'    <li{cls}>\n'
-        f'      <div class="t">{esc(p["title"])}{venue}</div>\n'
+        f'      <div class="t">{esc(p["title"])}{venue}{tag}</div>\n'
         f'      <div class="ln">{links_row(p)}</div>{det}\n'
         '    </li>'
     )
@@ -252,19 +263,23 @@ def build(root: Path) -> None:
         '(function(){\n'
         '  var cw=document.getElementById("showwork");\n'
         '  var ce=document.getElementById("showessays");\n'
-        '  if(!cw&&!ce) return;\n'
+        '  var cn=document.getElementById("shownotes");\n'
+        '  if(!cw&&!ce&&!cn) return;\n'
         '  function apply(){\n'
         '    document.body.classList.toggle("show-working", cw&&cw.checked);\n'
+        '    document.body.classList.toggle("show-notes", cn&&cn.checked);\n'
         '    document.querySelectorAll(".theme").forEach(function(s){\n'
         '      if(s.getAttribute("data-essays")==="1"){\n'
         '        s.style.display=(ce&&ce.checked)?"block":"none"; return;}\n'
         '      var vis=[].some.call(s.querySelectorAll("li"),function(li){\n'
-        '        return !li.classList.contains("working")||(cw&&cw.checked);});\n'
+        '        return (!li.classList.contains("working")||(cw&&cw.checked))\n'
+        '            &&(!li.classList.contains("technote")||(cn&&cn.checked));});\n'
         '      s.style.display=vis?"":"none";\n'
         '    });\n'
         '  }\n'
         '  if(cw) cw.addEventListener("change",apply);\n'
         '  if(ce) ce.addEventListener("change",apply);\n'
+        '  if(cn) cn.addEventListener("change",apply);\n'
         '  apply();\n'
         '})();\n'
         '  </script>'
@@ -294,6 +309,7 @@ def build(root: Path) -> None:
     </header>
     <label class="toggle"><input type="checkbox" id="showwork" checked> show working papers</label>
     <label class="toggle"><input type="checkbox" id="showessays" checked> include essays</label>
+    <label class="toggle"><input type="checkbox" id="shownotes" checked> include technical notes</label>
 {highlight_html}
 {body}
   </main>{more}
