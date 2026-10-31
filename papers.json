@@ -1042,6 +1042,25 @@
       "title": "Economics",
       "papers": [
         {
+          "title": "Misaligned or Undersupplied? Pure Mathematics in the Age of LLMs",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "SSRN",
+              "url": "https://papers.ssrn.com/abstract=7452281"
+            },
+            {
+              "label": "latest draft",
+              "url": "https://pure.microprediction.org/mathematics-welfare.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://pure.microprediction.org/papers.html"
+            }
+          ],
+          "date": "2026-09"
+        },
+        {
           "title": "Division of Labor and the Survival Value of PnL per Token",
           "links": [
             {

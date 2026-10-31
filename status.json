@@ -7,7 +7,10 @@
   "date": null,
   "ssrn": [
    {
-    "id": "7307363"
+    "id": "7307363",
+    "posted": "2026-08-18",
+    "revised": "2026-09-01",
+    "title": "Scalable Inversion of Contests with Correlated Performances, Including Softmax and Multinomial Probit"
    }
   ],
   "arxiv": [
@@ -96,7 +99,10 @@
   "date": "2026-09",
   "ssrn": [
    {
-    "id": "7220478"
+    "id": "7220478",
+    "posted": "2026-08-02",
+    "revised": "2026-08-07",
+    "title": "Transforms All the Way Down: Automatic Online Distributional Forecasting by Conjugation"
    }
   ],
   "arxiv": [],
@@ -111,7 +117,7 @@
    "missing": false
   },
   "draft": "https://github.com/microprediction/skaters/blob/main/papers/skaters-jss.pdf",
-  "status": "unknown SSRN date"
+  "status": "local newer (25d)"
  },
  {
   "theme": "Time series",
@@ -121,7 +127,10 @@
   "date": "2026-08",
   "ssrn": [
    {
-    "id": "7244778"
+    "id": "7244778",
+    "posted": "2026-08-07",
+    "revised": "2026-08-11",
+    "title": "Conformal Prediction as a Transform within a Grammar for Probabilistic Forecasting"
    }
   ],
   "arxiv": [],
@@ -136,7 +145,7 @@
    "missing": false
   },
   "draft": "https://conformalprediction.net/papers/grammar/grammar.pdf",
-  "status": "unknown SSRN date"
+  "status": "in sync"
  },
  {
   "theme": "Time series",
@@ -146,7 +155,10 @@
   "date": "2026-10",
   "ssrn": [
    {
-    "id": "7583618"
+    "id": "7583618",
+    "posted": "2026-10-08",
+    "revised": "2026-10-09",
+    "title": "A Stronger Univariate Benchmark for Foundational Time-series Model Evaluation"
    }
   ],
   "arxiv": [],
@@ -160,7 +172,7 @@
    "missing": false
   },
   "draft": "https://raw.githubusercontent.com/microprediction/skaters/main/papers/stronger-benchmark/stronger-benchmark.pdf",
-  "status": "unknown SSRN date"
+  "status": "in sync"
  },
  {
   "theme": "Time series",
@@ -241,7 +253,10 @@
   "date": null,
   "ssrn": [
    {
-    "id": "7480738"
+    "id": "7480738",
+    "posted": "2026-09-18",
+    "revised": "2026-09-21",
+    "title": "Nested Clustered Optimization Is One End of a Schur Bridge, and the Interior Is Sometimes Provably Better"
    }
   ],
   "arxiv": [
@@ -443,7 +458,10 @@
   "date": "2026-08",
   "ssrn": [
    {
-    "id": "7248284"
+    "id": "7248284",
+    "posted": "2026-08-07",
+    "revised": "2026-08-12",
+    "title": "On a Simple Relationship Between Order Imbalance, Skew and Width in Over-the-Counter Trading"
    }
   ],
   "arxiv": [
@@ -458,7 +476,7 @@
   ],
   "local": null,
   "draft": null,
-  "status": "unresolved local, SSRN date unknown"
+  "status": "unresolved local"
  },
  {
   "theme": "Market making & trading",
@@ -964,7 +982,9 @@
   "ssrn": [
    {
     "id": "7054518",
-    "posted": "2026-07-24"
+    "posted": "2026-07-04",
+    "revised": "2026-07-24",
+    "title": "Scoring Point-Cloud Distributional Submissions: The Nearest-the-Pin Parimutuel, Jittered Outcomes, and the Heat Ladder"
    }
   ],
   "arxiv": [],
@@ -1129,22 +1149,55 @@
  },
  {
   "theme": "Economics",
+  "title": "Misaligned or Undersupplied? Pure Mathematics in the Age of LLMs",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [
+   {
+    "id": "7452281",
+    "posted": "2026-09-12",
+    "revised": "2026-09-15",
+    "title": "Misaligned or Undersupplied? Pure Mathematics in the Age of LLMs"
+   }
+  ],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/mathematics-welfare.pdf",
+    "papers/mathematics-welfare/mathematics-welfare.tex"
+   ],
+   "date": "2026-09-12",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://pure.microprediction.org/mathematics-welfare.pdf",
+  "status": "in sync"
+ },
+ {
+  "theme": "Economics",
   "title": "Division of Labor and the Survival Value of PnL per Token",
   "hidden": false,
   "venue": null,
   "date": "2026-08",
   "ssrn": [
    {
-    "id": "7294818"
+    "id": "7294818",
+    "posted": "2026-08-16",
+    "revised": "2026-08-19",
+    "title": "Division of Labor and the Survival Value of PnL per Token"
    },
    {
-    "id": "7299424"
+    "id": "7299424",
+    "posted": "2026-08-17",
+    "revised": "2026-09-30",
+    "title": "Winning the large language capability battle and losing the production economy"
    }
   ],
   "arxiv": [],
   "local": null,
   "draft": null,
-  "status": "unknown SSRN date"
+  "status": "unresolved local"
  },
  {
   "theme": "Economics",
@@ -1247,7 +1300,10 @@
   "date": "2026-06",
   "ssrn": [
    {
-    "id": "6979679"
+    "id": "6979679",
+    "posted": "2026-06-22",
+    "revised": "2026-07-29",
+    "title": "The Width of the Conformal Fan: Dependence and the Variance of Realized Coverage"
    }
   ],
   "arxiv": [],
@@ -1262,7 +1318,7 @@
    "missing": false
   },
   "draft": "https://conformalprediction.net/papers/fan/conformal-fan.pdf",
-  "status": "unknown SSRN date"
+  "status": "local newer (4d)"
  },
  {
   "theme": "Conformal prediction",
@@ -1312,7 +1368,10 @@
   "date": "2026-08",
   "ssrn": [
    {
-    "id": "7220538"
+    "id": "7220538",
+    "posted": "2026-08-02",
+    "revised": "2026-08-07",
+    "title": "An Empirical Study of the Conformal Information Gap"
    }
   ],
   "arxiv": [],
@@ -1327,7 +1386,7 @@
    "missing": false
   },
   "draft": "https://conformalprediction.net/papers/frontier/frontier.pdf",
-  "status": "unknown SSRN date"
+  "status": "local newer (13d)"
  },
  {
   "theme": "Conformal prediction",
@@ -1357,7 +1416,9 @@
   "date": null,
   "ssrn": [
    {
-    "id": "7456178"
+    "id": "7456178",
+    "posted": "2026-09-13",
+    "title": "Conformal Correlation Counterexamples"
    }
   ],
   "arxiv": [],
