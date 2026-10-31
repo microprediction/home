@@ -84,9 +84,10 @@
    "paths": [
     "workingpapers/a_platform_for_assessing_and_combining.pdf"
    ],
-   "date": "2022-04-06",
+   "date": null,
    "dirty": false,
-   "missing": false
+   "missing": false,
+   "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/a_platform_for_assessing_and_combining.pdf",
   "status": "not posted"
@@ -377,9 +378,10 @@
    "paths": [
     "workingpapers/CorrelationInflation.pdf"
    ],
-   "date": "2025-09-04",
+   "date": null,
    "dirty": false,
-   "missing": false
+   "missing": false,
+   "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/CorrelationInflation.pdf",
   "status": "not posted"
@@ -509,9 +511,10 @@
    "paths": [
     "workingpapers/On_the_relationship_between_accuracy_and_profitability_in_OTC_trading.pdf"
    ],
-   "date": "2024-11-25",
+   "date": null,
    "dirty": false,
-   "missing": false
+   "missing": false,
+   "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/On_the_relationship_between_accuracy_and_profitability_in_OTC_trading.pdf",
   "status": "not posted"
@@ -528,9 +531,10 @@
    "paths": [
     "workingpapers/trading_illiquid_goods.pdf"
    ],
-   "date": "2022-04-06",
+   "date": null,
    "dirty": false,
-   "missing": false
+   "missing": false,
+   "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/trading_illiquid_goods.pdf",
   "status": "not posted"
@@ -559,9 +563,10 @@
    "paths": [
     "papers/Horse_Race_Problem.pdf"
    ],
-   "date": "2022-04-06",
+   "date": null,
    "dirty": false,
-   "missing": false
+   "missing": false,
+   "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/papers/Horse_Race_Problem.pdf",
   "status": "published"
@@ -578,9 +583,10 @@
    "paths": [
     "workingpapers/Group_Selection_Probabilities_and_Rankings.pdf"
    ],
-   "date": "2022-04-06",
+   "date": null,
    "dirty": false,
-   "missing": false
+   "missing": false,
+   "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/Group_Selection_Probabilities_and_Rankings.pdf",
   "status": "not posted"
@@ -597,9 +603,10 @@
    "paths": [
     "workingpapers/luce_choice_isnt_the_only_choice.pdf"
    ],
-   "date": "2022-04-06",
+   "date": null,
    "dirty": false,
-   "missing": false
+   "missing": false,
+   "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/luce_choice_isnt_the_only_choice.pdf",
   "status": "not posted"
@@ -850,9 +857,10 @@
    "paths": [
     "workingpapers/go_forth.pdf"
    ],
-   "date": "2022-04-06",
+   "date": null,
    "dirty": false,
-   "missing": false
+   "missing": false,
+   "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/go_forth.pdf",
   "status": "not posted"
@@ -1140,12 +1148,13 @@
    "paths": [
     "papers/self_organizing_supply_chains.pdf"
    ],
-   "date": "2022-04-06",
+   "date": null,
    "dirty": false,
-   "missing": false
+   "missing": false,
+   "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/papers/self_organizing_supply_chains.pdf",
-  "status": "published, local newer (994d)"
+  "status": "published"
  },
  {
   "theme": "Economics",
@@ -1211,9 +1220,10 @@
    "paths": [
     "workingpapers/The_Indispensible_Markets_Hypothesis.pdf"
    ],
-   "date": "2024-11-19",
+   "date": null,
    "dirty": false,
-   "missing": false
+   "missing": false,
+   "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/The_Indispensible_Markets_Hypothesis.pdf",
   "status": "not posted"
@@ -1458,9 +1468,10 @@
    "paths": [
     "workingpapers/Security_and_Derivative_Pricing_with_Fast_Regime_Switches.pdf"
    ],
-   "date": "2026-10-30",
+   "date": null,
    "dirty": false,
-   "missing": false
+   "missing": false,
+   "archived": true
   },
   "draft": "https://raw.githubusercontent.com/microprediction/home/main/workingpapers/Security_and_Derivative_Pricing_with_Fast_Regime_Switches.pdf",
   "status": "not posted"
@@ -1510,12 +1521,13 @@
    "paths": [
     "workingpapers/Herd_Immunity_Convexity_Adjustments.pdf"
    ],
-   "date": "2022-04-06",
+   "date": null,
    "dirty": false,
-   "missing": false
+   "missing": false,
+   "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/Herd_Immunity_Convexity_Adjustments.pdf",
-  "status": "published, local newer (658d)"
+  "status": "published"
  },
  {
   "theme": "Epidemiology",
@@ -1538,12 +1550,13 @@
    "paths": [
     "workingpapers/repeat_contacts_and_the_spread.pdf"
    ],
-   "date": "2022-04-06",
+   "date": null,
    "dirty": false,
-   "missing": false
+   "missing": false,
+   "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/repeat_contacts_and_the_spread.pdf",
-  "status": "published, local newer (663d)"
+  "status": "published"
  },
  {
   "theme": "Sports analytics",
@@ -1557,9 +1570,10 @@
    "paths": [
     "papers/Stop_Shy_of_the_First_Down.pdf"
    ],
-   "date": "2022-04-06",
+   "date": null,
    "dirty": false,
-   "missing": false
+   "missing": false,
+   "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/papers/Stop_Shy_of_the_First_Down.pdf",
   "status": "published"
@@ -1576,9 +1590,10 @@
    "paths": [
     "papers/Contraction_of_an_Adapted_Functional_Cal.pdf"
    ],
-   "date": "2022-04-06",
+   "date": null,
    "dirty": false,
-   "missing": false
+   "missing": false,
+   "archived": true
   },
   "draft": "https://raw.githubusercontent.com/microprediction/home/main/papers/Contraction_of_an_Adapted_Functional_Cal.pdf",
   "status": "published"

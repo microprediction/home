@@ -157,7 +157,11 @@ def main() -> int:
             arxiv_ids = [str(p["arxiv"])] if p.get("arxiv") else sorted(set(ARXIV_RE.findall(urls)))
             draft = next((l["url"] for l in links if l["label"] in ("latest draft", "pdf")), None)
             loc = resolve_local(draft) if draft else None
-            local = local_state(*loc) if loc else None
+            # PDFs archived in this repo (papers/, workingpapers/) are copies, not sources:
+            # their commit date says when they were filed here, so no drift is computed.
+            local = local_state(*loc) if loc and loc[0] != ROOT else None
+            if loc and loc[0] == ROOT:
+                local = {"paths": [loc[1]], "date": None, "dirty": False, "missing": False, "archived": True}
 
             ssrn = [{"id": i, **posted.get("ssrn", {}).get(i, {})} for i in ssrn_ids]
             arx = [arxiv_info(i, cache, offline) or {"id": i} for i in arxiv_ids]
@@ -174,6 +178,8 @@ def main() -> int:
                 status = "not posted"
             elif any(not (s.get("posted") or s.get("revised")) for s in ssrn) and not latest_posted:
                 status = "unknown SSRN date"
+            elif local is not None and local.get("archived"):
+                status = "posted; draft archived here"
             elif local is None or local.get("missing") or not local.get("date"):
                 status = "unresolved local"
             elif local["date"] > latest_posted:
@@ -207,7 +213,7 @@ def main() -> int:
             continue
         ssrn = "; ".join(f"[{s['id']}](https://papers.ssrn.com/abstract={s['id']}) {s.get('revised') or s.get('posted') or '?'}" for s in r["ssrn"]) or "-"
         arx = "; ".join(f"[{a['id']}](https://arxiv.org/abs/{a['id']})" + (f" v{a['version']} {a['updated']}" if a.get("updated") else "") for a in r["arxiv"]) or "-"
-        loc = (r["local"] or {}).get("date") or ("missing" if r["local"] else "-")
+        loc = (r["local"] or {}).get("date") or ("archived here" if (r["local"] or {}).get("archived") else "missing" if r["local"] else "-")
         lines.append(f"| {cell(r['theme'])} | {cell(r['title'])} | {loc} | {ssrn} | {arx} | {r['status']} |")
     counts = {}
     for r in rows:
