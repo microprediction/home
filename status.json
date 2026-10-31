@@ -1,0 +1,1597 @@
+[
+ {
+  "theme": "Econometric algorithms (Probit, ...)",
+  "title": "Scalable Inversion of Contests with Correlated Performances, Including Softmax and Multinomial Probit",
+  "hidden": false,
+  "venue": "preprint, 2026",
+  "date": null,
+  "ssrn": [
+   {
+    "id": "7307363"
+   }
+  ],
+  "arxiv": [
+   {
+    "id": "2609.01133",
+    "version": 1,
+    "published": "2026-09-01",
+    "updated": "2026-09-01",
+    "title": "Scalable Inversion of Contests with Correlated Performances, Including Softmax and Multinomial Probit",
+    "fetched": "2026-10-31T16:19:35.020789+00:00"
+   }
+  ],
+  "local": {
+   "paths": [
+    "docs/assets/pdf/scalable_contest_inversion.pdf"
+   ],
+   "date": "2026-09-01",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://winning.microprediction.org/assets/pdf/scalable_contest_inversion.pdf",
+  "status": "published"
+ },
+ {
+  "theme": "Econometric algorithms (Probit, ...)",
+  "title": "Softmax Masking Is a Choice Model: The Evidence for Linear versus Gaussian Renormalization of Probability Vectors",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/assets/pdf/softmax_masking_choice_model.pdf"
+   ],
+   "date": "2026-09-01",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://winning.microprediction.org/assets/pdf/softmax_masking_choice_model.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Econometric algorithms (Probit, ...)",
+  "title": "Computation of Collision Local Times: A Connection Between New Scalable Probit Methodology and Atlas Models",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/assets/pdf/collision_local_times_note.pdf"
+   ],
+   "date": "2026-09-01",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://winning.microprediction.org/assets/pdf/collision_local_times_note.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Time series",
+  "title": "A Platform for Assessing and Combining Autonomous Short-Horizon Distributional Predictions",
+  "hidden": false,
+  "venue": null,
+  "date": "2022",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "workingpapers/a_platform_for_assessing_and_combining.pdf"
+   ],
+   "date": "2022-04-06",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/home/blob/main/workingpapers/a_platform_for_assessing_and_combining.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Time series",
+  "title": "Transforms All the Way Down: Automatic Online Distributional Forecasting by Conjugation",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [
+   {
+    "id": "7220478"
+   }
+  ],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/skaters-jss.pdf",
+    "papers/arxiv/skaters-jss.tex",
+    "papers/skaters-jss.tex"
+   ],
+   "date": "2026-09-01",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/skaters/blob/main/papers/skaters-jss.pdf",
+  "status": "unknown SSRN date"
+ },
+ {
+  "theme": "Time series",
+  "title": "Conformal Prediction as a Transform within a Grammar for Probabilistic Forecasting",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [
+   {
+    "id": "7244778"
+   }
+  ],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/grammar/grammar.pdf",
+    "papers/grammar/arxiv/grammar.tex",
+    "papers/grammar/grammar.tex"
+   ],
+   "date": "2026-08-06",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://conformalprediction.net/papers/grammar/grammar.pdf",
+  "status": "unknown SSRN date"
+ },
+ {
+  "theme": "Time series",
+  "title": "A Stronger Univariate Benchmark for Foundational Time-Series Model Evaluation",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-10",
+  "ssrn": [
+   {
+    "id": "7583618"
+   }
+  ],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/stronger-benchmark/stronger-benchmark.pdf",
+    "papers/stronger-benchmark/stronger-benchmark.tex"
+   ],
+   "date": "2026-10-08",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://raw.githubusercontent.com/microprediction/skaters/main/papers/stronger-benchmark/stronger-benchmark.pdf",
+  "status": "unknown SSRN date"
+ },
+ {
+  "theme": "Time series",
+  "title": "Dyadic Regression",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-10",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/dyadic-regression/dyadic-regression.pdf",
+    "papers/dyadic-regression/dyadic-regression.tex"
+   ],
+   "date": "2026-10-07",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://raw.githubusercontent.com/microprediction/skaters/main/papers/dyadic-regression/dyadic-regression.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Portfolio theory",
+  "title": "Schur Complementary Allocation: A Unification of Hierarchical Risk Parity and Minimum Variance Portfolios",
+  "hidden": false,
+  "venue": "preprint, 2024",
+  "date": null,
+  "ssrn": [],
+  "arxiv": [
+   {
+    "id": "2411.05807",
+    "version": 1,
+    "published": "2024-10-29",
+    "updated": "2024-10-29",
+    "title": "Schur Complementary Allocation: A Unification of Hierarchical Risk Parity and Minimum Variance Portfolios",
+    "fetched": "2026-10-31T16:19:35.726792+00:00"
+   }
+  ],
+  "local": null,
+  "draft": "https://schur.microprediction.org/schur-complementary-allocation.pdf",
+  "status": "published"
+ },
+ {
+  "theme": "Portfolio theory",
+  "title": "Two Sides of Schur Damping: High-Dimensional Pseudo-Likelihoods and Portfolio Allocation",
+  "hidden": false,
+  "venue": "preprint, 2026",
+  "date": null,
+  "ssrn": [],
+  "arxiv": [
+   {
+    "id": "2606.14798",
+    "version": 1,
+    "published": "2026-06-11",
+    "updated": "2026-06-11",
+    "title": "Two Sides of Schur Damping: High-Dimensional Pseudo-Likelihoods and Portfolio Allocation",
+    "fetched": "2026-10-31T16:19:35.980699+00:00"
+   }
+  ],
+  "local": {
+   "paths": [
+    "papers/two_sides_of_schur_damping.pdf",
+    "papers/arxiv/two_sides_of_schur_damping/two_sides_of_schur_damping.tex",
+    "papers/two_sides_of_schur_damping.tex"
+   ],
+   "date": "2026-09-10",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/precise/blob/main/papers/two_sides_of_schur_damping.pdf",
+  "status": "published, local newer (91d)"
+ },
+ {
+  "theme": "Portfolio theory",
+  "title": "Nested Clustered Optimization Is One End of a Schur Bridge, and the Interior Is Sometimes Provably Better",
+  "hidden": false,
+  "venue": "preprint, 2026",
+  "date": null,
+  "ssrn": [
+   {
+    "id": "7480738"
+   }
+  ],
+  "arxiv": [
+   {
+    "id": "2609.21271",
+    "version": 1,
+    "published": "2026-09-18",
+    "updated": "2026-09-18",
+    "title": "Nested Clustered Optimization Is One End of a Schur Bridge, and the Interior Is Sometimes Provably Better",
+    "fetched": "2026-10-31T16:19:36.212289+00:00"
+   }
+  ],
+  "local": null,
+  "draft": "https://schur.microprediction.org/schur-nco-bridge.pdf",
+  "status": "published"
+ },
+ {
+  "theme": "Portfolio theory",
+  "title": "When the Out-of-Sample-Optimal Schur Portfolio Lies Between HRP and Minimum Variance",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": null,
+  "draft": "https://schur.microprediction.org/neither-end-of-the-bridge.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Portfolio theory",
+  "title": "Hierarchical Equal Risk Contribution Is a Corner of a Schur Square, and Two Dials Lead to Minimum Variance",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": null,
+  "draft": "https://schur.microprediction.org/schur-herc-square.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Portfolio theory",
+  "title": "The Thurstone Tilt Is a Schur Bridge, and Both of Its Ends Are Races",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": null,
+  "draft": "https://schur.microprediction.org/tilt-is-a-bridge.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Portfolio theory",
+  "title": "The Far End of a Schur Bridge Does Not Care How Its Clusters Are Priced, and the Interior Does",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": null,
+  "draft": "https://schur.microprediction.org/pricing-a-cluster.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Portfolio theory",
+  "title": "Covariance Localization Is Schur Damping, and Its Optimal Strength Is a Sampling-Error Correction",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": null,
+  "draft": "https://schur.microprediction.org/localization-is-schur-damping.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Portfolio theory",
+  "title": "Schur Covariance Evaluation: A Principled Pseudo-Likelihood in High Dimensions",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/papers/schur-likelihood/schur_likelihood_paper.pdf",
+    "papers/schur_likelihood_paper.tex"
+   ],
+   "date": "2026-09-10",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://precise.microprediction.org/papers/schur-likelihood/schur_likelihood_paper.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Portfolio theory",
+  "title": "Schur-Regularized Vecchia: Structured Covariance Estimation at Scale",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [],
+  "arxiv": [],
+  "local": null,
+  "draft": null,
+  "status": "not posted"
+ },
+ {
+  "theme": "Portfolio theory",
+  "title": "Correlation Inflation",
+  "hidden": false,
+  "venue": null,
+  "date": "2025-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "workingpapers/CorrelationInflation.pdf"
+   ],
+   "date": "2025-09-04",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/home/blob/main/workingpapers/CorrelationInflation.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Portfolio theory",
+  "title": "Thurstone Portfolio Polishing: Tail-Sensitive Black-Litterman and Beyond",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/papers/thurstone-portfolios/"
+   ],
+   "date": null,
+   "dirty": false,
+   "missing": true
+  },
+  "draft": "https://allocation.microprediction.org/papers/thurstone-portfolios/",
+  "status": "not posted"
+ },
+ {
+  "theme": "Portfolio theory",
+  "title": "When Does Portfolio Construction Work? A Map across the Number of Assets and the Cost of Trading",
+  "hidden": true,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/papers/online-portfolio-regimes/paper.pdf",
+    "papers/_template/paper.tex",
+    "papers/hierarchical-risk-parity-regime/paper.tex",
+    "papers/online-portfolio-regimes/paper.tex",
+    "papers/repaired-hierarchical-portfolios/paper.tex",
+    "papers/thurstone-credit/paper.tex",
+    "papers/thurstone-portfolios/paper.tex",
+    "papers/thurstone-rc/paper.tex",
+    "papers/tilt-trust-parameter/paper.tex"
+   ],
+   "date": "2026-09-22",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://allocation.microprediction.org/papers/online-portfolio-regimes/paper.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Portfolio theory",
+  "title": "Spectral Calibration Without a Split: Learning Covariance Eigenvalue Corrections One Observation at a Time",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/papers/online-spectral-calibration/online_spectral_calibration.pdf",
+    "papers/online_spectral_calibration/online_spectral_calibration.tex"
+   ],
+   "date": "2026-09-10",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://precise.microprediction.org/papers/online-spectral-calibration/online_spectral_calibration.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Market making & trading",
+  "title": "On a Simple Relationship Between Order Imbalance, Skew and Width in Over-the-Counter Trading",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [
+   {
+    "id": "7248284"
+   }
+  ],
+  "arxiv": [
+   {
+    "id": "2608.07690",
+    "version": 1,
+    "published": "2026-08-07",
+    "updated": "2026-08-07",
+    "title": "On a Simple Relationship Between Order Imbalance, Skew and Width in Over-The-Counter Trading",
+    "fetched": "2026-10-31T16:19:36.784008+00:00"
+   }
+  ],
+  "local": null,
+  "draft": null,
+  "status": "unresolved local, SSRN date unknown"
+ },
+ {
+  "theme": "Market making & trading",
+  "title": "Exponential Rigidity and a Log-Value Normal Form for Imbalanced Market Making",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/exponential_normal_form/exponential_normal_form.tex"
+   ],
+   "date": "2026-08-12",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://inventory.microprediction.org/exponential_normal_form.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Market making & trading",
+  "title": "On the Relationship Between Accuracy and Profitability in Over-the-Counter Market Making",
+  "hidden": false,
+  "venue": null,
+  "date": "2024-11",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "workingpapers/On_the_relationship_between_accuracy_and_profitability_in_OTC_trading.pdf"
+   ],
+   "date": "2024-11-25",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/home/blob/main/workingpapers/On_the_relationship_between_accuracy_and_profitability_in_OTC_trading.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Market making & trading",
+  "title": "Trading Illiquid Goods: Market Making as a Sequence of Sealed-Bid Auctions, with Analytic Results",
+  "hidden": false,
+  "venue": null,
+  "date": "2022-04",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "workingpapers/trading_illiquid_goods.pdf"
+   ],
+   "date": "2022-04-06",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/home/blob/main/workingpapers/trading_illiquid_goods.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Market making & trading",
+  "title": "Finite-Horizon Market Making with Imbalanced Flow: An Exact Symmetrization and Its Term Structure",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [],
+  "arxiv": [],
+  "local": null,
+  "draft": null,
+  "status": "not posted"
+ },
+ {
+  "theme": "Contests, Rankings",
+  "title": "Inferring Relative Ability From Winning Probability in Multi-Entrant Contests",
+  "hidden": false,
+  "venue": "SIAM Journal on Financial Mathematics, 2021",
+  "date": null,
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/Horse_Race_Problem.pdf"
+   ],
+   "date": "2022-04-06",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/home/blob/main/papers/Horse_Race_Problem.pdf",
+  "status": "published"
+ },
+ {
+  "theme": "Contests, Rankings",
+  "title": "A Scalable Algorithm for Subset Selection and Rank Probabilities in Contests and Latent Variable Choice Models",
+  "hidden": false,
+  "venue": null,
+  "date": "2022",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "workingpapers/Group_Selection_Probabilities_and_Rankings.pdf"
+   ],
+   "date": "2022-04-06",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/home/blob/main/workingpapers/Group_Selection_Probabilities_and_Rankings.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Contests, Rankings",
+  "title": "Luce's Choice Axiom Isn't the Only Choice! Combinatorial Contest and Rank Probabilities Using the Python Winning Package",
+  "hidden": false,
+  "venue": null,
+  "date": "2021",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "workingpapers/luce_choice_isnt_the_only_choice.pdf"
+   ],
+   "date": "2022-04-06",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/home/blob/main/workingpapers/luce_choice_isnt_the_only_choice.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Contests, Rankings",
+  "title": "Choice-Set Restriction in Machines and People: Independence of Irrelevant Alternatives Fails in Both, and Far More Sharply in Machines",
+  "hidden": false,
+  "venue": null,
+  "date": "2024-07",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/machine_preference/paper.pdf",
+    "papers/chess_ratings/paper.tex",
+    "papers/exact_pom/paper.tex",
+    "papers/f1_ratings/paper.tex",
+    "papers/machine_preference/paper.tex",
+    "papers/passk_posterior/paper.tex",
+    "papers/thurstone_humans/paper.tex",
+    "papers/win_nodes/paper.tex"
+   ],
+   "date": "2026-09-13",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://raw.githubusercontent.com/microprediction/winning/main/papers/machine_preference/paper.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Contests, Rankings",
+  "title": "Rating Formula 1: a Case for Non-Gaussian Noise in Rating Systems",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-07",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/assets/pdf/rating_formula_1.pdf"
+   ],
+   "date": "2026-07-10",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://winning.microprediction.org/assets/pdf/rating_formula_1.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Contests, Rankings",
+  "title": "Winning Probabilities as Credit: Fast, Redundancy-Aware Attribution",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/papers/thurstone-credit/"
+   ],
+   "date": null,
+   "dirty": false,
+   "missing": true
+  },
+  "draft": "https://allocation.microprediction.org/papers/thurstone-credit/",
+  "status": "not posted"
+ },
+ {
+  "theme": "Contests, Rankings",
+  "title": "An Asymptotic Correction to Luce's Choice Axiom for Competing Correlated Cox Processes",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/softmax-fast-mixing.pdf"
+   ],
+   "date": "2026-08-21",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://kinetics.microprediction.org/softmax-fast-mixing.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Contests, Rankings",
+  "title": "The Runner-Up Principle for Counterfactual Races",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/runner-up-principle.pdf"
+   ],
+   "date": "2026-08-12",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://kinetics.microprediction.org/runner-up-principle.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Contests, Rankings",
+  "title": "Beating a Deployed Rating System: Partial Pooling Against Per-Category Glicko-2 on Lichess",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/chess_ratings/paper.pdf",
+    "papers/chess_ratings/paper.tex",
+    "papers/exact_pom/paper.tex",
+    "papers/f1_ratings/paper.tex",
+    "papers/machine_preference/paper.tex",
+    "papers/passk_posterior/paper.tex",
+    "papers/thurstone_humans/paper.tex",
+    "papers/win_nodes/paper.tex"
+   ],
+   "date": "2026-09-13",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://raw.githubusercontent.com/microprediction/winning/main/papers/chess_ratings/paper.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Contests, Rankings",
+  "title": "Win Nodes for Bayes Nets: Exact Order-Statistic Queries on Gaussian Graphical Models",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-10",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/win_nodes/paper.pdf",
+    "papers/chess_ratings/paper.tex",
+    "papers/exact_pom/paper.tex",
+    "papers/f1_ratings/paper.tex",
+    "papers/machine_preference/paper.tex",
+    "papers/passk_posterior/paper.tex",
+    "papers/thurstone_humans/paper.tex",
+    "papers/win_nodes/paper.tex"
+   ],
+   "date": "2026-09-13",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://raw.githubusercontent.com/microprediction/winning/main/papers/win_nodes/paper.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Global optimization",
+  "title": "HumpDay: Derivative-Free Optimizers in Pure Python and JavaScript, with a Contamination-Resistant Real-World Benchmark",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-07",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/papers/humpday-jss.pdf",
+    "papers/jss/humpday-jss.tex"
+   ],
+   "date": "2026-07-16",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://humpday.microprediction.org/papers/humpday-jss.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Global optimization",
+  "title": "Neither Synthetic Benchmarks nor Common-Sense Reasoning Predicts Real-World Derivative-Free Optimizer Performance",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-06",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/papers/benchmark_validity.pdf",
+    "papers/dfo_recommender/benchmark_validity.tex"
+   ],
+   "date": "2026-07-06",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://humpday.microprediction.org/papers/benchmark_validity.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Global optimization",
+  "title": "Discovering a Derivative-Free Optimizer by Evolution Against a Memorisation-Proof Real-World Benchmark",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-06",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/papers/evolved_optimizer.pdf",
+    "papers/dfo_recommender/evolved_optimizer.tex"
+   ],
+   "date": "2026-07-06",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://humpday.microprediction.org/papers/evolved_optimizer.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Global optimization",
+  "title": "The Inspiration Simplex: Using Derivative-Free Optimization in Concept Space to Create New Derivative-Free Optimizers",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-07",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/papers/inspiration_simplex.pdf",
+    "papers/dfo_recommender/inspiration_simplex.tex"
+   ],
+   "date": "2026-07-16",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://humpday.microprediction.org/papers/inspiration_simplex.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Global optimization",
+  "title": "Go Forth! Simple Detection of Incomplete Meta-Learning by Algorithms Performing Limited Exploration on a Rugged Landscape",
+  "hidden": false,
+  "venue": null,
+  "date": "2022",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "workingpapers/go_forth.pdf"
+   ],
+   "date": "2022-04-06",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/home/blob/main/workingpapers/go_forth.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Global optimization",
+  "title": "Adaptive Planar Search: A Terminal-Placement Acquisition for Derivative-Free Optimization",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/planar_search/planar_search.pdf",
+    "papers/planar_search/planar_search.tex"
+   ],
+   "date": "2026-09-08",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://raw.githubusercontent.com/microprediction/humpday/main/papers/planar_search/planar_search.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Bandits and Stopping",
+  "title": "Exact Posterior Probability of Optimality for Factor-Gaussian Beliefs",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/assets/pdf/exact_pom_factor_gaussian.pdf"
+   ],
+   "date": "2026-09-01",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://winning.microprediction.org/assets/pdf/exact_pom_factor_gaussian.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Bandits and Stopping",
+  "title": "Wavefront Pruning in Budgeted Brownian Races",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/wavefront_pruning_draft.pdf"
+   ],
+   "date": "2026-09-03",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://brownianbandit.microprediction.org/wavefront_pruning_draft.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Bandits and Stopping",
+  "title": "A Posterior Predictive for Pass@k: Established Empirical Bayes, Measured on Released Rollouts",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/passk_posterior.pdf"
+   ],
+   "date": "2026-09-02",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://brownianbandit.microprediction.org/passk_posterior.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Bandits and Stopping",
+  "title": "Clay Shooting: Equilibrium Effort Solving Outstanding Problems",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-10",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/clay_shooting.pdf"
+   ],
+   "date": "2026-10-31",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://brownianbandit.microprediction.org/clay_shooting.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Market mechanisms",
+  "title": "Schur Damping for Perpetual Demand Lending Pools",
+  "hidden": false,
+  "venue": null,
+  "date": "2025-05",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/assets/pdf/perpetual-demand-lending-pools.pdf",
+    "research/perpetual-demand-lending-pools.md"
+   ],
+   "date": "2026-06-18",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://mechanisms.microprediction.org/assets/pdf/perpetual-demand-lending-pools.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Market mechanisms",
+  "title": "Scoring Point-Cloud Distributional Submissions: The Nearest-the-Pin Parimutuel, Jittered Outcomes, and the Heat Ladder",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-07",
+  "ssrn": [
+   {
+    "id": "7054518",
+    "posted": "2026-07-24"
+   }
+  ],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/papers/scoring-point-cloud-distributional-submissions.pdf",
+    "papers/scoring-point-cloud-distributional-submissions.md"
+   ],
+   "date": "2026-10-31",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://mechanisms.microprediction.org/papers/scoring-point-cloud-distributional-submissions.pdf",
+  "status": "local newer (99d)"
+ },
+ {
+  "theme": "Market mechanisms",
+  "title": "An Algebra of Prediction-Rewarding Mechanisms: Scoring Rules, Market Makers, and Opinion Pools Generated by One Convex Function",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-10",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/papers/composition-and-the-algebra-of-mechanisms.pdf",
+    "papers/composition-and-the-algebra-of-mechanisms.md",
+    "research/composition-and-the-algebra-of-mechanisms.md"
+   ],
+   "date": "2026-10-31",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://mechanisms.microprediction.org/papers/composition-and-the-algebra-of-mechanisms.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Market mechanisms",
+  "title": "Multi-Stage Solicitation of Probability Distributions",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/papers/multi-stage-solicitation.pdf",
+    "papers/multi-stage-solicitation.md"
+   ],
+   "date": "2026-10-31",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://mechanisms.microprediction.org/papers/multi-stage-solicitation.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Market mechanisms",
+  "title": "Likelihood versus CRPS: A Compositional Perspective",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/papers/likelihood-versus-crps.pdf",
+    "papers/likelihood-versus-crps.md"
+   ],
+   "date": "2026-10-31",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://mechanisms.microprediction.org/papers/likelihood-versus-crps.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Market mechanisms",
+  "title": "Non-Convex Market Makers: Coherence without Convexity, Friction, and Parallel Composition",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/papers/non-convex-market-makers.pdf",
+    "papers/non-convex-market-makers.md"
+   ],
+   "date": "2026-10-31",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://mechanisms.microprediction.org/papers/non-convex-market-makers.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Market mechanisms",
+  "title": "Bounded Market Makers from Convex Duality: Self-Set Fees, Dead Bands, and the Order Book as a Theorem",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-10",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/papers/bounded-market-makers.pdf"
+   ],
+   "date": "2026-10-31",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://mechanisms.microprediction.org/papers/bounded-market-makers.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Market mechanisms",
+  "title": "Clamped Markets: How Prediction Mechanisms Compose, and What Familiar Methods Are When the Competition Is Switched Off",
+  "hidden": true,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/clamped-markets.md"
+   ],
+   "date": "2026-10-31",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://mechanisms.microprediction.org/papers/clamped-markets.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Market mechanisms",
+  "title": "Self-Organizing Supply Chains for Microprediction: Present and Future Uses of the ROAR Protocol",
+  "hidden": false,
+  "venue": "preprint, 2019",
+  "date": null,
+  "ssrn": [],
+  "arxiv": [
+   {
+    "id": "1907.07514",
+    "version": 1,
+    "published": "2019-07-17",
+    "updated": "2019-07-17",
+    "title": "Self Organizing Supply Chains for Micro-Prediction: Present and Future uses of the ROAR Protocol",
+    "fetched": "2026-10-31T16:19:38.994154+00:00"
+   }
+  ],
+  "local": {
+   "paths": [
+    "papers/self_organizing_supply_chains.pdf"
+   ],
+   "date": "2022-04-06",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/home/blob/main/papers/self_organizing_supply_chains.pdf",
+  "status": "published, local newer (994d)"
+ },
+ {
+  "theme": "Economics",
+  "title": "Division of Labor and the Survival Value of PnL per Token",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [
+   {
+    "id": "7294818"
+   },
+   {
+    "id": "7299424"
+   }
+  ],
+  "arxiv": [],
+  "local": null,
+  "draft": null,
+  "status": "unknown SSRN date"
+ },
+ {
+  "theme": "Economics",
+  "title": "How Should Forecasts be Engineered: The Indispensible Markets Hypothesis",
+  "hidden": false,
+  "venue": null,
+  "date": "2024-11",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "workingpapers/The_Indispensible_Markets_Hypothesis.pdf"
+   ],
+   "date": "2024-11-19",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/home/blob/main/workingpapers/The_Indispensible_Markets_Hypothesis.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Conformal prediction",
+  "title": "Marginally Useful: An Information-Gap Identity in Conformal Prediction",
+  "hidden": false,
+  "venue": "preprint, 2026",
+  "date": null,
+  "ssrn": [],
+  "arxiv": [
+   {
+    "id": "2608.07479",
+    "version": 2,
+    "published": "2026-06-03",
+    "updated": "2026-08-21",
+    "title": "Marginally Useful: An Information-Gap Identity in Conformal Prediction",
+    "fetched": "2026-10-31T16:19:39.519047+00:00"
+   }
+  ],
+  "local": {
+   "paths": [
+    "papers/marginally-useful/marginally-useful.pdf",
+    "paper/tas/submitted-2026-06-11/marginally-useful.tex",
+    "papers/marginally-useful/arxiv/marginally-useful.tex",
+    "papers/marginally-useful/marginally-useful.tex"
+   ],
+   "date": "2026-08-25",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://conformalprediction.net/papers/marginally-useful/marginally-useful.pdf",
+  "status": "published, local newer (4d)"
+ },
+ {
+  "theme": "Conformal prediction",
+  "title": "A Feynman\u2013Wigner-Style Diagnostic for the Efficacy of Conformal Prediction via Signed de Finetti Representations",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-06",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/definetti-feynman/signed-definetti-and-conformal.pdf",
+    "paper/definetti-feynman/signed-definetti-and-conformal.md",
+    "paper/definetti-feynman/signed-definetti-and-conformal.tex",
+    "papers/definetti-feynman/signed-definetti-and-conformal.tex"
+   ],
+   "date": "2026-08-20",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://conformalprediction.net/papers/definetti-feynman/signed-definetti-and-conformal.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Conformal prediction",
+  "title": "Betting Against a Conformal Predictor: A Parimutuel Account of the Information Gap",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/parimutuel/conformal-parimutuel.pdf",
+    "paper/parimutuel/conformal-parimutuel.tex",
+    "papers/parimutuel/conformal-parimutuel.tex"
+   ],
+   "date": "2026-06-22",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://conformalprediction.net/papers/parimutuel/conformal-parimutuel.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Conformal prediction",
+  "title": "The Width of the Conformal Fan: Dependence and the Variance of Realized Coverage",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-06",
+  "ssrn": [
+   {
+    "id": "6979679"
+   }
+  ],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/fan/conformal-fan.pdf",
+    "paper/fan/conformal-fan.tex",
+    "papers/fan/conformal-fan.tex"
+   ],
+   "date": "2026-08-02",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://conformalprediction.net/papers/fan/conformal-fan.pdf",
+  "status": "unknown SSRN date"
+ },
+ {
+  "theme": "Conformal prediction",
+  "title": "The Two Prices of Dependence: a Vanishing Coverage Tax and a Fixed Sharpness Rent",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-07",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/two-prices/two-prices.pdf",
+    "papers/two-prices/two-prices.tex"
+   ],
+   "date": "2026-07-17",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://conformalprediction.net/papers/two-prices/two-prices.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Conformal prediction",
+  "title": "A Contragredient View of Conformal Placement and Steinitz Balancing",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-07",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/steinitz/conformal-steinitz.pdf",
+    "papers/steinitz/conformal-steinitz.tex"
+   ],
+   "date": "2026-07-20",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://conformalprediction.net/papers/steinitz/conformal-steinitz.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Conformal prediction",
+  "title": "An Empirical Study of the Conformal Information Gap",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [
+   {
+    "id": "7220538"
+   }
+  ],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/frontier/frontier.pdf",
+    "papers/frontier/arxiv/frontier.tex",
+    "papers/frontier/frontier.tex"
+   ],
+   "date": "2026-08-20",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://conformalprediction.net/papers/frontier/frontier.pdf",
+  "status": "unknown SSRN date"
+ },
+ {
+  "theme": "Conformal prediction",
+  "title": "Marginally Useful: Conformal Prediction Is Early Stopping at an Information Price",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-06",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/stopping/stopping.pdf",
+    "papers/stopping/stopping.tex"
+   ],
+   "date": "2026-10-07",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://conformalprediction.net/papers/stopping/stopping.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Conformal prediction",
+  "title": "Conformal Correlation Counterexamples",
+  "hidden": false,
+  "venue": "preprint, 2026",
+  "date": null,
+  "ssrn": [
+   {
+    "id": "7456178"
+   }
+  ],
+  "arxiv": [],
+  "local": null,
+  "draft": null,
+  "status": "published"
+ },
+ {
+  "theme": "Conformal prediction",
+  "title": "Locally Honest Coverage Forces Nonparametric Inflation: a Sharpness Lower Bound for Prediction Sets",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/honest-sharpness/honest-sharpness.pdf",
+    "papers/honest-sharpness/honest-sharpness.tex"
+   ],
+   "date": "2026-09-13",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://raw.githubusercontent.com/microprediction/conformalprediction/main/papers/honest-sharpness/honest-sharpness.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Fixed income & stochastic volatility",
+  "title": "Security and Derivative Pricing with Fast Regime Switches",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "workingpapers/Security_and_Derivative_Pricing_with_Fast_Regime_Switches.pdf"
+   ],
+   "date": "2026-10-30",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://raw.githubusercontent.com/microprediction/home/main/workingpapers/Security_and_Derivative_Pricing_with_Fast_Regime_Switches.pdf",
+  "status": "not posted"
+ },
+ {
+  "theme": "Fixed income & stochastic volatility",
+  "title": "Stochastic Volatility Corrections for Interest Rate Derivatives",
+  "hidden": false,
+  "venue": "with J.-P. Fouque, G. Papanicolaou and R. Sircar, Mathematical Finance 14, 173\u2013200, 2004",
+  "date": null,
+  "ssrn": [],
+  "arxiv": [],
+  "local": null,
+  "draft": "http://math.stanford.edu/~papanico/pubftp/cfps.pdf",
+  "status": "published"
+ },
+ {
+  "theme": "Fixed income & stochastic volatility",
+  "title": "Derivatives in Financial Markets with Stochastic Volatility",
+  "hidden": false,
+  "venue": "chapter, Cambridge University Press, 2000",
+  "date": null,
+  "ssrn": [],
+  "arxiv": [],
+  "local": null,
+  "draft": null,
+  "status": "published"
+ },
+ {
+  "theme": "Epidemiology",
+  "title": "Addressing the Herd Immunity Paradox Using Symmetry, Convexity Adjustments and Bond Prices",
+  "hidden": false,
+  "venue": "preprint, 2020",
+  "date": null,
+  "ssrn": [],
+  "arxiv": [
+   {
+    "id": "2006.07341",
+    "version": 2,
+    "published": "2020-06-12",
+    "updated": "2020-06-17",
+    "title": "Addressing the Herd Immunity Paradox Using Symmetry, Convexity Adjustments and Bond Prices",
+    "fetched": "2026-10-31T16:19:40.402377+00:00"
+   }
+  ],
+  "local": {
+   "paths": [
+    "workingpapers/Herd_Immunity_Convexity_Adjustments.pdf"
+   ],
+   "date": "2022-04-06",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/home/blob/main/workingpapers/Herd_Immunity_Convexity_Adjustments.pdf",
+  "status": "published, local newer (658d)"
+ },
+ {
+  "theme": "Epidemiology",
+  "title": "Repeat Contacts and the Spread of Disease: An Agent Model with Compartmental Solution",
+  "hidden": false,
+  "venue": "preprint, 2020",
+  "date": null,
+  "ssrn": [],
+  "arxiv": [
+   {
+    "id": "2005.10311",
+    "version": 2,
+    "published": "2020-05-20",
+    "updated": "2020-06-12",
+    "title": "Repeat Contacts and the Spread of Disease: An Agent Model with Compartmental Solution",
+    "fetched": "2026-10-31T16:19:40.581854+00:00"
+   }
+  ],
+  "local": {
+   "paths": [
+    "workingpapers/repeat_contacts_and_the_spread.pdf"
+   ],
+   "date": "2022-04-06",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/home/blob/main/workingpapers/repeat_contacts_and_the_spread.pdf",
+  "status": "published, local newer (663d)"
+ },
+ {
+  "theme": "Sports analytics",
+  "title": "Stop Shy of the First Down",
+  "hidden": false,
+  "venue": "in Sports Analytics, World Scientific, 2021",
+  "date": null,
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/Stop_Shy_of_the_First_Down.pdf"
+   ],
+   "date": "2022-04-06",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/home/blob/main/papers/Stop_Shy_of_the_First_Down.pdf",
+  "status": "published"
+ },
+ {
+  "theme": "Lie theory",
+  "title": "Contraction of an Adapted Functional Calculus",
+  "hidden": false,
+  "venue": "with A. H. Dooley, Journal of Lie Theory 7(2), 147\u2013164, 1997",
+  "date": null,
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/Contraction_of_an_Adapted_Functional_Cal.pdf"
+   ],
+   "date": "2022-04-06",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://raw.githubusercontent.com/microprediction/home/main/papers/Contraction_of_an_Adapted_Functional_Cal.pdf",
+  "status": "published"
+ },
+ {
+  "theme": "Selected Essays",
+  "title": "Remind Me Again Why Large Language Models Can\u2019t Think",
+  "hidden": false,
+  "venue": "Medium, 2023",
+  "date": null,
+  "ssrn": [],
+  "arxiv": [],
+  "local": null,
+  "draft": null,
+  "status": "published"
+ },
+ {
+  "theme": "Selected Essays",
+  "title": "Is Facebook\u2019s \u201cProphet\u201d the Time-Series Messiah, or Just a Very Naughty Boy?",
+  "hidden": false,
+  "venue": "Medium, 2021",
+  "date": null,
+  "ssrn": [],
+  "arxiv": [],
+  "local": null,
+  "draft": null,
+  "status": "published"
+ },
+ {
+  "theme": "Selected Essays",
+  "title": "The Analog Kalman Filter",
+  "hidden": false,
+  "venue": "Medium, 2023",
+  "date": null,
+  "ssrn": [],
+  "arxiv": [],
+  "local": null,
+  "draft": null,
+  "status": "published"
+ },
+ {
+  "theme": "Selected Essays",
+  "title": "So, You Recommended a Python Time-Series Package \u2026 Now What?",
+  "hidden": false,
+  "venue": "Medium, 2023",
+  "date": null,
+  "ssrn": [],
+  "arxiv": [],
+  "local": null,
+  "draft": null,
+  "status": "published"
+ },
+ {
+  "theme": "Selected Essays",
+  "title": "A Gentle Introduction to Stochastic Portfolio Theory (and its Inverse)",
+  "hidden": false,
+  "venue": "Medium, 2023",
+  "date": null,
+  "ssrn": [],
+  "arxiv": [],
+  "local": null,
+  "draft": null,
+  "status": "published"
+ },
+ {
+  "theme": "Selected Essays",
+  "title": "The Options Market Beat 97.6% of Participants in the M6 Financial Forecasting Contest",
+  "hidden": false,
+  "venue": "Medium, 2023",
+  "date": null,
+  "ssrn": [],
+  "arxiv": [],
+  "local": null,
+  "draft": null,
+  "status": "published"
+ }
+]

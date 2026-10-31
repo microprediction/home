@@ -126,6 +126,7 @@ venv.bak/
 /docs/academic.css
 /docs/CNAME
 /.claude/skills/build-home-page/scan_report.json
+/.claude/skills/build-home-page/arxiv_cache.json
 
 # mypy
 .mypy_cache/

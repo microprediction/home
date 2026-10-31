@@ -1,0 +1,6 @@
+{
+  "_comment": "Hand-kept register of SSRN postings (SSRN is behind Cloudflare and cannot be scraped). Key = SSRN abstract id. Fields: posted (first upload, YYYY-MM-DD), revised (latest revision upload, optional). status.py compares these with the local draft's last commit.",
+  "ssrn": {
+    "7054518": {"posted": "2026-07-24"}
+  }
+}
