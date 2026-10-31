@@ -1,0 +1,81 @@
+{
+  "_comment": "Hand-kept register of SSRN postings (SSRN is behind Cloudflare and cannot be scraped). Key = SSRN abstract id. posted = Date Created, revised = Last Updated, both from the SSRN author dashboard (last copied 2026-10-31). status.py compares revised (else posted) with the local draft's last commit. arxiv_pending = submissions made but not yet announced (no id yet), keyed by the submit/ number; remove the line once the paper has an arXiv id and add that id to the paper's links in papers.json.",
+  "ssrn": {
+    "7583618": {
+      "posted": "2026-10-08",
+      "revised": "2026-10-09",
+      "title": "A Stronger Univariate Benchmark for Foundational Time-series Model Evaluation"
+    },
+    "7480738": {
+      "posted": "2026-09-18",
+      "revised": "2026-09-21",
+      "title": "Nested Clustered Optimization Is One End of a Schur Bridge, and the Interior Is Sometimes Provably Better"
+    },
+    "7456178": {
+      "posted": "2026-09-13",
+      "title": "Conformal Correlation Counterexamples"
+    },
+    "7452281": {
+      "posted": "2026-09-12",
+      "revised": "2026-09-15",
+      "title": "Misaligned or Undersupplied? Pure Mathematics in the Age of LLMs"
+    },
+    "7307363": {
+      "posted": "2026-08-18",
+      "revised": "2026-09-01",
+      "title": "Scalable Inversion of Contests with Correlated Performances, Including Softmax and Multinomial Probit"
+    },
+    "7299424": {
+      "posted": "2026-08-17",
+      "revised": "2026-09-30",
+      "title": "Winning the large language capability battle and losing the production economy"
+    },
+    "7294818": {
+      "posted": "2026-08-16",
+      "revised": "2026-08-19",
+      "title": "Division of Labor and the Survival Value of PnL per Token"
+    },
+    "7248284": {
+      "posted": "2026-08-07",
+      "revised": "2026-08-12",
+      "title": "On a Simple Relationship Between Order Imbalance, Skew and Width in Over-the-Counter Trading"
+    },
+    "7244778": {
+      "posted": "2026-08-07",
+      "revised": "2026-08-11",
+      "title": "Conformal Prediction as a Transform within a Grammar for Probabilistic Forecasting"
+    },
+    "7220538": {
+      "posted": "2026-08-02",
+      "revised": "2026-08-07",
+      "title": "An Empirical Study of the Conformal Information Gap"
+    },
+    "7220478": {
+      "posted": "2026-08-02",
+      "revised": "2026-08-07",
+      "title": "Transforms All the Way Down: Automatic Online Distributional Forecasting by Conjugation"
+    },
+    "7054518": {
+      "posted": "2026-07-04",
+      "revised": "2026-07-24",
+      "title": "Scoring Point-Cloud Distributional Submissions: The Nearest-the-Pin Parimutuel, Jittered Outcomes, and the Heat Ladder"
+    },
+    "6979679": {
+      "posted": "2026-06-22",
+      "revised": "2026-07-29",
+      "title": "The Width of the Conformal Fan: Dependence and the Variance of Realized Coverage"
+    }
+  },
+  "arxiv_pending": {
+    "7956927": {
+      "title": "Non-Convex Market Makers: Coherence without Convexity, Friction, and Parallel Composition",
+      "status": "submitted",
+      "noted": "2026-10-31"
+    },
+    "8307895": {
+      "title": "Security and Derivative Pricing with Fast Regime Switches",
+      "status": "submitted",
+      "noted": "2026-10-31"
+    }
+  }
+}

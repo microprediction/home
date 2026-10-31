@@ -123,6 +123,21 @@
             }
           ],
           "date": "2026-09"
+        },
+        {
+          "title": "Structured Gaussian Argmax Layers",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://github.com/microprediction/kinetics/blob/main/paper/gaussian-perturbed-max/paper.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://kinetics.microprediction.org/papers.html"
+            }
+          ],
+          "date": "2026-08"
         }
       ],
       "package": "winning",
@@ -217,6 +232,21 @@
             }
           ],
           "date": "2026-10"
+        },
+        {
+          "title": "Skaters on a River: Calibrated Forecast Features for Streaming Regression, with a Pathwise Regret-Transfer Theorem",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://github.com/microprediction/ice-skaters/blob/main/papers/ice-skaters-jss.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://ice-skaters.microprediction.org/papers.html"
+            }
+          ],
+          "date": "2026-07"
         }
       ],
       "package": "skaters",
@@ -245,6 +275,66 @@
         }
       ],
       "papers": [
+        {
+          "title": "Covariance-Method Claims Are Ensemble-Relative: Named Measures and an Audit Program",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://github.com/microprediction/randomcov/blob/main/papers/measure_audit/main.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://randomcov.microprediction.org/"
+            }
+          ],
+          "date": "2026-08"
+        },
+        {
+          "title": "Repaired Hierarchical Portfolios",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://github.com/microprediction/allocation/blob/main/papers/repaired-hierarchical-portfolios/paper.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://allocation.microprediction.org/papers/"
+            }
+          ],
+          "date": "2026-08"
+        },
+        {
+          "title": "Where Hierarchical Risk Parity Earns Its Keep",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://github.com/microprediction/allocation/blob/main/papers/hierarchical-risk-parity-regime/paper.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://allocation.microprediction.org/papers/"
+            }
+          ],
+          "date": "2026-09"
+        },
+        {
+          "title": "A Tilt Is Worth What the Correlation Is Worth",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://github.com/microprediction/allocation/blob/main/papers/tilt-trust-parameter/paper.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://allocation.microprediction.org/papers/"
+            }
+          ],
+          "date": "2026-09"
+        },
         {
           "title": "Schur Complementary Allocation: A Unification of Hierarchical Risk Parity and Minimum Variance Portfolios",
           "venue": "preprint, 2024",
@@ -490,6 +580,10 @@
             {
               "label": "SSRN",
               "url": "https://papers.ssrn.com/abstract=7248284"
+            },
+            {
+              "label": "latest draft",
+              "url": "https://inventory.microprediction.org/skew_width_imbalance.pdf"
             }
           ],
           "date": "2026-08"
@@ -567,6 +661,21 @@
         }
       ],
       "papers": [
+        {
+          "title": "Think Before Rescaling Probabilities to Unity: Evidence from Thirty-Nine Tests of Linear versus Gaussian Renormalization",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://github.com/microprediction/winning/blob/main/papers/thurstone_humans/paper.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://winning.microprediction.org/"
+            }
+          ],
+          "date": "2026-08"
+        },
         {
           "title": "Inferring Relative Ability From Winning Probability in Multi-Entrant Contests",
           "venue": "SIAM Journal on Financial Mathematics, 2021",
@@ -722,6 +831,21 @@
       ],
       "papers": [
         {
+          "title": "When the Grass Is Greener: Three-Shot Search on Exponentiated Gaussian Landscapes",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://browniansearch.microprediction.org/grass.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://browniansearch.microprediction.org/papers.html"
+            }
+          ],
+          "date": "2026-09"
+        },
+        {
           "title": "HumpDay: Derivative-Free Optimizers in Pure Python and JavaScript, with a Contamination-Resistant Real-World Benchmark",
           "draft_new": true,
           "links": [
@@ -871,6 +995,17 @@
             }
           ],
           "date": "2026-10"
+        },
+        {
+          "title": "All-Action Propensities for Correlated Gaussian Thompson Sampling",
+          "_note": "Working manuscript, empirical results pending (title page, August 2026).",
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://github.com/microprediction/thurstone/blob/main/papers/thompson-propensities/paper.pdf"
+            }
+          ],
+          "date": "2026-08"
         }
       ]
     },
@@ -904,7 +1039,7 @@
           "date": "2025-05"
         },
         {
-          "title": "Scoring Point-Cloud Distributional Submissions: Nearest-the-Pin Parimutuels, the KDE Seam, and Mollified Scoring",
+          "title": "Scoring Point-Cloud Distributional Submissions: The Nearest-the-Pin Parimutuel, Jittered Outcomes, and the Heat Ladder",
           "draft_new": true,
           "links": [
             {
@@ -927,7 +1062,7 @@
           "date": "2026-07"
         },
         {
-          "title": "An Algebra of Prediction-Rewarding Mechanisms: Scoring Rules, Market Makers, and Pools as Composable Transducers",
+          "title": "An Algebra of Prediction-Rewarding Mechanisms: Scoring Rules, Market Makers, and Opinion Pools Generated by One Convex Function",
           "draft_new": true,
           "links": [
             {
@@ -939,7 +1074,7 @@
               "url": "https://mechanisms.microprediction.org/papers/composition-and-the-algebra-of-mechanisms.html"
             }
           ],
-          "date": "2026-08"
+          "date": "2026-10"
         },
         {
           "title": "Multi-Stage Solicitation of Probability Distributions",
@@ -957,7 +1092,7 @@
           "date": "2026-08"
         },
         {
-          "title": "Likelihood versus CRPS: A New Perspective",
+          "title": "Likelihood versus CRPS: A Compositional Perspective",
           "draft_new": true,
           "links": [
             {
@@ -987,6 +1122,25 @@
           "date": "2026-08"
         },
         {
+          "title": "Bounded Market Makers from Convex Duality: Self-Set Fees, Dead Bands, and the Order Book as a Theorem",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://mechanisms.microprediction.org/papers/bounded-market-makers.pdf"
+            },
+            {
+              "label": "source",
+              "url": "https://github.com/microprediction/mechanisms/tree/main/papers/bounded-market-makers"
+            },
+            {
+              "label": "site",
+              "url": "https://mechanisms.microprediction.org/papers.html#bounded"
+            }
+          ],
+          "date": "2026-10"
+        },
+        {
           "title": "Clamped Markets: How Prediction Mechanisms Compose, and What Familiar Methods Are When the Competition Is Switched Off",
           "draft_new": true,
           "links": [
@@ -999,7 +1153,9 @@
               "url": "https://mechanisms.microprediction.org/papers.html"
             }
           ],
-          "date": "2026-08"
+          "date": "2026-08",
+          "hidden": true,
+          "_note": "Merged 2026-10-31 into An Algebra of Prediction-Rewarding Mechanisms (sections 7 and 8); the site page is a redirect stub."
         },
         {
           "title": "Self-Organizing Supply Chains for Microprediction: Present and Future Uses of the ROAR Protocol",
@@ -1021,6 +1177,25 @@
       "title": "Economics",
       "papers": [
         {
+          "title": "Misaligned or Undersupplied? Pure Mathematics in the Age of LLMs",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "SSRN",
+              "url": "https://papers.ssrn.com/abstract=7452281"
+            },
+            {
+              "label": "latest draft",
+              "url": "https://pure.microprediction.org/mathematics-welfare.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://pure.microprediction.org/papers.html"
+            }
+          ],
+          "date": "2026-09"
+        },
+        {
           "title": "Division of Labor and the Survival Value of PnL per Token",
           "links": [
             {
@@ -1030,6 +1205,10 @@
             {
               "label": "SSRN (short form)",
               "url": "https://papers.ssrn.com/abstract=7299424"
+            },
+            {
+              "label": "latest draft",
+              "url": "https://economics.microprediction.org/pnl_per_token.pdf"
             }
           ],
           "date": "2026-08"
@@ -1291,6 +1470,21 @@
       "title": "Epidemiology",
       "papers": [
         {
+          "title": "The Immunity Factor from Contact Surveys: Where Epidemics Turn Over",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://epidemiology.microprediction.org/immunity-factor.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://epidemiology.microprediction.org/"
+            }
+          ],
+          "date": "2026-09"
+        },
+        {
           "title": "Addressing the Herd Immunity Paradox Using Symmetry, Convexity Adjustments and Bond Prices",
           "venue": "preprint, 2020",
           "links": [
@@ -1437,6 +1631,33 @@
         {
           "label": "dumbphilosophy.com",
           "url": "https://dumbphilosophy.com"
+        }
+      ]
+    },
+    {
+      "title": "Metareasoning",
+      "package": "metareasoning",
+      "sites": [
+        {
+          "label": "metareasoning.microprediction.org",
+          "url": "https://metareasoning.microprediction.org/"
+        }
+      ],
+      "papers": [
+        {
+          "title": "Consistent Objectives for Self-Improving Systems: Absolute, Relative and Evolutionary Assessment Over Short and Long Horizons",
+          "draft_new": true,
+          "links": [
+            {
+              "label": "latest draft",
+              "url": "https://metareasoning.microprediction.org/consistent-objectives.pdf"
+            },
+            {
+              "label": "site",
+              "url": "https://metareasoning.microprediction.org/papers.html"
+            }
+          ],
+          "date": "2026-10"
         }
       ]
     }

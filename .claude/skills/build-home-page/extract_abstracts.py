@@ -251,7 +251,13 @@ def main() -> None:
         else:
             missing.append(p["title"])
 
-    (ROOT / "abstracts.json").write_text(json.dumps(out, indent=2, ensure_ascii=False) + "\n")
+    # Merge over the committed cache: an abstract whose source is no longer
+    # reachable (a hand-pasted one, or a PDF that moved) must not be dropped.
+    cache_path = ROOT / "abstracts.json"
+    merged = json.loads(cache_path.read_text()) if cache_path.exists() else {}
+    merged.update(out)
+    out = merged
+    cache_path.write_text(json.dumps(out, indent=2, ensure_ascii=False) + "\n")
     print(f"Extracted {len(out)} abstracts -> {ROOT/'abstracts.json'}")
     for t in missing:
         print(f"  (no source / abstract)  {t[:70]}")
