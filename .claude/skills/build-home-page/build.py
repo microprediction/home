@@ -8,6 +8,7 @@ committed abstracts.json, produced locally by extract_abstracts.py.
 from __future__ import annotations
 import html
 import json
+from datetime import date
 from pathlib import Path
 
 CNAME = "home.microprediction.org"
@@ -86,6 +87,14 @@ details.best[open]>summary::before{content:"\\25BE  "}
 details.best>summary::after{content:"  (click to expand)";font-weight:400;font-size:.8rem;color:var(--muted)}
 details.best[open]>summary::after{content:""}
 details.best p{margin:.5em 0 .1em;color:#3a3a3a}
+details.ultra{border-color:var(--rule);background:transparent}
+details.ultra>summary{color:var(--link)}
+.ultra .ultra-meta{font-size:.78rem;color:var(--muted)}
+.ultra ol{margin:1em 0 .3em;padding-left:1.7em}
+.ultra li{padding:0 0 1em .3em}
+.ultra li:last-child{padding-bottom:0}
+.ultra p{padding-left:0;border-left:0}
+.ultra .ultra-caveat{font-size:.85rem;color:var(--muted)}
 """
 
 
@@ -170,6 +179,62 @@ def pub_list(papers: list, abstracts: dict, classify: bool = False) -> str:
     return ('  <ul class="pubs">\n'
             + "\n".join(pub_li(p, abstracts, classify) for p in visible(papers))
             + "\n  </ul>")
+
+
+def ultra_foldout(data: dict) -> str:
+    """Render an editorial reading list, resolving each paper against the catalogue."""
+    ultra = data.get("ultra")
+    if ultra is None:
+        return ""
+    reviewed = date.fromisoformat(ultra["reviewed"])
+    entries = ultra["entries"]
+    if not entries:
+        raise ValueError("ultra.entries must contain at least one paper")
+    catalogue = {}
+    for theme in data.get("themes", []):
+        for paper in theme["papers"]:
+            catalogue.setdefault(paper["title"], []).append(paper)
+
+    rows = []
+    selected = set()
+    link_order = ("journal", "arXiv", "SSRN", "DOI", "latest draft", "pdf")
+    for entry in entries:
+        title = entry["title"]
+        if title in selected:
+            raise ValueError(f"Duplicate ULTRA selection: {title}")
+        selected.add(title)
+        matches = catalogue.get(title, [])
+        if len(matches) != 1:
+            raise ValueError(f"ULTRA selection must match one catalogue paper: {title}")
+        paper = matches[0]
+        if paper.get("hidden"):
+            raise ValueError(f"ULTRA selection is hidden in the catalogue: {title}")
+        links = paper.get("links", [])
+        link = next((ln for label in link_order for ln in links
+                     if ln.get("label") == label), None)
+        if not link or not link["url"].startswith(("https://", "http://")):
+            raise ValueError(f"ULTRA selection needs a public paper link: {title}")
+        heritage = entry.get("heritage")
+        if "heritage" in entry and (not isinstance(heritage, str) or not heritage.strip()):
+            raise ValueError(f"ULTRA heritage must be nonempty plain text: {title}")
+        heritage_html = (f'        <p class="ultra-caveat">Heritage: {esc(heritage)}</p>\n'
+                         if heritage is not None else "")
+        rows.append(
+            '      <li>\n'
+            f'        <a href="{esc(link["url"])}">{esc(title)}</a>\n'
+            f'        <p>{esc(entry["why"])}</p>\n'
+            f'        <p class="ultra-caveat">Scope: {esc(entry["caveat"])}</p>\n'
+            + heritage_html
+            + '      </li>'
+        )
+    return (
+        f'    <details class="best ultra" id="ultra"><summary>{esc(ultra["summary"])}</summary>\n'
+        f'      <p class="ultra-meta">A selection of {len(entries)} papers · '
+        f'reviewed <time datetime="{reviewed.isoformat()}">{reviewed.strftime("%d %b %Y")}</time></p>\n'
+        f'      <p>{esc(ultra["description"])}</p>\n'
+        '      <ol>\n' + "\n".join(rows) + '\n      </ol>\n'
+        '    </details>\n'
+    )
 
 
 def build(root: Path) -> None:
@@ -287,6 +352,7 @@ def build(root: Path) -> None:
     hl = data.get("highlight")
     highlight_html = (f'    <details class="best"><summary>{esc(hl["summary"])}</summary>'
                       f'<p>{hl["body"]}</p></details>\n') if hl else ""
+    ultra_html = ultra_foldout(data)
     page = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -311,6 +377,7 @@ def build(root: Path) -> None:
     <label class="toggle"><input type="checkbox" id="showessays" checked> include essays</label>
     <label class="toggle"><input type="checkbox" id="shownotes" checked> include technical notes</label>
 {highlight_html}
+{ultra_html}
 {body}
   </main>{more}
 {toggle_js}
