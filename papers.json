@@ -490,6 +490,10 @@
             {
               "label": "SSRN",
               "url": "https://papers.ssrn.com/abstract=7248284"
+            },
+            {
+              "label": "latest draft",
+              "url": "https://inventory.microprediction.org/skew_width_imbalance.pdf"
             }
           ],
           "date": "2026-08"
@@ -1070,6 +1074,10 @@
             {
               "label": "SSRN (short form)",
               "url": "https://papers.ssrn.com/abstract=7299424"
+            },
+            {
+              "label": "latest draft",
+              "url": "https://economics.microprediction.org/pnl_per_token.pdf"
             }
           ],
           "date": "2026-08"

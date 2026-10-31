@@ -32,7 +32,8 @@
    "missing": false
   },
   "draft": "https://winning.microprediction.org/assets/pdf/scalable_contest_inversion.pdf",
-  "status": "published"
+  "status": "published",
+  "changes": null
  },
  {
   "theme": "Econometric algorithms (Probit, ...)",
@@ -51,7 +52,8 @@
    "missing": false
   },
   "draft": "https://winning.microprediction.org/assets/pdf/softmax_masking_choice_model.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Econometric algorithms (Probit, ...)",
@@ -70,7 +72,8 @@
    "missing": false
   },
   "draft": "https://winning.microprediction.org/assets/pdf/collision_local_times_note.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Time series",
@@ -90,7 +93,8 @@
    "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/a_platform_for_assessing_and_combining.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Time series",
@@ -118,7 +122,17 @@
    "missing": false
   },
   "draft": "https://github.com/microprediction/skaters/blob/main/papers/skaters-jss.pdf",
-  "status": "local newer (25d)"
+  "status": "changed since posting: 1 commit since posting, +34/-28 lines",
+  "changes": {
+   "commits": [
+    "2026-09-01 d7416c4 Paper style pass: conform to the style repo's paper register"
+   ],
+   "delta": [
+    34,
+    28
+   ],
+   "new_file": false
+  }
  },
  {
   "theme": "Time series",
@@ -146,7 +160,8 @@
    "missing": false
   },
   "draft": "https://conformalprediction.net/papers/grammar/grammar.pdf",
-  "status": "in sync"
+  "status": "in sync",
+  "changes": null
  },
  {
   "theme": "Time series",
@@ -173,7 +188,8 @@
    "missing": false
   },
   "draft": "https://raw.githubusercontent.com/microprediction/skaters/main/papers/stronger-benchmark/stronger-benchmark.pdf",
-  "status": "in sync"
+  "status": "in sync",
+  "changes": null
  },
  {
   "theme": "Time series",
@@ -193,7 +209,8 @@
    "missing": false
   },
   "draft": "https://raw.githubusercontent.com/microprediction/skaters/main/papers/dyadic-regression/dyadic-regression.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Portfolio theory",
@@ -214,7 +231,8 @@
   ],
   "local": null,
   "draft": "https://schur.microprediction.org/schur-complementary-allocation.pdf",
-  "status": "published"
+  "status": "published",
+  "changes": null
  },
  {
   "theme": "Portfolio theory",
@@ -244,7 +262,18 @@
    "missing": false
   },
   "draft": "https://github.com/microprediction/precise/blob/main/papers/two_sides_of_schur_damping.pdf",
-  "status": "published, local newer (91d)"
+  "status": "published, 2 commits since posting, +0/-0 lines",
+  "changes": {
+   "commits": [
+    "2026-09-10 f954c22 Restore the paper PDFs to papers/, which the #65 merge dropped (#67)",
+    "2026-09-10 d24ad8c Bring the site and the note in line with the style conventions (#65)"
+   ],
+   "delta": [
+    0,
+    0
+   ],
+   "new_file": false
+  }
  },
  {
   "theme": "Portfolio theory",
@@ -272,7 +301,8 @@
   ],
   "local": null,
   "draft": "https://schur.microprediction.org/schur-nco-bridge.pdf",
-  "status": "published"
+  "status": "published",
+  "changes": null
  },
  {
   "theme": "Portfolio theory",
@@ -284,7 +314,8 @@
   "arxiv": [],
   "local": null,
   "draft": "https://schur.microprediction.org/neither-end-of-the-bridge.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Portfolio theory",
@@ -296,7 +327,8 @@
   "arxiv": [],
   "local": null,
   "draft": "https://schur.microprediction.org/schur-herc-square.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Portfolio theory",
@@ -308,7 +340,8 @@
   "arxiv": [],
   "local": null,
   "draft": "https://schur.microprediction.org/tilt-is-a-bridge.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Portfolio theory",
@@ -320,7 +353,8 @@
   "arxiv": [],
   "local": null,
   "draft": "https://schur.microprediction.org/pricing-a-cluster.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Portfolio theory",
@@ -332,7 +366,8 @@
   "arxiv": [],
   "local": null,
   "draft": "https://schur.microprediction.org/localization-is-schur-damping.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Portfolio theory",
@@ -352,7 +387,8 @@
    "missing": false
   },
   "draft": "https://precise.microprediction.org/papers/schur-likelihood/schur_likelihood_paper.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Portfolio theory",
@@ -364,7 +400,8 @@
   "arxiv": [],
   "local": null,
   "draft": null,
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Portfolio theory",
@@ -384,7 +421,8 @@
    "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/CorrelationInflation.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Portfolio theory",
@@ -403,7 +441,8 @@
    "missing": true
   },
   "draft": "https://allocation.microprediction.org/papers/thurstone-portfolios/",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Portfolio theory",
@@ -430,7 +469,8 @@
    "missing": false
   },
   "draft": "https://allocation.microprediction.org/papers/online-portfolio-regimes/paper.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Portfolio theory",
@@ -450,7 +490,8 @@
    "missing": false
   },
   "draft": "https://precise.microprediction.org/papers/online-spectral-calibration/online_spectral_calibration.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Market making & trading",
@@ -476,9 +517,30 @@
     "fetched": "2026-10-31T16:19:36.784008+00:00"
    }
   ],
-  "local": null,
-  "draft": null,
-  "status": "unresolved local"
+  "local": {
+   "paths": [
+    "docs/skew_width_imbalance.pdf",
+    "papers/skew_width_imbalance/skew_width_imbalance.tex"
+   ],
+   "date": "2026-08-13",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://inventory.microprediction.org/skew_width_imbalance.pdf",
+  "status": "changed since posting: 4 commits since posting, +31/-23 lines",
+  "changes": {
+   "commits": [
+    "2026-08-13 5aede24 Editorial pass: asides to footnotes, walls split",
+    "2026-08-13 fd7a336 Abstract cut to 137 words",
+    "2026-08-13 f6084e3 Round-11: scoring scope, cost sign, accuracy range, criterion naming",
+    "2026-08-13 dd9e48d Round-10: FOC scoped to necessary condition, moving-price hypotheses, interpretation fixes"
+   ],
+   "delta": [
+    31,
+    23
+   ],
+   "new_file": false
+  }
  },
  {
   "theme": "Market making & trading",
@@ -497,7 +559,8 @@
    "missing": false
   },
   "draft": "https://inventory.microprediction.org/exponential_normal_form.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Market making & trading",
@@ -517,7 +580,8 @@
    "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/On_the_relationship_between_accuracy_and_profitability_in_OTC_trading.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Market making & trading",
@@ -537,7 +601,8 @@
    "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/trading_illiquid_goods.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Market making & trading",
@@ -549,7 +614,8 @@
   "arxiv": [],
   "local": null,
   "draft": null,
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Contests, Rankings",
@@ -569,7 +635,8 @@
    "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/papers/Horse_Race_Problem.pdf",
-  "status": "published"
+  "status": "published",
+  "changes": null
  },
  {
   "theme": "Contests, Rankings",
@@ -589,7 +656,8 @@
    "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/Group_Selection_Probabilities_and_Rankings.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Contests, Rankings",
@@ -609,7 +677,8 @@
    "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/luce_choice_isnt_the_only_choice.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Contests, Rankings",
@@ -635,7 +704,8 @@
    "missing": false
   },
   "draft": "https://raw.githubusercontent.com/microprediction/winning/main/papers/machine_preference/paper.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Contests, Rankings",
@@ -654,7 +724,8 @@
    "missing": false
   },
   "draft": "https://winning.microprediction.org/assets/pdf/rating_formula_1.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Contests, Rankings",
@@ -673,7 +744,8 @@
    "missing": true
   },
   "draft": "https://allocation.microprediction.org/papers/thurstone-credit/",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Contests, Rankings",
@@ -692,7 +764,8 @@
    "missing": false
   },
   "draft": "https://kinetics.microprediction.org/softmax-fast-mixing.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Contests, Rankings",
@@ -711,7 +784,8 @@
    "missing": false
   },
   "draft": "https://kinetics.microprediction.org/runner-up-principle.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Contests, Rankings",
@@ -737,7 +811,8 @@
    "missing": false
   },
   "draft": "https://raw.githubusercontent.com/microprediction/winning/main/papers/chess_ratings/paper.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Contests, Rankings",
@@ -763,7 +838,8 @@
    "missing": false
   },
   "draft": "https://raw.githubusercontent.com/microprediction/winning/main/papers/win_nodes/paper.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Global optimization",
@@ -783,7 +859,8 @@
    "missing": false
   },
   "draft": "https://humpday.microprediction.org/papers/humpday-jss.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Global optimization",
@@ -803,7 +880,8 @@
    "missing": false
   },
   "draft": "https://humpday.microprediction.org/papers/benchmark_validity.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Global optimization",
@@ -823,7 +901,8 @@
    "missing": false
   },
   "draft": "https://humpday.microprediction.org/papers/evolved_optimizer.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Global optimization",
@@ -843,7 +922,8 @@
    "missing": false
   },
   "draft": "https://humpday.microprediction.org/papers/inspiration_simplex.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Global optimization",
@@ -863,7 +943,8 @@
    "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/go_forth.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Global optimization",
@@ -883,7 +964,8 @@
    "missing": false
   },
   "draft": "https://raw.githubusercontent.com/microprediction/humpday/main/papers/planar_search/planar_search.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Bandits and Stopping",
@@ -902,7 +984,8 @@
    "missing": false
   },
   "draft": "https://winning.microprediction.org/assets/pdf/exact_pom_factor_gaussian.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Bandits and Stopping",
@@ -921,7 +1004,8 @@
    "missing": false
   },
   "draft": "https://brownianbandit.microprediction.org/wavefront_pruning_draft.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Bandits and Stopping",
@@ -940,7 +1024,8 @@
    "missing": false
   },
   "draft": "https://brownianbandit.microprediction.org/passk_posterior.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Bandits and Stopping",
@@ -959,7 +1044,8 @@
    "missing": false
   },
   "draft": "https://brownianbandit.microprediction.org/clay_shooting.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Market mechanisms",
@@ -979,7 +1065,8 @@
    "missing": false
   },
   "draft": "https://mechanisms.microprediction.org/assets/pdf/perpetual-demand-lending-pools.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Market mechanisms",
@@ -1006,7 +1093,25 @@
    "missing": false
   },
   "draft": "https://mechanisms.microprediction.org/papers/scoring-point-cloud-distributional-submissions.pdf",
-  "status": "local newer (99d)"
+  "status": "changed since posting: 9 commits since posting, +58/-47 lines",
+  "changes": {
+   "commits": [
+    "2026-10-31 c32270b Anti-AI-tell pass over the six papers",
+    "2026-08-30 a7a436e Drop the last self-commentary, and a figure that did not reproduce",
+    "2026-08-30 75885d7 Style pass on the non-convex paper against the hard rules",
+    "2026-08-30 c80cf63 Fix a wrong cross-reference and strip the retraction framing I added",
+    "2026-08-30 bf7c75d Close the nine remaining paper strengthenings",
+    "2026-08-30 42beba7 Add an LP oracle for finite outcome spaces; close S8, V4 and V8",
+    "2026-08-30 1bf5dd5 Close M4 and M8: the affine-envelope scope and what a below-fee margin rules out",
+    "2026-08-30 5e13f59 Close four mandatory corrections on the non-convex paper",
+    "2026-08-30 4df9a7b Retract the path-independence claim in the likelihood-vs-CRPS note"
+   ],
+   "delta": [
+    58,
+    47
+   ],
+   "new_file": false
+  }
  },
  {
   "theme": "Market mechanisms",
@@ -1027,7 +1132,8 @@
    "missing": false
   },
   "draft": "https://mechanisms.microprediction.org/papers/composition-and-the-algebra-of-mechanisms.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Market mechanisms",
@@ -1047,7 +1153,8 @@
    "missing": false
   },
   "draft": "https://mechanisms.microprediction.org/papers/multi-stage-solicitation.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Market mechanisms",
@@ -1067,7 +1174,8 @@
    "missing": false
   },
   "draft": "https://mechanisms.microprediction.org/papers/likelihood-versus-crps.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Market mechanisms",
@@ -1087,7 +1195,8 @@
    "missing": false
   },
   "draft": "https://mechanisms.microprediction.org/papers/non-convex-market-makers.pdf",
-  "status": "not posted, arXiv submitted (submit/7956927)"
+  "status": "not posted, arXiv submitted (submit/7956927)",
+  "changes": null
  },
  {
   "theme": "Market mechanisms",
@@ -1106,7 +1215,8 @@
    "missing": false
   },
   "draft": "https://mechanisms.microprediction.org/papers/bounded-market-makers.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Market mechanisms",
@@ -1125,7 +1235,8 @@
    "missing": false
   },
   "draft": "https://mechanisms.microprediction.org/papers/clamped-markets.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Market mechanisms",
@@ -1154,7 +1265,8 @@
    "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/papers/self_organizing_supply_chains.pdf",
-  "status": "published"
+  "status": "published",
+  "changes": null
  },
  {
   "theme": "Economics",
@@ -1181,7 +1293,8 @@
    "missing": false
   },
   "draft": "https://pure.microprediction.org/mathematics-welfare.pdf",
-  "status": "in sync"
+  "status": "in sync",
+  "changes": null
  },
  {
   "theme": "Economics",
@@ -1204,9 +1317,18 @@
    }
   ],
   "arxiv": [],
-  "local": null,
-  "draft": null,
-  "status": "unresolved local"
+  "local": {
+   "paths": [
+    "docs/pnl_per_token.pdf",
+    "papers/pnl-per-token/pnl_per_token.tex"
+   ],
+   "date": "2026-08-16",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://economics.microprediction.org/pnl_per_token.pdf",
+  "status": "in sync",
+  "changes": null
  },
  {
   "theme": "Economics",
@@ -1226,7 +1348,8 @@
    "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/The_Indispensible_Markets_Hypothesis.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Conformal prediction",
@@ -1257,7 +1380,17 @@
    "missing": false
   },
   "draft": "https://conformalprediction.net/papers/marginally-useful/marginally-useful.pdf",
-  "status": "published, local newer (4d)"
+  "status": "published, 1 commit since posting, +650/-236 lines",
+  "changes": {
+   "commits": [
+    "2026-08-25 834a3f4 Marginally Useful: full restructure into eleven sections with reproducible figures"
+   ],
+   "delta": [
+    650,
+    236
+   ],
+   "new_file": false
+  }
  },
  {
   "theme": "Conformal prediction",
@@ -1279,7 +1412,8 @@
    "missing": false
   },
   "draft": "https://conformalprediction.net/papers/definetti-feynman/signed-definetti-and-conformal.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Conformal prediction",
@@ -1300,7 +1434,8 @@
    "missing": false
   },
   "draft": "https://conformalprediction.net/papers/parimutuel/conformal-parimutuel.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Conformal prediction",
@@ -1328,7 +1463,17 @@
    "missing": false
   },
   "draft": "https://conformalprediction.net/papers/fan/conformal-fan.pdf",
-  "status": "local newer (4d)"
+  "status": "changed since posting: 1 commit since posting, +84/-22 lines",
+  "changes": {
+   "commits": [
+    "2026-08-02 b44c263 An Empirical Study of the Conformal Information Gap (frontier paper) (#132)"
+   ],
+   "delta": [
+    84,
+    22
+   ],
+   "new_file": false
+  }
  },
  {
   "theme": "Conformal prediction",
@@ -1348,7 +1493,8 @@
    "missing": false
   },
   "draft": "https://conformalprediction.net/papers/two-prices/two-prices.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Conformal prediction",
@@ -1368,7 +1514,8 @@
    "missing": false
   },
   "draft": "https://conformalprediction.net/papers/steinitz/conformal-steinitz.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Conformal prediction",
@@ -1396,7 +1543,20 @@
    "missing": false
   },
   "draft": "https://conformalprediction.net/papers/frontier/frontier.pdf",
-  "status": "local newer (13d)"
+  "status": "changed since posting: 4 commits since posting, +0/-0 lines",
+  "changes": {
+   "commits": [
+    "2026-08-25 351add7 Merge remote-tracking branch 'origin/teaching-letter'",
+    "2026-08-20 956f68c Retitle the companion everywhere, ahead of the arXiv v2 announcement",
+    "2026-08-20 d5a019d Settle the companion's title, and give IJF the link it asked for",
+    "2026-08-20 c309af5 Companion note is public: cite arXiv:2608.07479 everywhere"
+   ],
+   "delta": [
+    0,
+    0
+   ],
+   "new_file": false
+  }
  },
  {
   "theme": "Conformal prediction",
@@ -1416,7 +1576,8 @@
    "missing": false
   },
   "draft": "https://conformalprediction.net/papers/stopping/stopping.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Conformal prediction",
@@ -1434,7 +1595,8 @@
   "arxiv": [],
   "local": null,
   "draft": null,
-  "status": "published"
+  "status": "published",
+  "changes": null
  },
  {
   "theme": "Conformal prediction",
@@ -1454,7 +1616,8 @@
    "missing": false
   },
   "draft": "https://raw.githubusercontent.com/microprediction/conformalprediction/main/papers/honest-sharpness/honest-sharpness.pdf",
-  "status": "not posted"
+  "status": "not posted",
+  "changes": null
  },
  {
   "theme": "Fixed income & stochastic volatility",
@@ -1474,7 +1637,8 @@
    "archived": true
   },
   "draft": "https://raw.githubusercontent.com/microprediction/home/main/workingpapers/Security_and_Derivative_Pricing_with_Fast_Regime_Switches.pdf",
-  "status": "not posted, arXiv submitted (submit/8307895)"
+  "status": "not posted, arXiv submitted (submit/8307895)",
+  "changes": null
  },
  {
   "theme": "Fixed income & stochastic volatility",
@@ -1486,7 +1650,8 @@
   "arxiv": [],
   "local": null,
   "draft": "http://math.stanford.edu/~papanico/pubftp/cfps.pdf",
-  "status": "published"
+  "status": "published",
+  "changes": null
  },
  {
   "theme": "Fixed income & stochastic volatility",
@@ -1498,7 +1663,8 @@
   "arxiv": [],
   "local": null,
   "draft": null,
-  "status": "published"
+  "status": "published",
+  "changes": null
  },
  {
   "theme": "Epidemiology",
@@ -1527,7 +1693,8 @@
    "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/Herd_Immunity_Convexity_Adjustments.pdf",
-  "status": "published"
+  "status": "published",
+  "changes": null
  },
  {
   "theme": "Epidemiology",
@@ -1556,7 +1723,8 @@
    "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/repeat_contacts_and_the_spread.pdf",
-  "status": "published"
+  "status": "published",
+  "changes": null
  },
  {
   "theme": "Sports analytics",
@@ -1576,7 +1744,8 @@
    "archived": true
   },
   "draft": "https://github.com/microprediction/home/blob/main/papers/Stop_Shy_of_the_First_Down.pdf",
-  "status": "published"
+  "status": "published",
+  "changes": null
  },
  {
   "theme": "Lie theory",
@@ -1596,7 +1765,8 @@
    "archived": true
   },
   "draft": "https://raw.githubusercontent.com/microprediction/home/main/papers/Contraction_of_an_Adapted_Functional_Cal.pdf",
-  "status": "published"
+  "status": "published",
+  "changes": null
  },
  {
   "theme": "Selected Essays",
@@ -1608,7 +1778,8 @@
   "arxiv": [],
   "local": null,
   "draft": null,
-  "status": "published"
+  "status": "published",
+  "changes": null
  },
  {
   "theme": "Selected Essays",
@@ -1620,7 +1791,8 @@
   "arxiv": [],
   "local": null,
   "draft": null,
-  "status": "published"
+  "status": "published",
+  "changes": null
  },
  {
   "theme": "Selected Essays",
@@ -1632,7 +1804,8 @@
   "arxiv": [],
   "local": null,
   "draft": null,
-  "status": "published"
+  "status": "published",
+  "changes": null
  },
  {
   "theme": "Selected Essays",
@@ -1644,7 +1817,8 @@
   "arxiv": [],
   "local": null,
   "draft": null,
-  "status": "published"
+  "status": "published",
+  "changes": null
  },
  {
   "theme": "Selected Essays",
@@ -1656,7 +1830,8 @@
   "arxiv": [],
   "local": null,
   "draft": null,
-  "status": "published"
+  "status": "published",
+  "changes": null
  },
  {
   "theme": "Selected Essays",
@@ -1668,6 +1843,7 @@
   "arxiv": [],
   "local": null,
   "draft": null,
-  "status": "published"
+  "status": "published",
+  "changes": null
  }
 ]

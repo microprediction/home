@@ -15,8 +15,9 @@ For each paper the script
     through their CNAME files) and takes the last commit date of that file and
     of any .md/.tex source with the same stem, plus an uncommitted-changes
     flag;
-  * reports one of: published, in sync, local newer (N days), not posted,
-    unknown SSRN date, unresolved local.
+  * reports one of: published, in sync, changed since posting (with the
+    commits and line delta since the posting date), not posted, unknown SSRN
+    date, unresolved local.
 
 Writes STATUS.md and status.json at the repo root and prints a summary.
 Read-only otherwise.
@@ -108,6 +109,24 @@ def local_state(repo: Path, rel: str):
     return {"paths": cands, "date": max(dates) if dates else None, "dirty": dirty, "missing": False}
 
 
+def changes_since(repo: Path, paths: list[str], since: str) -> dict | None:
+    """Commits touching the draft's text sources after `since`, and the line delta
+    against the last commit at or before `since`. PDFs are binary, so the delta is
+    over .md/.tex only; if the paper has no text source, only commits are counted."""
+    text = [c for c in paths if Path(c).suffix in (".md", ".tex")] or paths
+    log = git(repo, "log", f"--since={since}T23:59:59", "--format=%cs %h %s", "--", *paths)
+    commits = [l for l in log.splitlines() if l.strip()]
+    if not commits:
+        return None
+    base = git(repo, "log", "-1", f"--before={since}T23:59:59", "--format=%H", "--", *paths)
+    delta = None
+    if base and any(Path(c).suffix in (".md", ".tex") for c in text):
+        stat = git(repo, "diff", "--shortstat", base, "HEAD", "--", *text)
+        ins = re.search(r"(\d+) insertion", stat); dele = re.search(r"(\d+) deletion", stat)
+        delta = (int(ins.group(1)) if ins else 0, int(dele.group(1)) if dele else 0)
+    return {"commits": commits, "delta": delta, "new_file": not base}
+
+
 # ---------------------------------------------------------------- arXiv
 def load_cache() -> dict:
     return json.loads(CACHE.read_text()) if CACHE.exists() else {}
@@ -169,11 +188,23 @@ def main() -> int:
             posted_dates = [d for d in posted_dates if d]
             latest_posted = max(posted_dates) if posted_dates else None
 
+            changes = None
+            if latest_posted and local and local.get("date") and local["date"] > latest_posted and loc and loc[0] != ROOT:
+                changes = changes_since(loc[0], local["paths"], latest_posted)
+
+            def describe(ch):
+                n = len(ch["commits"])
+                head = f"{n} commit{'s' if n != 1 else ''} since posting"
+                if ch["delta"]:
+                    head += f", +{ch['delta'][0]}/-{ch['delta'][1]} lines"
+                elif ch["new_file"]:
+                    head += ", source added after posting"
+                return head
+
             if p.get("venue"):
                 status = "published"
-                if latest_posted and local and local.get("date") and local["date"] > latest_posted:
-                    days = (date.fromisoformat(local["date"]) - date.fromisoformat(latest_posted)).days
-                    status += f", local newer ({days}d)"
+                if changes:
+                    status += ", " + describe(changes)
             elif not ssrn_ids and not arxiv_ids:
                 status = "not posted"
             elif any(not (s.get("posted") or s.get("revised")) for s in ssrn) and not latest_posted:
@@ -182,9 +213,10 @@ def main() -> int:
                 status = "posted; draft archived here"
             elif local is None or local.get("missing") or not local.get("date"):
                 status = "unresolved local"
+            elif changes:
+                status = "changed since posting: " + describe(changes)
             elif local["date"] > latest_posted:
-                days = (date.fromisoformat(local["date"]) - date.fromisoformat(latest_posted)).days
-                status = f"local newer ({days}d)"
+                status = "touched since posting, no source commits"
             else:
                 status = "in sync"
             if any(not (s.get("posted") or s.get("revised")) for s in ssrn) and status not in ("published", "unknown SSRN date"):
@@ -199,6 +231,7 @@ def main() -> int:
                 "theme": theme.get("title"), "title": p["title"], "hidden": bool(p.get("hidden")),
                 "venue": p.get("venue"), "date": p.get("date"),
                 "ssrn": ssrn, "arxiv": arx, "local": local, "draft": draft, "status": status,
+                "changes": changes,
             })
     if not offline:
         CACHE.write_text(json.dumps(cache, indent=1))
@@ -219,9 +252,19 @@ def main() -> int:
         arx = "; ".join(f"[{a['id']}](https://arxiv.org/abs/{a['id']})" + (f" v{a['version']} {a['updated']}" if a.get("updated") else "") for a in r["arxiv"]) or "-"
         loc = (r["local"] or {}).get("date") or ("archived here" if (r["local"] or {}).get("archived") else "missing" if r["local"] else "-")
         lines.append(f"| {cell(r['theme'])} | {cell(r['title'])} | {loc} | {ssrn} | {arx} | {r['status']} |")
+    changed = [r for r in rows if r.get("changes") and not r["hidden"]]
+    if changed:
+        lines += ["", "## Changes since posting", "",
+                  "Commits touching the draft or its source after the latest SSRN or arXiv date, "
+                  "newest first; the line delta is over the .md/.tex source against the version at the posting date."]
+        for r in changed:
+            ch = r["changes"]
+            delta = f" (+{ch['delta'][0]}/-{ch['delta'][1]} lines)" if ch["delta"] else ""
+            lines += ["", f"**{r['title']}**{delta}", ""]
+            lines += [f"- {c}" for c in ch["commits"]]
     counts = {}
     for r in rows:
-        key = r["status"].split(" (")[0].split(",")[0]
+        key = r["status"].split(" (")[0].split(",")[0].split(":")[0]
         counts[key] = counts.get(key, 0) + 1
     lines += ["", "## Counts", ""] + [f"- {k}: {v}" for k, v in sorted(counts.items())]
     (ROOT / "STATUS.md").write_text("\n".join(lines) + "\n")
