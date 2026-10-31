@@ -19,9 +19,18 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
-# Subdomains to scan. Add to this list as new package sites appear.
-TARGETS = ["schur", "humpday", "precise", "mechanics", "skaters", "conformalprediction",
-           "inventory"]
+# Repos to scan: every sibling repo that publishes a site (has a CNAME at its root
+# or under docs/), plus any listed here explicitly.
+EXTRA_TARGETS = ["schur", "humpday", "precise", "mechanisms", "skaters", "conformalprediction",
+                 "inventory"]
+
+
+def discover_targets(parent: Path) -> list[str]:
+    names = set(EXTRA_TARGETS)
+    for repo in parent.iterdir():
+        if repo.is_dir() and ((repo / "CNAME").exists() or (repo / "docs" / "CNAME").exists()) and repo.name != "home":
+            names.add(repo.name)
+    return sorted(names)
 
 # Folders within each repo worth scanning for drafts.
 DRAFT_DIRS = ["papers", "docs", "academic", "paper"]
@@ -62,9 +71,10 @@ def clean_title(tex: str) -> str:
 def scan_repo(repo: Path) -> dict:
     info: dict = {"name": repo.name, "site": None, "drafts": [], "arxiv": []}
 
-    cname = repo / "docs" / "CNAME"
-    if cname.exists():
-        info["site"] = "https://" + cname.read_text().strip()
+    for cname in (repo / "docs" / "CNAME", repo / "CNAME"):
+        if cname.exists():
+            info["site"] = "https://" + cname.read_text().strip()
+            break
 
     arxiv_hits: dict[str, set[str]] = {}
     for sub in DRAFT_DIRS:
@@ -111,7 +121,7 @@ def main() -> None:
     parent = repo_root.parent  # the github/ folder holding the sibling repos
 
     report = {"scanned_from": str(parent), "repos": []}
-    for name in TARGETS:
+    for name in discover_targets(parent):
         repo = parent / name
         if not repo.is_dir():
             report["repos"].append({"name": name, "missing": True})

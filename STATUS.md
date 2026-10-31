@@ -7,11 +7,17 @@ Generated 2026-10-31 by `.claude/skills/build-home-page/status.py`. SSRN dates c
 | Econometric algorithms (Probit, ...) | Scalable Inversion of Contests with Correlated Performances, Including Softmax and Multinomial Probit | 2026-09-01 | [7307363](https://papers.ssrn.com/abstract=7307363) 2026-09-01 | [2609.01133](https://arxiv.org/abs/2609.01133) v1 2026-09-01 | published |
 | Econometric algorithms (Probit, ...) | Softmax Masking Is a Choice Model: The Evidence for Linear versus Gaussian Renormalization of Probability Vectors | 2026-09-01 | - | - | not posted |
 | Econometric algorithms (Probit, ...) | Computation of Collision Local Times: A Connection Between New Scalable Probit Methodology and Atlas Models | 2026-09-01 | - | - | not posted |
+| Econometric algorithms (Probit, ...) | Structured Gaussian Argmax Layers | 2026-08-21 | - | - | not posted |
 | Time series | A Platform for Assessing and Combining Autonomous Short-Horizon Distributional Predictions | archived here | - | - | not posted |
 | Time series | Transforms All the Way Down: Automatic Online Distributional Forecasting by Conjugation | 2026-09-01 | [7220478](https://papers.ssrn.com/abstract=7220478) 2026-08-07 | - | changed since posting: 1 commit since posting, +34/-28 lines |
 | Time series | Conformal Prediction as a Transform within a Grammar for Probabilistic Forecasting | 2026-08-06 | [7244778](https://papers.ssrn.com/abstract=7244778) 2026-08-11 | - | in sync |
 | Time series | A Stronger Univariate Benchmark for Foundational Time-Series Model Evaluation | 2026-10-08 | [7583618](https://papers.ssrn.com/abstract=7583618) 2026-10-09 | - | in sync |
 | Time series | Dyadic Regression | 2026-10-07 | - | - | not posted |
+| Time series | Skaters on a River: Calibrated Forecast Features for Streaming Regression, with a Pathwise Regret-Transfer Theorem | 2026-07-08 | - | - | not posted |
+| Portfolio theory | Covariance-Method Claims Are Ensemble-Relative: Named Measures and an Audit Program | 2026-08-27 | - | - | not posted |
+| Portfolio theory | Repaired Hierarchical Portfolios | 2026-09-22 | - | - | not posted |
+| Portfolio theory | Where Hierarchical Risk Parity Earns Its Keep | 2026-09-22 | - | - | not posted |
+| Portfolio theory | A Tilt Is Worth What the Correlation Is Worth | 2026-09-22 | - | - | not posted |
 | Portfolio theory | Schur Complementary Allocation: A Unification of Hierarchical Risk Parity and Minimum Variance Portfolios | - | - | [2411.05807](https://arxiv.org/abs/2411.05807) v1 2024-10-29 | published |
 | Portfolio theory | Two Sides of Schur Damping: High-Dimensional Pseudo-Likelihoods and Portfolio Allocation | 2026-09-10 | - | [2606.14798](https://arxiv.org/abs/2606.14798) v1 2026-06-11 | published, 2 commits since posting, +0/-0 lines |
 | Portfolio theory | Nested Clustered Optimization Is One End of a Schur Bridge, and the Interior Is Sometimes Provably Better | - | [7480738](https://papers.ssrn.com/abstract=7480738) 2026-09-21 | [2609.21271](https://arxiv.org/abs/2609.21271) v1 2026-09-18 | published |
@@ -30,6 +36,7 @@ Generated 2026-10-31 by `.claude/skills/build-home-page/status.py`. SSRN dates c
 | Market making & trading | On the Relationship Between Accuracy and Profitability in Over-the-Counter Market Making | archived here | - | - | not posted |
 | Market making & trading | Trading Illiquid Goods: Market Making as a Sequence of Sealed-Bid Auctions, with Analytic Results | archived here | - | - | not posted |
 | Market making & trading | Finite-Horizon Market Making with Imbalanced Flow: An Exact Symmetrization and Its Term Structure | - | - | - | not posted |
+| Contests, Rankings | Think Before Rescaling Probabilities to Unity: Evidence from Thirty-Nine Tests of Linear versus Gaussian Renormalization | 2026-09-13 | - | - | not posted |
 | Contests, Rankings | Inferring Relative Ability From Winning Probability in Multi-Entrant Contests | archived here | - | - | published |
 | Contests, Rankings | A Scalable Algorithm for Subset Selection and Rank Probabilities in Contests and Latent Variable Choice Models | archived here | - | - | not posted |
 | Contests, Rankings | Luce's Choice Axiom Isn't the Only Choice! Combinatorial Contest and Rank Probabilities Using the Python Winning Package | archived here | - | - | not posted |
@@ -40,6 +47,7 @@ Generated 2026-10-31 by `.claude/skills/build-home-page/status.py`. SSRN dates c
 | Contests, Rankings | The Runner-Up Principle for Counterfactual Races | 2026-08-12 | - | - | not posted |
 | Contests, Rankings | Beating a Deployed Rating System: Partial Pooling Against Per-Category Glicko-2 on Lichess | 2026-09-13 | - | - | not posted |
 | Contests, Rankings | Win Nodes for Bayes Nets: Exact Order-Statistic Queries on Gaussian Graphical Models | 2026-09-13 | - | - | not posted |
+| Global optimization | When the Grass Is Greener: Three-Shot Search on Exponentiated Gaussian Landscapes | 2026-09-24 | - | - | not posted |
 | Global optimization | HumpDay: Derivative-Free Optimizers in Pure Python and JavaScript, with a Contamination-Resistant Real-World Benchmark | 2026-07-16 | - | - | not posted |
 | Global optimization | Neither Synthetic Benchmarks nor Common-Sense Reasoning Predicts Real-World Derivative-Free Optimizer Performance | 2026-07-06 | - | - | not posted |
 | Global optimization | Discovering a Derivative-Free Optimizer by Evolution Against a Memorisation-Proof Real-World Benchmark | 2026-07-06 | - | - | not posted |
@@ -74,6 +82,7 @@ Generated 2026-10-31 by `.claude/skills/build-home-page/status.py`. SSRN dates c
 | Fixed income & stochastic volatility | Security and Derivative Pricing with Fast Regime Switches | archived here | - | - | not posted, arXiv submitted (submit/8307895) |
 | Fixed income & stochastic volatility | Stochastic Volatility Corrections for Interest Rate Derivatives | - | - | - | published |
 | Fixed income & stochastic volatility | Derivatives in Financial Markets with Stochastic Volatility | - | - | - | published |
+| Epidemiology | The Immunity Factor from Contact Surveys: Where Epidemics Turn Over | 2026-09-24 | - | - | not posted |
 | Epidemiology | Addressing the Herd Immunity Paradox Using Symmetry, Convexity Adjustments and Bond Prices | archived here | - | [2006.07341](https://arxiv.org/abs/2006.07341) v2 2020-06-17 | published |
 | Epidemiology | Repeat Contacts and the Spread of Disease: An Agent Model with Compartmental Solution | archived here | - | [2005.10311](https://arxiv.org/abs/2005.10311) v2 2020-06-12 | published |
 | Sports analytics | Stop Shy of the First Down | archived here | - | - | published |
@@ -84,6 +93,7 @@ Generated 2026-10-31 by `.claude/skills/build-home-page/status.py`. SSRN dates c
 | Selected Essays | So, You Recommended a Python Time-Series Package … Now What? | - | - | - | published |
 | Selected Essays | A Gentle Introduction to Stochastic Portfolio Theory (and its Inverse) | - | - | - | published |
 | Selected Essays | The Options Market Beat 97.6% of Participants in the M6 Financial Forecasting Contest | - | - | - | published |
+| Metareasoning | Consistent Objectives for Self-Improving Systems: Absolute, Relative and Evolutionary Assessment Over Short and Long Horizons | 2026-10-01 | - | - | not posted |
 
 ## Changes since posting
 
@@ -136,5 +146,5 @@ Commits touching the draft or its source after the latest SSRN or arXiv date, ne
 
 - changed since posting: 5
 - in sync: 4
-- not posted: 53
+- not posted: 64
 - published: 20

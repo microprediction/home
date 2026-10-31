@@ -76,6 +76,29 @@
   "changes": null
  },
  {
+  "theme": "Econometric algorithms (Probit, ...)",
+  "title": "Structured Gaussian Argmax Layers",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "paper/gaussian-perturbed-max/paper.pdf",
+    "paper/gaussian-perturbed-max/paper.tex",
+    "paper/runner-up-principle/paper.tex",
+    "paper/softmax-fast-mixing/paper.tex"
+   ],
+   "date": "2026-08-21",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/kinetics/blob/main/paper/gaussian-perturbed-max/paper.pdf",
+  "status": "not posted",
+  "changes": null
+ },
+ {
   "theme": "Time series",
   "title": "A Platform for Assessing and Combining Autonomous Short-Horizon Distributional Predictions",
   "hidden": false,
@@ -209,6 +232,129 @@
    "missing": false
   },
   "draft": "https://raw.githubusercontent.com/microprediction/skaters/main/papers/dyadic-regression/dyadic-regression.pdf",
+  "status": "not posted",
+  "changes": null
+ },
+ {
+  "theme": "Time series",
+  "title": "Skaters on a River: Calibrated Forecast Features for Streaming Regression, with a Pathwise Regret-Transfer Theorem",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-07",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/ice-skaters-jss.pdf",
+    "papers/ice-skaters-jss.tex"
+   ],
+   "date": "2026-07-08",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/ice-skaters/blob/main/papers/ice-skaters-jss.pdf",
+  "status": "not posted",
+  "changes": null
+ },
+ {
+  "theme": "Portfolio theory",
+  "title": "Covariance-Method Claims Are Ensemble-Relative: Named Measures and an Audit Program",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/measure_audit/main.pdf",
+    "papers/measure_audit/main.tex"
+   ],
+   "date": "2026-08-27",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/randomcov/blob/main/papers/measure_audit/main.pdf",
+  "status": "not posted",
+  "changes": null
+ },
+ {
+  "theme": "Portfolio theory",
+  "title": "Repaired Hierarchical Portfolios",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/_template/paper.tex",
+    "papers/hierarchical-risk-parity-regime/paper.tex",
+    "papers/online-portfolio-regimes/paper.tex",
+    "papers/repaired-hierarchical-portfolios/paper.tex",
+    "papers/thurstone-credit/paper.tex",
+    "papers/thurstone-portfolios/paper.tex",
+    "papers/thurstone-rc/paper.tex",
+    "papers/tilt-trust-parameter/paper.tex"
+   ],
+   "date": "2026-09-22",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/allocation/blob/main/papers/repaired-hierarchical-portfolios/paper.pdf",
+  "status": "not posted",
+  "changes": null
+ },
+ {
+  "theme": "Portfolio theory",
+  "title": "Where Hierarchical Risk Parity Earns Its Keep",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/_template/paper.tex",
+    "papers/hierarchical-risk-parity-regime/paper.tex",
+    "papers/online-portfolio-regimes/paper.tex",
+    "papers/repaired-hierarchical-portfolios/paper.tex",
+    "papers/thurstone-credit/paper.tex",
+    "papers/thurstone-portfolios/paper.tex",
+    "papers/thurstone-rc/paper.tex",
+    "papers/tilt-trust-parameter/paper.tex"
+   ],
+   "date": "2026-09-22",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/allocation/blob/main/papers/hierarchical-risk-parity-regime/paper.pdf",
+  "status": "not posted",
+  "changes": null
+ },
+ {
+  "theme": "Portfolio theory",
+  "title": "A Tilt Is Worth What the Correlation Is Worth",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/_template/paper.tex",
+    "papers/hierarchical-risk-parity-regime/paper.tex",
+    "papers/online-portfolio-regimes/paper.tex",
+    "papers/repaired-hierarchical-portfolios/paper.tex",
+    "papers/thurstone-credit/paper.tex",
+    "papers/thurstone-portfolios/paper.tex",
+    "papers/thurstone-rc/paper.tex",
+    "papers/tilt-trust-parameter/paper.tex"
+   ],
+   "date": "2026-09-22",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/allocation/blob/main/papers/tilt-trust-parameter/paper.pdf",
   "status": "not posted",
   "changes": null
  },
@@ -619,6 +765,33 @@
  },
  {
   "theme": "Contests, Rankings",
+  "title": "Think Before Rescaling Probabilities to Unity: Evidence from Thirty-Nine Tests of Linear versus Gaussian Renormalization",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/thurstone_humans/paper.pdf",
+    "papers/chess_ratings/paper.tex",
+    "papers/exact_pom/paper.tex",
+    "papers/f1_ratings/paper.tex",
+    "papers/machine_preference/paper.tex",
+    "papers/passk_posterior/paper.tex",
+    "papers/thurstone_humans/paper.tex",
+    "papers/win_nodes/paper.tex"
+   ],
+   "date": "2026-09-13",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/winning/blob/main/papers/thurstone_humans/paper.pdf",
+  "status": "not posted",
+  "changes": null
+ },
+ {
+  "theme": "Contests, Rankings",
   "title": "Inferring Relative Ability From Winning Probability in Multi-Entrant Contests",
   "hidden": false,
   "venue": "SIAM Journal on Financial Mathematics, 2021",
@@ -843,6 +1016,27 @@
  },
  {
   "theme": "Global optimization",
+  "title": "When the Grass Is Greener: Three-Shot Search on Exponentiated Gaussian Landscapes",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/grass.pdf",
+    "papers/grass/grass.tex"
+   ],
+   "date": "2026-09-24",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://browniansearch.microprediction.org/grass.pdf",
+  "status": "not posted",
+  "changes": null
+ },
+ {
+  "theme": "Global optimization",
   "title": "HumpDay: Derivative-Free Optimizers in Pure Python and JavaScript, with a Contamination-Resistant Real-World Benchmark",
   "hidden": false,
   "venue": null,
@@ -1044,6 +1238,27 @@
    "missing": false
   },
   "draft": "https://brownianbandit.microprediction.org/clay_shooting.pdf",
+  "status": "not posted",
+  "changes": null
+ },
+ {
+  "theme": "Bandits and Stopping",
+  "title": "All-Action Propensities for Correlated Gaussian Thompson Sampling",
+  "hidden": true,
+  "venue": null,
+  "date": "2026-08",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "papers/_template/paper.tex",
+    "papers/thompson-propensities/paper.tex"
+   ],
+   "date": "2026-08-16",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://github.com/microprediction/thurstone/blob/main/papers/thompson-propensities/paper.pdf",
   "status": "not posted",
   "changes": null
  },
@@ -1668,6 +1883,26 @@
  },
  {
   "theme": "Epidemiology",
+  "title": "The Immunity Factor from Contact Surveys: Where Epidemics Turn Over",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-09",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "docs/immunity-factor.pdf"
+   ],
+   "date": "2026-09-24",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://epidemiology.microprediction.org/immunity-factor.pdf",
+  "status": "not posted",
+  "changes": null
+ },
+ {
+  "theme": "Epidemiology",
   "title": "Addressing the Herd Immunity Paradox Using Symmetry, Convexity Adjustments and Bond Prices",
   "hidden": false,
   "venue": "preprint, 2020",
@@ -1844,6 +2079,26 @@
   "local": null,
   "draft": null,
   "status": "published",
+  "changes": null
+ },
+ {
+  "theme": "Metareasoning",
+  "title": "Consistent Objectives for Self-Improving Systems: Absolute, Relative and Evolutionary Assessment Over Short and Long Horizons",
+  "hidden": false,
+  "venue": null,
+  "date": "2026-10",
+  "ssrn": [],
+  "arxiv": [],
+  "local": {
+   "paths": [
+    "consistent-objectives.pdf"
+   ],
+   "date": "2026-10-01",
+   "dirty": false,
+   "missing": false
+  },
+  "draft": "https://metareasoning.microprediction.org/consistent-objectives.pdf",
+  "status": "not posted",
   "changes": null
  }
 ]
