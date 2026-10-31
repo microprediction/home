@@ -507,7 +507,8 @@
               "url": "https://precise.microprediction.org"
             }
           ],
-          "date": "2026-08"
+          "date": "2026-08",
+          "hidden": true
         },
         {
           "title": "Correlation Inflation",
@@ -632,7 +633,8 @@
               "url": "https://inventory.microprediction.org"
             }
           ],
-          "date": "2026-08"
+          "date": "2026-08",
+          "hidden": true
         }
       ],
       "package": "inventory",
