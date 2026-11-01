@@ -1856,7 +1856,7 @@
     "body": "<ol class=\"places\"><li><span class=\"place p1\">1</span>Scaling econometrics to millions of variables (<a href=\"https://papers.ssrn.com/abstract=7307363\">paper</a> · <a href=\"https://winning.microprediction.org\">site</a>).</li><li><span class=\"place p2\">2</span>Unifying the two sides of portfolio theory (<a href=\"https://github.com/microprediction/home/blob/main/workingpapers/Hierarchical_Minimum_Variance_Portfolios.pdf\">paper</a> · <a href=\"https://schur.microprediction.org\">site</a>).</li><li><span class=\"place p3\">3</span>A very hard to beat autonomous univariate distributional forecaster (<a href=\"https://papers.ssrn.com/abstract=7220478\">paper</a> · <a href=\"https://skaters.microprediction.org\">site</a>).</li><li><span class=\"place p4\">4</span>Generalizing every closed-form quant model to regime switching (<a href=\"https://regimelib.org/\">code</a> · <a href=\"https://regimeswitching.org\">site</a>).</li></ol>"
   },
   "ultra": {
-    "summary": "what ULTRA thinks",
+    "summary": "What ULTRA/Fable think",
     "reviewed": "2026-10-31",
     "description": "Current papers worth your time, ranked for useful ideas and demonstrated value. Close companions sit together; adjacent ranks are approximate.",
     "entries": [
@@ -1879,7 +1879,7 @@
       {
         "title": "Nested Clustered Optimization Is One End of a Schur Bridge, and the Interior Is Sometimes Provably Better",
         "verdict": "A second unification: nested clustered optimization and the global optimum are two ends of one Schur bridge, often best inside.",
-        "by": "Claude",
+        "by": "Fable",
         "short": "Nested Clustered Optimization Is One End of a Schur Bridge",
         "why": "The first bridge joined hierarchical risk parity to minimum variance. This one joins the other popular two-tier heuristic to the same global optimum by the same damped Schur complement, and proves the interior can beat both ends under estimation error. Two unifications by one operation is the strongest sign that the operation is the right one."
       },
@@ -1893,7 +1893,7 @@
       {
         "title": "Win Nodes for Bayes Nets: Exact Order-Statistic Queries on Gaussian Graphical Models",
         "verdict": "Graphical-model libraries stop at marginals; a win node answers who is the maximum and when a threshold is crossed, exactly.",
-        "by": "Claude",
+        "by": "Fable",
         "why": "Marginals, moments and samples never answer the question a user of a correlated field actually asks. Adjoining an argmax node to a Gaussian graphical model and giving it exact linear-work passes on chains and banded precisions turns that question into a query. The ATP demonstration shows answers no marginal summary contains: a bimodal peak-career law for one player, a non-interval credible set for another."
       },
       {
@@ -1907,7 +1907,7 @@
       {
         "title": "Thurstone Portfolio Polishing: Tail-Sensitive Black-Litterman and Beyond",
         "verdict": "Read a benchmark's weights as a race, invert it, re-race under a tail-aware law: Black-Litterman with no covariance to invert.",
-        "by": "Claude",
+        "by": "Fable",
         "why": "Allocation run backwards: weights are winning probabilities, abilities are recovered by a fast exact inverse, and the view is on lower-tail co-movement rather than on returns. Clone consistency does the rest, buying robustness to ill-conditioning, a turnover bound and smooth de-duplication at once. The companion paper shows the tilt dial is the Schur dial under a square root, with a bounded simplex endpoint where every other bridge ends in an unbounded linear solve."
       },
       {
@@ -1935,18 +1935,18 @@
       {
         "title": "Exact Posterior Probability of Optimality for Factor-Gaussian Beliefs",
         "verdict": "How likely is each option to be best? Long called intractable, it is a one-dimensional integral under factor-Gaussian beliefs.",
-        "by": "Claude"
+        "by": "Fable"
       },
       {
         "title": "The Inspiration Simplex: Using Derivative-Free Optimization in Concept Space to Create New Derivative-Free Optimizers",
         "verdict": "Treat the space of algorithms as continuous and search it with a derivative-free optimiser and an LLM as co-designer.",
-        "by": "Claude",
+        "by": "Fable",
         "short": "The Inspiration Simplex"
       },
       {
         "title": "A Stronger Univariate Benchmark for Foundational Time-Series Model Evaluation",
         "verdict": "Time-series foundation models have been compared against weak baselines; here is the strong one they should have faced.",
-        "by": "Claude"
+        "by": "Fable"
       },
       {
         "title": "Covariance-Method Claims Are Ensemble-Relative: Named Measures and an Audit Program",
@@ -1965,7 +1965,7 @@
       {
         "title": "Schur Covariance Evaluation: A Principled Pseudo-Likelihood in High Dimensions",
         "verdict": "How to rank covariance estimators when there are more assets than observations and the full likelihood cannot be trusted.",
-        "by": "Claude"
+        "by": "Fable"
       },
       {
         "title": "Marginally Useful: An Information-Gap Identity in Conformal Prediction",
@@ -1984,17 +1984,17 @@
       {
         "title": "The Two Prices of Dependence: a Vanishing Coverage Tax and a Fixed Sharpness Rent",
         "verdict": "Dependence in calibration data costs a coverage tax that vanishes with more data and a sharpness rent that never does.",
-        "by": "Claude"
+        "by": "Fable"
       },
       {
         "title": "The Runner-Up Principle for Counterfactual Races",
         "verdict": "Winners alone cannot tell you what would have happened had a contender been removed; knowing the runner-up fixes that.",
-        "by": "Claude"
+        "by": "Fable"
       },
       {
         "title": "Non-Convex Market Makers: Coherence without Convexity, Friction, and Parallel Composition",
         "verdict": "Automated market makers need not be convex to be arbitrage-free; a fee the size of the arbitrage depth is enough.",
-        "by": "Claude"
+        "by": "Fable"
       },
       {
         "title": "HumpDay: Derivative-Free Optimizers in Pure Python and JavaScript, with a Contamination-Resistant Real-World Benchmark",
@@ -2007,41 +2007,41 @@
       {
         "title": "Spectral Calibration Without a Split: Learning Covariance Eigenvalue Corrections One Observation at a Time",
         "verdict": "Correct covariance eigenvalues online with no held-out data; yesterday's eigenbasis is already out of sample.",
-        "by": "Claude",
+        "by": "Fable",
         "short": "Spectral Calibration Without a Split"
       },
       {
         "title": "Consistent Objectives for Self-Improving Systems: Absolute, Relative and Evolutionary Assessment Over Short and Long Horizons",
         "verdict": "Which per-step reward agrees with where a self-improving system ends up; a question for anyone building agents.",
-        "by": "Claude",
+        "by": "Fable",
         "short": "Consistent Objectives for Self-Improving Systems"
       },
       {
         "title": "Clay Shooting: Equilibrium Effort Solving Outstanding Problems",
         "verdict": "What is an open problem worth to those attacking it? A price list that puts a Millennium problem in the tens of millions.",
-        "by": "Claude"
+        "by": "Fable"
       },
       {
         "title": "Inferring Relative Ability From Winning Probability in Multi-Entrant Contests",
         "verdict": "From win probabilities to relative ability, exactly; the 2021 result that started the contest programme.",
-        "by": "Claude"
+        "by": "Fable"
       },
       {
         "title": "Misaligned or Undersupplied? Pure Mathematics in the Age of LLMs",
         "verdict": "Pure mathematics may be undersupplied rather than misaligned once the lag from theorem to use is priced in.",
-        "by": "Claude"
+        "by": "Fable"
       },
       {
         "title": "Stochastic Volatility Corrections for Interest Rate Derivatives",
         "verdict": "Mathematical Finance, 2004, with Fouque, Papanicolaou and Sircar; the most cited item on the page.",
-        "by": "Claude"
+        "by": "Fable"
       },
       {
         "title": "Microprediction: Building an Open AI Network",
         "verdict": "The book, MIT Press 2022: why prediction should be bought from an open network of competing algorithms, not built in-house.",
-        "by": "Claude"
+        "by": "Fable"
       }
     ],
-    "note": "Untagged entries, and the commentary under their 'more', are ULTRA's twelve. Entries tagged Claude were added by Claude. The running order is the author's."
+    "note": "Untagged entries, and the commentary under their 'more', are ULTRA's twelve. Entries tagged Fable were added by Fable. The running order is the author's."
   }
 }
