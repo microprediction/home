@@ -63,6 +63,7 @@ any longer assessment folded under "more". Keep the assessment in
     "note": "Who wrote which ranks, shown in the meta line when any entry has 'by'.",
     "entries": [
       { "title": "Exact title from a visible theme paper or book_length",
+        "short": "Optional display title when the full one would wrap; title still resolves the link.",
         "verdict": "One sentence for an outside reader: what the paper removes and why it matters.",
         "why": "Optional short case; folds under 'more'.",
         "caveat": "Optional scope limits; folds under 'more'.",

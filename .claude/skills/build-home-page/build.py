@@ -23,7 +23,7 @@ CSS = """
 html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
   font-family:Charter,Georgia,Cambria,"Times New Roman",serif;
   font-size:18px;line-height:1.55;-webkit-font-smoothing:antialiased}
-main{max-width:1060px;margin:0 auto;padding:56px 24px 96px}
+main{max-width:1120px;margin:0 auto;padding:56px 24px 96px}
 .cols{column-count:2;column-gap:48px}
 .cols .theme{break-inside:avoid;-webkit-column-break-inside:avoid;page-break-inside:avoid;margin-bottom:1.4em}
 @media(max-width:820px){main{max-width:760px}.cols{column-count:1}}
@@ -204,7 +204,9 @@ def ultra_foldout(data: dict) -> str:
     """Render an editorial reading list, resolving each paper against the catalogue.
 
     Each entry is one line: rank, linked title, and a one-sentence
-    ``verdict``. The longer ``why`` / ``caveat`` / ``heritage`` text, when
+    ``verdict``. An optional ``short`` is the displayed title when the full one
+    is too long for a line; ``title`` still resolves the catalogue link and
+    appears as hover text. The longer ``why`` / ``caveat`` / ``heritage`` text, when
     present, folds under a "more" toggle. Entries added by someone other
     than ULTRA carry ``by``, and ``ultra.note`` must then say so.
     """
@@ -266,7 +268,7 @@ def ultra_foldout(data: dict) -> str:
         ) if more else ""
         return (
             '      <li>\n'
-            f'        {rk}<span class="ttl"><a href="{esc(url)}">{esc(title)}</a></span>\n'
+            f'        {rk}<span class="ttl"><a href="{esc(url)}" title="{esc(title)}">{esc(entry.get("short") or title)}</a></span>\n'
             f'        <span class="verdict">{esc(verdict)}</span>\n'
             + more_html
             + '      </li>'

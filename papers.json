@@ -1862,77 +1862,82 @@
     "entries": [
       {
         "title": "Scalable Inversion of Contests with Correlated Performances, Including Softmax and Multinomial Probit",
-        "verdict": "Correlated multinomial probit was simulated one costly integral at a time for thirty years; here it is inverted at a million alternatives in linear time.",
+        "verdict": "Correlated multinomial probit, long simulated one integral at a time, inverted here at a million alternatives in linear time.",
         "why": "Correlated probit inversion at a million alternatives. Makes a richer choice model computationally usable; the engine behind much of the contest programme.",
         "caveat": "Linear scaling assumes fixed structural complexity and numerical resolution.",
-        "heritage": "The 2021 horse-race inversion; conditional independence and quadrature."
+        "heritage": "The 2021 horse-race inversion; conditional independence and quadrature.",
+        "short": "Scalable Inversion of Contests with Correlated Performances"
       },
       {
         "title": "Schur Complementary Allocation: A Unification of Hierarchical Risk Parity and Minimum Variance Portfolios",
-        "verdict": "Two rival schools of portfolio construction, Markowitz optimisation and hierarchical risk parity, turn out to be the two ends of one dial.",
+        "verdict": "Two rival schools of portfolio construction, Markowitz and hierarchical risk parity, turn out to be the two ends of one dial.",
         "why": "HRP and minimum variance become two ends of one dial. The organising result behind the Schur programme; read the interior-optimum companion next.",
         "caveat": "Portfolio gains still depend on covariance estimation, constraints and damping choice.",
-        "heritage": "Markowitz, HRP and Schur-complement identities."
+        "heritage": "Markowitz, HRP and Schur-complement identities.",
+        "short": "Schur Complementary Allocation"
       },
       {
         "title": "Transforms All the Way Down: Automatic Online Distributional Forecasting by Conjugation",
-        "verdict": "A recipe for better probabilistic forecasts of any series: transform away structure, forecast the simpler thing, map back. Runs online, with code.",
+        "verdict": "Better probabilistic forecasts of any series: transform away structure, forecast the simpler thing, map back. Online, with code.",
         "why": "A full distributional forecaster built from reversible transforms. Working software and a strong FRED showing make it a baseline expensive models should have to beat.",
         "caveat": "GARCH-t wins the asset-price comparison; density reconstruction can change benchmark verdicts.",
         "heritage": "PITs, change of variables and online residual forecasting."
       },
       {
         "title": "Scoring Point-Cloud Distributional Submissions: The Nearest-the-Pin Parimutuel, Jittered Outcomes, and the Heat Ladder",
-        "verdict": "Forecasting contests that score smoothed samples quietly reward bluffing; a small change to how the outcome is read restores honest scoring.",
+        "verdict": "Contests that score smoothed samples reward bluffing; a small change to how the outcome is read restores honest scoring.",
         "why": "KDE scoring can reward an artificially sharpened cloud. Diagnoses the distortion, repairs population incentives and turns smoothing scales into separate rewards.",
         "caveat": "Fixed bandwidths; finite clouds and proportional pot payouts need separate treatment.",
-        "heritage": "Bröcker–Smith, Ferro and relative de Bruijn."
+        "heritage": "Bröcker–Smith, Ferro and relative de Bruijn.",
+        "short": "Scoring Point-Cloud Distributional Submissions"
       },
       {
         "title": "On a Simple Relationship Between Order Imbalance, Skew and Width in Over-the-Counter Trading",
         "verdict": "Market makers quoting into one-sided flow: an exact symmetry shows the lopsided problem is the balanced one in disguise.",
         "why": "Imbalanced OTC quoting becomes a balanced problem by shifting skew and rescaling carrying cost. An exact symmetry that saves a fresh optimization.",
         "caveat": "Interior steady-state exponential quotes only; quote-floor clipping can break it.",
-        "heritage": "The auction model of Trading Illiquid Goods."
+        "heritage": "The auction model of Trading Illiquid Goods.",
+        "short": "Order Imbalance, Skew and Width in Over-the-Counter Trading"
       },
       {
         "title": "Security and Derivative Pricing with Fast Regime Switches",
-        "verdict": "Add regime switching to a pricing model without rederiving it: one small linear system covers options across affine and Lévy models.",
+        "verdict": "Add regime switching to a pricing model without rederiving it: one small linear system covers affine and Lévy models.",
         "why": "One small linear system prices a broad family of switching models. A reusable engine, with fast-switching corrections and numerical fallbacks.",
         "caveat": "Noncommuting parameter switches need other routes; the expansion is not always fastest.",
         "heritage": "Cotton’s thesis, singular perturbation and Markov-chain group inverses."
       },
       {
         "title": "Structured Gaussian Argmax Layers",
-        "verdict": "Who wins among correlated contenders, as a differentiable layer: exact probabilities and gradients for neural networks, no Monte Carlo.",
+        "verdict": "Who wins among correlated contenders, as a differentiable layer: exact probabilities and gradients, no Monte Carlo.",
         "why": "The contest engine becomes a differentiable Gaussian choice layer: winner probabilities, potential and gradients from one shared calculation. One of the highest ceilings on this list.",
         "caveat": "Low rank helps; faster neural training remains an open bet.",
         "heritage": "Random utility, perturbed optimizers and Fenchel–Young losses."
       },
       {
         "title": "HumpDay: Derivative-Free Optimizers in Pure Python and JavaScript, with a Contamination-Resistant Real-World Benchmark",
-        "verdict": "Which optimiser should you use when every evaluation is expensive? A benchmark drawn from real problems, resistant to memorised answers.",
+        "verdict": "Which optimiser to use when every evaluation is expensive? A benchmark drawn from real problems, resistant to memorised answers.",
         "why": "Optimizer recommendations you can interrogate: portable implementations, hard budgets and objectives drawn from applications. Seeded coordinate changes resist memorizing familiar optimum locations.",
         "caveat": "A curated suite; coordinate changes alter difficulty as well as optimum locations.",
-        "heritage": "Derivative-free optimization, benchmarking and algorithm selection."
+        "heritage": "Derivative-free optimization, benchmarking and algorithm selection.",
+        "short": "HumpDay: Derivative-Free Optimizers with a Contamination-Resistant Benchmark"
       },
       {
         "title": "Covariance-Method Claims Are Ensemble-Relative: Named Measures and an Audit Program",
-        "verdict": "Every claim that a covariance estimator wins depends on which matrices it faced; this names the test sets and makes the audit rerunnable.",
+        "verdict": "Every claim that a covariance estimator wins depends on which matrices it faced; this names the test sets and reruns the audit.",
         "why": "Change the matrix ensemble and the verdict can flip. Turns an old warning into a reproducible audit, making covariance comparisons harder to overgeneralize.",
         "caveat": "Leaving a method’s stated regime does not refute its theorem.",
         "heritage": "Simulation design, made executable."
       },
       {
         "title": "Two Sides of Schur Damping: High-Dimensional Pseudo-Likelihoods and Portfolio Allocation",
-        "verdict": "Portfolio allocators and spatial statisticians have been using the same damped matrix operation unawares; ideas can now flow both ways.",
+        "verdict": "Portfolio allocators and spatial statisticians use the same damped matrix operation unawares; ideas can now flow both ways.",
         "why": "Weather models and portfolios share a damping operation. The attraction is transferring estimation ideas between communities that rarely compare notes.",
         "caveat": "Optimal shrinkage is relative to a stated target, loss and model.",
         "heritage": "Conditional Gaussians, Vecchia likelihoods and classical shrinkage."
       },
       {
         "title": "Marginally Useful: An Information-Gap Identity in Conformal Prediction",
-        "verdict": "The commonest conformal prediction recipe guarantees coverage but permanently throws information away; this is the exact size of the loss.",
+        "verdict": "The commonest conformal recipe guarantees coverage but throws information away for good; this is the exact size of the loss.",
         "why": "Puts an exact log-score price on residual information left unused. A pointed diagnosis of pooling, with more interpretive force than new information theory.",
         "caveat": "A fixed residual class, not an unavoidable tax on conformal prediction.",
         "heritage": "KL decomposition and mutual information."
@@ -1946,7 +1951,7 @@
       },
       {
         "title": "Microprediction: Building an Open AI Network",
-        "verdict": "The book, MIT Press 2022: why prediction should be bought from an open network of competing algorithms rather than built in-house.",
+        "verdict": "The book, MIT Press 2022: why prediction should be bought from an open network of competing algorithms, not built in-house.",
         "by": "Claude"
       },
       {
@@ -1956,7 +1961,7 @@
       },
       {
         "title": "Exact Posterior Probability of Optimality for Factor-Gaussian Beliefs",
-        "verdict": "How likely is each option to be the best? Long called intractable, it is a one-dimensional integral under factor-Gaussian beliefs.",
+        "verdict": "How likely is each option to be best? Long called intractable, it is a one-dimensional integral under factor-Gaussian beliefs.",
         "by": "Claude"
       },
       {
@@ -1966,7 +1971,7 @@
       },
       {
         "title": "Clay Shooting: Equilibrium Effort Solving Outstanding Problems",
-        "verdict": "What is an open problem worth to those attacking it? An equilibrium price list that puts a Millennium problem in the tens of millions.",
+        "verdict": "What is an open problem worth to those attacking it? A price list that puts a Millennium problem in the tens of millions.",
         "by": "Claude"
       },
       {
@@ -1987,12 +1992,14 @@
       {
         "title": "Spectral Calibration Without a Split: Learning Covariance Eigenvalue Corrections One Observation at a Time",
         "verdict": "Correct covariance eigenvalues online with no held-out data; yesterday's eigenbasis is already out of sample.",
-        "by": "Claude"
+        "by": "Claude",
+        "short": "Spectral Calibration Without a Split"
       },
       {
         "title": "The Inspiration Simplex: Using Derivative-Free Optimization in Concept Space to Create New Derivative-Free Optimizers",
         "verdict": "Treat the space of algorithms as continuous and search it with a derivative-free optimiser and an LLM as co-designer.",
-        "by": "Claude"
+        "by": "Claude",
+        "short": "The Inspiration Simplex"
       },
       {
         "title": "The Runner-Up Principle for Counterfactual Races",
@@ -2022,12 +2029,14 @@
       {
         "title": "Consistent Objectives for Self-Improving Systems: Absolute, Relative and Evolutionary Assessment Over Short and Long Horizons",
         "verdict": "Which per-step reward agrees with where a self-improving system ends up; a question for anyone building agents.",
-        "by": "Claude"
+        "by": "Claude",
+        "short": "Consistent Objectives for Self-Improving Systems"
       },
       {
         "title": "Nested Clustered Optimization Is One End of a Schur Bridge, and the Interior Is Sometimes Provably Better",
         "verdict": "Another popular heuristic sits at one end of the same Schur dial, and the best setting is in the middle.",
-        "by": "Claude"
+        "by": "Claude",
+        "short": "Nested Clustered Optimization Is One End of a Schur Bridge"
       }
     ],
     "note": "Ranks 1 to 12, and the commentary under each 'more', are ULTRA's. Ranks 13 to 29 were added by Claude."
