@@ -106,7 +106,6 @@ details.ultra>summary{color:var(--link)}
 .ultra .rk.p1{background:#d4a017}.ultra .rk.p2{background:#9aa0a6}.ultra .rk.p3{background:#b87333}
 .ultra .ttl{font-weight:600}
 .ultra .ttl a{color:var(--ink)}
-.ultra .by{font-size:.72rem;color:var(--muted);font-weight:400;margin-left:.4em}
 .ultra .verdict{display:block;font-size:.88rem;color:#3a3a3a;margin:2px 0 0}
 .ultra p{padding-left:0;border-left:0}
 .ultra details.more{margin:2px 0 0;font-size:.85rem}
@@ -209,7 +208,8 @@ def ultra_foldout(data: dict) -> str:
     is too long for a line; ``title`` still resolves the catalogue link and
     appears as hover text. The longer ``why`` / ``caveat`` / ``heritage`` text, when
     present, folds under a "more" toggle. Entries added by someone other
-    than ULTRA carry ``by``, and ``ultra.note`` must then say so.
+    than ULTRA carry ``by`` for the record; it is not rendered, but
+    ``ultra.note`` must then exist.
     """
     ultra = data.get("ultra")
     if ultra is None:
@@ -253,7 +253,6 @@ def ultra_foldout(data: dict) -> str:
             raise ValueError(f"{where} entry needs a one-line verdict: {title}")
         rk = (f'<span class="rk{" p" + str(rank) if rank <= 3 else ""}">{rank}</span>'
               if rank is not None else "")
-        by = f' <span class="by">{esc(entry["by"])}</span>' if entry.get("by") else ""
         more = []
         if entry.get("why"):
             more.append(f'          <p>{esc(entry["why"])}</p>\n')
@@ -270,7 +269,7 @@ def ultra_foldout(data: dict) -> str:
         ) if more else ""
         return (
             '      <li>\n'
-            f'        {rk}<span class="ttl"><a href="{esc(url)}" title="{esc(title)}">{esc(entry.get("short") or title)}</a></span>{by}\n'
+            f'        {rk}<span class="ttl"><a href="{esc(url)}" title="{esc(title)}">{esc(entry.get("short") or title)}</a></span>\n'
             f'        <span class="verdict">{esc(verdict)}</span>\n'
             + more_html
             + '      </li>'

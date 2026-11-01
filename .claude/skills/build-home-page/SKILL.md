@@ -68,7 +68,7 @@ any longer assessment folded under "more". Keep the assessment in
         "why": "Optional short case; folds under 'more'.",
         "caveat": "Optional scope limits; folds under 'more'.",
         "heritage": "Optional earlier work it builds on; folds under 'more'.",
-        "by": "Fable  (only on entries not written by ULTRA)" }
+        "by": "Fable  (record only, not rendered; entries not written by ULTRA)" }
     ]
   }
 }

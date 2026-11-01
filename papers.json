@@ -1884,39 +1884,23 @@
         "heritage": "PITs, change of variables and online residual forecasting."
       },
       {
+        "title": "Security and Derivative Pricing with Fast Regime Switches",
+        "verdict": "Add regime switching to a pricing model without rederiving it: one small linear system covers affine and Lévy models.",
+        "why": "One small linear system prices a broad family of switching models. A reusable engine, with fast-switching corrections and numerical fallbacks.",
+        "caveat": "Noncommuting parameter switches need other routes; the expansion is not always fastest.",
+        "heritage": "Cotton’s thesis, singular perturbation and Markov-chain group inverses."
+      },
+      {
         "title": "Win Nodes for Bayes Nets: Exact Order-Statistic Queries on Gaussian Graphical Models",
         "verdict": "Graphical-model libraries stop at marginals; a win node answers who is the maximum and when a threshold is crossed, exactly.",
         "by": "Fable",
         "why": "Marginals, moments and samples never answer the question a user of a correlated field actually asks. Adjoining an argmax node to a Gaussian graphical model and giving it exact linear-work passes on chains and banded precisions turns that question into a query. The ATP demonstration shows answers no marginal summary contains: a bimodal peak-career law for one player, a non-interval credible set for another."
       },
       {
-        "title": "Scoring Point-Cloud Distributional Submissions: The Nearest-the-Pin Parimutuel, Jittered Outcomes, and the Heat Ladder",
-        "verdict": "Contests that score smoothed samples reward bluffing; a small change to how the outcome is read restores honest scoring.",
-        "why": "KDE scoring can reward an artificially sharpened cloud. Diagnoses the distortion, repairs population incentives and turns smoothing scales into separate rewards.",
-        "caveat": "Fixed bandwidths; finite clouds and proportional pot payouts need separate treatment.",
-        "heritage": "The nearest-the-pin parimutuel was the scoring mechanism of the original microprediction platform, where point-cloud submissions were rewarded this way at scale. The analysis builds on proper scoring rules, the observation-noise verification work of Bröcker and Smith and of Ferro, and the relative de Bruijn identity.",
-        "short": "Scoring Point-Cloud Distributional Submissions"
-      },
-      {
         "title": "Thurstone Portfolio Polishing: Tail-Sensitive Black-Litterman and Beyond",
         "verdict": "Read a benchmark's weights as a race, invert it, re-race under a tail-aware law: Black-Litterman with no covariance to invert.",
         "by": "Fable",
         "why": "Allocation run backwards: weights are winning probabilities, abilities are recovered by a fast exact inverse, and the view is on lower-tail co-movement rather than on returns. Clone consistency does the rest, buying robustness to ill-conditioning, a turnover bound and smooth de-duplication at once. The companion paper shows the tilt dial is the Schur dial under a square root, with a bounded simplex endpoint where every other bridge ends in an unbounded linear solve."
-      },
-      {
-        "title": "On a Simple Relationship Between Order Imbalance, Skew and Width in Over-the-Counter Trading",
-        "verdict": "Market makers quoting into one-sided flow: an exact symmetry shows the lopsided problem is the balanced one in disguise.",
-        "why": "Imbalanced OTC quoting becomes a balanced problem by shifting skew and rescaling carrying cost. An exact symmetry that saves a fresh optimization.",
-        "caveat": "Interior steady-state exponential quotes only; quote-floor clipping can break it.",
-        "heritage": "The auction model of Trading Illiquid Goods.",
-        "short": "Order Imbalance, Skew and Width in Over-the-Counter Trading"
-      },
-      {
-        "title": "Security and Derivative Pricing with Fast Regime Switches",
-        "verdict": "Add regime switching to a pricing model without rederiving it: one small linear system covers affine and Lévy models.",
-        "why": "One small linear system prices a broad family of switching models. A reusable engine, with fast-switching corrections and numerical fallbacks.",
-        "caveat": "Noncommuting parameter switches need other routes; the expansion is not always fastest.",
-        "heritage": "Cotton’s thesis, singular perturbation and Markov-chain group inverses."
       },
       {
         "title": "Structured Gaussian Argmax Layers",
@@ -1931,10 +1915,9 @@
         "by": "Fable"
       },
       {
-        "title": "The Inspiration Simplex: Using Derivative-Free Optimization in Concept Space to Create New Derivative-Free Optimizers",
-        "verdict": "Treat the space of algorithms as continuous and search it with a derivative-free optimiser and an LLM as co-designer.",
-        "by": "Fable",
-        "short": "The Inspiration Simplex"
+        "title": "Inferring Relative Ability From Winning Probability in Multi-Entrant Contests",
+        "verdict": "The seminal step: from win probabilities to relative ability, exactly. The 2021 result the contest programme grew from.",
+        "by": "Fable"
       },
       {
         "title": "A Stronger Univariate Benchmark for Foundational Time-Series Model Evaluation",
@@ -1942,11 +1925,36 @@
         "by": "Fable"
       },
       {
-        "title": "Covariance-Method Claims Are Ensemble-Relative: Named Measures and an Audit Program",
-        "verdict": "Every claim that a covariance estimator wins depends on which matrices it faced; this names the test sets and reruns the audit.",
-        "why": "Change the matrix ensemble and the verdict can flip. Turns an old warning into a reproducible audit, making covariance comparisons harder to overgeneralize.",
-        "caveat": "Leaving a method’s stated regime does not refute its theorem.",
-        "heritage": "Simulation design, made executable."
+        "title": "On a Simple Relationship Between Order Imbalance, Skew and Width in Over-the-Counter Trading",
+        "verdict": "Market makers quoting into one-sided flow: an exact symmetry shows the lopsided problem is the balanced one in disguise.",
+        "why": "Imbalanced OTC quoting becomes a balanced problem by shifting skew and rescaling carrying cost. An exact symmetry that saves a fresh optimization.",
+        "caveat": "Interior steady-state exponential quotes only; quote-floor clipping can break it.",
+        "heritage": "The auction model of Trading Illiquid Goods.",
+        "short": "Order Imbalance, Skew and Width in Over-the-Counter Trading"
+      },
+      {
+        "title": "Non-Convex Market Makers: Coherence without Convexity, Friction, and Parallel Composition",
+        "verdict": "Automated market makers need not be convex to be arbitrage-free; a fee the size of the arbitrage depth is enough.",
+        "by": "Fable"
+      },
+      {
+        "title": "The Runner-Up Principle for Counterfactual Races",
+        "verdict": "Winners alone cannot tell you what would have happened had a contender been removed; knowing the runner-up fixes that.",
+        "by": "Fable"
+      },
+      {
+        "title": "Scoring Point-Cloud Distributional Submissions: The Nearest-the-Pin Parimutuel, Jittered Outcomes, and the Heat Ladder",
+        "verdict": "Contests that score smoothed samples reward bluffing; a small change to how the outcome is read restores honest scoring.",
+        "why": "KDE scoring can reward an artificially sharpened cloud. Diagnoses the distortion, repairs population incentives and turns smoothing scales into separate rewards.",
+        "caveat": "Fixed bandwidths; finite clouds and proportional pot payouts need separate treatment.",
+        "heritage": "The nearest-the-pin parimutuel was the scoring mechanism of the original microprediction platform, where point-cloud submissions were rewarded this way at scale. The analysis builds on proper scoring rules, the observation-noise verification work of Bröcker and Smith and of Ferro, and the relative de Bruijn identity.",
+        "short": "Scoring Point-Cloud Distributional Submissions"
+      },
+      {
+        "title": "The Inspiration Simplex: Using Derivative-Free Optimization in Concept Space to Create New Derivative-Free Optimizers",
+        "verdict": "Treat the space of algorithms as continuous and search it with a derivative-free optimiser and an LLM as co-designer.",
+        "by": "Fable",
+        "short": "The Inspiration Simplex"
       },
       {
         "title": "Two Sides of Schur Damping: High-Dimensional Pseudo-Likelihoods and Portfolio Allocation",
@@ -1968,6 +1976,13 @@
         "by": "Fable"
       },
       {
+        "title": "Covariance-Method Claims Are Ensemble-Relative: Named Measures and an Audit Program",
+        "verdict": "Every claim that a covariance estimator wins depends on which matrices it faced; this names the test sets and reruns the audit.",
+        "why": "Change the matrix ensemble and the verdict can flip. Turns an old warning into a reproducible audit, making covariance comparisons harder to overgeneralize.",
+        "caveat": "Leaving a method’s stated regime does not refute its theorem.",
+        "heritage": "Simulation design, made executable."
+      },
+      {
         "title": "Marginally Useful: An Information-Gap Identity in Conformal Prediction",
         "verdict": "The commonest conformal recipe guarantees coverage but throws information away for good; this is the exact size of the loss.",
         "why": "Puts an exact log-score price on residual information left unused. A pointed diagnosis of pooling, with more interpretive force than new information theory.",
@@ -1987,24 +2002,6 @@
         "by": "Fable"
       },
       {
-        "title": "The Runner-Up Principle for Counterfactual Races",
-        "verdict": "Winners alone cannot tell you what would have happened had a contender been removed; knowing the runner-up fixes that.",
-        "by": "Fable"
-      },
-      {
-        "title": "Non-Convex Market Makers: Coherence without Convexity, Friction, and Parallel Composition",
-        "verdict": "Automated market makers need not be convex to be arbitrage-free; a fee the size of the arbitrage depth is enough.",
-        "by": "Fable"
-      },
-      {
-        "title": "HumpDay: Derivative-Free Optimizers in Pure Python and JavaScript, with a Contamination-Resistant Real-World Benchmark",
-        "verdict": "Which optimiser to use when every evaluation is expensive? A benchmark drawn from real problems, resistant to memorised answers.",
-        "why": "Optimizer recommendations you can interrogate: portable implementations, hard budgets and objectives drawn from applications. Seeded coordinate changes resist memorizing familiar optimum locations.",
-        "caveat": "A curated suite; coordinate changes alter difficulty as well as optimum locations.",
-        "heritage": "Derivative-free optimization, benchmarking and algorithm selection.",
-        "short": "HumpDay: Derivative-Free Optimizers with a Contamination-Resistant Benchmark"
-      },
-      {
         "title": "Spectral Calibration Without a Split: Learning Covariance Eigenvalue Corrections One Observation at a Time",
         "verdict": "Correct covariance eigenvalues online with no held-out data; yesterday's eigenbasis is already out of sample.",
         "by": "Fable",
@@ -2022,9 +2019,12 @@
         "by": "Fable"
       },
       {
-        "title": "Inferring Relative Ability From Winning Probability in Multi-Entrant Contests",
-        "verdict": "From win probabilities to relative ability, exactly; the 2021 result that started the contest programme.",
-        "by": "Fable"
+        "title": "HumpDay: Derivative-Free Optimizers in Pure Python and JavaScript, with a Contamination-Resistant Real-World Benchmark",
+        "verdict": "Which optimiser to use when every evaluation is expensive? A benchmark drawn from real problems, resistant to memorised answers.",
+        "why": "Optimizer recommendations you can interrogate: portable implementations, hard budgets and objectives drawn from applications. Seeded coordinate changes resist memorizing familiar optimum locations.",
+        "caveat": "A curated suite; coordinate changes alter difficulty as well as optimum locations.",
+        "heritage": "Derivative-free optimization, benchmarking and algorithm selection.",
+        "short": "HumpDay: Derivative-Free Optimizers with a Contamination-Resistant Benchmark"
       },
       {
         "title": "Misaligned or Undersupplied? Pure Mathematics in the Age of LLMs",
@@ -2042,6 +2042,6 @@
         "by": "Fable"
       }
     ],
-    "note": "Untagged entries, and the commentary under their 'more', are ULTRA's twelve. Entries tagged Fable were added by Fable. The running order is the author's."
+    "note": "Commentary under 'more' by ULTRA and Fable."
   }
 }
