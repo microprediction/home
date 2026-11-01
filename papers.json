@@ -1891,6 +1891,12 @@
         "heritage": "Cotton’s thesis, singular perturbation and Markov-chain group inverses."
       },
       {
+        "title": "Microprediction: Building an Open AI Network",
+        "verdict": "The book, MIT Press 2022: prediction bought from an open network of competing algorithms. It foresaw the agentic economy.",
+        "by": "Fable",
+        "why": "Written before agents were a product category, it argued that intelligence would be supplied by many small autonomous algorithms competing for reward, and built the platform to show it. That is the agentic economy, described and prototyped in advance."
+      },
+      {
         "title": "Win Nodes for Bayes Nets: Exact Order-Statistic Queries on Gaussian Graphical Models",
         "verdict": "Graphical-model libraries stop at marginals; a win node answers who is the maximum and when a threshold is crossed, exactly.",
         "by": "Fable",
@@ -2029,11 +2035,6 @@
       {
         "title": "Stochastic Volatility Corrections for Interest Rate Derivatives",
         "verdict": "Mathematical Finance, 2004, with Fouque, Papanicolaou and Sircar; the most cited item on the page.",
-        "by": "Fable"
-      },
-      {
-        "title": "Microprediction: Building an Open AI Network",
-        "verdict": "The book, MIT Press 2022: why prediction should be bought from an open network of competing algorithms, not built in-house.",
         "by": "Fable"
       }
     ],
