@@ -1943,126 +1943,93 @@
         "why": "Coverage has a spread as well as a mean. Exact cases and counterexamples show how dependence changes the fan across calibration sets.",
         "caveat": "Independent marginal test draw; the broad positive-dependence claim remains conjectural.",
         "heritage": "Order statistics, Beta laws and dependence theory."
+      },
+      {
+        "title": "Microprediction: Building an Open AI Network",
+        "verdict": "The book, MIT Press 2022: why prediction should be bought from an open network of competing algorithms rather than built in-house, and how the platform that tried it worked.",
+        "by": "Claude"
+      },
+      {
+        "title": "Inferring Relative Ability From Winning Probability in Multi-Entrant Contests",
+        "verdict": "From win probabilities to relative ability, exactly; the 2021 result that started the contest programme.",
+        "by": "Claude"
+      },
+      {
+        "title": "Exact Posterior Probability of Optimality for Factor-Gaussian Beliefs",
+        "verdict": "How likely is each option to be the best? Long called intractable, it is a one-dimensional integral under factor-Gaussian beliefs.",
+        "by": "Claude"
+      },
+      {
+        "title": "Stochastic Volatility Corrections for Interest Rate Derivatives",
+        "verdict": "Mathematical Finance, 2004, with Fouque, Papanicolaou and Sircar; the most cited item on the page.",
+        "by": "Claude"
+      },
+      {
+        "title": "Clay Shooting: Equilibrium Effort Solving Outstanding Problems",
+        "verdict": "What is an open problem worth to those attacking it? An equilibrium price list that puts a Millennium problem in the tens of millions.",
+        "by": "Claude"
+      },
+      {
+        "title": "Misaligned or Undersupplied? Pure Mathematics in the Age of LLMs",
+        "verdict": "Pure mathematics may be undersupplied rather than misaligned once the lag from theorem to use is priced in.",
+        "by": "Claude"
+      },
+      {
+        "title": "Non-Convex Market Makers: Coherence without Convexity, Friction, and Parallel Composition",
+        "verdict": "Automated market makers need not be convex to be arbitrage-free; a fee the size of the arbitrage depth is enough.",
+        "by": "Claude"
+      },
+      {
+        "title": "Schur Covariance Evaluation: A Principled Pseudo-Likelihood in High Dimensions",
+        "verdict": "How to rank covariance estimators when there are more assets than observations and the full likelihood cannot be trusted.",
+        "by": "Claude"
+      },
+      {
+        "title": "Spectral Calibration Without a Split: Learning Covariance Eigenvalue Corrections One Observation at a Time",
+        "verdict": "Correct covariance eigenvalues online with no held-out data; yesterday's eigenbasis is already out of sample.",
+        "by": "Claude"
+      },
+      {
+        "title": "The Inspiration Simplex: Using Derivative-Free Optimization in Concept Space to Create New Derivative-Free Optimizers",
+        "verdict": "Treat the space of algorithms as continuous and search it with a derivative-free optimiser and an LLM as co-designer.",
+        "by": "Claude"
+      },
+      {
+        "title": "The Runner-Up Principle for Counterfactual Races",
+        "verdict": "Winners alone cannot tell you what would have happened had a contender been removed; knowing the runner-up fixes that.",
+        "by": "Claude"
+      },
+      {
+        "title": "The Two Prices of Dependence: a Vanishing Coverage Tax and a Fixed Sharpness Rent",
+        "verdict": "Dependence in calibration data costs a coverage tax that vanishes with more data and a sharpness rent that never does.",
+        "by": "Claude"
+      },
+      {
+        "title": "Thurstone Portfolio Polishing: Tail-Sensitive Black-Litterman and Beyond",
+        "verdict": "Black-Litterman with views on dependence rather than on returns, and with tails taken seriously.",
+        "by": "Claude"
+      },
+      {
+        "title": "Win Nodes for Bayes Nets: Exact Order-Statistic Queries on Gaussian Graphical Models",
+        "verdict": "Who wins, and when is a threshold crossed? Order-statistic questions answered exactly on Gaussian graphical models.",
+        "by": "Claude"
+      },
+      {
+        "title": "A Stronger Univariate Benchmark for Foundational Time-Series Model Evaluation",
+        "verdict": "Time-series foundation models have been compared against weak baselines; here is the strong one they should have faced.",
+        "by": "Claude"
+      },
+      {
+        "title": "Consistent Objectives for Self-Improving Systems: Absolute, Relative and Evolutionary Assessment Over Short and Long Horizons",
+        "verdict": "Which per-step reward agrees with where a self-improving system ends up; a question for anyone building agents.",
+        "by": "Claude"
+      },
+      {
+        "title": "Nested Clustered Optimization Is One End of a Schur Bridge, and the Interior Is Sometimes Provably Better",
+        "verdict": "Another popular heuristic sits at one end of the same Schur dial, and the best setting is in the middle.",
+        "by": "Claude"
       }
     ],
-    "also": {
-      "by": "Claude",
-      "note": "Sixteen more papers and the book, by what you work on. One line each, by Claude rather than ULTRA.",
-      "groups": [
-        {
-          "heading": "If you want the big picture",
-          "entries": [
-            {
-              "title": "Microprediction: Building an Open AI Network",
-              "verdict": "The book, MIT Press 2022: why prediction should be bought from an open network of competing algorithms rather than built in-house, and how the platform that tried it worked."
-            }
-          ]
-        },
-        {
-          "heading": "If you forecast time series",
-          "entries": [
-            {
-              "title": "A Stronger Univariate Benchmark for Foundational Time-Series Model Evaluation",
-              "verdict": "Time-series foundation models have been compared against weak baselines; here is the strong one they should have faced."
-            }
-          ]
-        },
-        {
-          "heading": "If your models have winners and losers in them",
-          "entries": [
-            {
-              "title": "Inferring Relative Ability From Winning Probability in Multi-Entrant Contests",
-              "verdict": "From win probabilities to relative ability, exactly; the 2021 result that started the contest programme."
-            },
-            {
-              "title": "Exact Posterior Probability of Optimality for Factor-Gaussian Beliefs",
-              "verdict": "How likely is each option to be the best? Long called intractable, it is a one-dimensional integral under factor-Gaussian beliefs."
-            },
-            {
-              "title": "Win Nodes for Bayes Nets: Exact Order-Statistic Queries on Gaussian Graphical Models",
-              "verdict": "Who wins, and when is a threshold crossed? Order-statistic questions answered exactly on Gaussian graphical models."
-            },
-            {
-              "title": "The Runner-Up Principle for Counterfactual Races",
-              "verdict": "Winners alone cannot tell you what would have happened had a contender been removed; knowing the runner-up fixes that."
-            }
-          ]
-        },
-        {
-          "heading": "If you allocate portfolios",
-          "entries": [
-            {
-              "title": "Schur Covariance Evaluation: A Principled Pseudo-Likelihood in High Dimensions",
-              "verdict": "How to rank covariance estimators when there are more assets than observations and the full likelihood cannot be trusted."
-            },
-            {
-              "title": "Spectral Calibration Without a Split: Learning Covariance Eigenvalue Corrections One Observation at a Time",
-              "verdict": "Correct covariance eigenvalues online with no held-out data; yesterday's eigenbasis is already out of sample."
-            },
-            {
-              "title": "Thurstone Portfolio Polishing: Tail-Sensitive Black-Litterman and Beyond",
-              "verdict": "Black-Litterman with views on dependence rather than on returns, and with tails taken seriously."
-            },
-            {
-              "title": "Nested Clustered Optimization Is One End of a Schur Bridge, and the Interior Is Sometimes Provably Better",
-              "verdict": "Another popular heuristic sits at one end of the same Schur dial, and the best setting is in the middle."
-            }
-          ]
-        },
-        {
-          "heading": "If you use conformal prediction",
-          "entries": [
-            {
-              "title": "The Two Prices of Dependence: a Vanishing Coverage Tax and a Fixed Sharpness Rent",
-              "verdict": "Dependence in calibration data costs a coverage tax that vanishes with more data and a sharpness rent that never does."
-            }
-          ]
-        },
-        {
-          "heading": "If you design markets or contests",
-          "entries": [
-            {
-              "title": "Non-Convex Market Makers: Coherence without Convexity, Friction, and Parallel Composition",
-              "verdict": "Automated market makers need not be convex to be arbitrage-free; a fee the size of the arbitrage depth is enough."
-            }
-          ]
-        },
-        {
-          "heading": "If you optimise expensive functions or build agents",
-          "entries": [
-            {
-              "title": "The Inspiration Simplex: Using Derivative-Free Optimization in Concept Space to Create New Derivative-Free Optimizers",
-              "verdict": "Treat the space of algorithms as continuous and search it with a derivative-free optimiser and an LLM as co-designer."
-            },
-            {
-              "title": "Consistent Objectives for Self-Improving Systems: Absolute, Relative and Evolutionary Assessment Over Short and Long Horizons",
-              "verdict": "Which per-step reward agrees with where a self-improving system ends up; a question for anyone building agents."
-            }
-          ]
-        },
-        {
-          "heading": "If you care about the economics of research",
-          "entries": [
-            {
-              "title": "Clay Shooting: Equilibrium Effort Solving Outstanding Problems",
-              "verdict": "What is an open problem worth to those attacking it? An equilibrium price list that puts a Millennium problem in the tens of millions."
-            },
-            {
-              "title": "Misaligned or Undersupplied? Pure Mathematics in the Age of LLMs",
-              "verdict": "Pure mathematics may be undersupplied rather than misaligned once the lag from theorem to use is priced in."
-            }
-          ]
-        },
-        {
-          "heading": "If you price derivatives",
-          "entries": [
-            {
-              "title": "Stochastic Volatility Corrections for Interest Rate Derivatives",
-              "verdict": "Mathematical Finance, 2004, with Fouque, Papanicolaou and Sircar; the most cited item on the page."
-            }
-          ]
-        }
-      ]
-    }
+    "note": "Ranks 1 to 12, and the commentary under each 'more', are ULTRA's. Ranks 13 to 29 were added by Claude."
   }
 }

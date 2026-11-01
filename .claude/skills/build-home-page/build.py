@@ -91,11 +91,8 @@ details.best p{margin:.5em 0 .1em;color:#3a3a3a}
 details.ultra{border-color:var(--rule);background:transparent}
 details.ultra>summary{color:var(--link)}
 .ultra .ultra-meta{font-size:.78rem;color:var(--muted)}
-.ultra h4{font-size:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:1.4em 0 .3em}
-.ultra h5{font-size:.95rem;font-weight:600;color:var(--ink);margin:1em 0 .3em}
-.ultra ol,.ultra ul.also{list-style:none;margin:.6em 0 .3em;padding:0}
+.ultra ol{list-style:none;margin:.6em 0 .3em;padding:0}
 .ultra li{padding:1px 0 1px 12px;margin:0 0 8px;border-left:3px solid var(--new)}
-.ultra ul.also li{border-left-color:var(--rule)}
 .ultra li:last-child{margin-bottom:0}
 .ultra .rk{display:inline-block;min-width:1.6em;color:var(--muted);font-variant-numeric:tabular-nums}
 .ultra .ttl{font-weight:600}
@@ -199,8 +196,8 @@ def ultra_foldout(data: dict) -> str:
 
     Each entry is one line: rank, linked title, and a one-sentence
     ``verdict``. The longer ``why`` / ``caveat`` / ``heritage`` text, when
-    present, folds under a "more" toggle. An optional ``also`` block lists
-    further papers with a one-line note each and names who wrote the notes.
+    present, folds under a "more" toggle. Entries added by someone other
+    than ULTRA carry ``by``, and ``ultra.note`` must then say so.
     """
     ultra = data.get("ultra")
     if ultra is None:
@@ -266,36 +263,16 @@ def ultra_foldout(data: dict) -> str:
         )
 
     rows = [line(e, "ULTRA", i) for i, e in enumerate(entries, 1)]
-    also_html = ""
-    also = ultra.get("also")
-    if also:
-        groups = also.get("groups")
-        if not groups:
-            raise ValueError("ultra.also.groups must contain at least one group")
-        by = also.get("by")
-        if not isinstance(by, str) or not by.strip():
-            raise ValueError("ultra.also needs a 'by' attribution")
-        note = also.get("note", "")
-        parts = [f'      <h4>Also worth a look · notes by {esc(by)}</h4>\n']
-        if note:
-            parts.append(f'      <p class="ultra-meta">{esc(note)}</p>\n')
-        for group in groups:
-            heading = group.get("heading")
-            if not isinstance(heading, str) or not heading.strip() or not group.get("entries"):
-                raise ValueError("each ultra.also group needs a heading and entries")
-            parts.append(f'      <h5>{esc(heading)}</h5>\n')
-            parts.append('      <ul class="also">\n'
-                         + "\n".join(line(e, "ULTRA also", None) for e in group["entries"])
-                         + '\n      </ul>\n')
-        also_html = "".join(parts)
+    if any(e.get("by") for e in entries) and not ultra.get("note"):
+        raise ValueError("ultra.note must say who added the entries marked 'by'")
     return (
         f'    <details class="best ultra" id="ultra"><summary>{esc(ultra["summary"])}</summary>\n'
-        f'      <p class="ultra-meta">A selection of {len(entries)} papers · '
-        f'reviewed <time datetime="{reviewed.isoformat()}">{reviewed.strftime("%d %b %Y")}</time></p>\n'
+        f'      <p class="ultra-meta">{len(entries)} papers · '
+        f'reviewed <time datetime="{reviewed.isoformat()}">{reviewed.strftime("%d %b %Y")}</time>'
+        + (f' · {esc(ultra["note"])}' if ultra.get("note") else "") + '</p>\n'
         f'      <p>{esc(ultra["description"])}</p>\n'
         '      <ol>\n' + "\n".join(rows) + '\n      </ol>\n'
-        + also_html
-        + '    </details>\n'
+        '    </details>\n'
     )
 
 

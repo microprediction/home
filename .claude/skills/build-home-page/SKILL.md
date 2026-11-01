@@ -48,49 +48,37 @@ low bold, abstracts in collapsed `<details>`.
 
 ## ULTRA reading list
 
-The optional top-level `ultra` object adds a separate collapsed editorial
-foldout beside `highlight` (Peter's "My best stuff"). It renders in the style
-of a ranked review: one line per paper (rank, linked title, a
-one-sentence `verdict`), with any longer assessment folded under "more".
-Keep the assessment in `papers.json`, separate from the verbatim abstracts:
+The optional top-level `ultra` object adds a collapsed editorial foldout
+beside `highlight` (Peter's "My personal favourites"). It renders as one
+ranked list: rank, linked title, and a one-sentence `verdict` per paper, with
+any longer assessment folded under "more". Keep the assessment in
+`papers.json`, separate from the verbatim abstracts:
 
 ```json
 {
   "ultra": {
     "summary": "what ULTRA thinks",
     "reviewed": "2026-10-31",
-    "description": "The selection criteria and why the list stops here.",
+    "description": "Two sentences at most.",
+    "note": "Who wrote which ranks, shown in the meta line when any entry has 'by'.",
     "entries": [
-      { "title": "Exact title from a visible theme paper",
-        "verdict": "One sentence. This is the line shown.",
-        "why": "Optional longer case; folds under 'more'.",
-        "caveat": "Optional scope and evidence limits; folds under 'more'.",
-        "heritage": "Optional account of the earlier work it builds on." }
-    ],
-    "also": {
-      "by": "Claude",
-      "note": "Optional sentence shown above the groups.",
-      "groups": [
-        { "heading": "If you allocate portfolios",
-          "entries": [ { "title": "Exact title", "verdict": "One line." } ] }
-      ]
-    }
+      { "title": "Exact title from a visible theme paper or book_length",
+        "verdict": "One sentence for an outside reader: what the paper removes and why it matters.",
+        "why": "Optional short case; folds under 'more'.",
+        "caveat": "Optional scope limits; folds under 'more'.",
+        "heritage": "Optional earlier work it builds on; folds under 'more'.",
+        "by": "Claude  (only on entries not written by ULTRA)" }
+    ]
   }
 }
 ```
 
-Titles resolve against the theme papers and `book_length`. Entry order sets rank. `verdict` is required and should be one sentence
-written for an outside reader: what problem the paper removes and why it
-matters, not a restatement of the title. The other narrative fields are
-optional plain text, escaped on output. The
-optional `also` block is an unranked second tier of further papers, grouped
-by what the reader works on, with a one-line note each; its `by` field names who wrote those notes and is shown,
-so a different reviewer's lines are never attributed to ULTRA. The generator
-resolves paper links from the catalogue (journal, arXiv, SSRN, DOI, then
-latest draft or PDF); do not duplicate URLs in the reading list. Unknown,
-ambiguous, duplicate (across both tiers) or hidden selections fail the build
-so a renamed or hidden paper cannot silently leave a stale recommendation.
-Omitting `ultra` omits the foldout.
+Entry order sets rank; there is one list, never a second tier. `verdict` is
+required. Entries with `by` were added by someone other than ULTRA and the
+build then requires `note` to say so. The generator resolves links from the
+catalogue (journal, arXiv, SSRN, DOI, MIT Press, then latest draft or PDF);
+do not duplicate URLs here. Unknown, ambiguous, duplicate or hidden titles
+fail the build. Omitting `ultra` omits the foldout.
 
 ## Procedure
 
