@@ -1920,6 +1920,13 @@
         "by": "Fable"
       },
       {
+        "title": "Marginally Useful: An Information-Gap Identity in Conformal Prediction",
+        "verdict": "The commonest conformal recipe guarantees coverage but throws information away for good; this is the exact size of the loss.",
+        "why": "Puts an exact log-score price on residual information left unused. A pointed diagnosis of pooling, with more interpretive force than new information theory.",
+        "caveat": "A fixed residual class, not an unavoidable tax on conformal prediction.",
+        "heritage": "KL decomposition and mutual information."
+      },
+      {
         "title": "A Stronger Univariate Benchmark for Foundational Time-Series Model Evaluation",
         "verdict": "Time-series foundation models have been compared against weak baselines; here is the strong one they should have faced.",
         "by": "Fable"
@@ -1976,13 +1983,6 @@
         "why": "Change the matrix ensemble and the verdict can flip. Turns an old warning into a reproducible audit, making covariance comparisons harder to overgeneralize.",
         "caveat": "Leaving a method’s stated regime does not refute its theorem.",
         "heritage": "Simulation design, made executable."
-      },
-      {
-        "title": "Marginally Useful: An Information-Gap Identity in Conformal Prediction",
-        "verdict": "The commonest conformal recipe guarantees coverage but throws information away for good; this is the exact size of the loss.",
-        "why": "Puts an exact log-score price on residual information left unused. A pointed diagnosis of pooling, with more interpretive force than new information theory.",
-        "caveat": "A fixed residual class, not an unavoidable tax on conformal prediction.",
-        "heritage": "KL decomposition and mutual information."
       },
       {
         "title": "The Width of the Conformal Fan: Dependence and the Variance of Realized Coverage",
