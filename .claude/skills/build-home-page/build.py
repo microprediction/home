@@ -90,10 +90,22 @@ details.best p{margin:.5em 0 .1em;color:#3a3a3a}
 details.ultra{border-color:var(--rule);background:transparent}
 details.ultra>summary{color:var(--link)}
 .ultra .ultra-meta{font-size:.78rem;color:var(--muted)}
-.ultra ol{margin:1em 0 .3em;padding-left:1.7em}
-.ultra li{padding:0 0 1em .3em}
-.ultra li:last-child{padding-bottom:0}
+.ultra h4{font-size:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:1.2em 0 .4em}
+.ultra ol,.ultra ul.also{list-style:none;margin:.6em 0 .3em;padding:0}
+.ultra li{padding:2px 0 2px 12px;margin:0 0 10px;border-left:3px solid var(--new)}
+.ultra ul.also li{border-left-color:var(--rule)}
+.ultra li:last-child{margin-bottom:0}
+.ultra .rk{display:inline-block;min-width:1.6em;color:var(--muted);font-variant-numeric:tabular-nums}
+.ultra .ttl{font-weight:600}
+.ultra .ttl a{color:var(--ink)}
+.ultra .th{color:var(--muted);font-size:.85rem;margin-left:6px}
+.ultra .verdict{display:block;font-size:.88rem;color:#3a3a3a;margin:2px 0 0}
 .ultra p{padding-left:0;border-left:0}
+.ultra details.more{margin:2px 0 0;font-size:.85rem}
+.ultra details.more>summary{color:var(--muted);cursor:pointer;list-style:none;font-size:.8rem}
+.ultra details.more>summary::-webkit-details-marker{display:none}
+.ultra details.more>summary::before{content:"▸ ";color:var(--rule)}
+.ultra details.more[open]>summary::before{content:"▾ "}
 .ultra .ultra-caveat{font-size:.85rem;color:var(--muted)}
 """
 
@@ -182,7 +194,13 @@ def pub_list(papers: list, abstracts: dict, classify: bool = False) -> str:
 
 
 def ultra_foldout(data: dict) -> str:
-    """Render an editorial reading list, resolving each paper against the catalogue."""
+    """Render an editorial reading list, resolving each paper against the catalogue.
+
+    Each entry is one line: rank, linked title, theme, and a one-sentence
+    ``verdict``. The longer ``why`` / ``caveat`` / ``heritage`` text, when
+    present, folds under a "more" toggle. An optional ``also`` block lists
+    further papers with a one-line note each and names who wrote the notes.
+    """
     ultra = data.get("ultra")
     if ultra is None:
         return ""
@@ -193,39 +211,74 @@ def ultra_foldout(data: dict) -> str:
     catalogue = {}
     for theme in data.get("themes", []):
         for paper in theme["papers"]:
-            catalogue.setdefault(paper["title"], []).append(paper)
+            catalogue.setdefault(paper["title"], []).append((theme["title"], paper))
 
-    rows = []
-    selected = set()
     link_order = ("journal", "arXiv", "SSRN", "DOI", "latest draft", "pdf")
-    for entry in entries:
-        title = entry["title"]
+    selected = set()
+
+    def resolve(title: str, where: str):
         if title in selected:
-            raise ValueError(f"Duplicate ULTRA selection: {title}")
+            raise ValueError(f"Duplicate {where} selection: {title}")
         selected.add(title)
         matches = catalogue.get(title, [])
         if len(matches) != 1:
-            raise ValueError(f"ULTRA selection must match one catalogue paper: {title}")
-        paper = matches[0]
+            raise ValueError(f"{where} selection must match one catalogue paper: {title}")
+        theme_title, paper = matches[0]
         if paper.get("hidden"):
-            raise ValueError(f"ULTRA selection is hidden in the catalogue: {title}")
+            raise ValueError(f"{where} selection is hidden in the catalogue: {title}")
         links = paper.get("links", [])
         link = next((ln for label in link_order for ln in links
                      if ln.get("label") == label), None)
         if not link or not link["url"].startswith(("https://", "http://")):
-            raise ValueError(f"ULTRA selection needs a public paper link: {title}")
+            raise ValueError(f"{where} selection needs a public paper link: {title}")
+        return theme_title, link["url"]
+
+    def line(entry: dict, where: str, rank: int | None) -> str:
+        title = entry["title"]
+        theme_title, url = resolve(title, where)
+        verdict = entry.get("verdict")
+        if not isinstance(verdict, str) or not verdict.strip():
+            raise ValueError(f"{where} entry needs a one-line verdict: {title}")
+        rk = f'<span class="rk">{rank}</span>' if rank is not None else ""
+        more = []
+        if entry.get("why"):
+            more.append(f'          <p>{esc(entry["why"])}</p>\n')
+        if entry.get("caveat"):
+            more.append(f'          <p class="ultra-caveat">Scope: {esc(entry["caveat"])}</p>\n')
         heritage = entry.get("heritage")
         if "heritage" in entry and (not isinstance(heritage, str) or not heritage.strip()):
-            raise ValueError(f"ULTRA heritage must be nonempty plain text: {title}")
-        heritage_html = (f'        <p class="ultra-caveat">Heritage: {esc(heritage)}</p>\n'
-                         if heritage is not None else "")
-        rows.append(
+            raise ValueError(f"{where} heritage must be nonempty plain text: {title}")
+        if heritage:
+            more.append(f'          <p class="ultra-caveat">Heritage: {esc(heritage)}</p>\n')
+        more_html = (
+            '        <details class="more"><summary>more</summary>\n'
+            + "".join(more) + '        </details>\n'
+        ) if more else ""
+        return (
             '      <li>\n'
-            f'        <a href="{esc(link["url"])}">{esc(title)}</a>\n'
-            f'        <p>{esc(entry["why"])}</p>\n'
-            f'        <p class="ultra-caveat">Scope: {esc(entry["caveat"])}</p>\n'
-            + heritage_html
+            f'        {rk}<span class="ttl"><a href="{esc(url)}">{esc(title)}</a></span>'
+            f'<span class="th">{esc(theme_title)}</span>\n'
+            f'        <span class="verdict">{esc(verdict)}</span>\n'
+            + more_html
             + '      </li>'
+        )
+
+    rows = [line(e, "ULTRA", i) for i, e in enumerate(entries, 1)]
+    also_html = ""
+    also = ultra.get("also")
+    if also:
+        also_entries = also.get("entries", [])
+        if not also_entries:
+            raise ValueError("ultra.also.entries must contain at least one paper")
+        by = also.get("by")
+        if not isinstance(by, str) or not by.strip():
+            raise ValueError("ultra.also needs a 'by' attribution")
+        note = also.get("note", "")
+        also_rows = [line(e, "ULTRA also", None) for e in also_entries]
+        also_html = (
+            f'      <h4>Also worth a look · notes by {esc(by)}</h4>\n'
+            + (f'      <p class="ultra-meta">{esc(note)}</p>\n' if note else "")
+            + '      <ul class="also">\n' + "\n".join(also_rows) + '\n      </ul>\n'
         )
     return (
         f'    <details class="best ultra" id="ultra"><summary>{esc(ultra["summary"])}</summary>\n'
@@ -233,7 +286,8 @@ def ultra_foldout(data: dict) -> str:
         f'reviewed <time datetime="{reviewed.isoformat()}">{reviewed.strftime("%d %b %Y")}</time></p>\n'
         f'      <p>{esc(ultra["description"])}</p>\n'
         '      <ol>\n' + "\n".join(rows) + '\n      </ol>\n'
-        '    </details>\n'
+        + also_html
+        + '    </details>\n'
     )
 
 

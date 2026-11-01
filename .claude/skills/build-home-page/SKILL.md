@@ -49,8 +49,10 @@ low bold, abstracts in collapsed `<details>`.
 ## ULTRA reading list
 
 The optional top-level `ultra` object adds a separate collapsed editorial
-foldout beside `highlight` (Peter's "My best stuff"). Keep the assessment in
-`papers.json`, separate from the verbatim abstracts:
+foldout beside `highlight` (Peter's "My best stuff"). It renders in the style
+of a ranked review: one line per paper (rank, linked title, theme, a
+one-sentence `verdict`), with any longer assessment folded under "more".
+Keep the assessment in `papers.json`, separate from the verbatim abstracts:
 
 ```json
 {
@@ -60,21 +62,30 @@ foldout beside `highlight` (Peter's "My best stuff"). Keep the assessment in
     "description": "The selection criteria and why the list stops here.",
     "entries": [
       { "title": "Exact title from a visible theme paper",
-        "why": "Why this contribution matters.",
-        "caveat": "Its scope and evidence limits.",
-        "heritage": "Optional brief account of the earlier work it builds on." }
-    ]
+        "verdict": "One sentence. This is the line shown.",
+        "why": "Optional longer case; folds under 'more'.",
+        "caveat": "Optional scope and evidence limits; folds under 'more'.",
+        "heritage": "Optional account of the earlier work it builds on." }
+    ],
+    "also": {
+      "by": "Claude",
+      "note": "Optional sentence shown above the list.",
+      "entries": [ { "title": "Exact title", "verdict": "One line." } ]
+    }
   }
 }
 ```
 
-Entry order sets rank. All narrative fields are plain text, escaped on output.
-Optional `heritage` must be a nonempty string and renders after the scope note.
-The generator resolves paper links from the catalogue (journal, arXiv, SSRN,
-DOI, then latest draft or PDF); do not duplicate URLs in the reading list.
-Unknown, ambiguous, duplicate or hidden selections fail the build so a renamed
-or hidden paper cannot silently leave a stale recommendation. Omitting `ultra`
-omits the foldout.
+Entry order sets rank. `verdict` is required and should be one sentence; the
+other narrative fields are optional plain text, escaped on output. The
+optional `also` block is an unranked second tier of further papers with a
+one-line note each; its `by` field names who wrote those notes and is shown,
+so a different reviewer's lines are never attributed to ULTRA. The generator
+resolves paper links from the catalogue (journal, arXiv, SSRN, DOI, then
+latest draft or PDF); do not duplicate URLs in the reading list. Unknown,
+ambiguous, duplicate (across both tiers) or hidden selections fail the build
+so a renamed or hidden paper cannot silently leave a stale recommendation.
+Omitting `ultra` omits the foldout.
 
 ## Procedure
 
