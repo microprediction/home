@@ -399,7 +399,7 @@ def build(root: Path) -> None:
         '  </script>'
     )
     hl = data.get("highlight")
-    highlight_html = (f'    <details class="best"><summary>{esc(hl["summary"])}</summary>'
+    highlight_html = (f'    <details class="best" open><summary>{esc(hl["summary"])}</summary>'
                       f'<p>{hl["body"]}</p></details>\n') if hl else ""
     ultra_html = ultra_foldout(data)
     css_hash = hashlib.sha1(CSS.lstrip().encode()).hexdigest()[:8]
