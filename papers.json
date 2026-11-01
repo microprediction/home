@@ -1971,11 +1971,6 @@
         "why": "A follow-on to the first bridge: the other popular two-tier heuristic joins the same global optimum by the same damped Schur complement, and the interior can beat both ends under estimation error. Two heuristics unified by one operation is good evidence that the operation is the right one."
       },
       {
-        "title": "Schur Covariance Evaluation: A Principled Pseudo-Likelihood in High Dimensions",
-        "verdict": "How to rank covariance estimators when there are more assets than observations and the full likelihood cannot be trusted.",
-        "by": "Fable"
-      },
-      {
         "title": "Covariance-Method Claims Are Ensemble-Relative: Named Measures and an Audit Program",
         "verdict": "Every claim that a covariance estimator wins depends on which matrices it faced; this names the test sets and reruns the audit.",
         "why": "Change the matrix ensemble and the verdict can flip. Turns an old warning into a reproducible audit, making covariance comparisons harder to overgeneralize.",
