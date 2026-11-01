@@ -88,13 +88,22 @@ details.best[open]>summary::before{content:"\\25BE  "}
 details.best>summary::after{content:"  (click to expand)";font-weight:400;font-size:.8rem;color:var(--muted)}
 details.best[open]>summary::after{content:""}
 details.best p{margin:.5em 0 .1em;color:#3a3a3a}
+ol.places{list-style:none;margin:.6em 0 .2em;padding:0}
+ol.places li{position:relative;padding:3px 0 3px 2.3em;margin:0 0 6px;color:#3a3a3a}
+.place{position:absolute;left:0;top:3px;display:inline-flex;align-items:center;justify-content:center;
+  width:1.65em;height:1.65em;border-radius:50%;font-size:.78rem;font-weight:700;color:#fff;
+  border:1px solid rgba(0,0,0,.12);box-shadow:inset 0 -2px 0 rgba(0,0,0,.15)}
+.place.p1{background:#d4a017}.place.p2{background:#9aa0a6}.place.p3{background:#b87333}.place.p4{background:#8b8f93}
 details.ultra{border-color:var(--rule);background:transparent}
 details.ultra>summary{color:var(--link)}
 .ultra .ultra-meta{font-size:.78rem;color:var(--muted)}
 .ultra ol{list-style:none;margin:.6em 0 .3em;padding:0}
-.ultra li{padding:1px 0 1px 12px;margin:0 0 8px;border-left:3px solid var(--new)}
+.ultra li{position:relative;padding:1px 0 1px 12px;margin:0 0 8px 2.5em;border-left:3px solid var(--new)}
 .ultra li:last-child{margin-bottom:0}
-.ultra .rk{display:inline-block;min-width:1.6em;color:var(--muted);font-variant-numeric:tabular-nums}
+.ultra .rk{position:absolute;left:-2.35em;top:3px;display:inline-flex;align-items:center;justify-content:center;
+  width:1.65em;height:1.65em;border-radius:50%;font-size:.78rem;font-weight:700;color:#fff;background:#8b8f93;
+  border:1px solid rgba(0,0,0,.12);box-shadow:inset 0 -2px 0 rgba(0,0,0,.15)}
+.ultra .rk.p1{background:#d4a017}.ultra .rk.p2{background:#9aa0a6}.ultra .rk.p3{background:#b87333}
 .ultra .ttl{font-weight:600}
 .ultra .ttl a{color:var(--ink)}
 .ultra .verdict{display:block;font-size:.88rem;color:#3a3a3a;margin:2px 0 0}
@@ -239,7 +248,8 @@ def ultra_foldout(data: dict) -> str:
         verdict = entry.get("verdict")
         if not isinstance(verdict, str) or not verdict.strip():
             raise ValueError(f"{where} entry needs a one-line verdict: {title}")
-        rk = f'<span class="rk">{rank}</span>' if rank is not None else ""
+        rk = (f'<span class="rk{" p" + str(rank) if rank <= 3 else ""}">{rank}</span>'
+              if rank is not None else "")
         more = []
         if entry.get("why"):
             more.append(f'          <p>{esc(entry["why"])}</p>\n')
