@@ -1858,91 +1858,91 @@
   "ultra": {
     "summary": "what ULTRA thinks",
     "reviewed": "2026-10-31",
-    "description": "Twelve papers worth reading now: a distinct idea, a reusable computation, or evidence that changes a decision. Adjacent ranks are approximate.",
+    "description": "Twelve current papers worth your time, ranked for useful ideas and demonstrated value. Close companions share a slot; adjacent ranks are approximate.",
     "entries": [
       {
         "title": "Scalable Inversion of Contests with Correlated Performances, Including Softmax and Multinomial Probit",
         "verdict": "Correlated multinomial probit was simulated one costly integral at a time for thirty years; here it is inverted at a million alternatives in linear time.",
-        "why": "My first choice because it changes which models are computationally usable. Correlated choice probabilities and their inverse map are useful far beyond betting: they connect market shares, latent preferences, rankings and posterior probabilities of being best. Sharing the conditional calculation across alternatives makes rich competition models practical at scales where repeating an orthant calculation for every alternative is prohibitive. The posterior-optimality and action-propensity papers are natural next readings; the enabling computation earns the slot here.",
-        "caveat": "The scale advantage requires exploitable factor, block or hierarchical structure. Linear work in the number of alternatives holds at fixed structural complexity and numerical resolution. Dense-covariance fitting and integration error remain real costs; this is not a uniform linear-time solution for arbitrary multinomial probit.",
-        "heritage": "Extends the 2021 horse-race inversion through conditional independence, numerical integration and shared order-statistic calculations."
+        "why": "Correlated probit inversion at a million alternatives. Makes a richer choice model computationally usable; the engine behind much of the contest programme.",
+        "caveat": "Linear scaling assumes fixed structural complexity and numerical resolution.",
+        "heritage": "The 2021 horse-race inversion; conditional independence and quadrature."
       },
       {
         "title": "Schur Complementary Allocation: A Unification of Hierarchical Risk Parity and Minimum Variance Portfolios",
         "verdict": "Two rival schools of portfolio construction, Markowitz optimisation and hierarchical risk parity, turn out to be the two ends of one dial.",
-        "why": "Hierarchical risk parity and minimum variance were treated as rival philosophies: one discards cross-group information when it separates groups, the other trusts estimated correlations too much. This paper showed that they are the two ends of a single family, and the surprise is the bridge: a Schur complement, a piece of block-matrix algebra that had not been read as an allocation rule. That reading began the unification of portfolio theory that the later papers carry forward. The question it opens is how much cross-group information should survive, and how that amount should depend on estimation error. The interior-optimum companion is the next paper I would read, because it supplies statistical reasons to choose a point between the endpoints. I count the many subsequent bridge variants under this entry.",
-        "caveat": "The algebraic connection does not establish universal out-of-sample superiority. Covariance estimation, constraints, clustering and the rule for choosing the damping all affect the result.",
-        "heritage": "Builds on Markowitz minimum variance, hierarchical risk parity and block-matrix Schur-complement identities."
+        "why": "HRP and minimum variance become two ends of one dial. The organising result behind the Schur programme; read the interior-optimum companion next.",
+        "caveat": "Portfolio gains still depend on covariance estimation, constraints and damping choice.",
+        "heritage": "Markowitz, HRP and Schur-complement identities."
       },
       {
         "title": "Transforms All the Way Down: Automatic Online Distributional Forecasting by Conjugation",
         "verdict": "A recipe for better probabilistic forecasts of any series: transform away structure, forecast the simpler thing, map back. Runs online, with code.",
-        "why": "The important idea is an architecture for improving predictive distributions, not simply another named forecaster. Invertible transforms can remove predictable structure, let a simpler model work in better coordinates, and map a full distribution back with the appropriate density correction. Nesting that operation gives a compact, functioning online forecasting system. The software and comparative evidence make the idea inspectable and reusable. The stronger-univariate-benchmark companion also asks a consequential question: whether expensive models are being compared against a sufficiently capable online reference.",
-        "caveat": "Results depend on the data, forecast horizon, scoring rule and how competing quantile forecasts are converted into densities. A strong FRED result is not universal dominance; the reported asset-price comparison favours GARCH-t. The benchmark companion itself shows that reconstruction choices can move the verdict substantially.",
-        "heritage": "Uses probability integral transforms, change of variables and online residual forecasting as the ingredients of a composable architecture."
+        "why": "A full distributional forecaster built from reversible transforms. Working software and a strong FRED showing make it a baseline expensive models should have to beat.",
+        "caveat": "GARCH-t wins the asset-price comparison; density reconstruction can change benchmark verdicts.",
+        "heritage": "PITs, change of variables and online residual forecasting."
       },
       {
         "title": "Scoring Point-Cloud Distributional Submissions: The Nearest-the-Pin Parimutuel, Jittered Outcomes, and the Heat Ladder",
         "verdict": "Forecasting contests that score smoothed samples quietly reward bluffing; a small change to how the outcome is read restores honest scoring.",
-        "why": "A forecasting contest should reward the belief it asks people to submit. This paper exposes a seam between those objects: smoothing submitted samples and then scoring at the raw outcome can reward a deliberately sharpened cloud. The Gaussian variance-shaving example makes the defect concrete. Matching the outcome channel to the report channel repairs the population-level scoring incentive, and injectivity explains when truth is uniquely elicited. That is a useful connection between statistical evaluation and the actual behaviour a mechanism pays for.",
-        "caveat": "Noise-channel properness has prior art; the contribution must be read with those attributions. Finite submitted clouds, participant-chosen bandwidths and strategic pot-splitting introduce separate issues. Strict propriety of an additive score does not automatically make a proportional parimutuel payout truthful.",
-        "heritage": "Builds on proper scoring rules, the observation-noise verification work of Bröcker and Smith and of Ferro, and the relative de Bruijn identity."
+        "why": "KDE scoring can reward an artificially sharpened cloud. Diagnoses the distortion, repairs population incentives and turns smoothing scales into separate rewards.",
+        "caveat": "Fixed bandwidths; finite clouds and proportional pot payouts need separate treatment.",
+        "heritage": "Bröcker–Smith, Ferro and relative de Bruijn."
       },
       {
         "title": "On a Simple Relationship Between Order Imbalance, Skew and Width in Over-the-Counter Trading",
         "verdict": "Market makers quoting into one-sided flow: an exact symmetry shows the lopsided problem is the balanced one in disguise.",
-        "why": "An exact change of variables can be more useful than a larger numerical model. On the admissible exponential-quote branch of this steady-state OTC model, translating skew and rescaling carrying cost maps the imbalanced problem to a balanced one. That offers an interpretation of optimal steady-state quoting and a way to reuse an existing solution. I prefer this focused structural result to giving separate ranks to each related finite-horizon or normal-form note.",
-        "caveat": "The reduction belongs to the stated OTC model and its interior solution; quote-floor clipping can break that representation. It is not an empirical law connecting every observed order imbalance to a market spread, and it does not establish profitability under arbitrary flow, price dynamics or inventory constraints.",
-        "heritage": "Develops the sealed-bid-auction model in Trading Illiquid Goods; the newer symmetry is the current entry point."
+        "why": "Imbalanced OTC quoting becomes a balanced problem by shifting skew and rescaling carrying cost. An exact symmetry that saves a fresh optimization.",
+        "caveat": "Interior steady-state exponential quotes only; quote-floor clipping can break it.",
+        "heritage": "The auction model of Trading Illiquid Goods."
       },
       {
         "title": "Security and Derivative Pricing with Fast Regime Switches",
         "verdict": "Add regime switching to a pricing model without rederiving it: one small linear system covers options across affine and Lévy models.",
-        "why": "A practitioner adding regimes to a model needs a common computational route, not a separate derivation for every instrument. This current paper supplies one for supported affine and exponential-Levy models: a small linear system, an expansion for fast switching, and explicit corrections recording parameter fluctuations and the starting regime. Regime-conditioned option calculations and comparisons against independent numerical methods make the framework useful as software as well as analysis. The attractive result is a reusable workflow with stated fallback routes.",
-        "caveat": "Regime switching and singular perturbation are established subjects. The exact reduction excludes switched operators that do not commute with the rest of the model; those cases need other approximations or grids. The asymptotic expansion is not always faster than solving the reduced system numerically, and high-frequency Fourier nodes can require that numerical route.",
-        "heritage": "Develops fast-switching work from Cotton's thesis, using established regime-switching, singular-perturbation and group-inverse methods."
+        "why": "One small linear system prices a broad family of switching models. A reusable engine, with fast-switching corrections and numerical fallbacks.",
+        "caveat": "Noncommuting parameter switches need other routes; the expansion is not always fastest.",
+        "heritage": "Cotton’s thesis, singular perturbation and Markov-chain group inverses."
       },
       {
         "title": "Structured Gaussian Argmax Layers",
         "verdict": "Who wins among correlated contenders, as a differentiable layer: exact probabilities and gradients for neural networks, no Monte Carlo.",
-        "why": "This is the extension of the contest programme I find most promising. A shared calculation supplies Gaussian winner probabilities, the perturbed-maximum potential and reverse-mode sensitivities, turning a competition model into a trainable component. The geometric account of which rivals determine a decision gives a reason to study the layer beyond numerical accuracy alone. If structured dependence is useful to the task, the operator lets that hypothesis be tested directly rather than through a temperature-softmax surrogate.",
-        "caveat": "Accurate inference and faster training are different claims. In the reported frozen-feature, ten-class experiment, accuracy is similar and the exact evaluator is substantially slower than the sampled comparator. Low factor rank is the favourable computational regime; a general advantage in neural training remains to be demonstrated.",
-        "heritage": "Builds on Gaussian random-utility models, differentiable perturbed optimizers and Fenchel-Young losses, using the scalable contest evaluator."
+        "why": "The contest engine becomes a differentiable Gaussian choice layer: winner probabilities, potential and gradients from one shared calculation. One of the highest ceilings on this list.",
+        "caveat": "Low rank helps; faster neural training remains an open bet.",
+        "heritage": "Random utility, perturbed optimizers and Fenchel–Young losses."
       },
       {
         "title": "HumpDay: Derivative-Free Optimizers in Pure Python and JavaScript, with a Contamination-Resistant Real-World Benchmark",
         "verdict": "Which optimiser should you use when every evaluation is expensive? A benchmark drawn from real problems, resistant to memorised answers.",
-        "why": "Choosing an optimizer is an empirical decision about a particular problem, evaluation budget and cost per call. HumpDay makes that decision easier to study: a uniform interface, portable implementations and a suite drawn from applications let the same candidate algorithms be compared under explicit conditions. Seeded changes of coordinates also resist memorizing where familiar optima sit. Its value is durable comparative infrastructure that another researcher can use to challenge a recommendation or evaluate a newly generated optimizer.",
-        "caveat": "A curated suite does not represent every application. Coordinate transformations alter geometry as well as optimum locations, and resistance to memorized locations is not immunity to every form of contamination. The current paper reports moderate synthetic-versus-application rank correlations, not a universal absence of predictive value.",
-        "heritage": "Carries forward derivative-free optimization, budget-aware benchmarking and empirical algorithm selection."
+        "why": "Optimizer recommendations you can interrogate: portable implementations, hard budgets and objectives drawn from applications. Seeded coordinate changes resist memorizing familiar optimum locations.",
+        "caveat": "A curated suite; coordinate changes alter difficulty as well as optimum locations.",
+        "heritage": "Derivative-free optimization, benchmarking and algorithm selection."
       },
       {
         "title": "Covariance-Method Claims Are Ensemble-Relative: Named Measures and an Audit Program",
         "verdict": "Every claim that a covariance estimator wins depends on which matrices it faced; this names the test sets and makes the audit rerunnable.",
-        "why": "A statement that a covariance method works well needs a distribution over the matrices it will face. This work turns that often omitted condition into something explicit: named, seeded ensembles and an audit table that can be rerun. The practical consequence is better scientific communication. A reader can see which structures favour a method and which reverse its apparent advantage, instead of inheriting the accidental preferences of one simulation generator. That instrument is useful well beyond portfolio construction.",
-        "caveat": "Dependence on simulation design is an established lesson. The contribution is the reproducible audit framework and its worked examples. Testing a method outside the regime its authors claimed is a scope check, not a refutation of their theorem; tuning and evaluation losses must also be comparable.",
-        "heritage": "Makes the established simulation-design lesson operational through explicit, executable distributions over covariance matrices."
+        "why": "Change the matrix ensemble and the verdict can flip. Turns an old warning into a reproducible audit, making covariance comparisons harder to overgeneralize.",
+        "caveat": "Leaving a method’s stated regime does not refute its theorem.",
+        "heritage": "Simulation design, made executable."
       },
       {
         "title": "Two Sides of Schur Damping: High-Dimensional Pseudo-Likelihoods and Portfolio Allocation",
         "verdict": "Portfolio allocators and spatial statisticians have been using the same damped matrix operation unawares; ideas can now flow both ways.",
-        "why": "The allocation and spatial-statistics communities have different applications but share a problem: unreliable estimated conditional relationships. Showing that their damped Schur operations are the same object creates a route for transferring estimation ideas between them. That matters if an intensity fitted for a likelihood can improve an allocator, or a robust hedge construction can stabilize a conditional covariance estimate. I include it separately from the portfolio bridge because the new audience and the estimation problem are materially different.",
-        "caveat": "Classical shrinkage is doing much of the mathematical work. A closed-form reliability is optimal for its stated target, loss and assumptions, not automatically for every portfolio or spatial field. The empirical case for transferring a particular damping recipe should be judged separately from the algebraic correspondence.",
-        "heritage": "Connects Schur portfolio construction, conditional Gaussian and Vecchia pseudo-likelihoods, and classical reliability shrinkage."
+        "why": "Weather models and portfolios share a damping operation. The attraction is transferring estimation ideas between communities that rarely compare notes.",
+        "caveat": "Optimal shrinkage is relative to a stated target, loss and model.",
+        "heritage": "Conditional Gaussians, Vecchia likelihoods and classical shrinkage."
       },
       {
         "title": "Marginally Useful: An Information-Gap Identity in Conformal Prediction",
         "verdict": "The commonest conformal prediction recipe guarantees coverage but permanently throws information away; this is the exact size of the loss.",
-        "why": "Coverage and distributional information answer different questions. This paper gives a precise price to the information discarded when a fixed residual model pools observations whose residual laws still depend on the input. Measuring that loss in log-score units makes the distinction operational: a practitioner can ask whether calibration has merely corrected a marginal frequency while predictable structure remains unused. Its strongest role is a diagnostic and a clarification of what a particular forecasting construction leaves behind.",
-        "caveat": "The underlying KL decomposition is classical. The information gap is a limitation of the stated fixed residual-shape class, not an unavoidable tax on every conformal method. Input-adaptive scores and residual models can address that limitation while retaining a conformal calibration step; independent residuals have zero such information gap.",
-        "heritage": "Applies classical KL and mutual-information bookkeeping to the longstanding distinction between marginal coverage and conditional predictive information."
+        "why": "Puts an exact log-score price on residual information left unused. A pointed diagnosis of pooling, with more interpretive force than new information theory.",
+        "caveat": "A fixed residual class, not an unavoidable tax on conformal prediction.",
+        "heritage": "KL decomposition and mutual information."
       },
       {
         "title": "The Width of the Conformal Fan: Dependence and the Variance of Realized Coverage",
         "verdict": "Two calibration sets with the same nominal coverage can deliver very different real coverage; this is why, and by how much.",
-        "why": "A nominal coverage guarantee does not describe how coverage against a fresh independent marginal draw varies across calibration sets. This paper studies that second question. Its dependence calculations and counterexamples help explain why apparently similar calibration runs can produce very different realized coverage. I give it a separate slot because variability across calibration sets is a distinct statistical object from the residual-information gap, with consequences for experiment design and for interpreting empirical coverage plots.",
-        "caveat": "The exact laws and contraction statements have specified distributional or sampling-design assumptions. Negative association alone does not imply every attractive single-level contraction. Results about coverage against an independent marginal draw should not be read as universal guarantees for a dependent future, and the broader positive-dependence claim remains a conjecture.",
-        "heritage": "Starts from order-statistic and Beta-law variability of split-conformal calibration, then studies what dependence changes."
+        "why": "Coverage has a spread as well as a mean. Exact cases and counterexamples show how dependence changes the fan across calibration sets.",
+        "caveat": "Independent marginal test draw; the broad positive-dependence claim remains conjectural.",
+        "heritage": "Order statistics, Beta laws and dependence theory."
       }
     ],
     "also": {
