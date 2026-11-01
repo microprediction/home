@@ -7,6 +7,7 @@ committed abstracts.json, produced locally by extract_abstracts.py.
 """
 from __future__ import annotations
 import html
+import hashlib
 import json
 from datetime import date
 from pathlib import Path
@@ -90,15 +91,12 @@ details.best p{margin:.5em 0 .1em;color:#3a3a3a}
 details.ultra{border-color:var(--rule);background:transparent}
 details.ultra>summary{color:var(--link)}
 .ultra .ultra-meta{font-size:.78rem;color:var(--muted)}
-.ultra h4{font-size:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:1.2em 0 .4em}
-.ultra ol,.ultra ul.also{list-style:none;margin:.6em 0 .3em;padding:0}
-.ultra li{padding:2px 0 2px 12px;margin:0 0 10px;border-left:3px solid var(--new)}
-.ultra ul.also li{border-left-color:var(--rule)}
+.ultra ol{list-style:none;margin:.6em 0 .3em;padding:0}
+.ultra li{padding:1px 0 1px 12px;margin:0 0 8px;border-left:3px solid var(--new)}
 .ultra li:last-child{margin-bottom:0}
 .ultra .rk{display:inline-block;min-width:1.6em;color:var(--muted);font-variant-numeric:tabular-nums}
 .ultra .ttl{font-weight:600}
 .ultra .ttl a{color:var(--ink)}
-.ultra .th{color:var(--muted);font-size:.85rem;margin-left:6px}
 .ultra .verdict{display:block;font-size:.88rem;color:#3a3a3a;margin:2px 0 0}
 .ultra p{padding-left:0;border-left:0}
 .ultra details.more{margin:2px 0 0;font-size:.85rem}
@@ -196,10 +194,10 @@ def pub_list(papers: list, abstracts: dict, classify: bool = False) -> str:
 def ultra_foldout(data: dict) -> str:
     """Render an editorial reading list, resolving each paper against the catalogue.
 
-    Each entry is one line: rank, linked title, theme, and a one-sentence
+    Each entry is one line: rank, linked title, and a one-sentence
     ``verdict``. The longer ``why`` / ``caveat`` / ``heritage`` text, when
-    present, folds under a "more" toggle. An optional ``also`` block lists
-    further papers with a one-line note each and names who wrote the notes.
+    present, folds under a "more" toggle. Entries added by someone other
+    than ULTRA carry ``by``, and ``ultra.note`` must then say so.
     """
     ultra = data.get("ultra")
     if ultra is None:
@@ -212,8 +210,10 @@ def ultra_foldout(data: dict) -> str:
     for theme in data.get("themes", []):
         for paper in theme["papers"]:
             catalogue.setdefault(paper["title"], []).append((theme["title"], paper))
+    for book in data.get("book_length", []):
+        catalogue.setdefault(book["title"], []).append(("Book", book))
 
-    link_order = ("journal", "arXiv", "SSRN", "DOI", "latest draft", "pdf")
+    link_order = ("journal", "arXiv", "SSRN", "DOI", "MIT Press", "latest draft", "pdf")
     selected = set()
 
     def resolve(title: str, where: str):
@@ -235,7 +235,7 @@ def ultra_foldout(data: dict) -> str:
 
     def line(entry: dict, where: str, rank: int | None) -> str:
         title = entry["title"]
-        theme_title, url = resolve(title, where)
+        _theme, url = resolve(title, where)
         verdict = entry.get("verdict")
         if not isinstance(verdict, str) or not verdict.strip():
             raise ValueError(f"{where} entry needs a one-line verdict: {title}")
@@ -256,38 +256,23 @@ def ultra_foldout(data: dict) -> str:
         ) if more else ""
         return (
             '      <li>\n'
-            f'        {rk}<span class="ttl"><a href="{esc(url)}">{esc(title)}</a></span>'
-            f'<span class="th">{esc(theme_title)}</span>\n'
+            f'        {rk}<span class="ttl"><a href="{esc(url)}">{esc(title)}</a></span>\n'
             f'        <span class="verdict">{esc(verdict)}</span>\n'
             + more_html
             + '      </li>'
         )
 
     rows = [line(e, "ULTRA", i) for i, e in enumerate(entries, 1)]
-    also_html = ""
-    also = ultra.get("also")
-    if also:
-        also_entries = also.get("entries", [])
-        if not also_entries:
-            raise ValueError("ultra.also.entries must contain at least one paper")
-        by = also.get("by")
-        if not isinstance(by, str) or not by.strip():
-            raise ValueError("ultra.also needs a 'by' attribution")
-        note = also.get("note", "")
-        also_rows = [line(e, "ULTRA also", None) for e in also_entries]
-        also_html = (
-            f'      <h4>Also worth a look · notes by {esc(by)}</h4>\n'
-            + (f'      <p class="ultra-meta">{esc(note)}</p>\n' if note else "")
-            + '      <ul class="also">\n' + "\n".join(also_rows) + '\n      </ul>\n'
-        )
+    if any(e.get("by") for e in entries) and not ultra.get("note"):
+        raise ValueError("ultra.note must say who added the entries marked 'by'")
     return (
         f'    <details class="best ultra" id="ultra"><summary>{esc(ultra["summary"])}</summary>\n'
-        f'      <p class="ultra-meta">A selection of {len(entries)} papers · '
-        f'reviewed <time datetime="{reviewed.isoformat()}">{reviewed.strftime("%d %b %Y")}</time></p>\n'
+        f'      <p class="ultra-meta">{len(entries)} papers · '
+        f'reviewed <time datetime="{reviewed.isoformat()}">{reviewed.strftime("%d %b %Y")}</time>'
+        + (f' · {esc(ultra["note"])}' if ultra.get("note") else "") + '</p>\n'
         f'      <p>{esc(ultra["description"])}</p>\n'
         '      <ol>\n' + "\n".join(rows) + '\n      </ol>\n'
-        + also_html
-        + '    </details>\n'
+        '    </details>\n'
     )
 
 
@@ -407,6 +392,7 @@ def build(root: Path) -> None:
     highlight_html = (f'    <details class="best"><summary>{esc(hl["summary"])}</summary>'
                       f'<p>{hl["body"]}</p></details>\n') if hl else ""
     ultra_html = ultra_foldout(data)
+    css_hash = hashlib.sha1(CSS.lstrip().encode()).hexdigest()[:8]
     page = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -414,7 +400,7 @@ def build(root: Path) -> None:
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>{pagetitle}</title>{og}
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="./academic.css" />
+  <link rel="stylesheet" href="./academic.css?v={css_hash}" />
 </head>
 <body>
   <main>
