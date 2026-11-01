@@ -50,7 +50,7 @@ low bold, abstracts in collapsed `<details>`.
 
 The optional top-level `ultra` object adds a separate collapsed editorial
 foldout beside `highlight` (Peter's "My best stuff"). It renders in the style
-of a ranked review: one line per paper (rank, linked title, theme, a
+of a ranked review: one line per paper (rank, linked title, a
 one-sentence `verdict`), with any longer assessment folded under "more".
 Keep the assessment in `papers.json`, separate from the verbatim abstracts:
 

@@ -100,7 +100,6 @@ details.ultra>summary{color:var(--link)}
 .ultra .rk{display:inline-block;min-width:1.6em;color:var(--muted);font-variant-numeric:tabular-nums}
 .ultra .ttl{font-weight:600}
 .ultra .ttl a{color:var(--ink)}
-.ultra .th{color:var(--muted);font-size:.85rem;margin-left:6px}
 .ultra .verdict{display:block;font-size:.88rem;color:#3a3a3a;margin:2px 0 0}
 .ultra p{padding-left:0;border-left:0}
 .ultra details.more{margin:2px 0 0;font-size:.85rem}
@@ -198,7 +197,7 @@ def pub_list(papers: list, abstracts: dict, classify: bool = False) -> str:
 def ultra_foldout(data: dict) -> str:
     """Render an editorial reading list, resolving each paper against the catalogue.
 
-    Each entry is one line: rank, linked title, theme, and a one-sentence
+    Each entry is one line: rank, linked title, and a one-sentence
     ``verdict``. The longer ``why`` / ``caveat`` / ``heritage`` text, when
     present, folds under a "more" toggle. An optional ``also`` block lists
     further papers with a one-line note each and names who wrote the notes.
@@ -239,7 +238,7 @@ def ultra_foldout(data: dict) -> str:
 
     def line(entry: dict, where: str, rank: int | None) -> str:
         title = entry["title"]
-        theme_title, url = resolve(title, where)
+        _theme, url = resolve(title, where)
         verdict = entry.get("verdict")
         if not isinstance(verdict, str) or not verdict.strip():
             raise ValueError(f"{where} entry needs a one-line verdict: {title}")
@@ -260,8 +259,7 @@ def ultra_foldout(data: dict) -> str:
         ) if more else ""
         return (
             '      <li>\n'
-            f'        {rk}<span class="ttl"><a href="{esc(url)}">{esc(title)}</a></span> '
-            f'<span class="th">{esc(theme_title)}</span>\n'
+            f'        {rk}<span class="ttl"><a href="{esc(url)}">{esc(title)}</a></span>\n'
             f'        <span class="verdict">{esc(verdict)}</span>\n'
             + more_html
             + '      </li>'
