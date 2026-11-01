@@ -4,6 +4,7 @@ Some attempt to organize the scattered writings of a practitioner.  [bio](https:
 <img src="https://github.com/microprediction/home/blob/main/docs/assets/images/peter_cycling.jpeg" width="650">
 
 See also [book.microprediction.com](https://book.microprediction.com). 
+I'm on [LinkedIn](https://www.linkedin.com/in/petercotton/). 
 
 
 
