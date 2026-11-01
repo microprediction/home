@@ -1858,7 +1858,7 @@
   "ultra": {
     "summary": "What ULTRA/Fable think",
     "reviewed": "2026-10-31",
-    "description": "Current papers worth your time, ranked for useful ideas and demonstrated value. Close companions sit together; adjacent ranks are approximate.",
+    "description": "Ranked for useful ideas and demonstrated value. Companions sit together; adjacent ranks are approximate.",
     "entries": [
       {
         "title": "Scalable Inversion of Contests with Correlated Performances, Including Softmax and Multinomial Probit",
