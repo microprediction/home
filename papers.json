@@ -1428,7 +1428,7 @@
             },
             {
               "label": "code",
-              "url": "https://github.com/microprediction/regimelib"
+              "url": "https://regimelib.org/"
             },
             {
               "label": "site",
@@ -1853,7 +1853,7 @@
   ],
   "highlight": {
     "summary": "My personal favourites",
-    "body": "<ol class=\"places\"><li><span class=\"place p1\">1</span>Scaling econometrics to millions of variables (<a href=\"https://papers.ssrn.com/abstract=7307363\">paper</a> · <a href=\"https://winning.microprediction.org\">site</a>).</li><li><span class=\"place p2\">2</span>Unifying the two sides of portfolio theory (<a href=\"https://github.com/microprediction/home/blob/main/workingpapers/Hierarchical_Minimum_Variance_Portfolios.pdf\">paper</a> · <a href=\"https://schur.microprediction.org\">site</a>).</li><li><span class=\"place p3\">3</span>A very hard to beat autonomous univariate distributional forecaster (<a href=\"https://papers.ssrn.com/abstract=7220478\">paper</a> · <a href=\"https://skaters.microprediction.org\">site</a>).</li><li><span class=\"place p4\">4</span>Generalizing every closed-form quant model to regime switching (<a href=\"https://github.com/microprediction/regimelib\">code</a> · <a href=\"https://regimeswitching.org\">site</a>).</li></ol>"
+    "body": "<ol class=\"places\"><li><span class=\"place p1\">1</span>Scaling econometrics to millions of variables (<a href=\"https://papers.ssrn.com/abstract=7307363\">paper</a> · <a href=\"https://winning.microprediction.org\">site</a>).</li><li><span class=\"place p2\">2</span>Unifying the two sides of portfolio theory (<a href=\"https://github.com/microprediction/home/blob/main/workingpapers/Hierarchical_Minimum_Variance_Portfolios.pdf\">paper</a> · <a href=\"https://schur.microprediction.org\">site</a>).</li><li><span class=\"place p3\">3</span>A very hard to beat autonomous univariate distributional forecaster (<a href=\"https://papers.ssrn.com/abstract=7220478\">paper</a> · <a href=\"https://skaters.microprediction.org\">site</a>).</li><li><span class=\"place p4\">4</span>Generalizing every closed-form quant model to regime switching (<a href=\"https://regimelib.org/\">code</a> · <a href=\"https://regimeswitching.org\">site</a>).</li></ol>"
   },
   "ultra": {
     "summary": "what ULTRA thinks",
