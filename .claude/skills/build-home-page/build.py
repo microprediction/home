@@ -7,6 +7,7 @@ committed abstracts.json, produced locally by extract_abstracts.py.
 """
 from __future__ import annotations
 import html
+import hashlib
 import json
 from datetime import date
 from pathlib import Path
@@ -90,9 +91,10 @@ details.best p{margin:.5em 0 .1em;color:#3a3a3a}
 details.ultra{border-color:var(--rule);background:transparent}
 details.ultra>summary{color:var(--link)}
 .ultra .ultra-meta{font-size:.78rem;color:var(--muted)}
-.ultra h4{font-size:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:1.2em 0 .4em}
+.ultra h4{font-size:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:1.4em 0 .3em}
+.ultra h5{font-size:.95rem;font-weight:600;color:var(--ink);margin:1em 0 .3em}
 .ultra ol,.ultra ul.also{list-style:none;margin:.6em 0 .3em;padding:0}
-.ultra li{padding:2px 0 2px 12px;margin:0 0 10px;border-left:3px solid var(--new)}
+.ultra li{padding:1px 0 1px 12px;margin:0 0 8px;border-left:3px solid var(--new)}
 .ultra ul.also li{border-left-color:var(--rule)}
 .ultra li:last-child{margin-bottom:0}
 .ultra .rk{display:inline-block;min-width:1.6em;color:var(--muted);font-variant-numeric:tabular-nums}
@@ -212,8 +214,10 @@ def ultra_foldout(data: dict) -> str:
     for theme in data.get("themes", []):
         for paper in theme["papers"]:
             catalogue.setdefault(paper["title"], []).append((theme["title"], paper))
+    for book in data.get("book_length", []):
+        catalogue.setdefault(book["title"], []).append(("Book", book))
 
-    link_order = ("journal", "arXiv", "SSRN", "DOI", "latest draft", "pdf")
+    link_order = ("journal", "arXiv", "SSRN", "DOI", "MIT Press", "latest draft", "pdf")
     selected = set()
 
     def resolve(title: str, where: str):
@@ -256,7 +260,7 @@ def ultra_foldout(data: dict) -> str:
         ) if more else ""
         return (
             '      <li>\n'
-            f'        {rk}<span class="ttl"><a href="{esc(url)}">{esc(title)}</a></span>'
+            f'        {rk}<span class="ttl"><a href="{esc(url)}">{esc(title)}</a></span> '
             f'<span class="th">{esc(theme_title)}</span>\n'
             f'        <span class="verdict">{esc(verdict)}</span>\n'
             + more_html
@@ -267,19 +271,25 @@ def ultra_foldout(data: dict) -> str:
     also_html = ""
     also = ultra.get("also")
     if also:
-        also_entries = also.get("entries", [])
-        if not also_entries:
-            raise ValueError("ultra.also.entries must contain at least one paper")
+        groups = also.get("groups")
+        if not groups:
+            raise ValueError("ultra.also.groups must contain at least one group")
         by = also.get("by")
         if not isinstance(by, str) or not by.strip():
             raise ValueError("ultra.also needs a 'by' attribution")
         note = also.get("note", "")
-        also_rows = [line(e, "ULTRA also", None) for e in also_entries]
-        also_html = (
-            f'      <h4>Also worth a look · notes by {esc(by)}</h4>\n'
-            + (f'      <p class="ultra-meta">{esc(note)}</p>\n' if note else "")
-            + '      <ul class="also">\n' + "\n".join(also_rows) + '\n      </ul>\n'
-        )
+        parts = [f'      <h4>Also worth a look · notes by {esc(by)}</h4>\n']
+        if note:
+            parts.append(f'      <p class="ultra-meta">{esc(note)}</p>\n')
+        for group in groups:
+            heading = group.get("heading")
+            if not isinstance(heading, str) or not heading.strip() or not group.get("entries"):
+                raise ValueError("each ultra.also group needs a heading and entries")
+            parts.append(f'      <h5>{esc(heading)}</h5>\n')
+            parts.append('      <ul class="also">\n'
+                         + "\n".join(line(e, "ULTRA also", None) for e in group["entries"])
+                         + '\n      </ul>\n')
+        also_html = "".join(parts)
     return (
         f'    <details class="best ultra" id="ultra"><summary>{esc(ultra["summary"])}</summary>\n'
         f'      <p class="ultra-meta">A selection of {len(entries)} papers · '
@@ -407,6 +417,7 @@ def build(root: Path) -> None:
     highlight_html = (f'    <details class="best"><summary>{esc(hl["summary"])}</summary>'
                       f'<p>{hl["body"]}</p></details>\n') if hl else ""
     ultra_html = ultra_foldout(data)
+    css_hash = hashlib.sha1(CSS.lstrip().encode()).hexdigest()[:8]
     page = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -414,7 +425,7 @@ def build(root: Path) -> None:
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>{pagetitle}</title>{og}
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="./academic.css" />
+  <link rel="stylesheet" href="./academic.css?v={css_hash}" />
 </head>
 <body>
   <main>

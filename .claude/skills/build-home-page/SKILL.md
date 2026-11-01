@@ -69,17 +69,22 @@ Keep the assessment in `papers.json`, separate from the verbatim abstracts:
     ],
     "also": {
       "by": "Claude",
-      "note": "Optional sentence shown above the list.",
-      "entries": [ { "title": "Exact title", "verdict": "One line." } ]
+      "note": "Optional sentence shown above the groups.",
+      "groups": [
+        { "heading": "If you allocate portfolios",
+          "entries": [ { "title": "Exact title", "verdict": "One line." } ] }
+      ]
     }
   }
 }
 ```
 
-Entry order sets rank. `verdict` is required and should be one sentence; the
-other narrative fields are optional plain text, escaped on output. The
-optional `also` block is an unranked second tier of further papers with a
-one-line note each; its `by` field names who wrote those notes and is shown,
+Titles resolve against the theme papers and `book_length`. Entry order sets rank. `verdict` is required and should be one sentence
+written for an outside reader: what problem the paper removes and why it
+matters, not a restatement of the title. The other narrative fields are
+optional plain text, escaped on output. The
+optional `also` block is an unranked second tier of further papers, grouped
+by what the reader works on, with a one-line note each; its `by` field names who wrote those notes and is shown,
 so a different reviewer's lines are never attributed to ULTRA. The generator
 resolves paper links from the catalogue (journal, arXiv, SSRN, DOI, then
 latest draft or PDF); do not duplicate URLs in the reading list. Unknown,
