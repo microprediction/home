@@ -31,7 +31,7 @@ a{color:var(--link);text-decoration:none}
 a:hover{color:var(--link-h);text-decoration:underline}
 header.top{margin-bottom:8px}
 header.top::after{content:"";display:table;clear:both}
-header.top img{float:right;width:340px;margin:2px 0 14px 34px;border-radius:6px;filter:grayscale(12%)}
+header.top img{float:right;width:340px;margin:12px 0 14px 34px;border-radius:6px;filter:grayscale(12%)}
 h1{font-size:1.95rem;font-weight:600;margin:0 0 6px;letter-spacing:-.01em}
 .tagline{color:var(--muted);font-style:italic;margin:0 0 10px}
 .toplinks{font-size:.92rem;color:var(--muted)}
