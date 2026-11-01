@@ -1877,13 +1877,6 @@
         "short": "Schur Complementary Allocation"
       },
       {
-        "title": "Nested Clustered Optimization Is One End of a Schur Bridge, and the Interior Is Sometimes Provably Better",
-        "verdict": "A second unification: nested clustered optimization and the global optimum are two ends of one Schur bridge, often best inside.",
-        "by": "Fable",
-        "short": "Nested Clustered Optimization Is One End of a Schur Bridge",
-        "why": "The first bridge joined hierarchical risk parity to minimum variance. This one joins the other popular two-tier heuristic to the same global optimum by the same damped Schur complement, and proves the interior can beat both ends under estimation error. Two unifications by one operation is the strongest sign that the operation is the right one."
-      },
-      {
         "title": "Transforms All the Way Down: Automatic Online Distributional Forecasting by Conjugation",
         "verdict": "Better probabilistic forecasts of any series: transform away structure, forecast the simpler thing, map back. Online, with code.",
         "why": "A full distributional forecaster built from reversible transforms. Working software and a strong FRED showing make it a baseline expensive models should have to beat.",
@@ -1961,6 +1954,13 @@
         "why": "Weather models and portfolios share a damping operation. The attraction is transferring estimation ideas between communities that rarely compare notes.",
         "caveat": "Optimal shrinkage is relative to a stated target, loss and model.",
         "heritage": "Conditional Gaussians, Vecchia likelihoods and classical shrinkage."
+      },
+      {
+        "title": "Nested Clustered Optimization Is One End of a Schur Bridge, and the Interior Is Sometimes Provably Better",
+        "verdict": "Nested clustered optimization and the global optimum are two ends of the same Schur bridge, and the inside is often best.",
+        "by": "Fable",
+        "short": "Nested Clustered Optimization Is One End of a Schur Bridge",
+        "why": "A follow-on to the first bridge: the other popular two-tier heuristic joins the same global optimum by the same damped Schur complement, and the interior can beat both ends under estimation error. Two heuristics unified by one operation is good evidence that the operation is the right one."
       },
       {
         "title": "Schur Covariance Evaluation: A Principled Pseudo-Likelihood in High Dimensions",
