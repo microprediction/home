@@ -1938,14 +1938,6 @@
         "by": "Claude"
       },
       {
-        "title": "HumpDay: Derivative-Free Optimizers in Pure Python and JavaScript, with a Contamination-Resistant Real-World Benchmark",
-        "verdict": "Which optimiser to use when every evaluation is expensive? A benchmark drawn from real problems, resistant to memorised answers.",
-        "why": "Optimizer recommendations you can interrogate: portable implementations, hard budgets and objectives drawn from applications. Seeded coordinate changes resist memorizing familiar optimum locations.",
-        "caveat": "A curated suite; coordinate changes alter difficulty as well as optimum locations.",
-        "heritage": "Derivative-free optimization, benchmarking and algorithm selection.",
-        "short": "HumpDay: Derivative-Free Optimizers with a Contamination-Resistant Benchmark"
-      },
-      {
         "title": "The Inspiration Simplex: Using Derivative-Free Optimization in Concept Space to Create New Derivative-Free Optimizers",
         "verdict": "Treat the space of algorithms as continuous and search it with a derivative-free optimiser and an LLM as co-designer.",
         "by": "Claude",
@@ -2005,6 +1997,14 @@
         "by": "Claude"
       },
       {
+        "title": "HumpDay: Derivative-Free Optimizers in Pure Python and JavaScript, with a Contamination-Resistant Real-World Benchmark",
+        "verdict": "Which optimiser to use when every evaluation is expensive? A benchmark drawn from real problems, resistant to memorised answers.",
+        "why": "Optimizer recommendations you can interrogate: portable implementations, hard budgets and objectives drawn from applications. Seeded coordinate changes resist memorizing familiar optimum locations.",
+        "caveat": "A curated suite; coordinate changes alter difficulty as well as optimum locations.",
+        "heritage": "Derivative-free optimization, benchmarking and algorithm selection.",
+        "short": "HumpDay: Derivative-Free Optimizers with a Contamination-Resistant Benchmark"
+      },
+      {
         "title": "Spectral Calibration Without a Split: Learning Covariance Eigenvalue Corrections One Observation at a Time",
         "verdict": "Correct covariance eigenvalues online with no held-out data; yesterday's eigenbasis is already out of sample.",
         "by": "Claude",
@@ -2042,6 +2042,6 @@
         "by": "Claude"
       }
     ],
-    "note": "Entries without a tag, and the commentary under their 'more', are ULTRA's twelve, in ULTRA's relative order. Entries tagged Claude were ranked in by Claude."
+    "note": "Untagged entries, and the commentary under their 'more', are ULTRA's twelve. Entries tagged Claude were added by Claude. The running order is the author's."
   }
 }
