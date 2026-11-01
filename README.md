@@ -4,13 +4,13 @@ Some attempt to organize the scattered writings of a practitioner.  [bio](https:
 <img src="https://github.com/microprediction/home/blob/main/docs/assets/images/peter_cycling.jpeg" width="650">
 
 See also [book.microprediction.com](https://book.microprediction.com). 
-There's a virtual Peter Cotton in the form of a custom gpt [here](https://chatgpt.com/g/g-68a5df4e12508191a0eaaf8535519552-virtual-peter-cotton) who can help redirect. 
+I'm on [LinkedIn](https://www.linkedin.com/in/petercotton/). 
 
 
 
 ## Book length
 
- - Microprediction. Building an Open AI Network. [MIT Press](https://mitpress.mit.edu/books/microprediction) page. Available in the usual places like [Amazon](https://www.amazon.com/Microprediction-Building-Open-AI-Network-ebook/dp/B09RPDZH46). Reviews, audio etc [here](https://microprediction.github.io/building_an_open_ai_network/). See also the  [custom microprediction gpt](https://chatgpt.com/g/g-68a5be41f36081918babe673c975b453-microprediction-the-book). 
+ - Microprediction. Building an Open AI Network. [MIT Press](https://mitpress.mit.edu/books/microprediction) page. Available in the usual places like [Amazon](https://www.amazon.com/Microprediction-Building-Open-AI-Network-ebook/dp/B09RPDZH46). Reviews, audio etc [here](https://microprediction.github.io/building_an_open_ai_network/).
  - An Analytic Approach to Ornstein-Uhlenbeck Processes with Fluctuating Parameters and Applications in the Modeling of Fixed Income Securities (PhD thesis) [pdf](https://github.com/microprediction/home/blob/main/papers/Cotton_2001_PhD_Thesis_An_Analytic_Approach_to_Ornstein-Uhlenbeck_Processes_with_Fluctuating_Parameters.pdf)
 
 ## Papers & chapters
@@ -215,13 +215,6 @@ Beryl Elites](https://www.youtube.com/watch?v=KH7VPy9j7EU) conference 2024.
 - Chapter 1 of Microprediction: Building an Open AI Network [here](https://github.com/microprediction/building_an_open_ai_network/tree/main/docs/assets/audio).
 - A Quick Introduciton to a Working Microprediction Oracle [Montreal Python Meetup](https://www.youtube.com/watch?v=yHuD9rbkkg8). Starts at 1:20:00 in. 
 
-
-## Custom GPTs
-New category :)
-
- - [Robust Portfolio Theory](https://chatgpt.com/g/g-68bc49db00748191b65846ac348d0ca2-robust-portfolio-theory)
- - [Microprediction - The Book](https://chatgpt.com/g/g-68a5be41f36081918babe673c975b453-microprediction)
- - [Virtual Peter Cotton](https://chatgpt.com/g/g-68a5df4e12508191a0eaaf8535519552-virtual-peter-cotton) (Equally inaccurate but more responsive than me)
 
 ## And since you read this far
 An extremely short list of stuff I think is just f!@#$ great
