@@ -1114,6 +1114,10 @@
           "draft_new": true,
           "links": [
             {
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/2611.00502"
+            },
+            {
               "label": "latest draft",
               "url": "https://mechanisms.microprediction.org/papers/non-convex-market-makers.pdf"
             },
@@ -1422,6 +1426,10 @@
           "title": "Security and Derivative Pricing with Fast Regime Switches",
           "draft_new": true,
           "links": [
+            {
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/2611.00466"
+            },
             {
               "label": "latest draft",
               "url": "https://raw.githubusercontent.com/microprediction/home/main/workingpapers/Security_and_Derivative_Pricing_with_Fast_Regime_Switches.pdf"
