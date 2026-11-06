@@ -107,7 +107,8 @@
               "url": "https://winning.microprediction.org"
             }
           ],
-          "date": "2026-08"
+          "date": "2026-08",
+          "hidden": true
         },
         {
           "title": "Computation of Collision Local Times: A Connection Between New Scalable Probit Methodology and Atlas Models",
@@ -670,7 +671,7 @@
           "links": [
             {
               "label": "latest draft",
-              "url": "https://github.com/microprediction/winning/blob/main/papers/thurstone_humans/paper.pdf"
+              "url": "https://raw.githubusercontent.com/microprediction/home/main/workingpapers/Think_Before_Rescaling_Probabilities_to_Unity.pdf"
             },
             {
               "label": "site",
