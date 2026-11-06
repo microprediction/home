@@ -108,7 +108,7 @@
             }
           ],
           "date": "2026-08",
-          "hidden": true
+          "note": true
         },
         {
           "title": "Computation of Collision Local Times: A Connection Between New Scalable Probit Methodology and Atlas Models",

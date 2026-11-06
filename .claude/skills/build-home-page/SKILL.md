@@ -37,7 +37,7 @@ low bold, abstracts in collapsed `<details>`.
 - `draft_in_progress: true` shows a muted "draft in progress" note (no link).
 - `note: true` marks a **technical note** rather than a paper: rendered with a
   small "technical note" tag and hidden when the reader unticks the
-  "include technical notes" checkbox (ticked by default). Peter decides which
+  "include technical notes" checkbox (unticked by default, so notes are hidden until the reader asks for them). Peter decides which
   entries are notes; default is paper.
 - `hidden: true` keeps the entry in `papers.json` but leaves it off the page
   (Peter's call: premature or trivial drafts). Never delete an entry to hide it;
