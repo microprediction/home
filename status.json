@@ -20,7 +20,7 @@
     "published": "2026-09-01",
     "updated": "2026-09-01",
     "title": "Scalable Inversion of Contests with Correlated Performances, Including Softmax and Multinomial Probit",
-    "fetched": "2026-10-31T16:19:35.020789+00:00"
+    "fetched": "2026-11-06T00:37:19.916826+00:00"
    }
   ],
   "local": {
@@ -110,10 +110,9 @@
    "paths": [
     "workingpapers/a_platform_for_assessing_and_combining.pdf"
    ],
-   "date": null,
+   "date": "2022-04-06",
    "dirty": false,
-   "missing": false,
-   "archived": true
+   "missing": false
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/a_platform_for_assessing_and_combining.pdf",
   "status": "not posted",
@@ -334,7 +333,7 @@
  {
   "theme": "Portfolio theory",
   "title": "A Tilt Is Worth What the Correlation Is Worth",
-  "hidden": false,
+  "hidden": true,
   "venue": null,
   "date": "2026-09",
   "ssrn": [],
@@ -372,7 +371,7 @@
     "published": "2024-10-29",
     "updated": "2024-10-29",
     "title": "Schur Complementary Allocation: A Unification of Hierarchical Risk Parity and Minimum Variance Portfolios",
-    "fetched": "2026-10-31T16:19:35.726792+00:00"
+    "fetched": "2026-11-06T00:37:20.189413+00:00"
    }
   ],
   "local": null,
@@ -394,7 +393,7 @@
     "published": "2026-06-11",
     "updated": "2026-06-11",
     "title": "Two Sides of Schur Damping: High-Dimensional Pseudo-Likelihoods and Portfolio Allocation",
-    "fetched": "2026-10-31T16:19:35.980699+00:00"
+    "fetched": "2026-11-06T00:37:20.349703+00:00"
    }
   ],
   "local": {
@@ -442,7 +441,7 @@
     "published": "2026-09-18",
     "updated": "2026-09-18",
     "title": "Nested Clustered Optimization Is One End of a Schur Bridge, and the Interior Is Sometimes Provably Better",
-    "fetched": "2026-10-31T16:19:36.212289+00:00"
+    "fetched": "2026-11-06T00:37:20.509337+00:00"
    }
   ],
   "local": null,
@@ -539,7 +538,7 @@
  {
   "theme": "Portfolio theory",
   "title": "Schur-Regularized Vecchia: Structured Covariance Estimation at Scale",
-  "hidden": false,
+  "hidden": true,
   "venue": null,
   "date": "2026-08",
   "ssrn": [],
@@ -561,10 +560,9 @@
    "paths": [
     "workingpapers/CorrelationInflation.pdf"
    ],
-   "date": null,
+   "date": "2025-09-04",
    "dirty": false,
-   "missing": false,
-   "archived": true
+   "missing": false
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/CorrelationInflation.pdf",
   "status": "not posted",
@@ -660,7 +658,7 @@
     "published": "2026-08-07",
     "updated": "2026-08-07",
     "title": "On a Simple Relationship Between Order Imbalance, Skew and Width in Over-The-Counter Trading",
-    "fetched": "2026-10-31T16:19:36.784008+00:00"
+    "fetched": "2026-11-06T00:37:20.674228+00:00"
    }
   ],
   "local": {
@@ -720,10 +718,9 @@
    "paths": [
     "workingpapers/On_the_relationship_between_accuracy_and_profitability_in_OTC_trading.pdf"
    ],
-   "date": null,
+   "date": "2024-11-25",
    "dirty": false,
-   "missing": false,
-   "archived": true
+   "missing": false
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/On_the_relationship_between_accuracy_and_profitability_in_OTC_trading.pdf",
   "status": "not posted",
@@ -741,10 +738,9 @@
    "paths": [
     "workingpapers/trading_illiquid_goods.pdf"
    ],
-   "date": null,
+   "date": "2022-04-06",
    "dirty": false,
-   "missing": false,
-   "archived": true
+   "missing": false
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/trading_illiquid_goods.pdf",
   "status": "not posted",
@@ -753,7 +749,7 @@
  {
   "theme": "Market making & trading",
   "title": "Finite-Horizon Market Making with Imbalanced Flow: An Exact Symmetrization and Its Term Structure",
-  "hidden": false,
+  "hidden": true,
   "venue": null,
   "date": "2026-08",
   "ssrn": [],
@@ -802,10 +798,9 @@
    "paths": [
     "papers/Horse_Race_Problem.pdf"
    ],
-   "date": null,
+   "date": "2022-04-06",
    "dirty": false,
-   "missing": false,
-   "archived": true
+   "missing": false
   },
   "draft": "https://github.com/microprediction/home/blob/main/papers/Horse_Race_Problem.pdf",
   "status": "published",
@@ -823,10 +818,9 @@
    "paths": [
     "workingpapers/Group_Selection_Probabilities_and_Rankings.pdf"
    ],
-   "date": null,
+   "date": "2022-04-06",
    "dirty": false,
-   "missing": false,
-   "archived": true
+   "missing": false
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/Group_Selection_Probabilities_and_Rankings.pdf",
   "status": "not posted",
@@ -844,10 +838,9 @@
    "paths": [
     "workingpapers/luce_choice_isnt_the_only_choice.pdf"
    ],
-   "date": null,
+   "date": "2022-04-06",
    "dirty": false,
-   "missing": false,
-   "archived": true
+   "missing": false
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/luce_choice_isnt_the_only_choice.pdf",
   "status": "not posted",
@@ -1131,10 +1124,9 @@
    "paths": [
     "workingpapers/go_forth.pdf"
    ],
-   "date": null,
+   "date": "2022-04-06",
    "dirty": false,
-   "missing": false,
-   "archived": true
+   "missing": false
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/go_forth.pdf",
   "status": "not posted",
@@ -1399,7 +1391,16 @@
   "venue": null,
   "date": "2026-08",
   "ssrn": [],
-  "arxiv": [],
+  "arxiv": [
+   {
+    "id": "2611.00502",
+    "version": 1,
+    "published": "2026-10-31",
+    "updated": "2026-10-31",
+    "title": "Non-Convex Market Makers: Coherence without Convexity, Friction, and Parallel Composition",
+    "fetched": "2026-11-06T00:37:21.270432+00:00"
+   }
+  ],
   "local": {
    "paths": [
     "docs/papers/non-convex-market-makers.pdf",
@@ -1410,7 +1411,7 @@
    "missing": false
   },
   "draft": "https://mechanisms.microprediction.org/papers/non-convex-market-makers.pdf",
-  "status": "not posted, arXiv submitted (submit/7956927)",
+  "status": "in sync",
   "changes": null
  },
  {
@@ -1467,21 +1468,26 @@
     "published": "2019-07-17",
     "updated": "2019-07-17",
     "title": "Self Organizing Supply Chains for Micro-Prediction: Present and Future uses of the ROAR Protocol",
-    "fetched": "2026-10-31T16:19:38.994154+00:00"
+    "fetched": "2026-11-06T00:37:21.535546+00:00"
    }
   ],
   "local": {
    "paths": [
     "papers/self_organizing_supply_chains.pdf"
    ],
-   "date": null,
+   "date": "2022-04-06",
    "dirty": false,
-   "missing": false,
-   "archived": true
+   "missing": false
   },
   "draft": "https://github.com/microprediction/home/blob/main/papers/self_organizing_supply_chains.pdf",
-  "status": "published",
-  "changes": null
+  "status": "published, 1 commit since posting, source added after posting",
+  "changes": {
+   "commits": [
+    "2022-04-06 f36cdfb Add files via upload"
+   ],
+   "delta": null,
+   "new_file": true
+  }
  },
  {
   "theme": "Economics",
@@ -1557,10 +1563,9 @@
    "paths": [
     "workingpapers/The_Indispensible_Markets_Hypothesis.pdf"
    ],
-   "date": null,
+   "date": "2024-11-19",
    "dirty": false,
-   "missing": false,
-   "archived": true
+   "missing": false
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/The_Indispensible_Markets_Hypothesis.pdf",
   "status": "not posted",
@@ -1580,7 +1585,7 @@
     "published": "2026-06-03",
     "updated": "2026-08-21",
     "title": "Marginally Useful: An Information-Gap Identity in Conformal Prediction",
-    "fetched": "2026-10-31T16:19:39.519047+00:00"
+    "fetched": "2026-11-06T00:37:21.916163+00:00"
    }
   ],
   "local": {
@@ -1841,18 +1846,26 @@
   "venue": null,
   "date": "2026-09",
   "ssrn": [],
-  "arxiv": [],
+  "arxiv": [
+   {
+    "id": "2611.00466",
+    "version": 1,
+    "published": "2026-10-30",
+    "updated": "2026-10-30",
+    "title": "Security and Derivative Pricing with Fast Regime Switches",
+    "fetched": "2026-11-06T00:37:21.992283+00:00"
+   }
+  ],
   "local": {
    "paths": [
     "workingpapers/Security_and_Derivative_Pricing_with_Fast_Regime_Switches.pdf"
    ],
-   "date": null,
+   "date": "2026-10-30",
    "dirty": false,
-   "missing": false,
-   "archived": true
+   "missing": false
   },
   "draft": "https://raw.githubusercontent.com/microprediction/home/main/workingpapers/Security_and_Derivative_Pricing_with_Fast_Regime_Switches.pdf",
-  "status": "not posted, arXiv submitted (submit/8307895)",
+  "status": "in sync",
   "changes": null
  },
  {
@@ -1915,21 +1928,26 @@
     "published": "2020-06-12",
     "updated": "2020-06-17",
     "title": "Addressing the Herd Immunity Paradox Using Symmetry, Convexity Adjustments and Bond Prices",
-    "fetched": "2026-10-31T16:19:40.402377+00:00"
+    "fetched": "2026-11-06T00:37:22.182518+00:00"
    }
   ],
   "local": {
    "paths": [
     "workingpapers/Herd_Immunity_Convexity_Adjustments.pdf"
    ],
-   "date": null,
+   "date": "2022-04-06",
    "dirty": false,
-   "missing": false,
-   "archived": true
+   "missing": false
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/Herd_Immunity_Convexity_Adjustments.pdf",
-  "status": "published",
-  "changes": null
+  "status": "published, 1 commit since posting, source added after posting",
+  "changes": {
+   "commits": [
+    "2022-04-06 24533b7 Add files via upload"
+   ],
+   "delta": null,
+   "new_file": true
+  }
  },
  {
   "theme": "Epidemiology",
@@ -1945,21 +1963,26 @@
     "published": "2020-05-20",
     "updated": "2020-06-12",
     "title": "Repeat Contacts and the Spread of Disease: An Agent Model with Compartmental Solution",
-    "fetched": "2026-10-31T16:19:40.581854+00:00"
+    "fetched": "2026-11-06T00:37:22.423624+00:00"
    }
   ],
   "local": {
    "paths": [
     "workingpapers/repeat_contacts_and_the_spread.pdf"
    ],
-   "date": null,
+   "date": "2022-04-06",
    "dirty": false,
-   "missing": false,
-   "archived": true
+   "missing": false
   },
   "draft": "https://github.com/microprediction/home/blob/main/workingpapers/repeat_contacts_and_the_spread.pdf",
-  "status": "published",
-  "changes": null
+  "status": "published, 1 commit since posting, source added after posting",
+  "changes": {
+   "commits": [
+    "2022-04-06 445b049 Add files via upload"
+   ],
+   "delta": null,
+   "new_file": true
+  }
  },
  {
   "theme": "Sports analytics",
@@ -1973,10 +1996,9 @@
    "paths": [
     "papers/Stop_Shy_of_the_First_Down.pdf"
    ],
-   "date": null,
+   "date": "2022-04-06",
    "dirty": false,
-   "missing": false,
-   "archived": true
+   "missing": false
   },
   "draft": "https://github.com/microprediction/home/blob/main/papers/Stop_Shy_of_the_First_Down.pdf",
   "status": "published",
@@ -1994,10 +2016,9 @@
    "paths": [
     "papers/Contraction_of_an_Adapted_Functional_Cal.pdf"
    ],
-   "date": null,
+   "date": "2022-04-06",
    "dirty": false,
-   "missing": false,
-   "archived": true
+   "missing": false
   },
   "draft": "https://raw.githubusercontent.com/microprediction/home/main/papers/Contraction_of_an_Adapted_Functional_Cal.pdf",
   "status": "published",
