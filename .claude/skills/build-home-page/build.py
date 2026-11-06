@@ -428,7 +428,7 @@ def build(root: Path) -> None:
     </header>
     <label class="toggle"><input type="checkbox" id="showwork" checked> show working papers</label>
     <label class="toggle"><input type="checkbox" id="showessays" checked> include essays</label>
-    <label class="toggle"><input type="checkbox" id="shownotes" checked> include technical notes</label>
+    <label class="toggle"><input type="checkbox" id="shownotes"> include technical notes</label>
 {highlight_html}
 {ultra_html}
 {body}
