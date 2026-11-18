@@ -804,12 +804,16 @@
           "date": "2026-09"
         },
         {
-          "title": "Win Nodes for Bayes Nets: Exact Order-Statistic Queries on Gaussian Graphical Models",
+          "title": "Sampling-Free Inference with Win Nodes in Bayes Nets and Correlated Bandits",
           "draft_new": true,
           "links": [
             {
               "label": "latest draft",
               "url": "https://raw.githubusercontent.com/microprediction/winning/main/papers/win_nodes/paper.pdf"
+            },
+            {
+              "label": "earlier draft",
+              "url": "https://winning.microprediction.org/assets/pdf/exact_pom_factor_gaussian.pdf"
             },
             {
               "label": "site",
@@ -938,11 +942,14 @@
       "papers": [
         {
           "title": "Exact Posterior Probability of Optimality for Factor-Gaussian Beliefs",
-          "draft_new": true,
           "links": [
             {
               "label": "latest draft",
               "url": "https://winning.microprediction.org/assets/pdf/exact_pom_factor_gaussian.pdf"
+            },
+            {
+              "label": "superseded by Sampling-Free Inference with Win Nodes",
+              "url": "https://raw.githubusercontent.com/microprediction/winning/main/papers/win_nodes/paper.pdf"
             },
             {
               "label": "site",
@@ -1939,7 +1946,7 @@
         "heritage": "The auction model of Trading Illiquid Goods."
       },
       {
-        "title": "Win Nodes for Bayes Nets: Exact Order-Statistic Queries on Gaussian Graphical Models",
+        "title": "Sampling-Free Inference with Win Nodes in Bayes Nets and Correlated Bandits",
         "verdict": "Graphical-model libraries stop at marginals; a win node answers who is the maximum and when a threshold is crossed, exactly.",
         "why": "Useful new calculations for chains and bands, but less independently foundational than the homepage presentation suggests."
       },
