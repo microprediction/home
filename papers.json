@@ -1947,8 +1947,8 @@
       },
       {
         "title": "Sampling-Free Inference with Win Nodes in Bayes Nets and Correlated Bandits",
-        "verdict": "Graphical-model libraries stop at marginals; a win node answers who is the maximum and when a threshold is crossed, exactly.",
-        "why": "Useful new calculations for chains and bands, but less independently foundational than the homepage presentation suggests."
+        "verdict": "Graphical-model libraries stop at marginals; a win node says which variable is largest and takes a winner, a price or a place as evidence, without sampling.",
+        "why": "Useful inference machinery and exact posterior-closure results. Most of the computational novelty belongs to the contest algorithm it builds on."
       },
       {
         "title": "Nested Clustered Optimization Is One End of a Schur Bridge, and the Interior Is Sometimes Provably Better",
